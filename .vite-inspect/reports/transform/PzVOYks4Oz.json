@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/dessert.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M10.162 3.167A10 10 0 0 0 2 13a2 2 0 0 0 4 0v-1a2 2 0 0 1 4 0v4a2 2 0 0 0 4 0v-4a2 2 0 0 1 4 0v1a2 2 0 0 0 4-.006 10 10 0 0 0-8.161-9.826\",\n      key: \"xi88qy\"\n    }\n  ],\n  [\"path\", { d: \"M20.804 14.869a9 9 0 0 1-17.608 0\", key: \"1r28rg\" }],\n  [\"circle\", { cx: \"12\", cy: \"4\", r: \"2\", key: \"muu5ef\" }]\n];\nconst Dessert = createLucideIcon(\"dessert\", __iconNode);\n\nexport { __iconNode, Dessert as default };\n//# sourceMappingURL=dessert.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721732,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721732,
+      "end": 1762100721732,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721732,
+      "end": 1762100721732,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721733,
+      "end": 1762100721733,
+      "order": "normal"
+    }
+  ]
+}

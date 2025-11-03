@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/text-align-start.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 5H3\", key: \"1fi0y6\" }],\n  [\"path\", { d: \"M15 12H3\", key: \"6jk70r\" }],\n  [\"path\", { d: \"M17 19H3\", key: \"z6ezky\" }]\n];\nconst TextAlignStart = createLucideIcon(\"text-align-start\", __iconNode);\n\nexport { __iconNode, TextAlignStart as default };\n//# sourceMappingURL=text-align-start.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100721049,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721052,
+      "end": 1762100721052,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721052,
+      "end": 1762100721052,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721053,
+      "end": 1762100721053,
+      "order": "normal"
+    }
+  ]
+}

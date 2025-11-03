@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tag.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z\",\n      key: \"vktsd0\"\n    }\n  ],\n  [\"circle\", { cx: \"7.5\", cy: \"7.5\", r: \".5\", fill: \"currentColor\", key: \"kqv944\" }]\n];\nconst Tag = createLucideIcon(\"tag\", __iconNode);\n\nexport { __iconNode, Tag as default };\n//# sourceMappingURL=tag.js.map\n",
+      "start": 1762100721454,
+      "end": 1762100727432,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal"
+    }
+  ]
+}

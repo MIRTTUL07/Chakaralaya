@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/context/SwitchLayoutGroupContext.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { createContext } from 'react';\n\n/**\n * Internal, exported only for usage in Framer\n */\nconst SwitchLayoutGroupContext = createContext({});\n\nexport { SwitchLayoutGroupContext };\n",
+      "start": 1762100728888,
+      "end": 1762100729068,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729068,
+      "end": 1762100729068,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729068,
+      "end": 1762100729068,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729068,
+      "end": 1762100729068,
+      "order": "normal"
+    }
+  ]
+}

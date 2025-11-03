@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/euro.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 10h12\", key: \"1y6xl8\" }],\n  [\"path\", { d: \"M4 14h9\", key: \"1loblj\" }],\n  [\n    \"path\",\n    {\n      d: \"M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2\",\n      key: \"1j6lzo\"\n    }\n  ]\n];\nconst Euro = createLucideIcon(\"euro\", __iconNode);\n\nexport { __iconNode, Euro as default };\n//# sourceMappingURL=euro.js.map\n",
+      "start": 1762100718714,
+      "end": 1762100721779,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721780,
+      "end": 1762100721780,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721780,
+      "end": 1762100721780,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721780,
+      "end": 1762100721780,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-equal.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M7 10h10\", key: \"1101jm\" }],\n  [\"path\", { d: \"M7 14h10\", key: \"1mhdw3\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst CircleEqual = createLucideIcon(\"circle-equal\", __iconNode);\n\nexport { __iconNode, CircleEqual as default };\n//# sourceMappingURL=circle-equal.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721511,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721511,
+      "end": 1762100721511,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721511,
+      "end": 1762100721511,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721512,
+      "end": 1762100721512,
+      "order": "normal"
+    }
+  ]
+}

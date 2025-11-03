@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/fish-symbol.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M2 16s9-15 20-4C11 23 2 8 2 8\", key: \"h4oh4o\" }]\n];\nconst FishSymbol = createLucideIcon(\"fish-symbol\", __iconNode);\n\nexport { __iconNode, FishSymbol as default };\n//# sourceMappingURL=fish-symbol.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721867,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721867,
+      "end": 1762100721867,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721867,
+      "end": 1762100721867,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721868,
+      "end": 1762100721868,
+      "order": "normal"
+    }
+  ]
+}

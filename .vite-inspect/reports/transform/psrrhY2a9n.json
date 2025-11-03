@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/utils/valid-prop.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * A list of all valid MotionProps.\n *\n * @privateRemarks\n * This doesn't throw if a `MotionProp` name is missing - it should.\n */\nconst validMotionProps = new Set([\n    \"animate\",\n    \"exit\",\n    \"variants\",\n    \"initial\",\n    \"style\",\n    \"values\",\n    \"variants\",\n    \"transition\",\n    \"transformTemplate\",\n    \"custom\",\n    \"inherit\",\n    \"onBeforeLayoutMeasure\",\n    \"onAnimationStart\",\n    \"onAnimationComplete\",\n    \"onUpdate\",\n    \"onDragStart\",\n    \"onDrag\",\n    \"onDragEnd\",\n    \"onMeasureDragConstraints\",\n    \"onDirectionLock\",\n    \"onDragTransitionEnd\",\n    \"_dragX\",\n    \"_dragY\",\n    \"onHoverStart\",\n    \"onHoverEnd\",\n    \"onViewportEnter\",\n    \"onViewportLeave\",\n    \"globalTapTarget\",\n    \"ignoreStrict\",\n    \"viewport\",\n]);\n/**\n * Check whether a prop name is a valid `MotionProp` key.\n *\n * @param key - Name of the property to check\n * @returns `true` is key is a valid `MotionProp`.\n *\n * @public\n */\nfunction isValidMotionProp(key) {\n    return (key.startsWith(\"while\") ||\n        (key.startsWith(\"drag\") && key !== \"draggable\") ||\n        key.startsWith(\"layout\") ||\n        key.startsWith(\"onTap\") ||\n        key.startsWith(\"onPan\") ||\n        key.startsWith(\"onLayout\") ||\n        validMotionProps.has(key));\n}\n\nexport { isValidMotionProp };\n",
+      "start": 1762100728888,
+      "end": 1762100729060,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal"
+    }
+  ]
+}

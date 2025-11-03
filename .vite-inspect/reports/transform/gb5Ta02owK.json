@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/use-will-change/WillChangeMotionValue.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { MotionValue, transformProps, acceleratedValues } from 'motion-dom';\n\nclass WillChangeMotionValue extends MotionValue {\n    constructor() {\n        super(...arguments);\n        this.isEnabled = false;\n    }\n    add(name) {\n        if (transformProps.has(name) || acceleratedValues.has(name)) {\n            this.isEnabled = true;\n            this.update();\n        }\n    }\n    update() {\n        this.set(this.isEnabled ? \"transform\" : \"auto\");\n    }\n}\n\nexport { WillChangeMotionValue };\n",
+      "start": 1762100728887,
+      "end": 1762100729054,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal"
+    }
+  ]
+}

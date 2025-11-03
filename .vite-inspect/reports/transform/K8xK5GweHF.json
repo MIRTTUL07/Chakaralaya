@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/reduced-motion/use-reduced-motion-config.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useContext } from 'react';\nimport { MotionConfigContext } from '../../context/MotionConfigContext.mjs';\nimport { useReducedMotion } from './use-reduced-motion.mjs';\n\nfunction useReducedMotionConfig() {\n    const reducedMotionPreference = useReducedMotion();\n    const { reducedMotion } = useContext(MotionConfigContext);\n    if (reducedMotion === \"never\") {\n        return false;\n    }\n    else if (reducedMotion === \"always\") {\n        return true;\n    }\n    else {\n        return reducedMotionPreference;\n    }\n}\n\nexport { useReducedMotionConfig };\n",
+      "start": 1762100728887,
+      "end": 1762100729055,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729055,
+      "end": 1762100729055,
+      "order": "normal"
+    }
+  ]
+}

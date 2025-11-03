@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/wifi-high.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 20h.01\", key: \"zekei9\" }],\n  [\"path\", { d: \"M5 12.859a10 10 0 0 1 14 0\", key: \"1x1e6c\" }],\n  [\"path\", { d: \"M8.5 16.429a5 5 0 0 1 7 0\", key: \"1bycff\" }]\n];\nconst WifiHigh = createLucideIcon(\"wifi-high\", __iconNode);\n\nexport { __iconNode, WifiHigh as default };\n//# sourceMappingURL=wifi-high.js.map\n",
+      "start": 1762100721691,
+      "end": 1762100727521,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727521,
+      "end": 1762100727521,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727521,
+      "end": 1762100727521,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727521,
+      "end": 1762100727521,
+      "order": "normal"
+    }
+  ]
+}

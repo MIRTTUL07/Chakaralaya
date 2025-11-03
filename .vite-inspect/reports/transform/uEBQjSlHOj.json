@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/render/utils/keys-transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Generate a list of every possible transform key.\n */\nconst transformPropOrder = [\n    \"transformPerspective\",\n    \"x\",\n    \"y\",\n    \"z\",\n    \"translateX\",\n    \"translateY\",\n    \"translateZ\",\n    \"scale\",\n    \"scaleX\",\n    \"scaleY\",\n    \"rotate\",\n    \"rotateX\",\n    \"rotateY\",\n    \"rotateZ\",\n    \"skew\",\n    \"skewX\",\n    \"skewY\",\n];\n/**\n * A quick lookup for transform props.\n */\nconst transformProps = /*@__PURE__*/ (() => new Set(transformPropOrder))();\n\nexport { transformPropOrder, transformProps };\n",
+      "start": 1762100729192,
+      "end": 1762100729310,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    }
+  ]
+}

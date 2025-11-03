@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/features/drag.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { DragGesture } from '../../gestures/drag/index.mjs';\nimport { PanGesture } from '../../gestures/pan/index.mjs';\nimport { MeasureLayout } from './layout/MeasureLayout.mjs';\nimport { HTMLProjectionNode } from '../../projection/node/HTMLProjectionNode.mjs';\n\nconst drag = {\n    pan: {\n        Feature: PanGesture,\n    },\n    drag: {\n        Feature: DragGesture,\n        ProjectionNode: HTMLProjectionNode,\n        MeasureLayout,\n    },\n};\n\nexport { drag };\n",
+      "start": 1762100729097,
+      "end": 1762100729248,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729248,
+      "end": 1762100729248,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729248,
+      "end": 1762100729248,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729248,
+      "end": 1762100729248,
+      "order": "normal"
+    }
+  ]
+}

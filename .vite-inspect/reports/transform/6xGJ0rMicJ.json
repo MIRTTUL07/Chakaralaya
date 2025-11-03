@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/defaultAttributes.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nvar defaultAttributes = {\n  xmlns: \"http://www.w3.org/2000/svg\",\n  width: 24,\n  height: 24,\n  viewBox: \"0 0 24 24\",\n  fill: \"none\",\n  stroke: \"currentColor\",\n  strokeWidth: 2,\n  strokeLinecap: \"round\",\n  strokeLinejoin: \"round\"\n};\n\nexport { defaultAttributes as default };\n//# sourceMappingURL=defaultAttributes.js.map\n",
+      "start": 1762100728225,
+      "end": 1762100728835,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100728835,
+      "end": 1762100728835,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100728835,
+      "end": 1762100728835,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100728838,
+      "end": 1762100728838,
+      "order": "normal"
+    }
+  ]
+}

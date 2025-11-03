@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pipette.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"m12 9-8.414 8.414A2 2 0 0 0 3 18.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 3.828 21h1.344a2 2 0 0 0 1.414-.586L15 12\",\n      key: \"1y3wsu\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"m18 9 .4.4a1 1 0 1 1-3 3l-3.8-3.8a1 1 0 1 1 3-3l.4.4 3.4-3.4a1 1 0 1 1 3 3z\",\n      key: \"110lr1\"\n    }\n  ],\n  [\"path\", { d: \"m2 22 .414-.414\", key: \"jhxm08\" }]\n];\nconst Pipette = createLucideIcon(\"pipette\", __iconNode);\n\nexport { __iconNode, Pipette as default };\n//# sourceMappingURL=pipette.js.map\n",
+      "start": 1762100721059,
+      "end": 1762100727313,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727313,
+      "end": 1762100727313,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727313,
+      "end": 1762100727313,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727313,
+      "end": 1762100727313,
+      "order": "normal"
+    }
+  ]
+}

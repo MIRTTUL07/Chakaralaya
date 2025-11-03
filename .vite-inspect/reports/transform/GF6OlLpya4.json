@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/circ.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { mirrorEasing } from './modifiers/mirror.mjs';\nimport { reverseEasing } from './modifiers/reverse.mjs';\n\nconst circIn = (p) => 1 - Math.sin(Math.acos(p));\nconst circOut = reverseEasing(circIn);\nconst circInOut = mirrorEasing(circIn);\n\nexport { circIn, circInOut, circOut };\n",
+      "start": 1762100729149,
+      "end": 1762100729260,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal"
+    }
+  ]
+}

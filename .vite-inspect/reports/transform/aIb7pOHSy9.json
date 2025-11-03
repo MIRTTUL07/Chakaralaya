@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/generators/utils/velocity.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { velocityPerSecond } from 'motion-utils';\n\nconst velocitySampleDuration = 5; // ms\nfunction calcGeneratorVelocity(resolveValue, t, current) {\n    const prevT = Math.max(t - velocitySampleDuration, 0);\n    return velocityPerSecond(current - resolveValue(prevT), t - prevT);\n}\n\nexport { calcGeneratorVelocity };\n",
+      "start": 1762100729433,
+      "end": 1762100729543,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal"
+    }
+  ]
+}

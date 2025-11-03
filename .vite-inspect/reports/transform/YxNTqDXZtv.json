@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cigarette.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M17 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14\", key: \"1mb5g1\" }],\n  [\"path\", { d: \"M18 8c0-2.5-2-2.5-2-5\", key: \"1il607\" }],\n  [\"path\", { d: \"M21 16a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\", key: \"1yl5r7\" }],\n  [\"path\", { d: \"M22 8c0-2.5-2-2.5-2-5\", key: \"1gah44\" }],\n  [\"path\", { d: \"M7 12v4\", key: \"jqww69\" }]\n];\nconst Cigarette = createLucideIcon(\"cigarette\", __iconNode);\n\nexport { __iconNode, Cigarette as default };\n//# sourceMappingURL=cigarette.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721503,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721503,
+      "end": 1762100721503,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721503,
+      "end": 1762100721503,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721504,
+      "end": 1762100721504,
+      "order": "normal"
+    }
+  ]
+}

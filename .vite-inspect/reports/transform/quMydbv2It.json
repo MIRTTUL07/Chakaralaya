@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/shopping-basket.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m15 11-1 9\", key: \"5wnq3a\" }],\n  [\"path\", { d: \"m19 11-4-7\", key: \"cnml18\" }],\n  [\"path\", { d: \"M2 11h20\", key: \"3eubbj\" }],\n  [\"path\", { d: \"m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4\", key: \"yiazzp\" }],\n  [\"path\", { d: \"M4.5 15.5h15\", key: \"13mye1\" }],\n  [\"path\", { d: \"m5 11 4-7\", key: \"116ra9\" }],\n  [\"path\", { d: \"m9 11 1 9\", key: \"1ojof7\" }]\n];\nconst ShoppingBasket = createLucideIcon(\"shopping-basket\", __iconNode);\n\nexport { __iconNode, ShoppingBasket as default };\n//# sourceMappingURL=shopping-basket.js.map\n",
+      "start": 1762100721278,
+      "end": 1762100727395,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727395,
+      "end": 1762100727395,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727395,
+      "end": 1762100727395,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727395,
+      "end": 1762100727395,
+      "order": "normal"
+    }
+  ]
+}

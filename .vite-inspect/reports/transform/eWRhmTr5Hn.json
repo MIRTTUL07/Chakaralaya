@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/auto.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * ValueType for \"auto\"\n */\nconst auto = {\n    test: (v) => v === \"auto\",\n    parse: (v) => v,\n};\n\nexport { auto };\n",
+      "start": 1762100729499,
+      "end": 1762100729646,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729646,
+      "end": 1762100729647,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729647,
+      "end": 1762100729647,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729647,
+      "end": 1762100729647,
+      "order": "normal"
+    }
+  ]
+}

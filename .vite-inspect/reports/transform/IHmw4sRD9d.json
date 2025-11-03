@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-scroll/modules/mixins/scroll-hash.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _passiveEventListeners = require('./passive-event-listeners');\n\nvar _utils = require('./utils');\n\nvar _utils2 = _interopRequireDefault(_utils);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar scrollHash = {\n  mountFlag: false,\n  initialized: false,\n  scroller: null,\n  containers: {},\n\n  mount: function mount(scroller) {\n    this.scroller = scroller;\n\n    this.handleHashChange = this.handleHashChange.bind(this);\n    window.addEventListener('hashchange', this.handleHashChange);\n\n    this.initStateFromHash();\n    this.mountFlag = true;\n  },\n  mapContainer: function mapContainer(to, container) {\n    this.containers[to] = container;\n  },\n  isMounted: function isMounted() {\n    return this.mountFlag;\n  },\n  isInitialized: function isInitialized() {\n    return this.initialized;\n  },\n  initStateFromHash: function initStateFromHash() {\n    var _this = this;\n\n    var hash = this.getHash();\n    if (hash) {\n      window.setTimeout(function () {\n        _this.scrollTo(hash, true);\n        _this.initialized = true;\n      }, 10);\n    } else {\n      this.initialized = true;\n    }\n  },\n  scrollTo: function scrollTo(to, isInit) {\n    var scroller = this.scroller;\n    var element = scroller.get(to);\n    if (element && (isInit || to !== scroller.getActiveLink())) {\n      var container = this.containers[to] || document;\n      scroller.scrollTo(to, { container: container });\n    }\n  },\n  getHash: function getHash() {\n    return _utils2.default.getHash();\n  },\n  changeHash: function changeHash(to, saveHashHistory) {\n    if (this.isInitialized() && _utils2.default.getHash() !== to) {\n      _utils2.default.updateHash(to, saveHashHistory);\n    }\n  },\n  handleHashChange: function handleHashChange() {\n    this.scrollTo(this.getHash());\n  },\n  unmount: function unmount() {\n    this.scroller = null;\n    this.containers = null;\n    window.removeEventListener('hashchange', this.handleHashChange);\n  }\n};\n\nexports.default = scrollHash;",
+      "start": 1762100716132,
+      "end": 1762100716611,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716611,
+      "end": 1762100716611,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716611,
+      "end": 1762100716611,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716783,
+      "end": 1762100716783,
+      "order": "normal"
+    }
+  ]
+}

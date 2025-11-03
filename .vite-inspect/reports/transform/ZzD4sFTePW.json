@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/DOMVisualElement.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { DOMKeyframesResolver, isMotionValue } from 'motion-dom';\nimport { VisualElement } from '../VisualElement.mjs';\n\nclass DOMVisualElement extends VisualElement {\n    constructor() {\n        super(...arguments);\n        this.KeyframeResolver = DOMKeyframesResolver;\n    }\n    sortInstanceNodePosition(a, b) {\n        /**\n         * compareDocumentPosition returns a bitmask, by using the bitwise &\n         * we're returning true if 2 in that bitmask is set to true. 2 is set\n         * to true if b preceeds a.\n         */\n        return a.compareDocumentPosition(b) & 2 ? 1 : -1;\n    }\n    getBaseTargetFromProps(props, key) {\n        return props.style\n            ? props.style[key]\n            : undefined;\n    }\n    removeValueFromRenderState(key, { vars, style }) {\n        delete vars[key];\n        delete style[key];\n    }\n    handleChildMotionValue() {\n        if (this.childSubscription) {\n            this.childSubscription();\n            delete this.childSubscription;\n        }\n        const { children } = this.props;\n        if (isMotionValue(children)) {\n            this.childSubscription = children.on(\"change\", (latest) => {\n                if (this.current) {\n                    this.current.textContent = `${latest}`;\n                }\n            });\n        }\n    }\n}\n\nexport { DOMVisualElement };\n",
+      "start": 1762100729560,
+      "end": 1762100729664,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729664,
+      "end": 1762100729664,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729664,
+      "end": 1762100729664,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729664,
+      "end": 1762100729664,
+      "order": "normal"
+    }
+  ]
+}

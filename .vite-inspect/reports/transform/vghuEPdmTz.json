@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/door-closed-locked.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 12h.01\", key: \"1kxr2c\" }],\n  [\"path\", { d: \"M18 9V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14\", key: \"1bnhmg\" }],\n  [\"path\", { d: \"M2 20h8\", key: \"10ntw1\" }],\n  [\"path\", { d: \"M20 17v-2a2 2 0 1 0-4 0v2\", key: \"pwaxnr\" }],\n  [\"rect\", { x: \"14\", y: \"17\", width: \"8\", height: \"5\", rx: \"1\", key: \"15pjcy\" }]\n];\nconst DoorClosedLocked = createLucideIcon(\"door-closed-locked\", __iconNode);\n\nexport { __iconNode, DoorClosedLocked as default };\n//# sourceMappingURL=door-closed-locked.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721758,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721758,
+      "end": 1762100721758,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721758,
+      "end": 1762100721758,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721758,
+      "end": 1762100721758,
+      "order": "normal"
+    }
+  ]
+}

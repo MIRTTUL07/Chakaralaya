@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/supports/memo.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { memo } from 'motion-utils';\nimport { supportsFlags } from './flags.mjs';\n\nfunction memoSupports(callback, supportsFlag) {\n    const memoized = memo(callback);\n    return () => supportsFlags[supportsFlag] ?? memoized();\n}\n\nexport { memoSupports };\n",
+      "start": 1762100729485,
+      "end": 1762100729550,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal"
+    }
+  ]
+}

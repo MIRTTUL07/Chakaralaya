@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/corner-left-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M14 9 9 4 4 9\", key: \"1af5af\" }],\n  [\"path\", { d: \"M20 20h-7a4 4 0 0 1-4-4V4\", key: \"1blwi3\" }]\n];\nconst CornerLeftUp = createLucideIcon(\"corner-left-up\", __iconNode);\n\nexport { __iconNode, CornerLeftUp as default };\n//# sourceMappingURL=corner-left-up.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721707,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721707,
+      "end": 1762100721707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721707,
+      "end": 1762100721707,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721707,
+      "end": 1762100721707,
+      "order": "normal"
+    }
+  ]
+}

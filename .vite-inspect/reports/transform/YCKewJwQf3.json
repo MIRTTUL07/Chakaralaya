@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/traffic-cone.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M16.05 10.966a5 2.5 0 0 1-8.1 0\", key: \"m5jpwb\" }],\n  [\n    \"path\",\n    {\n      d: \"m16.923 14.049 4.48 2.04a1 1 0 0 1 .001 1.831l-8.574 3.9a2 2 0 0 1-1.66 0l-8.574-3.91a1 1 0 0 1 0-1.83l4.484-2.04\",\n      key: \"rbg3g8\"\n    }\n  ],\n  [\"path\", { d: \"M16.949 14.14a5 2.5 0 1 1-9.9 0L10.063 3.5a2 2 0 0 1 3.874 0z\", key: \"vap8c8\" }],\n  [\"path\", { d: \"M9.194 6.57a5 2.5 0 0 0 5.61 0\", key: \"15hn5c\" }]\n];\nconst TrafficCone = createLucideIcon(\"traffic-cone\", __iconNode);\n\nexport { __iconNode, TrafficCone as default };\n//# sourceMappingURL=traffic-cone.js.map\n",
+      "start": 1762100721497,
+      "end": 1762100727456,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727456,
+      "end": 1762100727456,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727456,
+      "end": 1762100727456,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727456,
+      "end": 1762100727456,
+      "order": "normal"
+    }
+  ]
+}

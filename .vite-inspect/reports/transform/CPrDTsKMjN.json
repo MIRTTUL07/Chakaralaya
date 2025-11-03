@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/features/load-features.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { featureDefinitions } from './definitions.mjs';\n\nfunction loadFeatures(features) {\n    for (const key in features) {\n        featureDefinitions[key] = {\n            ...featureDefinitions[key],\n            ...features[key],\n        };\n    }\n}\n\nexport { loadFeatures };\n",
+      "start": 1762100729084,
+      "end": 1762100729243,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal"
+    }
+  ]
+}

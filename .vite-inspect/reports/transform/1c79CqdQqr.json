@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/color/hsla.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { alpha } from '../numbers/index.mjs';\nimport { percent } from '../numbers/units.mjs';\nimport { sanitize } from '../utils/sanitize.mjs';\nimport { isColorString, splitColor } from './utils.mjs';\n\nconst hsla = {\n    test: /*@__PURE__*/ isColorString(\"hsl\", \"hue\"),\n    parse: /*@__PURE__*/ splitColor(\"hue\", \"saturation\", \"lightness\"),\n    transform: ({ hue, saturation, lightness, alpha: alpha$1 = 1 }) => {\n        return (\"hsla(\" +\n            Math.round(hue) +\n            \", \" +\n            percent.transform(sanitize(saturation)) +\n            \", \" +\n            percent.transform(sanitize(lightness)) +\n            \", \" +\n            sanitize(alpha.transform(alpha$1)) +\n            \")\");\n    },\n};\n\nexport { hsla };\n",
+      "start": 1762100729193,
+      "end": 1762100729332,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729332,
+      "end": 1762100729332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729332,
+      "end": 1762100729332,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729332,
+      "end": 1762100729332,
+      "order": "normal"
+    }
+  ]
+}

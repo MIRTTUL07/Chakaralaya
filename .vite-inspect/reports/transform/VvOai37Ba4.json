@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/is-variant-label.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Decides if the supplied variable is variant label\n */\nfunction isVariantLabel(v) {\n    return typeof v === \"string\" || Array.isArray(v);\n}\n\nexport { isVariantLabel };\n",
+      "start": 1762100729381,
+      "end": 1762100729531,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729531,
+      "end": 1762100729531,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729531,
+      "end": 1762100729531,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729531,
+      "end": 1762100729531,
+      "order": "normal"
+    }
+  ]
+}

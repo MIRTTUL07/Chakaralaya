@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/monitor-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M17 17H4a2 2 0 0 1-2-2V5c0-1.5 1-2 1-2\", key: \"k0q8oc\" }],\n  [\"path\", { d: \"M22 15V5a2 2 0 0 0-2-2H9\", key: \"cp1ac0\" }],\n  [\"path\", { d: \"M8 21h8\", key: \"1ev6f3\" }],\n  [\"path\", { d: \"M12 17v4\", key: \"1riwvh\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }]\n];\nconst MonitorOff = createLucideIcon(\"monitor-off\", __iconNode);\n\nexport { __iconNode, MonitorOff as default };\n//# sourceMappingURL=monitor-off.js.map\n",
+      "start": 1762100720854,
+      "end": 1762100727245,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727245,
+      "end": 1762100727245,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727245,
+      "end": 1762100727245,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727245,
+      "end": 1762100727245,
+      "order": "normal"
+    }
+  ]
+}

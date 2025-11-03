@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/youtube.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17\",\n      key: \"1q2vi4\"\n    }\n  ],\n  [\"path\", { d: \"m10 15 5-3-5-3z\", key: \"1jp15x\" }]\n];\nconst Youtube = createLucideIcon(\"youtube\", __iconNode);\n\nexport { __iconNode, Youtube as default };\n//# sourceMappingURL=youtube.js.map\n",
+      "start": 1762100721712,
+      "end": 1762100727527,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727527,
+      "end": 1762100727527,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727527,
+      "end": 1762100727527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727527,
+      "end": 1762100727527,
+      "order": "normal"
+    }
+  ]
+}

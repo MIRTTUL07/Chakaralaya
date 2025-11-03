@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/view/utils/css.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "let pendingRules = {};\nlet style = null;\nconst css = {\n    set: (selector, values) => {\n        pendingRules[selector] = values;\n    },\n    commit: () => {\n        if (!style) {\n            style = document.createElement(\"style\");\n            style.id = \"motion-view\";\n        }\n        let cssText = \"\";\n        for (const selector in pendingRules) {\n            const rule = pendingRules[selector];\n            cssText += `${selector} {\\n`;\n            for (const [property, value] of Object.entries(rule)) {\n                cssText += `  ${property}: ${value};\\n`;\n            }\n            cssText += \"}\\n\";\n        }\n        style.textContent = cssText;\n        document.head.appendChild(style);\n        pendingRules = {};\n    },\n    remove: () => {\n        if (style && style.parentElement) {\n            style.parentElement.removeChild(style);\n        }\n    },\n};\n\nexport { css };\n",
+      "start": 1762100729730,
+      "end": 1762100729748,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729748,
+      "end": 1762100729748,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729748,
+      "end": 1762100729748,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729748,
+      "end": 1762100729748,
+      "order": "normal"
+    }
+  ]
+}

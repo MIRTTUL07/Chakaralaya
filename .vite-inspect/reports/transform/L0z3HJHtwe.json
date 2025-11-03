@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/keyframes/utils/apply-px-defaults.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { pxValues } from '../../waapi/utils/px-values.mjs';\n\nfunction applyPxDefaults(keyframes, name) {\n    for (let i = 0; i < keyframes.length; i++) {\n        if (typeof keyframes[i] === \"number\" && pxValues.has(name)) {\n            keyframes[i] = keyframes[i] + \"px\";\n        }\n    }\n}\n\nexport { applyPxDefaults };\n",
+      "start": 1762100729191,
+      "end": 1762100729287,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal"
+    }
+  ]
+}

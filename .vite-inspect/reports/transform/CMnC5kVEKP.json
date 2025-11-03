@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/meh.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"line\", { x1: \"8\", x2: \"16\", y1: \"15\", y2: \"15\", key: \"1xb1d9\" }],\n  [\"line\", { x1: \"9\", x2: \"9.01\", y1: \"9\", y2: \"9\", key: \"yxxnd0\" }],\n  [\"line\", { x1: \"15\", x2: \"15.01\", y1: \"9\", y2: \"9\", key: \"1p4y9e\" }]\n];\nconst Meh = createLucideIcon(\"meh\", __iconNode);\n\nexport { __iconNode, Meh as default };\n//# sourceMappingURL=meh.js.map\n",
+      "start": 1762100720749,
+      "end": 1762100727225,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727225,
+      "end": 1762100727225,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727225,
+      "end": 1762100727225,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727225,
+      "end": 1762100727225,
+      "order": "normal"
+    }
+  ]
+}

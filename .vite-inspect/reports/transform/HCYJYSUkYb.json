@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/group.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 7V5c0-1.1.9-2 2-2h2\", key: \"adw53z\" }],\n  [\"path\", { d: \"M17 3h2c1.1 0 2 .9 2 2v2\", key: \"an4l38\" }],\n  [\"path\", { d: \"M21 17v2c0 1.1-.9 2-2 2h-2\", key: \"144t0e\" }],\n  [\"path\", { d: \"M7 21H5c-1.1 0-2-.9-2-2v-2\", key: \"rtnfgi\" }],\n  [\"rect\", { width: \"7\", height: \"5\", x: \"7\", y: \"7\", rx: \"1\", key: \"1eyiv7\" }],\n  [\"rect\", { width: \"7\", height: \"5\", x: \"10\", y: \"12\", rx: \"1\", key: \"1qlmkx\" }]\n];\nconst Group = createLucideIcon(\"group\", __iconNode);\n\nexport { __iconNode, Group as default };\n//# sourceMappingURL=group.js.map\n",
+      "start": 1762100718740,
+      "end": 1762100721997,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721997,
+      "end": 1762100721997,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721997,
+      "end": 1762100721997,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721998,
+      "end": 1762100721998,
+      "order": "normal"
+    }
+  ]
+}

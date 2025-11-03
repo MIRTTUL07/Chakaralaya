@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/file-stack.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M11 21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1\", key: \"likhh7\" }],\n  [\"path\", { d: \"M16 16a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1\", key: \"17ky3x\" }],\n  [\n    \"path\",\n    {\n      d: \"M21 6a2 2 0 0 0-.586-1.414l-2-2A2 2 0 0 0 17 2h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1z\",\n      key: \"1hyeo0\"\n    }\n  ]\n];\nconst FileStack = createLucideIcon(\"file-stack\", __iconNode);\n\nexport { __iconNode, FileStack as default };\n//# sourceMappingURL=file-stack.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721812,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721812,
+      "end": 1762100721812,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721812,
+      "end": 1762100721812,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721812,
+      "end": 1762100721812,
+      "order": "normal"
+    }
+  ]
+}

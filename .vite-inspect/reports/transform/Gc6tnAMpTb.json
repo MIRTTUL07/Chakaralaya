@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/int.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { number } from './numbers/index.mjs';\n\nconst int = {\n    ...number,\n    transform: Math.round,\n};\n\nexport { int };\n",
+      "start": 1762100729500,
+      "end": 1762100729557,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729557,
+      "end": 1762100729557,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729557,
+      "end": 1762100729557,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729557,
+      "end": 1762100729557,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/hooks/use-animate-style.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useConstant } from '../../utils/use-constant.mjs';\nimport { useUnmountEffect } from '../../utils/use-unmount-effect.mjs';\nimport { createScopedWaapiAnimate } from '../animators/waapi/animate-style.mjs';\n\nfunction useAnimateMini() {\n    const scope = useConstant(() => ({\n        current: null, // Will be hydrated by React\n        animations: [],\n    }));\n    const animate = useConstant(() => createScopedWaapiAnimate(scope));\n    useUnmountEffect(() => {\n        scope.animations.forEach((animation) => animation.stop());\n    });\n    return [scope, animate];\n}\n\nexport { useAnimateMini };\n",
+      "start": 1762100728887,
+      "end": 1762100729056,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729057,
+      "end": 1762100729057,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729057,
+      "end": 1762100729057,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729057,
+      "end": 1762100729057,
+      "order": "normal"
+    }
+  ]
+}

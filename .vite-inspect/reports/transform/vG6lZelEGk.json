@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/geometry/copy.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Reset an axis to the provided origin box.\n *\n * This is a mutative operation.\n */\nfunction copyAxisInto(axis, originAxis) {\n    axis.min = originAxis.min;\n    axis.max = originAxis.max;\n}\n/**\n * Reset a box to the provided origin box.\n *\n * This is a mutative operation.\n */\nfunction copyBoxInto(box, originBox) {\n    copyAxisInto(box.x, originBox.x);\n    copyAxisInto(box.y, originBox.y);\n}\n/**\n * Reset a delta to the provided origin box.\n *\n * This is a mutative operation.\n */\nfunction copyAxisDeltaInto(delta, originDelta) {\n    delta.translate = originDelta.translate;\n    delta.scale = originDelta.scale;\n    delta.originPoint = originDelta.originPoint;\n    delta.origin = originDelta.origin;\n}\n\nexport { copyAxisDeltaInto, copyAxisInto, copyBoxInto };\n",
+      "start": 1762100729621,
+      "end": 1762100729672,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal"
+    }
+  ]
+}

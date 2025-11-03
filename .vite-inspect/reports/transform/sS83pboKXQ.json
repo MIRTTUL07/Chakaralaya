@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-percent.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"m15 9-6 6\", key: \"1uzhvr\" }],\n  [\"path\", { d: \"M9 9h.01\", key: \"1q5me6\" }],\n  [\"path\", { d: \"M15 15h.01\", key: \"lqbp3k\" }]\n];\nconst CirclePercent = createLucideIcon(\"circle-percent\", __iconNode);\n\nexport { __iconNode, CirclePercent as default };\n//# sourceMappingURL=circle-percent.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720775,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720775,
+      "end": 1762100720775,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720778,
+      "end": 1762100720778,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720778,
+      "end": 1762100720778,
+      "order": "normal"
+    }
+  ]
+}

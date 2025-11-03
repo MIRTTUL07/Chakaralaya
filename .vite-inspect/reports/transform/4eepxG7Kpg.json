@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/voicemail.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"6\", cy: \"12\", r: \"4\", key: \"1ehtga\" }],\n  [\"circle\", { cx: \"18\", cy: \"12\", r: \"4\", key: \"4vafl8\" }],\n  [\"line\", { x1: \"6\", x2: \"18\", y1: \"16\", y2: \"16\", key: \"pmt8us\" }]\n];\nconst Voicemail = createLucideIcon(\"voicemail\", __iconNode);\n\nexport { __iconNode, Voicemail as default };\n//# sourceMappingURL=voicemail.js.map\n",
+      "start": 1762100721656,
+      "end": 1762100727510,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727510,
+      "end": 1762100727510,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727510,
+      "end": 1762100727510,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727511,
+      "end": 1762100727511,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/maps/number.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { int } from '../int.mjs';\nimport { alpha } from '../numbers/index.mjs';\nimport { px } from '../numbers/units.mjs';\nimport { transformValueTypes } from './transform.mjs';\n\nconst numberValueTypes = {\n    // Border props\n    borderWidth: px,\n    borderTopWidth: px,\n    borderRightWidth: px,\n    borderBottomWidth: px,\n    borderLeftWidth: px,\n    borderRadius: px,\n    radius: px,\n    borderTopLeftRadius: px,\n    borderTopRightRadius: px,\n    borderBottomRightRadius: px,\n    borderBottomLeftRadius: px,\n    // Positioning props\n    width: px,\n    maxWidth: px,\n    height: px,\n    maxHeight: px,\n    top: px,\n    right: px,\n    bottom: px,\n    left: px,\n    // Spacing props\n    padding: px,\n    paddingTop: px,\n    paddingRight: px,\n    paddingBottom: px,\n    paddingLeft: px,\n    margin: px,\n    marginTop: px,\n    marginRight: px,\n    marginBottom: px,\n    marginLeft: px,\n    // Misc\n    backgroundPositionX: px,\n    backgroundPositionY: px,\n    ...transformValueTypes,\n    zIndex: int,\n    // SVG\n    fillOpacity: alpha,\n    strokeOpacity: alpha,\n    numOctaves: int,\n};\n\nexport { numberValueTypes };\n",
+      "start": 1762100729193,
+      "end": 1762100729367,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/indian-rupee.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M6 3h12\", key: \"ggurg9\" }],\n  [\"path\", { d: \"M6 8h12\", key: \"6g4wlu\" }],\n  [\"path\", { d: \"m6 13 8.5 8\", key: \"u1kupk\" }],\n  [\"path\", { d: \"M6 13h3\", key: \"wdp6ag\" }],\n  [\"path\", { d: \"M9 13c6.667 0 6.667-10 0-10\", key: \"1nkvk2\" }]\n];\nconst IndianRupee = createLucideIcon(\"indian-rupee\", __iconNode);\n\nexport { __iconNode, IndianRupee as default };\n//# sourceMappingURL=indian-rupee.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722060,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722060,
+      "end": 1762100722060,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722060,
+      "end": 1762100722060,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722060,
+      "end": 1762100722060,
+      "order": "normal"
+    }
+  ]
+}

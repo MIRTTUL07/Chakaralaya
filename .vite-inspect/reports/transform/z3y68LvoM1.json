@@ -1,0 +1,42 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/components/landing/Landing.jsx",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\n'use client'\n\nimport { SplineScene } from \"../ui/splite\";\nimport { Card } from \"../ui/card\"\nimport { Spotlight } from \"../ui/spotlight\"\n \nexport default function Landing() {\n  console.log(\"Landing component rendering\");\n  return (\n    <div className=\"w-full h-screen bg-black overflow-hidden\">\n      <Card className=\"w-full h-full bg-black\">\n        <Spotlight\n          className=\"-top-40 left-0 md:left-60 md:-top-20 opacity-100\" /* Force opacity */\n          fill=\"white\"\n        />\n      \n      <div className=\"flex flex-col md:flex-row h-full\">\n        {/* Left content */}\n        <div className=\"flex-1 p-8 relative z-10 flex flex-col justify-center md:max-w-[45%]\">\n          <h1 className=\"text-5xl md:text-6xl lg:text-7xl font-bold text-white\" style={{textShadow: '0 2px 4px rgba(0,0,0,0.5)'}}>\n            Chakaralaya Analytics          \n            </h1>\n          <p className=\"mt-6 text-gray-200 text-lg md:text-xl max-w-2xl\" style={{textShadow: '0 1px 2px rgba(0,0,0,0.5)'}}>\n            Your Path to Data Driven Excellence with Our Business Intelligence Solutions.\n          </p>\n        </div>\n\n        {/* Right content */}\n        <div className=\"flex-1 relative h-full\">\n          <SplineScene \n            scene=\"https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode\"\n            className=\"w-full h-full absolute inset-0\"\n          />\n        </div>\n      </div>\n    </Card>\n    </div>\n  )\n}\n",
+      "start": 1762100713236,
+      "end": 1762100715057,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "\"use client\";\nimport { jsx, jsxs } from \"react/jsx-runtime\";\nimport { SplineScene } from \"../ui/splite\";\nimport { Card } from \"../ui/card\";\nimport { Spotlight } from \"../ui/spotlight\";\nexport default function Landing() {\n  console.log(\"Landing component rendering\");\n  return /* @__PURE__ */ jsx(\"div\", { className: \"w-full h-screen bg-black overflow-hidden\", children: /* @__PURE__ */ jsxs(Card, { className: \"w-full h-full bg-black\", children: [\n    /* @__PURE__ */ jsx(\n      Spotlight,\n      {\n        className: \"-top-40 left-0 md:left-60 md:-top-20 opacity-100\",\n        fill: \"white\"\n      }\n    ),\n    /* @__PURE__ */ jsxs(\"div\", { className: \"flex flex-col md:flex-row h-full\", children: [\n      /* @__PURE__ */ jsxs(\"div\", { className: \"flex-1 p-8 relative z-10 flex flex-col justify-center md:max-w-[45%]\", children: [\n        /* @__PURE__ */ jsx(\"h1\", { className: \"text-5xl md:text-6xl lg:text-7xl font-bold text-white\", style: { textShadow: \"0 2px 4px rgba(0,0,0,0.5)\" }, children: \"Chakaralaya Analytics\" }),\n        /* @__PURE__ */ jsx(\"p\", { className: \"mt-6 text-gray-200 text-lg md:text-xl max-w-2xl\", style: { textShadow: \"0 1px 2px rgba(0,0,0,0.5)\" }, children: \"Your Path to Data Driven Excellence with Our Business Intelligence Solutions.\" })\n      ] }),\n      /* @__PURE__ */ jsx(\"div\", { className: \"flex-1 relative h-full\", children: /* @__PURE__ */ jsx(\n        SplineScene,\n        {\n          scene: \"https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode\",\n          className: \"w-full h-full absolute inset-0\"\n        }\n      ) })\n    ] })\n  ] }) });\n}\n",
+      "start": 1762100715057,
+      "end": 1762100716009,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/user/chakaralaya/Chakaralaya/src/components/landing/Landing.jsx"
+        ],
+        "sourcesContent": [
+          "\n'use client'\n\nimport { SplineScene } from \"../ui/splite\";\nimport { Card } from \"../ui/card\"\nimport { Spotlight } from \"../ui/spotlight\"\n \nexport default function Landing() {\n  console.log(\"Landing component rendering\");\n  return (\n    <div className=\"w-full h-screen bg-black overflow-hidden\">\n      <Card className=\"w-full h-full bg-black\">\n        <Spotlight\n          className=\"-top-40 left-0 md:left-60 md:-top-20 opacity-100\" /* Force opacity */\n          fill=\"white\"\n        />\n      \n      <div className=\"flex flex-col md:flex-row h-full\">\n        {/* Left content */}\n        <div className=\"flex-1 p-8 relative z-10 flex flex-col justify-center md:max-w-[45%]\">\n          <h1 className=\"text-5xl md:text-6xl lg:text-7xl font-bold text-white\" style={{textShadow: '0 2px 4px rgba(0,0,0,0.5)'}}>\n            Chakaralaya Analytics          \n            </h1>\n          <p className=\"mt-6 text-gray-200 text-lg md:text-xl max-w-2xl\" style={{textShadow: '0 1px 2px rgba(0,0,0,0.5)'}}>\n            Your Path to Data Driven Excellence with Our Business Intelligence Solutions.\n          </p>\n        </div>\n\n        {/* Right content */}\n        <div className=\"flex-1 relative h-full\">\n          <SplineScene \n            scene=\"https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode\"\n            className=\"w-full h-full absolute inset-0\"\n          />\n        </div>\n      </div>\n    </Card>\n    </div>\n  )\n}\n"
+        ],
+        "mappings": ";AAYQ,cAOA,YAPA;AATR,SAAS,mBAAmB;AAC5B,SAAS,YAAY;AACrB,SAAS,iBAAiB;AAE1B,wBAAwB,UAAU;AAChC,UAAQ,IAAI,6BAA6B;AACzC,SACE,oBAAC,SAAI,WAAU,4CACb,+BAAC,QAAK,WAAU,0BACd;AAAA;AAAA,MAAC;AAAA;AAAA,QACC,WAAU;AAAA,QACV,MAAK;AAAA;AAAA,IACP;AAAA,IAEF,qBAAC,SAAI,WAAU,oCAEb;AAAA,2BAAC,SAAI,WAAU,wEACb;AAAA,4BAAC,QAAG,WAAU,yDAAwD,OAAO,EAAC,YAAY,4BAA2B,GAAG,mCAEtH;AAAA,QACF,oBAAC,OAAE,WAAU,mDAAkD,OAAO,EAAC,YAAY,4BAA2B,GAAG,2FAEjH;AAAA,SACF;AAAA,MAGA,oBAAC,SAAI,WAAU,0BACb;AAAA,QAAC;AAAA;AAAA,UACC,OAAM;AAAA,UACN,WAAU;AAAA;AAAA,MACZ,GACF;AAAA,OACF;AAAA,KACF,GACA;AAEJ;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716010,
+      "end": 1762100716010,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716014,
+      "end": 1762100716014,
+      "order": "normal"
+    }
+  ]
+}

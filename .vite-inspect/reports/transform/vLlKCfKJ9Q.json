@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/WithPromise.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "class WithPromise {\n    constructor() {\n        this.updateFinished();\n    }\n    get finished() {\n        return this._finished;\n    }\n    updateFinished() {\n        this._finished = new Promise((resolve) => {\n            this.resolve = resolve;\n        });\n    }\n    notifyFinished() {\n        this.resolve();\n    }\n    /**\n     * Allows the animation to be awaited.\n     *\n     * @deprecated Use `finished` instead.\n     */\n    then(onResolve, onReject) {\n        return this.finished.then(onResolve, onReject);\n    }\n}\n\nexport { WithPromise };\n",
+      "start": 1762100729426,
+      "end": 1762100729542,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal"
+    }
+  ]
+}

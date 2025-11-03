@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/is-controlling-variants.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isAnimationControls } from '../../animation/utils/is-animation-controls.mjs';\nimport { isVariantLabel } from './is-variant-label.mjs';\nimport { variantProps } from './variant-props.mjs';\n\nfunction isControllingVariants(props) {\n    return (isAnimationControls(props.animate) ||\n        variantProps.some((name) => isVariantLabel(props[name])));\n}\nfunction isVariantNode(props) {\n    return Boolean(isControllingVariants(props) || props.variants);\n}\n\nexport { isControllingVariants, isVariantNode };\n",
+      "start": 1762100729090,
+      "end": 1762100729246,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729246,
+      "end": 1762100729246,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729246,
+      "end": 1762100729246,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729246,
+      "end": 1762100729246,
+      "order": "normal"
+    }
+  ]
+}

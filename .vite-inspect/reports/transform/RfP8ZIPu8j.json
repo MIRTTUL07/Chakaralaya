@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/trash-2.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 11v6\", key: \"nco0om\" }],\n  [\"path\", { d: \"M14 11v6\", key: \"outv1u\" }],\n  [\"path\", { d: \"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6\", key: \"miytrc\" }],\n  [\"path\", { d: \"M3 6h18\", key: \"d0wm0j\" }],\n  [\"path\", { d: \"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\", key: \"e791ji\" }]\n];\nconst Trash2 = createLucideIcon(\"trash-2\", __iconNode);\n\nexport { __iconNode, Trash2 as default };\n//# sourceMappingURL=trash-2.js.map\n",
+      "start": 1762100721500,
+      "end": 1762100727459,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727459,
+      "end": 1762100727459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727459,
+      "end": 1762100727459,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727460,
+      "end": 1762100727460,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/rss.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 11a9 9 0 0 1 9 9\", key: \"pv89mb\" }],\n  [\"path\", { d: \"M4 4a16 16 0 0 1 16 16\", key: \"k0647b\" }],\n  [\"circle\", { cx: \"5\", cy: \"19\", r: \"1\", key: \"bfqh0e\" }]\n];\nconst Rss = createLucideIcon(\"rss\", __iconNode);\n\nexport { __iconNode, Rss as default };\n//# sourceMappingURL=rss.js.map\n",
+      "start": 1762100721170,
+      "end": 1762100727349,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727349,
+      "end": 1762100727349,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727349,
+      "end": 1762100727349,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727349,
+      "end": 1762100727349,
+      "order": "normal"
+    }
+  ]
+}

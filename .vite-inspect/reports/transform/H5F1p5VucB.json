@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/is-object.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function isObject(value) {\n    return typeof value === \"object\" && value !== null;\n}\n\nexport { isObject };\n",
+      "start": 1762100729148,
+      "end": 1762100729255,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729255,
+      "end": 1762100729255,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729255,
+      "end": 1762100729255,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729256,
+      "end": 1762100729256,
+      "order": "normal"
+    }
+  ]
+}

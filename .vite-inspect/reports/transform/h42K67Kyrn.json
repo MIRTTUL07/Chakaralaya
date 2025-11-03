@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/case-upper.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M15 11h4.5a1 1 0 0 1 0 5h-4a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h3a1 1 0 0 1 0 5\",\n      key: \"nxs35\"\n    }\n  ],\n  [\"path\", { d: \"m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16\", key: \"d5nyq2\" }],\n  [\"path\", { d: \"M3.304 13h6.392\", key: \"1q3zxz\" }]\n];\nconst CaseUpper = createLucideIcon(\"case-upper\", __iconNode);\n\nexport { __iconNode, CaseUpper as default };\n//# sourceMappingURL=case-upper.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721473,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721473,
+      "end": 1762100721473,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721473,
+      "end": 1762100721473,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721474,
+      "end": 1762100721474,
+      "order": "normal"
+    }
+  ]
+}

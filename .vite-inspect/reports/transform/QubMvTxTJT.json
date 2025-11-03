@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/building.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 10h.01\", key: \"1nrarc\" }],\n  [\"path\", { d: \"M12 14h.01\", key: \"1etili\" }],\n  [\"path\", { d: \"M12 6h.01\", key: \"1vi96p\" }],\n  [\"path\", { d: \"M16 10h.01\", key: \"1m94wz\" }],\n  [\"path\", { d: \"M16 14h.01\", key: \"1gbofw\" }],\n  [\"path\", { d: \"M16 6h.01\", key: \"1x0f13\" }],\n  [\"path\", { d: \"M8 10h.01\", key: \"19clt8\" }],\n  [\"path\", { d: \"M8 14h.01\", key: \"6423bh\" }],\n  [\"path\", { d: \"M8 6h.01\", key: \"1dz90k\" }],\n  [\"path\", { d: \"M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3\", key: \"cabbwy\" }],\n  [\"rect\", { x: \"4\", y: \"2\", width: \"16\", height: \"20\", rx: \"2\", key: \"1uxh74\" }]\n];\nconst Building = createLucideIcon(\"building\", __iconNode);\n\nexport { __iconNode, Building as default };\n//# sourceMappingURL=building.js.map\n",
+      "start": 1762100718707,
+      "end": 1762100721422,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721422,
+      "end": 1762100721422,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721422,
+      "end": 1762100721422,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721422,
+      "end": 1762100721422,
+      "order": "normal"
+    }
+  ]
+}

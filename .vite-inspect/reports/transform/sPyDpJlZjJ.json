@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/folders.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M20 5a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2.5a1.5 1.5 0 0 1 1.2.6l.6.8a1.5 1.5 0 0 0 1.2.6z\",\n      key: \"a4852j\"\n    }\n  ],\n  [\n    \"path\",\n    { d: \"M3 8.268a2 2 0 0 0-1 1.738V19a2 2 0 0 0 2 2h11a2 2 0 0 0 1.732-1\", key: \"yxbcw3\" }\n  ]\n];\nconst Folders = createLucideIcon(\"folders\", __iconNode);\n\nexport { __iconNode, Folders as default };\n//# sourceMappingURL=folders.js.map\n",
+      "start": 1762100718738,
+      "end": 1762100721937,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721937,
+      "end": 1762100721937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721937,
+      "end": 1762100721937,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721937,
+      "end": 1762100721937,
+      "order": "normal"
+    }
+  ]
+}

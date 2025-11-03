@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/book-check.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\",\n      key: \"k3hazp\"\n    }\n  ],\n  [\"path\", { d: \"m9 9.5 2 2 4-4\", key: \"1dth82\" }]\n];\nconst BookCheck = createLucideIcon(\"book-check\", __iconNode);\n\nexport { __iconNode, BookCheck as default };\n//# sourceMappingURL=book-check.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721351,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721351,
+      "end": 1762100721351,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721351,
+      "end": 1762100721351,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721353,
+      "end": 1762100721353,
+      "order": "normal"
+    }
+  ]
+}

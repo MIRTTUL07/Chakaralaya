@@ -1,0 +1,32 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/components/create-proxy.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { warnOnce } from 'motion-utils';\nimport { createMotionComponent } from '../../motion/index.mjs';\n\nfunction createMotionProxy(preloadedFeatures, createVisualElement) {\n    if (typeof Proxy === \"undefined\") {\n        return createMotionComponent;\n    }\n    /**\n     * A cache of generated `motion` components, e.g `motion.div`, `motion.input` etc.\n     * Rather than generating them anew every render.\n     */\n    const componentCache = new Map();\n    const factory = (Component, options) => {\n        return createMotionComponent(Component, options, preloadedFeatures, createVisualElement);\n    };\n    /**\n     * Support for deprecated`motion(Component)` pattern\n     */\n    const deprecatedFactoryFunction = (Component, options) => {\n        if (process.env.NODE_ENV !== \"production\") {\n            warnOnce(false, \"motion() is deprecated. Use motion.create() instead.\");\n        }\n        return factory(Component, options);\n    };\n    return new Proxy(deprecatedFactoryFunction, {\n        /**\n         * Called when `motion` is referenced with a prop: `motion.div`, `motion.input` etc.\n         * The prop name is passed through as `key` and we can use that to generate a `motion`\n         * DOM component with that name.\n         */\n        get: (_target, key) => {\n            if (key === \"create\")\n                return factory;\n            /**\n             * If this element doesn't exist in the component cache, create it and cache.\n             */\n            if (!componentCache.has(key)) {\n                componentCache.set(key, createMotionComponent(key, undefined, preloadedFeatures, createVisualElement));\n            }\n            return componentCache.get(key);\n        },\n    });\n}\n\nexport { createMotionProxy };\n",
+      "start": 1762100729085,
+      "end": 1762100729243,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { warnOnce } from \"motion-utils\";\nimport { createMotionComponent } from \"../../motion/index.mjs\";\nfunction createMotionProxy(preloadedFeatures, createVisualElement) {\n  if (typeof Proxy === \"undefined\") {\n    return createMotionComponent;\n  }\n  const componentCache = /* @__PURE__ */ new Map();\n  const factory = (Component, options) => {\n    return createMotionComponent(Component, options, preloadedFeatures, createVisualElement);\n  };\n  const deprecatedFactoryFunction = (Component, options) => {\n    if (false) {\n      warnOnce(false, \"motion() is deprecated. Use motion.create() instead.\");\n    }\n    return factory(Component, options);\n  };\n  return new Proxy(deprecatedFactoryFunction, {\n    /**\n     * Called when `motion` is referenced with a prop: `motion.div`, `motion.input` etc.\n     * The prop name is passed through as `key` and we can use that to generate a `motion`\n     * DOM component with that name.\n     */\n    get: (_target, key) => {\n      if (key === \"create\")\n        return factory;\n      if (!componentCache.has(key)) {\n        componentCache.set(key, createMotionComponent(key, void 0, preloadedFeatures, createVisualElement));\n      }\n      return componentCache.get(key);\n    }\n  });\n}\nexport { createMotionProxy };\n",
+      "start": 1762100729243,
+      "end": 1762100729403,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729404,
+      "end": 1762100729404,
+      "order": "normal"
+    }
+  ]
+}

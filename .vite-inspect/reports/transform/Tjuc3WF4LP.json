@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/scan-barcode.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 7V5a2 2 0 0 1 2-2h2\", key: \"aa7l1z\" }],\n  [\"path\", { d: \"M17 3h2a2 2 0 0 1 2 2v2\", key: \"4qcy5o\" }],\n  [\"path\", { d: \"M21 17v2a2 2 0 0 1-2 2h-2\", key: \"6vwrx8\" }],\n  [\"path\", { d: \"M7 21H5a2 2 0 0 1-2-2v-2\", key: \"ioqczr\" }],\n  [\"path\", { d: \"M8 7v10\", key: \"23sfjj\" }],\n  [\"path\", { d: \"M12 7v10\", key: \"jspqdw\" }],\n  [\"path\", { d: \"M17 7v10\", key: \"578dap\" }]\n];\nconst ScanBarcode = createLucideIcon(\"scan-barcode\", __iconNode);\n\nexport { __iconNode, ScanBarcode as default };\n//# sourceMappingURL=scan-barcode.js.map\n",
+      "start": 1762100721198,
+      "end": 1762100727354,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    }
+  ]
+}

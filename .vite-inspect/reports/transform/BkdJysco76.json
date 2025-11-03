@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/step-back.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M13.971 4.285A2 2 0 0 1 17 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z\",\n      key: \"19qhus\"\n    }\n  ],\n  [\"path\", { d: \"M21 20V4\", key: \"cb8qj8\" }]\n];\nconst StepBack = createLucideIcon(\"step-back\", __iconNode);\n\nexport { __iconNode, StepBack as default };\n//# sourceMappingURL=step-back.js.map\n",
+      "start": 1762100721415,
+      "end": 1762100727420,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727420,
+      "end": 1762100727420,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727420,
+      "end": 1762100727420,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727420,
+      "end": 1762100727420,
+      "order": "normal"
+    }
+  ]
+}

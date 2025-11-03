@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/text-cursor-input.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 20h-1a2 2 0 0 1-2-2 2 2 0 0 1-2 2H6\", key: \"1528k5\" }],\n  [\"path\", { d: \"M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7\", key: \"13ksps\" }],\n  [\"path\", { d: \"M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1\", key: \"1n9rhb\" }],\n  [\"path\", { d: \"M6 4h1a2 2 0 0 1 2 2 2 2 0 0 1 2-2h1\", key: \"1mj8rg\" }],\n  [\"path\", { d: \"M9 6v12\", key: \"velyjx\" }]\n];\nconst TextCursorInput = createLucideIcon(\"text-cursor-input\", __iconNode);\n\nexport { __iconNode, TextCursorInput as default };\n//# sourceMappingURL=text-cursor-input.js.map\n",
+      "start": 1762100721471,
+      "end": 1762100727438,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal"
+    }
+  ]
+}

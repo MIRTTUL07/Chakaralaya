@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/spring-value.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { motionValue } from './index.mjs';\nimport { JSAnimation } from '../animation/JSAnimation.mjs';\nimport { isMotionValue } from './utils/is-motion-value.mjs';\nimport { frame } from '../frameloop/frame.mjs';\n\n/**\n * Create a `MotionValue` that animates to its latest value using a spring.\n * Can either be a value or track another `MotionValue`.\n *\n * ```jsx\n * const x = motionValue(0)\n * const y = transformValue(() => x.get() * 2) // double x\n * ```\n *\n * @param transformer - A transform function. This function must be pure with no side-effects or conditional statements.\n * @returns `MotionValue`\n *\n * @public\n */\nfunction springValue(source, options) {\n    const initialValue = isMotionValue(source) ? source.get() : source;\n    const value = motionValue(initialValue);\n    attachSpring(value, source, options);\n    return value;\n}\nfunction attachSpring(value, source, options) {\n    const initialValue = value.get();\n    let activeAnimation = null;\n    let latestValue = initialValue;\n    let latestSetter;\n    const unit = typeof initialValue === \"string\"\n        ? initialValue.replace(/[\\d.-]/g, \"\")\n        : undefined;\n    const stopAnimation = () => {\n        if (activeAnimation) {\n            activeAnimation.stop();\n            activeAnimation = null;\n        }\n    };\n    const startAnimation = () => {\n        stopAnimation();\n        activeAnimation = new JSAnimation({\n            keyframes: [asNumber(value.get()), asNumber(latestValue)],\n            velocity: value.getVelocity(),\n            type: \"spring\",\n            restDelta: 0.001,\n            restSpeed: 0.01,\n            ...options,\n            onUpdate: latestSetter,\n        });\n    };\n    value.attach((v, set) => {\n        latestValue = v;\n        latestSetter = (latest) => set(parseValue(latest, unit));\n        frame.postRender(startAnimation);\n    }, stopAnimation);\n    if (isMotionValue(source)) {\n        const removeSourceOnChange = source.on(\"change\", (v) => value.set(parseValue(v, unit)));\n        const removeValueOnDestroy = value.on(\"destroy\", removeSourceOnChange);\n        return () => {\n            removeSourceOnChange();\n            removeValueOnDestroy();\n        };\n    }\n    return stopAnimation;\n}\nfunction parseValue(v, unit) {\n    return unit ? v + unit : v;\n}\nfunction asNumber(v) {\n    return typeof v === \"number\" ? v : parseFloat(v);\n}\n\nexport { attachSpring, springValue };\n",
+      "start": 1762100729192,
+      "end": 1762100729328,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729328,
+      "end": 1762100729328,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729328,
+      "end": 1762100729328,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729328,
+      "end": 1762100729328,
+      "order": "normal"
+    }
+  ]
+}

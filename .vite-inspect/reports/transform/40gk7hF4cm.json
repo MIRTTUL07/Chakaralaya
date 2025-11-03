@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cog.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M11 10.27 7 3.34\", key: \"16pf9h\" }],\n  [\"path\", { d: \"m11 13.73-4 6.93\", key: \"794ttg\" }],\n  [\"path\", { d: \"M12 22v-2\", key: \"1osdcq\" }],\n  [\"path\", { d: \"M12 2v2\", key: \"tus03m\" }],\n  [\"path\", { d: \"M14 12h8\", key: \"4f43i9\" }],\n  [\"path\", { d: \"m17 20.66-1-1.73\", key: \"eq3orb\" }],\n  [\"path\", { d: \"m17 3.34-1 1.73\", key: \"2wel8s\" }],\n  [\"path\", { d: \"M2 12h2\", key: \"1t8f8n\" }],\n  [\"path\", { d: \"m20.66 17-1.73-1\", key: \"sg0v6f\" }],\n  [\"path\", { d: \"m20.66 7-1.73 1\", key: \"1ow05n\" }],\n  [\"path\", { d: \"m3.34 17 1.73-1\", key: \"nuk764\" }],\n  [\"path\", { d: \"m3.34 7 1.73 1\", key: \"1ulond\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"2\", key: \"1c9p78\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"8\", key: \"46899m\" }]\n];\nconst Cog = createLucideIcon(\"cog\", __iconNode);\n\nexport { __iconNode, Cog as default };\n//# sourceMappingURL=cog.js.map\n",
+      "start": 1762100718711,
+      "end": 1762100721662,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721662,
+      "end": 1762100721662,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721662,
+      "end": 1762100721662,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721662,
+      "end": 1762100721662,
+      "order": "normal"
+    }
+  ]
+}

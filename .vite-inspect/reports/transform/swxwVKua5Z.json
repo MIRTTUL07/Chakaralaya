@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/squircle.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9\", key: \"garfkc\" }]\n];\nconst Squircle = createLucideIcon(\"squircle\", __iconNode);\n\nexport { __iconNode, Squircle as default };\n//# sourceMappingURL=squircle.js.map\n",
+      "start": 1762100721409,
+      "end": 1762100727418,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727418,
+      "end": 1762100727418,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727418,
+      "end": 1762100727418,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727418,
+      "end": 1762100727418,
+      "order": "normal"
+    }
+  ]
+}

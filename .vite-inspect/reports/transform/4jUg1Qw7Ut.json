@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/use-motion-value-event.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useInsertionEffect } from 'react';\n\nfunction useMotionValueEvent(value, event, callback) {\n    /**\n     * useInsertionEffect will create subscriptions before any other\n     * effects will run. Effects run upwards through the tree so it\n     * can be that binding a useLayoutEffect higher up the tree can\n     * miss changes from lower down the tree.\n     */\n    useInsertionEffect(() => value.on(event, callback), [value, event, callback]);\n}\n\nexport { useMotionValueEvent };\n",
+      "start": 1762100728887,
+      "end": 1762100729049,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729049,
+      "end": 1762100729049,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729049,
+      "end": 1762100729049,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729049,
+      "end": 1762100729049,
+      "order": "normal"
+    }
+  ]
+}

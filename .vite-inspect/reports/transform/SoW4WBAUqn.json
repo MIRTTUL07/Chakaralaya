@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/geometry/utils.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { calcLength } from './delta-calc.mjs';\n\nfunction isAxisDeltaZero(delta) {\n    return delta.translate === 0 && delta.scale === 1;\n}\nfunction isDeltaZero(delta) {\n    return isAxisDeltaZero(delta.x) && isAxisDeltaZero(delta.y);\n}\nfunction axisEquals(a, b) {\n    return a.min === b.min && a.max === b.max;\n}\nfunction boxEquals(a, b) {\n    return axisEquals(a.x, b.x) && axisEquals(a.y, b.y);\n}\nfunction axisEqualsRounded(a, b) {\n    return (Math.round(a.min) === Math.round(b.min) &&\n        Math.round(a.max) === Math.round(b.max));\n}\nfunction boxEqualsRounded(a, b) {\n    return axisEqualsRounded(a.x, b.x) && axisEqualsRounded(a.y, b.y);\n}\nfunction aspectRatio(box) {\n    return calcLength(box.x) / calcLength(box.y);\n}\nfunction axisDeltaEquals(a, b) {\n    return (a.translate === b.translate &&\n        a.scale === b.scale &&\n        a.originPoint === b.originPoint);\n}\n\nexport { aspectRatio, axisDeltaEquals, axisEquals, axisEqualsRounded, boxEquals, boxEqualsRounded, isDeltaZero };\n",
+      "start": 1762100729622,
+      "end": 1762100729673,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729673,
+      "end": 1762100729673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729673,
+      "end": 1762100729673,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729673,
+      "end": 1762100729673,
+      "order": "normal"
+    }
+  ]
+}

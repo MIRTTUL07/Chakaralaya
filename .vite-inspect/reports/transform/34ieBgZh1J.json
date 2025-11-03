@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/rewind.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M12 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 12 18z\", key: \"2a1g8i\" }\n  ],\n  [\n    \"path\",\n    { d: \"M22 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 22 18z\", key: \"rg3s36\" }\n  ]\n];\nconst Rewind = createLucideIcon(\"rewind\", __iconNode);\n\nexport { __iconNode, Rewind as default };\n//# sourceMappingURL=rewind.js.map\n",
+      "start": 1762100721158,
+      "end": 1762100727342,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal"
+    }
+  ]
+}

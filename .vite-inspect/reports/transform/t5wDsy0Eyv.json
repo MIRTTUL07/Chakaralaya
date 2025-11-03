@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/skip-back.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M17.971 4.285A2 2 0 0 1 21 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z\",\n      key: \"15892j\"\n    }\n  ],\n  [\"path\", { d: \"M3 20V4\", key: \"1ptbpl\" }]\n];\nconst SkipBack = createLucideIcon(\"skip-back\", __iconNode);\n\nexport { __iconNode, SkipBack as default };\n//# sourceMappingURL=skip-back.js.map\n",
+      "start": 1762100721324,
+      "end": 1762100727400,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727400,
+      "end": 1762100727400,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727400,
+      "end": 1762100727401,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727401,
+      "end": 1762100727401,
+      "order": "normal"
+    }
+  ]
+}

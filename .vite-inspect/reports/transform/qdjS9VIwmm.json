@@ -1,0 +1,47 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/index.html?html-proxy&inline-css&index=0.css",
+  "transforms": [
+    {
+      "name": "vite:html-inline-proxy",
+      "result": "\n    html{\n      margin: 0;\n      padding: 0;\n    }\n  ",
+      "start": 1762100708856,
+      "end": 1762100708859
+    },
+    {
+      "name": "vite:css",
+      "result": "\n    html{\n      margin: 0;\n      padding: 0;\n    }\n  ",
+      "start": 1762100708860,
+      "end": 1762100714883,
+      "order": "normal-normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100714883,
+      "end": 1762100714883,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100714883,
+      "end": 1762100714883,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1762100714883,
+      "end": 1762100714886,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100714886,
+      "end": 1762100714886,
+      "order": "normal"
+    }
+  ]
+}

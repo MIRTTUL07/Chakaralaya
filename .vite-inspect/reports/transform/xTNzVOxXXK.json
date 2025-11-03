@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/loader-pinwheel.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0\", key: \"1lzz15\" }],\n  [\"path\", { d: \"M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6\", key: \"1gnrpi\" }],\n  [\"path\", { d: \"M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6\", key: \"u9yy5q\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst LoaderPinwheel = createLucideIcon(\"loader-pinwheel\", __iconNode);\n\nexport { __iconNode, LoaderPinwheel as default };\n//# sourceMappingURL=loader-pinwheel.js.map\n",
+      "start": 1762100720362,
+      "end": 1762100727205,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727205,
+      "end": 1762100727205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727205,
+      "end": 1762100727205,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727205,
+      "end": 1762100727205,
+      "order": "normal"
+    }
+  ]
+}

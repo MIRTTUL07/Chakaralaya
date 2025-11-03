@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chromium.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10.88 21.94 15.46 14\", key: \"xkve6t\" }],\n  [\"path\", { d: \"M21.17 8H12\", key: \"19dcdn\" }],\n  [\"path\", { d: \"M3.95 6.06 8.54 14\", key: \"g8jz9m\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"4\", key: \"4exip2\" }]\n];\nconst Chromium = createLucideIcon(\"chromium\", __iconNode);\n\nexport { __iconNode, Chromium as default };\n//# sourceMappingURL=chromium.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720700,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720700,
+      "end": 1762100720700,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720700,
+      "end": 1762100720700,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720703,
+      "end": 1762100720703,
+      "order": "normal"
+    }
+  ]
+}

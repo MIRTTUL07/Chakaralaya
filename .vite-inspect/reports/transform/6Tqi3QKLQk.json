@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/crosshair.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"line\", { x1: \"22\", x2: \"18\", y1: \"12\", y2: \"12\", key: \"l9bcsi\" }],\n  [\"line\", { x1: \"6\", x2: \"2\", y1: \"12\", y2: \"12\", key: \"13hhkx\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"6\", y2: \"2\", key: \"10w3f3\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"22\", y2: \"18\", key: \"15g9kq\" }]\n];\nconst Crosshair = createLucideIcon(\"crosshair\", __iconNode);\n\nexport { __iconNode, Crosshair as default };\n//# sourceMappingURL=crosshair.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721719,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721719,
+      "end": 1762100721719,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721719,
+      "end": 1762100721719,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721720,
+      "end": 1762100721720,
+      "order": "normal"
+    }
+  ]
+}

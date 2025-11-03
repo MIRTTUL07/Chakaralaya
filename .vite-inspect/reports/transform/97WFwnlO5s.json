@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/egg.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 2C8 2 4 8 4 14a8 8 0 0 0 16 0c0-6-4-12-8-12\", key: \"1le142\" }]\n];\nconst Egg = createLucideIcon(\"egg\", __iconNode);\n\nexport { __iconNode, Egg as default };\n//# sourceMappingURL=egg.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721774,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721774,
+      "end": 1762100721774,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721774,
+      "end": 1762100721774,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721775,
+      "end": 1762100721775,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sun-moon.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 2v2\", key: \"tus03m\" }],\n  [\n    \"path\",\n    {\n      d: \"M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715\",\n      key: \"xlf6rm\"\n    }\n  ],\n  [\"path\", { d: \"M16 12a4 4 0 0 0-4-4\", key: \"6vsxu\" }],\n  [\"path\", { d: \"m19 5-1.256 1.256\", key: \"1yg6a6\" }],\n  [\"path\", { d: \"M20 12h2\", key: \"1q8mjw\" }]\n];\nconst SunMoon = createLucideIcon(\"sun-moon\", __iconNode);\n\nexport { __iconNode, SunMoon as default };\n//# sourceMappingURL=sun-moon.js.map\n",
+      "start": 1762100721429,
+      "end": 1762100727424,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727424,
+      "end": 1762100727424,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727424,
+      "end": 1762100727424,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727424,
+      "end": 1762100727424,
+      "order": "normal"
+    }
+  ]
+}

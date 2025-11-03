@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mic-vocal.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12\",\n      key: \"80a601\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5\",\n      key: \"j0ngtp\"\n    }\n  ],\n  [\"circle\", { cx: \"16\", cy: \"7\", r: \"5\", key: \"d08jfb\" }]\n];\nconst MicVocal = createLucideIcon(\"mic-vocal\", __iconNode);\n\nexport { __iconNode, MicVocal as default };\n//# sourceMappingURL=mic-vocal.js.map\n",
+      "start": 1762100718699,
+      "end": 1762100720914,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720914,
+      "end": 1762100720914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720915,
+      "end": 1762100720915,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720915,
+      "end": 1762100720915,
+      "order": "normal"
+    }
+  ]
+}

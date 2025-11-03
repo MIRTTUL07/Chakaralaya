@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/utils/is-svg-tag.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const isSVGTag = (tag) => typeof tag === \"string\" && tag.toLowerCase() === \"svg\";\n\nexport { isSVGTag };\n",
+      "start": 1762100729562,
+      "end": 1762100729666,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal"
+    }
+  ]
+}

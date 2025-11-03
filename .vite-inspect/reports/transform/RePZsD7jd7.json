@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-mouse-pointer.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z\",\n      key: \"xwnzip\"\n    }\n  ],\n  [\"path\", { d: \"M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6\", key: \"14rsvq\" }]\n];\nconst SquareMousePointer = createLucideIcon(\"square-mouse-pointer\", __iconNode);\n\nexport { __iconNode, SquareMousePointer as default };\n//# sourceMappingURL=square-mouse-pointer.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100720985,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720986,
+      "end": 1762100720986,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720986,
+      "end": 1762100720986,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720986,
+      "end": 1762100720986,
+      "order": "normal"
+    }
+  ]
+}

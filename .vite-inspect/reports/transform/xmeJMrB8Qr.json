@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/hdmi-port.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z\",\n      key: \"2128wb\"\n    }\n  ],\n  [\"path\", { d: \"M7.5 12h9\", key: \"1t0ckc\" }]\n];\nconst HdmiPort = createLucideIcon(\"hdmi-port\", __iconNode);\n\nexport { __iconNode, HdmiPort as default };\n//# sourceMappingURL=hdmi-port.js.map\n",
+      "start": 1762100718741,
+      "end": 1762100722010,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722010,
+      "end": 1762100722010,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722010,
+      "end": 1762100722010,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722010,
+      "end": 1762100722010,
+      "order": "normal"
+    }
+  ]
+}

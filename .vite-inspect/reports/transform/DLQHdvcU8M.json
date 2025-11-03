@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-arrow-out-up-right.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M22 12A10 10 0 1 1 12 2\", key: \"1fm58d\" }],\n  [\"path\", { d: \"M22 2 12 12\", key: \"yg2myt\" }],\n  [\"path\", { d: \"M16 2h6v6\", key: \"zan5cs\" }]\n];\nconst CircleArrowOutUpRight = createLucideIcon(\"circle-arrow-out-up-right\", __iconNode);\n\nexport { __iconNode, CircleArrowOutUpRight as default };\n//# sourceMappingURL=circle-arrow-out-up-right.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720711,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720711,
+      "end": 1762100720711,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720711,
+      "end": 1762100720711,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720713,
+      "end": 1762100720713,
+      "order": "normal"
+    }
+  ]
+}

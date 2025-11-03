@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/between-vertical-start.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"7\", height: \"13\", x: \"3\", y: \"8\", rx: \"1\", key: \"1fjrkv\" }],\n  [\"path\", { d: \"m15 2-3 3-3-3\", key: \"1uh6eb\" }],\n  [\"rect\", { width: \"7\", height: \"13\", x: \"14\", y: \"8\", rx: \"1\", key: \"w3fjg8\" }]\n];\nconst BetweenVerticalStart = createLucideIcon(\"between-vertical-start\", __iconNode);\n\nexport { __iconNode, BetweenVerticalStart as default };\n//# sourceMappingURL=between-vertical-start.js.map\n",
+      "start": 1762100718703,
+      "end": 1762100721280,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721280,
+      "end": 1762100721280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721280,
+      "end": 1762100721280,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721280,
+      "end": 1762100721280,
+      "order": "normal"
+    }
+  ]
+}

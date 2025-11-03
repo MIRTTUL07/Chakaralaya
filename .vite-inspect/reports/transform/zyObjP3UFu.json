@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/flip-vertical.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3\", key: \"14bfxa\" }],\n  [\"path\", { d: \"M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3\", key: \"14rx03\" }],\n  [\"path\", { d: \"M4 12H2\", key: \"rhcxmi\" }],\n  [\"path\", { d: \"M10 12H8\", key: \"s88cx1\" }],\n  [\"path\", { d: \"M16 12h-2\", key: \"10asgb\" }],\n  [\"path\", { d: \"M22 12h-2\", key: \"14jgyd\" }]\n];\nconst FlipVertical = createLucideIcon(\"flip-vertical\", __iconNode);\n\nexport { __iconNode, FlipVertical as default };\n//# sourceMappingURL=flip-vertical.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721884,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721884,
+      "end": 1762100721884,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721884,
+      "end": 1762100721884,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721884,
+      "end": 1762100721884,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/funnel-plus.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M13.354 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l1.218-1.348\",\n      key: \"8mvsmf\"\n    }\n  ],\n  [\"path\", { d: \"M16 6h6\", key: \"1dogtp\" }],\n  [\"path\", { d: \"M19 3v6\", key: \"1ytpjt\" }]\n];\nconst FunnelPlus = createLucideIcon(\"funnel-plus\", __iconNode);\n\nexport { __iconNode, FunnelPlus as default };\n//# sourceMappingURL=funnel-plus.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721942,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721942,
+      "end": 1762100721942,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721942,
+      "end": 1762100721942,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721942,
+      "end": 1762100721942,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/optimized-appear/get-appear-id.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { optimizedAppearDataAttribute } from './data-id.mjs';\n\nfunction getOptimisedAppearId(visualElement) {\n    return visualElement.props[optimizedAppearDataAttribute];\n}\n\nexport { getOptimisedAppearId };\n",
+      "start": 1762100729132,
+      "end": 1762100729252,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    }
+  ]
+}

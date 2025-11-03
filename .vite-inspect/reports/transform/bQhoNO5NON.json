@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/mix/color.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { warning } from 'motion-utils';\nimport { hex } from '../../value/types/color/hex.mjs';\nimport { hsla } from '../../value/types/color/hsla.mjs';\nimport { hslaToRgba } from '../../value/types/color/hsla-to-rgba.mjs';\nimport { rgba } from '../../value/types/color/rgba.mjs';\nimport { mixImmediate } from './immediate.mjs';\nimport { mixNumber } from './number.mjs';\n\n// Linear color space blending\n// Explained https://www.youtube.com/watch?v=LKnqECcg6Gw\n// Demonstrated http://codepen.io/osublake/pen/xGVVaN\nconst mixLinearColor = (from, to, v) => {\n    const fromExpo = from * from;\n    const expo = v * (to * to - fromExpo) + fromExpo;\n    return expo < 0 ? 0 : Math.sqrt(expo);\n};\nconst colorTypes = [hex, rgba, hsla];\nconst getColorType = (v) => colorTypes.find((type) => type.test(v));\nfunction asRGBA(color) {\n    const type = getColorType(color);\n    warning(Boolean(type), `'${color}' is not an animatable color. Use the equivalent color code instead.`, \"color-not-animatable\");\n    if (!Boolean(type))\n        return false;\n    let model = type.parse(color);\n    if (type === hsla) {\n        // TODO Remove this cast - needed since Motion's stricter typing\n        model = hslaToRgba(model);\n    }\n    return model;\n}\nconst mixColor = (from, to) => {\n    const fromRGBA = asRGBA(from);\n    const toRGBA = asRGBA(to);\n    if (!fromRGBA || !toRGBA) {\n        return mixImmediate(from, to);\n    }\n    const blended = { ...fromRGBA };\n    return (v) => {\n        blended.red = mixLinearColor(fromRGBA.red, toRGBA.red, v);\n        blended.green = mixLinearColor(fromRGBA.green, toRGBA.green, v);\n        blended.blue = mixLinearColor(fromRGBA.blue, toRGBA.blue, v);\n        blended.alpha = mixNumber(fromRGBA.alpha, toRGBA.alpha, v);\n        return rgba.transform(blended);\n    };\n};\n\nexport { mixColor, mixLinearColor };\n",
+      "start": 1762100729192,
+      "end": 1762100729507,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729507,
+      "end": 1762100729507,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729507,
+      "end": 1762100729507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729507,
+      "end": 1762100729507,
+      "order": "normal"
+    }
+  ]
+}

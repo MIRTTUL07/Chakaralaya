@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/AnimateSharedLayout.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx } from 'react/jsx-runtime';\nimport { invariant } from 'motion-utils';\nimport * as React from 'react';\nimport { useConstant } from '../utils/use-constant.mjs';\nimport { LayoutGroup } from './LayoutGroup/index.mjs';\n\nlet id = 0;\nconst AnimateSharedLayout = ({ children }) => {\n    React.useEffect(() => {\n        invariant(false, \"AnimateSharedLayout is deprecated: https://www.framer.com/docs/guide-upgrade/##shared-layout-animations\");\n    }, []);\n    return (jsx(LayoutGroup, { id: useConstant(() => `asl-${id++}`), children: children }));\n};\n\nexport { AnimateSharedLayout };\n",
+      "start": 1762100728888,
+      "end": 1762100729069,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729069,
+      "end": 1762100729069,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729069,
+      "end": 1762100729069,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729070,
+      "end": 1762100729070,
+      "order": "normal"
+    }
+  ]
+}

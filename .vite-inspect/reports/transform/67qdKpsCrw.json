@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/resize/handle-window.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const windowCallbacks = new Set();\nlet windowResizeHandler;\nfunction createWindowResizeHandler() {\n    windowResizeHandler = () => {\n        const info = {\n            get width() {\n                return window.innerWidth;\n            },\n            get height() {\n                return window.innerHeight;\n            },\n        };\n        windowCallbacks.forEach((callback) => callback(info));\n    };\n    window.addEventListener(\"resize\", windowResizeHandler);\n}\nfunction resizeWindow(callback) {\n    windowCallbacks.add(callback);\n    if (!windowResizeHandler)\n        createWindowResizeHandler();\n    return () => {\n        windowCallbacks.delete(callback);\n        if (!windowCallbacks.size &&\n            typeof windowResizeHandler === \"function\") {\n            window.removeEventListener(\"resize\", windowResizeHandler);\n            windowResizeHandler = undefined;\n        }\n    };\n}\n\nexport { resizeWindow };\n",
+      "start": 1762100729455,
+      "end": 1762100729549,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729550,
+      "end": 1762100729550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729550,
+      "end": 1762100729550,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729550,
+      "end": 1762100729550,
+      "order": "normal"
+    }
+  ]
+}

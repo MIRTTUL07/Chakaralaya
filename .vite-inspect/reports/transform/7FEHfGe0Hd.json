@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/utils/map.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { invariant } from '../../errors.mjs';\nimport { noop } from '../../noop.mjs';\nimport { anticipate } from '../anticipate.mjs';\nimport { backIn, backInOut, backOut } from '../back.mjs';\nimport { circIn, circInOut, circOut } from '../circ.mjs';\nimport { cubicBezier } from '../cubic-bezier.mjs';\nimport { easeIn, easeInOut, easeOut } from '../ease.mjs';\nimport { isBezierDefinition } from './is-bezier-definition.mjs';\n\nconst easingLookup = {\n    linear: noop,\n    easeIn,\n    easeInOut,\n    easeOut,\n    circIn,\n    circInOut,\n    circOut,\n    backIn,\n    backInOut,\n    backOut,\n    anticipate,\n};\nconst isValidEasing = (easing) => {\n    return typeof easing === \"string\";\n};\nconst easingDefinitionToFunction = (definition) => {\n    if (isBezierDefinition(definition)) {\n        // If cubic bezier definition, create bezier curve\n        invariant(definition.length === 4, `Cubic bezier arrays must contain four numerical values.`, \"cubic-bezier-length\");\n        const [x1, y1, x2, y2] = definition;\n        return cubicBezier(x1, y1, x2, y2);\n    }\n    else if (isValidEasing(definition)) {\n        // Else lookup from table\n        invariant(easingLookup[definition] !== undefined, `Invalid easing type '${definition}'`, \"invalid-easing-type\");\n        return easingLookup[definition];\n    }\n    return definition;\n};\n\nexport { easingDefinitionToFunction };\n",
+      "start": 1762100729149,
+      "end": 1762100729271,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal"
+    }
+  ]
+}

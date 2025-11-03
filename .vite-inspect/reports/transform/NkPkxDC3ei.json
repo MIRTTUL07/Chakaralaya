@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/utils/camel-to-dash.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Convert camelCase to dash-case properties.\n */\nconst camelToDash = (str) => str.replace(/([a-z])([A-Z])/gu, \"$1-$2\").toLowerCase();\n\nexport { camelToDash };\n",
+      "start": 1762100729129,
+      "end": 1762100729251,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal"
+    }
+  ]
+}

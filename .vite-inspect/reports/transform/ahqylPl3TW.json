@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/gestures/utils/setup.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resolveElements } from '../../utils/resolve-elements.mjs';\n\nfunction setupGesture(elementOrSelector, options) {\n    const elements = resolveElements(elementOrSelector);\n    const gestureAbortController = new AbortController();\n    const eventOptions = {\n        passive: true,\n        ...options,\n        signal: gestureAbortController.signal,\n    };\n    const cancel = () => gestureAbortController.abort();\n    return [elements, eventOptions, cancel];\n}\n\nexport { setupGesture };\n",
+      "start": 1762100729450,
+      "end": 1762100729545,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    }
+  ]
+}

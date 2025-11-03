@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/context/MotionContext/create.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useContext, useMemo } from 'react';\nimport { MotionContext } from './index.mjs';\nimport { getCurrentTreeVariants } from './utils.mjs';\n\nfunction useCreateMotionContext(props) {\n    const { initial, animate } = getCurrentTreeVariants(props, useContext(MotionContext));\n    return useMemo(() => ({ initial, animate }), [variantLabelsAsDependency(initial), variantLabelsAsDependency(animate)]);\n}\nfunction variantLabelsAsDependency(prop) {\n    return Array.isArray(prop) ? prop.join(\" \") : prop;\n}\n\nexport { useCreateMotionContext };\n",
+      "start": 1762100729664,
+      "end": 1762100729733,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729733,
+      "end": 1762100729734,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729734,
+      "end": 1762100729734,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729734,
+      "end": 1762100729734,
+      "order": "normal"
+    }
+  ]
+}

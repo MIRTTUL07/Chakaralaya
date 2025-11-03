@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/global-config.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const MotionGlobalConfig = {};\n\nexport { MotionGlobalConfig };\n",
+      "start": 1762100729148,
+      "end": 1762100729253,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729253,
+      "end": 1762100729253,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729253,
+      "end": 1762100729253,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729253,
+      "end": 1762100729253,
+      "order": "normal"
+    }
+  ]
+}

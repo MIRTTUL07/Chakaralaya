@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useLayoutEffect, useEffect } from 'react';\nimport { isBrowser } from './is-browser.mjs';\n\nconst useIsomorphicLayoutEffect = isBrowser ? useLayoutEffect : useEffect;\n\nexport { useIsomorphicLayoutEffect };\n",
+      "start": 1762100728886,
+      "end": 1762100729047,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729047,
+      "end": 1762100729048,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal"
+    }
+  ]
+}

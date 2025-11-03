@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/mix/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { getMixer } from './complex.mjs';\nimport { mixNumber } from './number.mjs';\n\nfunction mix(from, to, p) {\n    if (typeof from === \"number\" &&\n        typeof to === \"number\" &&\n        typeof p === \"number\") {\n        return mixNumber(from, to, p);\n    }\n    const mixer = getMixer(from);\n    return mixer(from, to);\n}\n\nexport { mix };\n",
+      "start": 1762100729192,
+      "end": 1762100729318,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal"
+    }
+  ]
+}

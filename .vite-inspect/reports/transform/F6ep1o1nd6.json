@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/folder-tree.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z\",\n      key: \"hod4my\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z\",\n      key: \"w4yl2u\"\n    }\n  ],\n  [\"path\", { d: \"M3 5a2 2 0 0 0 2 2h3\", key: \"f2jnh7\" }],\n  [\"path\", { d: \"M3 3v13a2 2 0 0 0 2 2h3\", key: \"k8epm1\" }]\n];\nconst FolderTree = createLucideIcon(\"folder-tree\", __iconNode);\n\nexport { __iconNode, FolderTree as default };\n//# sourceMappingURL=folder-tree.js.map\n",
+      "start": 1762100718738,
+      "end": 1762100721935,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721935,
+      "end": 1762100721935,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721935,
+      "end": 1762100721935,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721935,
+      "end": 1762100721935,
+      "order": "normal"
+    }
+  ]
+}

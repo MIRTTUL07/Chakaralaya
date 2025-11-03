@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/angry.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M16 16s-1.5-2-4-2-4 2-4 2\", key: \"epbg0q\" }],\n  [\"path\", { d: \"M7.5 8 10 9\", key: \"olxxln\" }],\n  [\"path\", { d: \"m14 9 2.5-1\", key: \"1j6cij\" }],\n  [\"path\", { d: \"M9 10h.01\", key: \"qbtxuw\" }],\n  [\"path\", { d: \"M15 10h.01\", key: \"1qmjsl\" }]\n];\nconst Angry = createLucideIcon(\"angry\", __iconNode);\n\nexport { __iconNode, Angry as default };\n//# sourceMappingURL=angry.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721141,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721141,
+      "end": 1762100721141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721142,
+      "end": 1762100721142,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721142,
+      "end": 1762100721142,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/video-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M10.66 6H14a2 2 0 0 1 2 2v2.5l5.248-3.062A.5.5 0 0 1 22 7.87v8.196\", key: \"w8jjjt\" }\n  ],\n  [\"path\", { d: \"M16 16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2\", key: \"1xawa7\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }]\n];\nconst VideoOff = createLucideIcon(\"video-off\", __iconNode);\n\nexport { __iconNode, VideoOff as default };\n//# sourceMappingURL=video-off.js.map\n",
+      "start": 1762100721653,
+      "end": 1762100727508,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727508,
+      "end": 1762100727508,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727508,
+      "end": 1762100727508,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727509,
+      "end": 1762100727509,
+      "order": "normal"
+    }
+  ]
+}

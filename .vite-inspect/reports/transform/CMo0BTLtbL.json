@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/resolve-elements.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function resolveElements(elementOrSelector, scope, selectorCache) {\n    if (elementOrSelector instanceof EventTarget) {\n        return [elementOrSelector];\n    }\n    else if (typeof elementOrSelector === \"string\") {\n        let root = document;\n        if (scope) {\n            root = scope.current;\n        }\n        const elements = selectorCache?.[elementOrSelector] ??\n            root.querySelectorAll(elementOrSelector);\n        return elements ? Array.from(elements) : [];\n    }\n    return Array.from(elementOrSelector);\n}\n\nexport { resolveElements };\n",
+      "start": 1762100729192,
+      "end": 1762100729321,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal"
+    }
+  ]
+}

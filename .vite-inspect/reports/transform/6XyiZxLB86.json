@@ -1,0 +1,42 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/LazyMotion/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx } from 'react/jsx-runtime';\nimport { useState, useRef, useEffect } from 'react';\nimport { LazyContext } from '../../context/LazyContext.mjs';\nimport { loadFeatures } from '../../motion/features/load-features.mjs';\n\n/**\n * Used in conjunction with the `m` component to reduce bundle size.\n *\n * `m` is a version of the `motion` component that only loads functionality\n * critical for the initial render.\n *\n * `LazyMotion` can then be used to either synchronously or asynchronously\n * load animation and gesture support.\n *\n * ```jsx\n * // Synchronous loading\n * import { LazyMotion, m, domAnimation } from \"framer-motion\"\n *\n * function App() {\n *   return (\n *     <LazyMotion features={domAnimation}>\n *       <m.div animate={{ scale: 2 }} />\n *     </LazyMotion>\n *   )\n * }\n *\n * // Asynchronous loading\n * import { LazyMotion, m } from \"framer-motion\"\n *\n * function App() {\n *   return (\n *     <LazyMotion features={() => import('./path/to/domAnimation')}>\n *       <m.div animate={{ scale: 2 }} />\n *     </LazyMotion>\n *   )\n * }\n * ```\n *\n * @public\n */\nfunction LazyMotion({ children, features, strict = false }) {\n    const [, setIsLoaded] = useState(!isLazyBundle(features));\n    const loadedRenderer = useRef(undefined);\n    /**\n     * If this is a synchronous load, load features immediately\n     */\n    if (!isLazyBundle(features)) {\n        const { renderer, ...loadedFeatures } = features;\n        loadedRenderer.current = renderer;\n        loadFeatures(loadedFeatures);\n    }\n    useEffect(() => {\n        if (isLazyBundle(features)) {\n            features().then(({ renderer, ...loadedFeatures }) => {\n                loadFeatures(loadedFeatures);\n                loadedRenderer.current = renderer;\n                setIsLoaded(true);\n            });\n        }\n    }, []);\n    return (jsx(LazyContext.Provider, { value: { renderer: loadedRenderer.current, strict }, children: children }));\n}\nfunction isLazyBundle(features) {\n    return typeof features === \"function\";\n}\n\nexport { LazyMotion };\n",
+      "start": 1762100728886,
+      "end": 1762100729038,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729038,
+      "end": 1762100729038,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729038,
+      "end": 1762100729038,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1762100729038,
+      "end": 1762100729038,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1762100729038,
+      "end": 1762100729039,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729039,
+      "end": 1762100729039,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/view/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { noop } from 'motion-utils';\nimport { addToQueue } from './queue.mjs';\n\nclass ViewTransitionBuilder {\n    constructor(update, options = {}) {\n        this.currentSubject = \"root\";\n        this.targets = new Map();\n        this.notifyReady = noop;\n        this.readyPromise = new Promise((resolve) => {\n            this.notifyReady = resolve;\n        });\n        this.update = update;\n        this.options = {\n            interrupt: \"wait\",\n            ...options,\n        };\n        addToQueue(this);\n    }\n    get(subject) {\n        this.currentSubject = subject;\n        return this;\n    }\n    layout(keyframes, options) {\n        this.updateTarget(\"layout\", keyframes, options);\n        return this;\n    }\n    new(keyframes, options) {\n        this.updateTarget(\"new\", keyframes, options);\n        return this;\n    }\n    old(keyframes, options) {\n        this.updateTarget(\"old\", keyframes, options);\n        return this;\n    }\n    enter(keyframes, options) {\n        this.updateTarget(\"enter\", keyframes, options);\n        return this;\n    }\n    exit(keyframes, options) {\n        this.updateTarget(\"exit\", keyframes, options);\n        return this;\n    }\n    crossfade(options) {\n        this.updateTarget(\"enter\", { opacity: 1 }, options);\n        this.updateTarget(\"exit\", { opacity: 0 }, options);\n        return this;\n    }\n    updateTarget(target, keyframes, options = {}) {\n        const { currentSubject, targets } = this;\n        if (!targets.has(currentSubject)) {\n            targets.set(currentSubject, {});\n        }\n        const targetData = targets.get(currentSubject);\n        targetData[target] = { keyframes, options };\n    }\n    then(resolve, reject) {\n        return this.readyPromise.then(resolve, reject);\n    }\n}\nfunction animateView(update, defaultOptions = {}) {\n    return new ViewTransitionBuilder(update, defaultOptions);\n}\n\nexport { ViewTransitionBuilder, animateView };\n",
+      "start": 1762100729193,
+      "end": 1762100729370,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal"
+    }
+  ]
+}

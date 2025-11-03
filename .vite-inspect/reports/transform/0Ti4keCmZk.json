@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animators/waapi/utils/get-final-keyframe.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const isNotNull = (value) => value !== null;\nfunction getFinalKeyframe(keyframes, { repeat, repeatType = \"loop\" }, finalKeyframe) {\n    const resolvedKeyframes = keyframes.filter(isNotNull);\n    const index = repeat && repeatType !== \"loop\" && repeat % 2 === 1\n        ? 0\n        : resolvedKeyframes.length - 1;\n    return !index || finalKeyframe === undefined\n        ? resolvedKeyframes[index]\n        : finalKeyframe;\n}\n\nexport { getFinalKeyframe };\n",
+      "start": 1762100729605,
+      "end": 1762100729671,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal"
+    }
+  ]
+}

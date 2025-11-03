@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tv.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m17 2-5 5-5-5\", key: \"16satq\" }],\n  [\"rect\", { width: \"20\", height: \"15\", x: \"2\", y: \"7\", rx: \"2\", key: \"1e6viu\" }]\n];\nconst Tv = createLucideIcon(\"tv\", __iconNode);\n\nexport { __iconNode, Tv as default };\n//# sourceMappingURL=tv.js.map\n",
+      "start": 1762100721523,
+      "end": 1762100727470,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727470,
+      "end": 1762100727470,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727470,
+      "end": 1762100727470,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727470,
+      "end": 1762100727470,
+      "order": "normal"
+    }
+  ]
+}

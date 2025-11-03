@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chevrons-right.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m6 17 5-5-5-5\", key: \"xnjwq\" }],\n  [\"path\", { d: \"m13 17 5-5-5-5\", key: \"17xmmf\" }]\n];\nconst ChevronsRight = createLucideIcon(\"chevrons-right\", __iconNode);\n\nexport { __iconNode, ChevronsRight as default };\n//# sourceMappingURL=chevrons-right.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721499,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721499,
+      "end": 1762100721499,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721499,
+      "end": 1762100721499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721499,
+      "end": 1762100721499,
+      "order": "normal"
+    }
+  ]
+}

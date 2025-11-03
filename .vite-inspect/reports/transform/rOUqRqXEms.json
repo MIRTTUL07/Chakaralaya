@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/utils/create-effect.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { MotionValueState } from '../MotionValueState.mjs';\n\nfunction createEffect(addValue) {\n    const stateCache = new WeakMap();\n    const subscriptions = [];\n    return (subject, values) => {\n        const state = stateCache.get(subject) ?? new MotionValueState();\n        stateCache.set(subject, state);\n        for (const key in values) {\n            const value = values[key];\n            const remove = addValue(subject, state, key, value);\n            subscriptions.push(remove);\n        }\n        return () => {\n            for (const cancel of subscriptions)\n                cancel();\n        };\n    };\n}\n\nexport { createEffect };\n",
+      "start": 1762100729444,
+      "end": 1762100729555,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal"
+    }
+  ]
+}

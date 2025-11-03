@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/frameloop/frame.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { noop } from 'motion-utils';\nimport { createRenderBatcher } from './batcher.mjs';\n\nconst { schedule: frame, cancel: cancelFrame, state: frameData, steps: frameSteps, } = /* @__PURE__ */ createRenderBatcher(typeof requestAnimationFrame !== \"undefined\" ? requestAnimationFrame : noop, true);\n\nexport { cancelFrame, frame, frameData, frameSteps };\n",
+      "start": 1762100729193,
+      "end": 1762100729372,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729372,
+      "end": 1762100729372,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729372,
+      "end": 1762100729372,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729372,
+      "end": 1762100729372,
+      "order": "normal"
+    }
+  ]
+}

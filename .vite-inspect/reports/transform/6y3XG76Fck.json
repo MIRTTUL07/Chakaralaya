@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/dollar-sign.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"2\", y2: \"22\", key: \"7eqyqh\" }],\n  [\"path\", { d: \"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\", key: \"1b0p4s\" }]\n];\nconst DollarSign = createLucideIcon(\"dollar-sign\", __iconNode);\n\nexport { __iconNode, DollarSign as default };\n//# sourceMappingURL=dollar-sign.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721756,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721756,
+      "end": 1762100721756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721756,
+      "end": 1762100721756,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721757,
+      "end": 1762100721757,
+      "order": "normal"
+    }
+  ]
+}

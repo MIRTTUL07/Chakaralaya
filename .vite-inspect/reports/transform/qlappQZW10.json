@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/get-context-window.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// Fixes https://github.com/motiondivision/motion/issues/2270\nconst getContextWindow = ({ current }) => {\n    return current ? current.ownerDocument.defaultView : null;\n};\n\nexport { getContextWindow };\n",
+      "start": 1762100729575,
+      "end": 1762100729668,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729668,
+      "end": 1762100729668,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729668,
+      "end": 1762100729668,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729668,
+      "end": 1762100729668,
+      "order": "normal"
+    }
+  ]
+}

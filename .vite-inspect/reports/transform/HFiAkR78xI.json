@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/badge-percent.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\",\n      key: \"3c2336\"\n    }\n  ],\n  [\"path\", { d: \"m15 9-6 6\", key: \"1uzhvr\" }],\n  [\"path\", { d: \"M9 9h.01\", key: \"1q5me6\" }],\n  [\"path\", { d: \"M15 15h.01\", key: \"lqbp3k\" }]\n];\nconst BadgePercent = createLucideIcon(\"badge-percent\", __iconNode);\n\nexport { __iconNode, BadgePercent as default };\n//# sourceMappingURL=badge-percent.js.map\n",
+      "start": 1762100718703,
+      "end": 1762100721233,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721233,
+      "end": 1762100721233,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721233,
+      "end": 1762100721233,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721233,
+      "end": 1762100721233,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-chevron-left.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"m14 16-4-4 4-4\", key: \"ojs7w8\" }]\n];\nconst CircleChevronLeft = createLucideIcon(\"circle-chevron-left\", __iconNode);\n\nexport { __iconNode, CircleChevronLeft as default };\n//# sourceMappingURL=circle-chevron-left.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720738,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720738,
+      "end": 1762100720738,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720738,
+      "end": 1762100720738,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720739,
+      "end": 1762100720739,
+      "order": "normal"
+    }
+  ]
+}

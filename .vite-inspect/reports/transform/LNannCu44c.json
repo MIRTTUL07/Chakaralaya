@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/maps/transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { scale, alpha } from '../numbers/index.mjs';\nimport { degrees, px, progressPercentage } from '../numbers/units.mjs';\n\nconst transformValueTypes = {\n    rotate: degrees,\n    rotateX: degrees,\n    rotateY: degrees,\n    rotateZ: degrees,\n    scale,\n    scaleX: scale,\n    scaleY: scale,\n    scaleZ: scale,\n    skew: degrees,\n    skewX: degrees,\n    skewY: degrees,\n    distance: px,\n    translateX: px,\n    translateY: px,\n    translateZ: px,\n    x: px,\n    y: px,\n    z: px,\n    perspective: px,\n    transformPerspective: px,\n    opacity: alpha,\n    originX: progressPercentage,\n    originY: progressPercentage,\n    originZ: px,\n};\n\nexport { transformValueTypes };\n",
+      "start": 1762100729193,
+      "end": 1762100729367,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729367,
+      "end": 1762100729367,
+      "order": "normal"
+    }
+  ]
+}

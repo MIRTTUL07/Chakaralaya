@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/facebook.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\", key: \"1jg4f8\" }\n  ]\n];\nconst Facebook = createLucideIcon(\"facebook\", __iconNode);\n\nexport { __iconNode, Facebook as default };\n//# sourceMappingURL=facebook.js.map\n",
+      "start": 1762100718714,
+      "end": 1762100721787,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721788,
+      "end": 1762100721788,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721788,
+      "end": 1762100721788,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721788,
+      "end": 1762100721788,
+      "order": "normal"
+    }
+  ]
+}

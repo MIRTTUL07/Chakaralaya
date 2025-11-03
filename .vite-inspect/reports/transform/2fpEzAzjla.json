@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cloud-lightning.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973\", key: \"1cez44\" }],\n  [\"path\", { d: \"m13 12-3 5h4l-3 5\", key: \"1t22er\" }]\n];\nconst CloudLightning = createLucideIcon(\"cloud-lightning\", __iconNode);\n\nexport { __iconNode, CloudLightning as default };\n//# sourceMappingURL=cloud-lightning.js.map\n",
+      "start": 1762100718711,
+      "end": 1762100721650,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721650,
+      "end": 1762100721650,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721650,
+      "end": 1762100721650,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721650,
+      "end": 1762100721650,
+      "order": "normal"
+    }
+  ]
+}

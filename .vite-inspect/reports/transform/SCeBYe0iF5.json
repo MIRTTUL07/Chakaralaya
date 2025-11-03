@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/lamp-wall-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M19.929 9.629A1 1 0 0 1 19 11H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 4h6a1 1 0 0 1 .928.629z\",\n      key: \"1uvrbf\"\n    }\n  ],\n  [\n    \"path\",\n    { d: \"M6 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z\", key: \"154r2a\" }\n  ],\n  [\"path\", { d: \"M8 18h4a2 2 0 0 0 2-2v-5\", key: \"z9mbu0\" }]\n];\nconst LampWallUp = createLucideIcon(\"lamp-wall-up\", __iconNode);\n\nexport { __iconNode, LampWallUp as default };\n//# sourceMappingURL=lamp-wall-up.js.map\n",
+      "start": 1762100718744,
+      "end": 1762100722074,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722074,
+      "end": 1762100722074,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722074,
+      "end": 1762100722074,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722074,
+      "end": 1762100722074,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/gestures/drag/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Feature } from '../../motion/features/Feature.mjs';\nimport { noop } from 'motion-utils';\nimport { VisualElementDragControls } from './VisualElementDragControls.mjs';\n\nclass DragGesture extends Feature {\n    constructor(node) {\n        super(node);\n        this.removeGroupControls = noop;\n        this.removeListeners = noop;\n        this.controls = new VisualElementDragControls(node);\n    }\n    mount() {\n        // If we've been provided a DragControls for manual control over the drag gesture,\n        // subscribe this component to it on mount.\n        const { dragControls } = this.node.getProps();\n        if (dragControls) {\n            this.removeGroupControls = dragControls.subscribe(this.controls);\n        }\n        this.removeListeners = this.controls.addListeners() || noop;\n    }\n    unmount() {\n        this.removeGroupControls();\n        this.removeListeners();\n    }\n}\n\nexport { DragGesture };\n",
+      "start": 1762100729384,
+      "end": 1762100729533,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729533,
+      "end": 1762100729533,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729533,
+      "end": 1762100729533,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729533,
+      "end": 1762100729533,
+      "order": "normal"
+    }
+  ]
+}

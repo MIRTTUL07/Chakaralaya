@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/hard-hat.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5\", key: \"1p9q5i\" }],\n  [\"path\", { d: \"M14 6a6 6 0 0 1 6 6v3\", key: \"1hnv84\" }],\n  [\"path\", { d: \"M4 15v-3a6 6 0 0 1 6-6\", key: \"9ciidu\" }],\n  [\"rect\", { x: \"2\", y: \"15\", width: \"20\", height: \"4\", rx: \"1\", key: \"g3x8cw\" }]\n];\nconst HardHat = createLucideIcon(\"hard-hat\", __iconNode);\n\nexport { __iconNode, HardHat as default };\n//# sourceMappingURL=hard-hat.js.map\n",
+      "start": 1762100718741,
+      "end": 1762100722007,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722007,
+      "end": 1762100722007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722007,
+      "end": 1762100722007,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722007,
+      "end": 1762100722007,
+      "order": "normal"
+    }
+  ]
+}

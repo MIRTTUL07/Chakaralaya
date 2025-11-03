@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/createLucideIcon.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport { forwardRef, createElement } from 'react';\nimport { mergeClasses, toKebabCase, toPascalCase } from './shared/src/utils.js';\nimport Icon from './Icon.js';\n\nconst createLucideIcon = (iconName, iconNode) => {\n  const Component = forwardRef(\n    ({ className, ...props }, ref) => createElement(Icon, {\n      ref,\n      iconNode,\n      className: mergeClasses(\n        `lucide-${toKebabCase(toPascalCase(iconName))}`,\n        `lucide-${iconName}`,\n        className\n      ),\n      ...props\n    })\n  );\n  Component.displayName = toPascalCase(iconName);\n  return Component;\n};\n\nexport { createLucideIcon as default };\n//# sourceMappingURL=createLucideIcon.js.map\n",
+      "start": 1762100721723,
+      "end": 1762100727530,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727530,
+      "end": 1762100727530,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727530,
+      "end": 1762100727530,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727530,
+      "end": 1762100727530,
+      "order": "normal"
+    }
+  ]
+}

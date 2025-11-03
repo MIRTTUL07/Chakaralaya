@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/transform-value.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { collectMotionValues, motionValue } from './index.mjs';\nimport { subscribeValue } from './subscribe-value.mjs';\n\n/**\n * Create a `MotionValue` that transforms the output of other `MotionValue`s by\n * passing their latest values through a transform function.\n *\n * Whenever a `MotionValue` referred to in the provided function is updated,\n * it will be re-evaluated.\n *\n * ```jsx\n * const x = motionValue(0)\n * const y = transformValue(() => x.get() * 2) // double x\n * ```\n *\n * @param transformer - A transform function. This function must be pure with no side-effects or conditional statements.\n * @returns `MotionValue`\n *\n * @public\n */\nfunction transformValue(transform) {\n    const collectedValues = [];\n    /**\n     * Open session of collectMotionValues. Any MotionValue that calls get()\n     * inside transform will be saved into this array.\n     */\n    collectMotionValues.current = collectedValues;\n    const initialValue = transform();\n    collectMotionValues.current = undefined;\n    const value = motionValue(initialValue);\n    subscribeValue(collectedValues, value, transform);\n    return value;\n}\n\nexport { transformValue };\n",
+      "start": 1762100729192,
+      "end": 1762100729330,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bluetooth-searching.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m7 7 10 10-5 5V2l5 5L7 17\", key: \"1q5490\" }],\n  [\"path\", { d: \"M20.83 14.83a4 4 0 0 0 0-5.66\", key: \"k8tn1j\" }],\n  [\"path\", { d: \"M18 12h.01\", key: \"yjnet6\" }]\n];\nconst BluetoothSearching = createLucideIcon(\"bluetooth-searching\", __iconNode);\n\nexport { __iconNode, BluetoothSearching as default };\n//# sourceMappingURL=bluetooth-searching.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721327,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721327,
+      "end": 1762100721327,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721327,
+      "end": 1762100721327,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721327,
+      "end": 1762100721327,
+      "order": "normal"
+    }
+  ]
+}

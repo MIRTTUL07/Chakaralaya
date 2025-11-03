@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { interpolate } from './interpolate.mjs';\n\nfunction transform(...args) {\n    const useImmediate = !Array.isArray(args[0]);\n    const argOffset = useImmediate ? 0 : -1;\n    const inputValue = args[0 + argOffset];\n    const inputRange = args[1 + argOffset];\n    const outputRange = args[2 + argOffset];\n    const options = args[3 + argOffset];\n    const interpolator = interpolate(inputRange, outputRange, options);\n    return useImmediate ? interpolator(inputValue) : interpolator;\n}\n\nexport { transform };\n",
+      "start": 1762100729192,
+      "end": 1762100729324,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal"
+    }
+  ]
+}

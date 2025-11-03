@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/lollipop.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"11\", cy: \"11\", r: \"8\", key: \"4ej97u\" }],\n  [\"path\", { d: \"m21 21-4.3-4.3\", key: \"1qie3q\" }],\n  [\"path\", { d: \"M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0\", key: \"107gwy\" }]\n];\nconst Lollipop = createLucideIcon(\"lollipop\", __iconNode);\n\nexport { __iconNode, Lollipop as default };\n//# sourceMappingURL=lollipop.js.map\n",
+      "start": 1762100720563,
+      "end": 1762100727209,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/keyframes/KeyframesResolver.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { fillWildcards } from './utils/fill-wildcards.mjs';\nimport { removeNonTranslationalTransform } from './utils/unit-conversion.mjs';\nimport { frame } from '../../frameloop/frame.mjs';\n\nconst toResolve = new Set();\nlet isScheduled = false;\nlet anyNeedsMeasurement = false;\nlet isForced = false;\nfunction measureAllKeyframes() {\n    if (anyNeedsMeasurement) {\n        const resolversToMeasure = Array.from(toResolve).filter((resolver) => resolver.needsMeasurement);\n        const elementsToMeasure = new Set(resolversToMeasure.map((resolver) => resolver.element));\n        const transformsToRestore = new Map();\n        /**\n         * Write pass\n         * If we're measuring elements we want to remove bounding box-changing transforms.\n         */\n        elementsToMeasure.forEach((element) => {\n            const removedTransforms = removeNonTranslationalTransform(element);\n            if (!removedTransforms.length)\n                return;\n            transformsToRestore.set(element, removedTransforms);\n            element.render();\n        });\n        // Read\n        resolversToMeasure.forEach((resolver) => resolver.measureInitialState());\n        // Write\n        elementsToMeasure.forEach((element) => {\n            element.render();\n            const restore = transformsToRestore.get(element);\n            if (restore) {\n                restore.forEach(([key, value]) => {\n                    element.getValue(key)?.set(value);\n                });\n            }\n        });\n        // Read\n        resolversToMeasure.forEach((resolver) => resolver.measureEndState());\n        // Write\n        resolversToMeasure.forEach((resolver) => {\n            if (resolver.suspendedScrollY !== undefined) {\n                window.scrollTo(0, resolver.suspendedScrollY);\n            }\n        });\n    }\n    anyNeedsMeasurement = false;\n    isScheduled = false;\n    toResolve.forEach((resolver) => resolver.complete(isForced));\n    toResolve.clear();\n}\nfunction readAllKeyframes() {\n    toResolve.forEach((resolver) => {\n        resolver.readKeyframes();\n        if (resolver.needsMeasurement) {\n            anyNeedsMeasurement = true;\n        }\n    });\n}\nfunction flushKeyframeResolvers() {\n    isForced = true;\n    readAllKeyframes();\n    measureAllKeyframes();\n    isForced = false;\n}\nclass KeyframeResolver {\n    constructor(unresolvedKeyframes, onComplete, name, motionValue, element, isAsync = false) {\n        this.state = \"pending\";\n        /**\n         * Track whether this resolver is async. If it is, it'll be added to the\n         * resolver queue and flushed in the next frame. Resolvers that aren't going\n         * to trigger read/write thrashing don't need to be async.\n         */\n        this.isAsync = false;\n        /**\n         * Track whether this resolver needs to perform a measurement\n         * to resolve its keyframes.\n         */\n        this.needsMeasurement = false;\n        this.unresolvedKeyframes = [...unresolvedKeyframes];\n        this.onComplete = onComplete;\n        this.name = name;\n        this.motionValue = motionValue;\n        this.element = element;\n        this.isAsync = isAsync;\n    }\n    scheduleResolve() {\n        this.state = \"scheduled\";\n        if (this.isAsync) {\n            toResolve.add(this);\n            if (!isScheduled) {\n                isScheduled = true;\n                frame.read(readAllKeyframes);\n                frame.resolveKeyframes(measureAllKeyframes);\n            }\n        }\n        else {\n            this.readKeyframes();\n            this.complete();\n        }\n    }\n    readKeyframes() {\n        const { unresolvedKeyframes, name, element, motionValue } = this;\n        // If initial keyframe is null we need to read it from the DOM\n        if (unresolvedKeyframes[0] === null) {\n            const currentValue = motionValue?.get();\n            // TODO: This doesn't work if the final keyframe is a wildcard\n            const finalKeyframe = unresolvedKeyframes[unresolvedKeyframes.length - 1];\n            if (currentValue !== undefined) {\n                unresolvedKeyframes[0] = currentValue;\n            }\n            else if (element && name) {\n                const valueAsRead = element.readValue(name, finalKeyframe);\n                if (valueAsRead !== undefined && valueAsRead !== null) {\n                    unresolvedKeyframes[0] = valueAsRead;\n                }\n            }\n            if (unresolvedKeyframes[0] === undefined) {\n                unresolvedKeyframes[0] = finalKeyframe;\n            }\n            if (motionValue && currentValue === undefined) {\n                motionValue.set(unresolvedKeyframes[0]);\n            }\n        }\n        fillWildcards(unresolvedKeyframes);\n    }\n    setFinalKeyframe() { }\n    measureInitialState() { }\n    renderEndStyles() { }\n    measureEndState() { }\n    complete(isForcedComplete = false) {\n        this.state = \"complete\";\n        this.onComplete(this.unresolvedKeyframes, this.finalKeyframe, isForcedComplete);\n        toResolve.delete(this);\n    }\n    cancel() {\n        if (this.state === \"scheduled\") {\n            toResolve.delete(this);\n            this.state = \"pending\";\n        }\n    }\n    resume() {\n        if (this.state === \"pending\")\n            this.scheduleResolve();\n    }\n}\n\nexport { KeyframeResolver, flushKeyframeResolvers };\n",
+      "start": 1762100729191,
+      "end": 1762100729277,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729277,
+      "end": 1762100729277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729277,
+      "end": 1762100729277,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal"
+    }
+  ]
+}

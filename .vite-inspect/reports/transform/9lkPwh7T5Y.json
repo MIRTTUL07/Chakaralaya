@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animate/sequence.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { spring } from 'motion-dom';\nimport { createAnimationsFromSequence } from '../sequence/create.mjs';\nimport { animateSubject } from './subject.mjs';\n\nfunction animateSequence(sequence, options, scope) {\n    const animations = [];\n    const animationDefinitions = createAnimationsFromSequence(sequence, options, scope, { spring });\n    animationDefinitions.forEach(({ keyframes, transition }, subject) => {\n        animations.push(...animateSubject(subject, keyframes, transition));\n    });\n    return animations;\n}\n\nexport { animateSequence };\n",
+      "start": 1762100729151,
+      "end": 1762100729263,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729263,
+      "end": 1762100729263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729263,
+      "end": 1762100729263,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729263,
+      "end": 1762100729263,
+      "order": "normal"
+    }
+  ]
+}

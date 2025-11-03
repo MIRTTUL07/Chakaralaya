@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/keyframes/offsets/fill.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { progress } from 'motion-utils';\nimport { mixNumber } from '../../../utils/mix/number.mjs';\n\nfunction fillOffset(offset, remaining) {\n    const min = offset[offset.length - 1];\n    for (let i = 1; i <= remaining; i++) {\n        const offsetProgress = progress(0, remaining, i);\n        offset.push(mixNumber(min, 1, offsetProgress));\n    }\n}\n\nexport { fillOffset };\n",
+      "start": 1762100729191,
+      "end": 1762100729278,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal"
+    }
+  ]
+}

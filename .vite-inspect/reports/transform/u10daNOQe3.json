@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/list-checks.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M13 5h8\", key: \"a7qcls\" }],\n  [\"path\", { d: \"M13 12h8\", key: \"h98zly\" }],\n  [\"path\", { d: \"M13 19h8\", key: \"c3s6r1\" }],\n  [\"path\", { d: \"m3 17 2 2 4-4\", key: \"1jhpwq\" }],\n  [\"path\", { d: \"m3 7 2 2 4-4\", key: \"1obspn\" }]\n];\nconst ListChecks = createLucideIcon(\"list-checks\", __iconNode);\n\nexport { __iconNode, ListChecks as default };\n//# sourceMappingURL=list-checks.js.map\n",
+      "start": 1762100718745,
+      "end": 1762100722118,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722118,
+      "end": 1762100722118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722118,
+      "end": 1762100722118,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722118,
+      "end": 1762100722118,
+      "order": "normal"
+    }
+  ]
+}

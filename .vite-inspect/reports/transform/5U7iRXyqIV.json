@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-stop.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"18\", height: \"18\", x: \"3\", y: \"3\", rx: \"2\", key: \"afitv7\" }],\n  [\"rect\", { x: \"9\", y: \"9\", width: \"6\", height: \"6\", rx: \"1\", key: \"1ssd4o\" }]\n];\nconst SquareStop = createLucideIcon(\"square-stop\", __iconNode);\n\nexport { __iconNode, SquareStop as default };\n//# sourceMappingURL=square-stop.js.map\n",
+      "start": 1762100721395,
+      "end": 1762100727415,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727415,
+      "end": 1762100727415,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727415,
+      "end": 1762100727415,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727415,
+      "end": 1762100727415,
+      "order": "normal"
+    }
+  ]
+}

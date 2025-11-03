@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pocket.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M20 3a2 2 0 0 1 2 2v6a1 1 0 0 1-20 0V5a2 2 0 0 1 2-2z\", key: \"1uodqw\" }],\n  [\"path\", { d: \"m8 10 4 4 4-4\", key: \"1mxd5q\" }]\n];\nconst Pocket = createLucideIcon(\"pocket\", __iconNode);\n\nexport { __iconNode, Pocket as default };\n//# sourceMappingURL=pocket.js.map\n",
+      "start": 1762100721075,
+      "end": 1762100727317,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal"
+    }
+  ]
+}

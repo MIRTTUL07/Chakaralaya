@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animate/subject.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isMotionValue } from 'motion-dom';\nimport { invariant } from 'motion-utils';\nimport { visualElementStore } from '../../render/store.mjs';\nimport { animateTarget } from '../interfaces/visual-element-target.mjs';\nimport { createDOMVisualElement, createObjectVisualElement } from '../utils/create-visual-element.mjs';\nimport { isDOMKeyframes } from '../utils/is-dom-keyframes.mjs';\nimport { resolveSubjects } from './resolve-subjects.mjs';\nimport { animateSingleValue } from './single-value.mjs';\n\nfunction isSingleValue(subject, keyframes) {\n    return (isMotionValue(subject) ||\n        typeof subject === \"number\" ||\n        (typeof subject === \"string\" && !isDOMKeyframes(keyframes)));\n}\n/**\n * Implementation\n */\nfunction animateSubject(subject, keyframes, options, scope) {\n    const animations = [];\n    if (isSingleValue(subject, keyframes)) {\n        animations.push(animateSingleValue(subject, isDOMKeyframes(keyframes)\n            ? keyframes.default || keyframes\n            : keyframes, options ? options.default || options : options));\n    }\n    else {\n        const subjects = resolveSubjects(subject, keyframes, scope);\n        const numSubjects = subjects.length;\n        invariant(Boolean(numSubjects), \"No valid elements provided.\", \"no-valid-elements\");\n        for (let i = 0; i < numSubjects; i++) {\n            const thisSubject = subjects[i];\n            invariant(thisSubject !== null, \"You're trying to perform an animation on null. Ensure that selectors are correctly finding elements and refs are correctly hydrated.\", \"animate-null\");\n            const createVisualElement = thisSubject instanceof Element\n                ? createDOMVisualElement\n                : createObjectVisualElement;\n            if (!visualElementStore.has(thisSubject)) {\n                createVisualElement(thisSubject);\n            }\n            const visualElement = visualElementStore.get(thisSubject);\n            const transition = { ...options };\n            /**\n             * Resolve stagger function if provided.\n             */\n            if (\"delay\" in transition &&\n                typeof transition.delay === \"function\") {\n                transition.delay = transition.delay(i, numSubjects);\n            }\n            animations.push(...animateTarget(visualElement, { ...keyframes, transition }, {}));\n        }\n    }\n    return animations;\n}\n\nexport { animateSubject };\n",
+      "start": 1762100729151,
+      "end": 1762100729263,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729263,
+      "end": 1762100729263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729263,
+      "end": 1762100729263,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729264,
+      "end": 1762100729264,
+      "order": "normal"
+    }
+  ]
+}

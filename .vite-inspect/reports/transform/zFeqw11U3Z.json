@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/arrow-big-up-dash.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M9 13a1 1 0 0 0-1-1H5.061a1 1 0 0 1-.75-1.811l6.836-6.835a1.207 1.207 0 0 1 1.707 0l6.835 6.835a1 1 0 0 1-.75 1.811H16a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z\",\n      key: \"pnzqmc\"\n    }\n  ],\n  [\"path\", { d: \"M9 20h6\", key: \"s66wpe\" }]\n];\nconst ArrowBigUpDash = createLucideIcon(\"arrow-big-up-dash\", __iconNode);\n\nexport { __iconNode, ArrowBigUpDash as default };\n//# sourceMappingURL=arrow-big-up-dash.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721157,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721157,
+      "end": 1762100721157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721157,
+      "end": 1762100721157,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721157,
+      "end": 1762100721157,
+      "order": "normal"
+    }
+  ]
+}

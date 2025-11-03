@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/scale.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\", key: \"7g6ntu\" }],\n  [\"path\", { d: \"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\", key: \"ijws7r\" }],\n  [\"path\", { d: \"M7 21h10\", key: \"1b0cd5\" }],\n  [\"path\", { d: \"M12 3v18\", key: \"108xh3\" }],\n  [\"path\", { d: \"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2\", key: \"3gwbw2\" }]\n];\nconst Scale = createLucideIcon(\"scale\", __iconNode);\n\nexport { __iconNode, Scale as default };\n//# sourceMappingURL=scale.js.map\n",
+      "start": 1762100721187,
+      "end": 1762100727353,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    }
+  ]
+}

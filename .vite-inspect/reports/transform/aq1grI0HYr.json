@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/vote.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m9 12 2 2 4-4\", key: \"dzmm74\" }],\n  [\"path\", { d: \"M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z\", key: \"1ezoue\" }],\n  [\"path\", { d: \"M22 19H2\", key: \"nuriw5\" }]\n];\nconst Vote = createLucideIcon(\"vote\", __iconNode);\n\nexport { __iconNode, Vote as default };\n//# sourceMappingURL=vote.js.map\n",
+      "start": 1762100721661,
+      "end": 1762100727513,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727513,
+      "end": 1762100727513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727513,
+      "end": 1762100727513,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727513,
+      "end": 1762100727513,
+      "order": "normal"
+    }
+  ]
+}

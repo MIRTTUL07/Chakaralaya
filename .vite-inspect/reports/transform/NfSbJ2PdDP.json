@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cloud-alert.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 12v4\", key: \"tww15h\" }],\n  [\"path\", { d: \"M12 20h.01\", key: \"zekei9\" }],\n  [\"path\", { d: \"M17 18h.5a1 1 0 0 0 0-9h-1.79A7 7 0 1 0 7 17.708\", key: \"xsb5ju\" }]\n];\nconst CloudAlert = createLucideIcon(\"cloud-alert\", __iconNode);\n\nexport { __iconNode, CloudAlert as default };\n//# sourceMappingURL=cloud-alert.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721645,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721645,
+      "end": 1762100721645,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721645,
+      "end": 1762100721645,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721646,
+      "end": 1762100721646,
+      "order": "normal"
+    }
+  ]
+}

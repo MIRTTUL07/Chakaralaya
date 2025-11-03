@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/flask-conical-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 2v2.343\", key: \"15t272\" }],\n  [\"path\", { d: \"M14 2v6.343\", key: \"sxr80q\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }],\n  [\"path\", { d: \"M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-1.755-2.96l5.227-9.563\", key: \"k0duyd\" }],\n  [\"path\", { d: \"M6.453 15H15\", key: \"1f0z33\" }],\n  [\"path\", { d: \"M8.5 2h7\", key: \"csnxdl\" }]\n];\nconst FlaskConicalOff = createLucideIcon(\"flask-conical-off\", __iconNode);\n\nexport { __iconNode, FlaskConicalOff as default };\n//# sourceMappingURL=flask-conical-off.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721873,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721873,
+      "end": 1762100721873,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721873,
+      "end": 1762100721873,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721876,
+      "end": 1762100721876,
+      "order": "normal"
+    }
+  ]
+}

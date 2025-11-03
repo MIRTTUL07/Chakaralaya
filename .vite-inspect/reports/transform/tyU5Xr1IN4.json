@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/copyleft.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M9.17 14.83a4 4 0 1 0 0-5.66\", key: \"1sveal\" }]\n];\nconst Copyleft = createLucideIcon(\"copyleft\", __iconNode);\n\nexport { __iconNode, Copyleft as default };\n//# sourceMappingURL=copyleft.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721699,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721699,
+      "end": 1762100721699,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721699,
+      "end": 1762100721699,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721702,
+      "end": 1762100721702,
+      "order": "normal"
+    }
+  ]
+}

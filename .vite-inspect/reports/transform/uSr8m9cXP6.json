@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/case-lower.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 9v7\", key: \"ylp826\" }],\n  [\"path\", { d: \"M14 6v10\", key: \"1jy4vg\" }],\n  [\"circle\", { cx: \"17.5\", cy: \"12.5\", r: \"3.5\", key: \"1a9481\" }],\n  [\"circle\", { cx: \"6.5\", cy: \"12.5\", r: \"3.5\", key: \"2jlv1r\" }]\n];\nconst CaseLower = createLucideIcon(\"case-lower\", __iconNode);\n\nexport { __iconNode, CaseLower as default };\n//# sourceMappingURL=case-lower.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721472,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721472,
+      "end": 1762100721472,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721473,
+      "end": 1762100721473,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721473,
+      "end": 1762100721473,
+      "order": "normal"
+    }
+  ]
+}

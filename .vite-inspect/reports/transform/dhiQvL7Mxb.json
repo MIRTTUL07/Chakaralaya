@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/events/use-dom-event.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useEffect } from 'react';\nimport { addDomEvent } from './add-dom-event.mjs';\n\n/**\n * Attaches an event listener directly to the provided DOM element.\n *\n * Bypassing React's event system can be desirable, for instance when attaching non-passive\n * event handlers.\n *\n * ```jsx\n * const ref = useRef(null)\n *\n * useDomEvent(ref, 'wheel', onWheel, { passive: false })\n *\n * return <div ref={ref} />\n * ```\n *\n * @param ref - React.RefObject that's been provided to the element you want to bind the listener to.\n * @param eventName - Name of the event you want listen for.\n * @param handler - Function to fire when receiving the event.\n * @param options - Options to pass to `Event.addEventListener`.\n *\n * @public\n */\nfunction useDomEvent(ref, eventName, handler, options) {\n    useEffect(() => {\n        const element = ref.current;\n        if (handler && element) {\n            return addDomEvent(element, eventName, handler, options);\n        }\n    }, [ref, eventName, handler, options]);\n}\n\nexport { useDomEvent };\n",
+      "start": 1762100728888,
+      "end": 1762100729058,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal"
+    }
+  ]
+}

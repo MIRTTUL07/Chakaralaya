@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/skull.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m12.5 17-.5-1-.5 1h1z\", key: \"3me087\" }],\n  [\n    \"path\",\n    {\n      d: \"M15 22a1 1 0 0 0 1-1v-1a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20v1a1 1 0 0 0 1 1z\",\n      key: \"1o5pge\"\n    }\n  ],\n  [\"circle\", { cx: \"15\", cy: \"12\", r: \"1\", key: \"1tmaij\" }],\n  [\"circle\", { cx: \"9\", cy: \"12\", r: \"1\", key: \"1vctgf\" }]\n];\nconst Skull = createLucideIcon(\"skull\", __iconNode);\n\nexport { __iconNode, Skull as default };\n//# sourceMappingURL=skull.js.map\n",
+      "start": 1762100721328,
+      "end": 1762100727401,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727401,
+      "end": 1762100727401,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727401,
+      "end": 1762100727401,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727401,
+      "end": 1762100727401,
+      "order": "normal"
+    }
+  ]
+}

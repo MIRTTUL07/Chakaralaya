@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/upload.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 3v12\", key: \"1x0j5s\" }],\n  [\"path\", { d: \"m17 8-5-5-5 5\", key: \"7q97r8\" }],\n  [\"path\", { d: \"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\", key: \"ih7n3h\" }]\n];\nconst Upload = createLucideIcon(\"upload\", __iconNode);\n\nexport { __iconNode, Upload as default };\n//# sourceMappingURL=upload.js.map\n",
+      "start": 1762100721618,
+      "end": 1762100727495,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727495,
+      "end": 1762100727495,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727495,
+      "end": 1762100727495,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727495,
+      "end": 1762100727495,
+      "order": "normal"
+    }
+  ]
+}

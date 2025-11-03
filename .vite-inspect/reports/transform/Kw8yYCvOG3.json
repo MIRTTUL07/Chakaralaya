@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/utils/is-motion-component.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { motionComponentSymbol } from './symbol.mjs';\n\n/**\n * Checks if a component is a `motion` component.\n */\nfunction isMotionComponent(component) {\n    return (component !== null &&\n        typeof component === \"object\" &&\n        motionComponentSymbol in component);\n}\n\nexport { isMotionComponent };\n",
+      "start": 1762100728888,
+      "end": 1762100729058,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729058,
+      "end": 1762100729059,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729059,
+      "end": 1762100729059,
+      "order": "normal"
+    }
+  ]
+}

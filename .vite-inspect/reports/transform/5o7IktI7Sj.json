@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/gestures/press/utils/state.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const isPressing = new WeakSet();\n\nexport { isPressing };\n",
+      "start": 1762100729452,
+      "end": 1762100729545,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729545,
+      "end": 1762100729546,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729546,
+      "end": 1762100729546,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729546,
+      "end": 1762100729546,
+      "order": "normal"
+    }
+  ]
+}

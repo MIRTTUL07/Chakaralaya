@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/grid-2x2-x.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3\",\n      key: \"11za1p\"\n    }\n  ],\n  [\"path\", { d: \"m16 16 5 5\", key: \"8tpb07\" }],\n  [\"path\", { d: \"m16 21 5-5\", key: \"193jll\" }]\n];\nconst Grid2x2X = createLucideIcon(\"grid-2x2-x\", __iconNode);\n\nexport { __iconNode, Grid2x2X as default };\n//# sourceMappingURL=grid-2x2-x.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720895,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720895,
+      "end": 1762100720895,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720895,
+      "end": 1762100720895,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720896,
+      "end": 1762100720896,
+      "order": "normal"
+    }
+  ]
+}

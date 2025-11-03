@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/utils/use-visual-state.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useContext } from 'react';\nimport { isAnimationControls } from '../../animation/utils/is-animation-controls.mjs';\nimport { MotionContext } from '../../context/MotionContext/index.mjs';\nimport { PresenceContext } from '../../context/PresenceContext.mjs';\nimport { isControllingVariants, isVariantNode } from '../../render/utils/is-controlling-variants.mjs';\nimport { resolveVariantFromProps } from '../../render/utils/resolve-variants.mjs';\nimport { useConstant } from '../../utils/use-constant.mjs';\nimport { resolveMotionValue } from '../../value/utils/resolve-motion-value.mjs';\n\nfunction makeState({ scrapeMotionValuesFromProps, createRenderState, }, props, context, presenceContext) {\n    const state = {\n        latestValues: makeLatestValues(props, context, presenceContext, scrapeMotionValuesFromProps),\n        renderState: createRenderState(),\n    };\n    return state;\n}\nfunction makeLatestValues(props, context, presenceContext, scrapeMotionValues) {\n    const values = {};\n    const motionValues = scrapeMotionValues(props, {});\n    for (const key in motionValues) {\n        values[key] = resolveMotionValue(motionValues[key]);\n    }\n    let { initial, animate } = props;\n    const isControllingVariants$1 = isControllingVariants(props);\n    const isVariantNode$1 = isVariantNode(props);\n    if (context &&\n        isVariantNode$1 &&\n        !isControllingVariants$1 &&\n        props.inherit !== false) {\n        if (initial === undefined)\n            initial = context.initial;\n        if (animate === undefined)\n            animate = context.animate;\n    }\n    let isInitialAnimationBlocked = presenceContext\n        ? presenceContext.initial === false\n        : false;\n    isInitialAnimationBlocked = isInitialAnimationBlocked || initial === false;\n    const variantToSet = isInitialAnimationBlocked ? animate : initial;\n    if (variantToSet &&\n        typeof variantToSet !== \"boolean\" &&\n        !isAnimationControls(variantToSet)) {\n        const list = Array.isArray(variantToSet) ? variantToSet : [variantToSet];\n        for (let i = 0; i < list.length; i++) {\n            const resolved = resolveVariantFromProps(props, list[i]);\n            if (resolved) {\n                const { transitionEnd, transition, ...target } = resolved;\n                for (const key in target) {\n                    let valueTarget = target[key];\n                    if (Array.isArray(valueTarget)) {\n                        /**\n                         * Take final keyframe if the initial animation is blocked because\n                         * we want to initialise at the end of that blocked animation.\n                         */\n                        const index = isInitialAnimationBlocked\n                            ? valueTarget.length - 1\n                            : 0;\n                        valueTarget = valueTarget[index];\n                    }\n                    if (valueTarget !== null) {\n                        values[key] = valueTarget;\n                    }\n                }\n                for (const key in transitionEnd) {\n                    values[key] = transitionEnd[key];\n                }\n            }\n        }\n    }\n    return values;\n}\nconst makeUseVisualState = (config) => (props, isStatic) => {\n    const context = useContext(MotionContext);\n    const presenceContext = useContext(PresenceContext);\n    const make = () => makeState(config, props, context, presenceContext);\n    return isStatic ? make() : useConstant(make);\n};\n\nexport { makeUseVisualState };\n",
+      "start": 1762100728886,
+      "end": 1762100729045,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal"
+    }
+  ]
+}

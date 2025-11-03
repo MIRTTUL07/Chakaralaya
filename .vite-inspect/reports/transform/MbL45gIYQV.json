@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/stylis/index.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export * from './src/Enum.js'\nexport * from './src/Utility.js'\nexport * from './src/Parser.js'\nexport * from './src/Prefixer.js'\nexport * from './src/Tokenizer.js'\nexport * from './src/Serializer.js'\nexport * from './src/Middleware.js'\n",
+      "start": 1762100717397,
+      "end": 1762100720188,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720189,
+      "end": 1762100720189,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720189,
+      "end": 1762100720189,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720192,
+      "end": 1762100720192,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cable-car.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 3h.01\", key: \"lbucoy\" }],\n  [\"path\", { d: \"M14 2h.01\", key: \"1k8aa1\" }],\n  [\"path\", { d: \"m2 9 20-5\", key: \"1kz0j5\" }],\n  [\"path\", { d: \"M12 12V6.5\", key: \"1vbrij\" }],\n  [\"rect\", { width: \"16\", height: \"10\", x: \"4\", y: \"12\", rx: \"3\", key: \"if91er\" }],\n  [\"path\", { d: \"M9 12v5\", key: \"3anwtq\" }],\n  [\"path\", { d: \"M15 12v5\", key: \"5xh3zn\" }],\n  [\"path\", { d: \"M4 17h16\", key: \"g4d7ey\" }]\n];\nconst CableCar = createLucideIcon(\"cable-car\", __iconNode);\n\nexport { __iconNode, CableCar as default };\n//# sourceMappingURL=cable-car.js.map\n",
+      "start": 1762100718707,
+      "end": 1762100721426,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721426,
+      "end": 1762100721426,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721427,
+      "end": 1762100721427,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721427,
+      "end": 1762100721427,
+      "order": "normal"
+    }
+  ]
+}

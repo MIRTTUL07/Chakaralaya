@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/easing/supported.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { cubicBezierAsString } from './cubic-bezier.mjs';\n\nconst supportedWaapiEasing = {\n    linear: \"linear\",\n    ease: \"ease\",\n    easeIn: \"ease-in\",\n    easeOut: \"ease-out\",\n    easeInOut: \"ease-in-out\",\n    circIn: /*@__PURE__*/ cubicBezierAsString([0, 0.65, 0.55, 1]),\n    circOut: /*@__PURE__*/ cubicBezierAsString([0.55, 0, 1, 0.45]),\n    backIn: /*@__PURE__*/ cubicBezierAsString([0.31, 0.01, 0.66, -0.59]),\n    backOut: /*@__PURE__*/ cubicBezierAsString([0.33, 1.53, 0.69, 0.99]),\n};\n\nexport { supportedWaapiEasing };\n",
+      "start": 1762100729191,
+      "end": 1762100729284,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal"
+    }
+  ]
+}

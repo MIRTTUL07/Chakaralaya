@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/text-align-center.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 5H3\", key: \"1fi0y6\" }],\n  [\"path\", { d: \"M17 12H7\", key: \"16if0g\" }],\n  [\"path\", { d: \"M19 19H5\", key: \"vjpgq2\" }]\n];\nconst TextAlignCenter = createLucideIcon(\"text-align-center\", __iconNode);\n\nexport { __iconNode, TextAlignCenter as default };\n//# sourceMappingURL=text-align-center.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100721038,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721043,
+      "end": 1762100721043,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721043,
+      "end": 1762100721043,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721043,
+      "end": 1762100721043,
+      "order": "normal"
+    }
+  ]
+}

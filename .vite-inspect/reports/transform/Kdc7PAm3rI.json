@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chevrons-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m17 11-5-5-5 5\", key: \"e8nh98\" }],\n  [\"path\", { d: \"m17 18-5-5-5 5\", key: \"2avn1x\" }]\n];\nconst ChevronsUp = createLucideIcon(\"chevrons-up\", __iconNode);\n\nexport { __iconNode, ChevronsUp as default };\n//# sourceMappingURL=chevrons-up.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721500,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721500,
+      "end": 1762100721500,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721500,
+      "end": 1762100721500,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721501,
+      "end": 1762100721501,
+      "order": "normal"
+    }
+  ]
+}

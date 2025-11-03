@@ -1,0 +1,56 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/components/ui/splite.jsx",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "'use client';\n\nimport { Suspense, lazy } from 'react';\nconst Spline = lazy(() => import('@splinetool/react-spline'));\n\nexport function SplineScene({ scene, className }) {\n  return (\n    <Suspense \n      fallback={\n        <div className=\"w-full h-full flex items-center justify-center\">\n          <span className=\"loader\"></span>\n        </div>\n      }\n    >\n      <Spline\n        scene={scene}\n        className={className}\n      />\n    </Suspense>\n  );\n}\n",
+      "start": 1762100716044,
+      "end": 1762100716538,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "\"use client\";\nimport { jsx } from \"react/jsx-runtime\";\nimport { Suspense, lazy } from \"react\";\nconst Spline = lazy(() => import(\"@splinetool/react-spline\"));\nexport function SplineScene({ scene, className }) {\n  return /* @__PURE__ */ jsx(\n    Suspense,\n    {\n      fallback: /* @__PURE__ */ jsx(\"div\", { className: \"w-full h-full flex items-center justify-center\", children: /* @__PURE__ */ jsx(\"span\", { className: \"loader\" }) }),\n      children: /* @__PURE__ */ jsx(\n        Spline,\n        {\n          scene,\n          className\n        }\n      )\n    }\n  );\n}\n",
+      "start": 1762100716538,
+      "end": 1762100716552,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/user/chakaralaya/Chakaralaya/src/components/ui/splite.jsx"
+        ],
+        "sourcesContent": [
+          "'use client';\n\nimport { Suspense, lazy } from 'react';\nconst Spline = lazy(() => import('@splinetool/react-spline'));\n\nexport function SplineScene({ scene, className }) {\n  return (\n    <Suspense \n      fallback={\n        <div className=\"w-full h-full flex items-center justify-center\">\n          <span className=\"loader\"></span>\n        </div>\n      }\n    >\n      <Spline\n        scene={scene}\n        className={className}\n      />\n    </Suspense>\n  );\n}\n"
+        ],
+        "mappings": ";AAUU;AARV,SAAS,UAAU,YAAY;AAC/B,MAAM,SAAS,KAAK,MAAM,OAAO,0BAA0B,CAAC;AAErD,gBAAS,YAAY,EAAE,OAAO,UAAU,GAAG;AAChD,SACE;AAAA,IAAC;AAAA;AAAA,MACC,UACE,oBAAC,SAAI,WAAU,kDACb,8BAAC,UAAK,WAAU,UAAS,GAC3B;AAAA,MAGF;AAAA,QAAC;AAAA;AAAA,UACC;AAAA,UACA;AAAA;AAAA,MACF;AAAA;AAAA,EACF;AAEJ;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716552,
+      "end": 1762100716552,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1762100716553,
+      "end": 1762100716555,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";\"use client\";\nimport { jsx } from \"react/jsx-runtime\";\nimport { Suspense, lazy } from \"react\";\nconst Spline = lazy(() => __vitePreload(() => import(\"@splinetool/react-spline\"),__VITE_IS_MODERN__?__VITE_PRELOAD__:void 0));\nexport function SplineScene({ scene, className }) {\n  return /* @__PURE__ */ jsx(\n    Suspense,\n    {\n      fallback: /* @__PURE__ */ jsx(\"div\", { className: \"w-full h-full flex items-center justify-center\", children: /* @__PURE__ */ jsx(\"span\", { className: \"loader\" }) }),\n      children: /* @__PURE__ */ jsx(\n        Spline,\n        {\n          scene,\n          className\n        }\n      )\n    }\n  );\n}\n",
+      "start": 1762100716555,
+      "end": 1762100716557,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716558,
+      "end": 1762100716558,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/features-max.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { drag } from '../../motion/features/drag.mjs';\nimport { layout } from '../../motion/features/layout.mjs';\nimport { domAnimation } from './features-animation.mjs';\n\n/**\n * @public\n */\nconst domMax = {\n    ...domAnimation,\n    ...drag,\n    ...layout,\n};\n\nexport { domMax };\n",
+      "start": 1762100728886,
+      "end": 1762100729048,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal"
+    }
+  ]
+}

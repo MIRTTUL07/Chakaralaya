@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mails.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732\", key: \"1vyzll\" }],\n  [\"path\", { d: \"m22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5\", key: \"k7ramc\" }],\n  [\"rect\", { x: \"7\", y: \"3\", width: \"15\", height: \"12\", rx: \"2\", key: \"17196g\" }]\n];\nconst Mails = createLucideIcon(\"mails\", __iconNode);\n\nexport { __iconNode, Mails as default };\n//# sourceMappingURL=mails.js.map\n",
+      "start": 1762100720651,
+      "end": 1762100727214,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727214,
+      "end": 1762100727214,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727214,
+      "end": 1762100727214,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727214,
+      "end": 1762100727214,
+      "order": "normal"
+    }
+  ]
+}

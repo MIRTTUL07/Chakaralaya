@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/context/LazyContext.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { createContext } from 'react';\n\nconst LazyContext = createContext({ strict: false });\n\nexport { LazyContext };\n",
+      "start": 1762100729084,
+      "end": 1762100729242,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729242,
+      "end": 1762100729242,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729243,
+      "end": 1762100729243,
+      "order": "normal"
+    }
+  ]
+}

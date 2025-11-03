@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/scissors.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"6\", cy: \"6\", r: \"3\", key: \"1lh9wr\" }],\n  [\"path\", { d: \"M8.12 8.12 12 12\", key: \"1alkpv\" }],\n  [\"path\", { d: \"M20 4 8.12 15.88\", key: \"xgtan2\" }],\n  [\"circle\", { cx: \"6\", cy: \"18\", r: \"3\", key: \"fqmcym\" }],\n  [\"path\", { d: \"M14.8 14.8 20 20\", key: \"ptml3r\" }]\n];\nconst Scissors = createLucideIcon(\"scissors\", __iconNode);\n\nexport { __iconNode, Scissors as default };\n//# sourceMappingURL=scissors.js.map\n",
+      "start": 1762100721232,
+      "end": 1762100727374,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727374,
+      "end": 1762100727374,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727374,
+      "end": 1762100727374,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727374,
+      "end": 1762100727375,
+      "order": "normal"
+    }
+  ]
+}

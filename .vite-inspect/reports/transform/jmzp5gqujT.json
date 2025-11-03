@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/use-scroll.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { motionValue } from 'motion-dom';\nimport { invariant } from 'motion-utils';\nimport { useRef, useCallback, useEffect } from 'react';\nimport { scroll } from '../render/dom/scroll/index.mjs';\nimport { useConstant } from '../utils/use-constant.mjs';\nimport { useIsomorphicLayoutEffect } from '../utils/use-isomorphic-effect.mjs';\n\nconst createScrollMotionValues = () => ({\n    scrollX: motionValue(0),\n    scrollY: motionValue(0),\n    scrollXProgress: motionValue(0),\n    scrollYProgress: motionValue(0),\n});\nconst isRefPending = (ref) => {\n    if (!ref)\n        return false;\n    return !ref.current;\n};\nfunction useScroll({ container, target, ...options } = {}) {\n    const values = useConstant(createScrollMotionValues);\n    const scrollAnimation = useRef(null);\n    const needsStart = useRef(false);\n    const start = useCallback(() => {\n        scrollAnimation.current = scroll((_progress, { x, y, }) => {\n            values.scrollX.set(x.current);\n            values.scrollXProgress.set(x.progress);\n            values.scrollY.set(y.current);\n            values.scrollYProgress.set(y.progress);\n        }, {\n            ...options,\n            container: container?.current || undefined,\n            target: target?.current || undefined,\n        });\n        return () => {\n            scrollAnimation.current?.();\n        };\n    }, [container, target, JSON.stringify(options.offset)]);\n    useIsomorphicLayoutEffect(() => {\n        needsStart.current = false;\n        if (isRefPending(container) || isRefPending(target)) {\n            needsStart.current = true;\n            return;\n        }\n        else {\n            return start();\n        }\n    }, [start]);\n    useEffect(() => {\n        if (needsStart.current) {\n            invariant(!isRefPending(container), \"Container ref is defined but not hydrated\", \"use-scroll-ref\");\n            invariant(!isRefPending(target), \"Target ref is defined but not hydrated\", \"use-scroll-ref\");\n            return start();\n        }\n        else {\n            return;\n        }\n    }, [start]);\n    return values;\n}\n\nexport { useScroll };\n",
+      "start": 1762100728887,
+      "end": 1762100729051,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729051,
+      "end": 1762100729051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729051,
+      "end": 1762100729051,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729052,
+      "end": 1762100729052,
+      "order": "normal"
+    }
+  ]
+}

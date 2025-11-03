@@ -1,0 +1,19 @@
+html, body, #root {
+  /* Set base elements to fill the screen */
+  height: 100%; 
+  margin: 0; /* Remove default body margin */
+  padding: 0;
+}
+
+.App-wrapper {
+  /* This container holds everything: header, main content, footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure it's at least the full viewport height */
+}
+
+.main-content {
+  /* The main content area between the navigation and the footer */
+  flex-grow: 1; /* This will push the footer to the bottom */
+  /* You may need to adjust the content's margin/padding here as well */
+}

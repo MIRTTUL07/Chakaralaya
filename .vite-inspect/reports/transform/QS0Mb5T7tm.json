@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/battery-charging.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m11 7-3 5h4l-3 5\", key: \"b4a64w\" }],\n  [\"path\", { d: \"M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935\", key: \"lre1cr\" }],\n  [\"path\", { d: \"M22 14v-4\", key: \"14q9d5\" }],\n  [\"path\", { d: \"M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936\", key: \"13q5k0\" }]\n];\nconst BatteryCharging = createLucideIcon(\"battery-charging\", __iconNode);\n\nexport { __iconNode, BatteryCharging as default };\n//# sourceMappingURL=battery-charging.js.map\n",
+      "start": 1762100718703,
+      "end": 1762100721262,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721262,
+      "end": 1762100721262,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721262,
+      "end": 1762100721262,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721262,
+      "end": 1762100721262,
+      "order": "normal"
+    }
+  ]
+}

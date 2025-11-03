@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/active-animations.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const animationMaps = new WeakMap();\nconst animationMapKey = (name, pseudoElement = \"\") => `${name}:${pseudoElement}`;\nfunction getAnimationMap(element) {\n    const map = animationMaps.get(element) || new Map();\n    animationMaps.set(element, map);\n    return map;\n}\n\nexport { animationMapKey, getAnimationMap };\n",
+      "start": 1762100729190,
+      "end": 1762100729274,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729274,
+      "end": 1762100729274,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729274,
+      "end": 1762100729274,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729274,
+      "end": 1762100729274,
+      "order": "normal"
+    }
+  ]
+}

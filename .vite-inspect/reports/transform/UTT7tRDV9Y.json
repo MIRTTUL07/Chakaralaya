@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-scroll/modules/mixins/cancel-events.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _passiveEventListeners = require('./passive-event-listeners');\n\nvar events = ['mousedown', 'wheel', 'touchmove', 'keydown'];\n\nexports.default = {\n  subscribe: function subscribe(cancelEvent) {\n    return typeof document !== 'undefined' && events.forEach(function (event) {\n      return (0, _passiveEventListeners.addPassiveEventListener)(document, event, cancelEvent);\n    });\n  }\n};",
+      "start": 1762100716111,
+      "end": 1762100716620,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716620,
+      "end": 1762100716620,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716620,
+      "end": 1762100716620,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716783,
+      "end": 1762100716783,
+      "order": "normal"
+    }
+  ]
+}

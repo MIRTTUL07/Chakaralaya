@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/goal.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 13V2l8 4-8 4\", key: \"5wlwwj\" }],\n  [\"path\", { d: \"M20.561 10.222a9 9 0 1 1-12.55-5.29\", key: \"1c0wjv\" }],\n  [\"path\", { d: \"M8.002 9.997a5 5 0 1 0 8.9 2.02\", key: \"gb1g7m\" }]\n];\nconst Goal = createLucideIcon(\"goal\", __iconNode);\n\nexport { __iconNode, Goal as default };\n//# sourceMappingURL=goal.js.map\n",
+      "start": 1762100718740,
+      "end": 1762100721984,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721984,
+      "end": 1762100721984,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721984,
+      "end": 1762100721984,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721984,
+      "end": 1762100721984,
+      "order": "normal"
+    }
+  ]
+}

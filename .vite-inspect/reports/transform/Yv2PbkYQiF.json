@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/radius.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M20.34 17.52a10 10 0 1 0-2.82 2.82\", key: \"fydyku\" }],\n  [\"circle\", { cx: \"19\", cy: \"19\", r: \"2\", key: \"17f5cg\" }],\n  [\"path\", { d: \"m13.41 13.41 4.18 4.18\", key: \"1gqbwc\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"2\", key: \"1c9p78\" }]\n];\nconst Radius = createLucideIcon(\"radius\", __iconNode);\n\nexport { __iconNode, Radius as default };\n//# sourceMappingURL=radius.js.map\n",
+      "start": 1762100721126,
+      "end": 1762100727326,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727326,
+      "end": 1762100727326,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727326,
+      "end": 1762100727327,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727327,
+      "end": 1762100727327,
+      "order": "normal"
+    }
+  ]
+}

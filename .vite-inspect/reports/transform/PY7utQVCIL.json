@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-stack.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\", key: \"4i38lg\" }],\n  [\"path\", { d: \"M10 16c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\", key: \"mlte4a\" }],\n  [\"rect\", { width: \"8\", height: \"8\", x: \"14\", y: \"14\", rx: \"2\", key: \"1fa9i4\" }]\n];\nconst SquareStack = createLucideIcon(\"square-stack\", __iconNode);\n\nexport { __iconNode, SquareStack as default };\n//# sourceMappingURL=square-stack.js.map\n",
+      "start": 1762100721385,
+      "end": 1762100727414,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727414,
+      "end": 1762100727414,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727414,
+      "end": 1762100727414,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727415,
+      "end": 1762100727415,
+      "order": "normal"
+    }
+  ]
+}

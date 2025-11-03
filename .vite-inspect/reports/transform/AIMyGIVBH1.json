@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chart-no-axes-combined.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 16v5\", key: \"zza2cw\" }],\n  [\"path\", { d: \"M16 14v7\", key: \"1g90b9\" }],\n  [\"path\", { d: \"M20 10v11\", key: \"1iqoj0\" }],\n  [\n    \"path\",\n    { d: \"m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15\", key: \"1fw8x9\" }\n  ],\n  [\"path\", { d: \"M4 18v3\", key: \"1yp0dc\" }],\n  [\"path\", { d: \"M8 14v7\", key: \"n3cwzv\" }]\n];\nconst ChartNoAxesCombined = createLucideIcon(\"chart-no-axes-combined\", __iconNode);\n\nexport { __iconNode, ChartNoAxesCombined as default };\n//# sourceMappingURL=chart-no-axes-combined.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721484,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721484,
+      "end": 1762100721484,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721484,
+      "end": 1762100721484,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721484,
+      "end": 1762100721484,
+      "order": "normal"
+    }
+  ]
+}

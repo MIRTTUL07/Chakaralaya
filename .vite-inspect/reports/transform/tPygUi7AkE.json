@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/utils/is-keyframes-target.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const isKeyframesTarget = (v) => {\n    return Array.isArray(v);\n};\n\nexport { isKeyframesTarget };\n",
+      "start": 1762100729387,
+      "end": 1762100729533,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729534,
+      "end": 1762100729534,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729534,
+      "end": 1762100729534,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729534,
+      "end": 1762100729534,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/utility-pole.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 2v20\", key: \"t6zp3m\" }],\n  [\"path\", { d: \"M2 5h20\", key: \"1fs1ex\" }],\n  [\"path\", { d: \"M3 3v2\", key: \"9imdir\" }],\n  [\"path\", { d: \"M7 3v2\", key: \"n0os7\" }],\n  [\"path\", { d: \"M17 3v2\", key: \"1l2re6\" }],\n  [\"path\", { d: \"M21 3v2\", key: \"1duuac\" }],\n  [\"path\", { d: \"m19 5-7 7-7-7\", key: \"133zxf\" }]\n];\nconst UtilityPole = createLucideIcon(\"utility-pole\", __iconNode);\n\nexport { __iconNode, UtilityPole as default };\n//# sourceMappingURL=utility-pole.js.map\n",
+      "start": 1762100721645,
+      "end": 1762100727503,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727503,
+      "end": 1762100727503,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727503,
+      "end": 1762100727503,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727504,
+      "end": 1762100727504,
+      "order": "normal"
+    }
+  ]
+}

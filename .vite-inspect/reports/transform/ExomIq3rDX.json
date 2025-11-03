@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/utils/is-svg-component.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { lowercaseSVGElements } from '../../svg/lowercase-elements.mjs';\n\nfunction isSVGComponent(Component) {\n    if (\n    /**\n     * If it's not a string, it's a custom React component. Currently we only support\n     * HTML custom React components.\n     */\n    typeof Component !== \"string\" ||\n        /**\n         * If it contains a dash, the element is a custom HTML webcomponent.\n         */\n        Component.includes(\"-\")) {\n        return false;\n    }\n    else if (\n    /**\n     * If it's in our list of lowercase SVG tags, it's an SVG component\n     */\n    lowercaseSVGElements.indexOf(Component) > -1 ||\n        /**\n         * If it contains a capital letter, it's an SVG component\n         */\n        /[A-Z]/u.test(Component)) {\n        return true;\n    }\n    return false;\n}\n\nexport { isSVGComponent };\n",
+      "start": 1762100729378,
+      "end": 1762100729530,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729530,
+      "end": 1762100729530,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729530,
+      "end": 1762100729530,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729530,
+      "end": 1762100729530,
+      "order": "normal"
+    }
+  ]
+}

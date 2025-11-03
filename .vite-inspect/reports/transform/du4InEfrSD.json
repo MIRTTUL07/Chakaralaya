@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/frown.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M16 16s-1.5-2-4-2-4 2-4 2\", key: \"epbg0q\" }],\n  [\"line\", { x1: \"9\", x2: \"9.01\", y1: \"9\", y2: \"9\", key: \"yxxnd0\" }],\n  [\"line\", { x1: \"15\", x2: \"15.01\", y1: \"9\", y2: \"9\", key: \"1p4y9e\" }]\n];\nconst Frown = createLucideIcon(\"frown\", __iconNode);\n\nexport { __iconNode, Frown as default };\n//# sourceMappingURL=frown.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721940,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721940,
+      "end": 1762100721940,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721940,
+      "end": 1762100721940,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721940,
+      "end": 1762100721940,
+      "order": "normal"
+    }
+  ]
+}

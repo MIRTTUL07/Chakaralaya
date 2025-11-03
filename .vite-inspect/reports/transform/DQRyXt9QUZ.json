@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/lib/utils.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export function cn(...classes) {\n  return classes.filter(Boolean).join(' ');\n}\n",
+      "start": 1762100716736,
+      "end": 1762100716889,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716889,
+      "end": 1762100716889,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716889,
+      "end": 1762100716889,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716889,
+      "end": 1762100716889,
+      "order": "normal"
+    }
+  ]
+}

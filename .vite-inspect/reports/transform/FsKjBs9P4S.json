@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/archive-restore.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"20\", height: \"5\", x: \"2\", y: \"3\", rx: \"1\", key: \"1wp1u1\" }],\n  [\"path\", { d: \"M4 8v11a2 2 0 0 0 2 2h2\", key: \"tvwodi\" }],\n  [\"path\", { d: \"M20 8v11a2 2 0 0 1-2 2h-2\", key: \"1gkqxj\" }],\n  [\"path\", { d: \"m9 15 3-3 3 3\", key: \"1pd0qc\" }],\n  [\"path\", { d: \"M12 12v9\", key: \"192myk\" }]\n];\nconst ArchiveRestore = createLucideIcon(\"archive-restore\", __iconNode);\n\nexport { __iconNode, ArchiveRestore as default };\n//# sourceMappingURL=archive-restore.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721146,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721146,
+      "end": 1762100721146,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721146,
+      "end": 1762100721146,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721146,
+      "end": 1762100721146,
+      "order": "normal"
+    }
+  ]
+}

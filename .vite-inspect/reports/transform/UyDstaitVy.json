@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/utils/px-values.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const pxValues = new Set([\n    // Border props\n    \"borderWidth\",\n    \"borderTopWidth\",\n    \"borderRightWidth\",\n    \"borderBottomWidth\",\n    \"borderLeftWidth\",\n    \"borderRadius\",\n    \"radius\",\n    \"borderTopLeftRadius\",\n    \"borderTopRightRadius\",\n    \"borderBottomRightRadius\",\n    \"borderBottomLeftRadius\",\n    // Positioning props\n    \"width\",\n    \"maxWidth\",\n    \"height\",\n    \"maxHeight\",\n    \"top\",\n    \"right\",\n    \"bottom\",\n    \"left\",\n    // Spacing props\n    \"padding\",\n    \"paddingTop\",\n    \"paddingRight\",\n    \"paddingBottom\",\n    \"paddingLeft\",\n    \"margin\",\n    \"marginTop\",\n    \"marginRight\",\n    \"marginBottom\",\n    \"marginLeft\",\n    // Misc\n    \"backgroundPositionX\",\n    \"backgroundPositionY\",\n]);\n\nexport { pxValues };\n",
+      "start": 1762100729442,
+      "end": 1762100729543,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729544,
+      "end": 1762100729544,
+      "order": "normal"
+    }
+  ]
+}

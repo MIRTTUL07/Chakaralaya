@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/gestures/press.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { press, frame } from 'motion-dom';\nimport { extractEventInfo } from '../events/event-info.mjs';\nimport { Feature } from '../motion/features/Feature.mjs';\n\nfunction handlePressEvent(node, event, lifecycle) {\n    const { props } = node;\n    if (node.current instanceof HTMLButtonElement && node.current.disabled) {\n        return;\n    }\n    if (node.animationState && props.whileTap) {\n        node.animationState.setActive(\"whileTap\", lifecycle === \"Start\");\n    }\n    const eventName = (\"onTap\" + (lifecycle === \"End\" ? \"\" : lifecycle));\n    const callback = props[eventName];\n    if (callback) {\n        frame.postRender(() => callback(event, extractEventInfo(event)));\n    }\n}\nclass PressGesture extends Feature {\n    mount() {\n        const { current } = this.node;\n        if (!current)\n            return;\n        this.unmount = press(current, (_element, startEvent) => {\n            handlePressEvent(this.node, startEvent, \"Start\");\n            return (endEvent, { success }) => handlePressEvent(this.node, endEvent, success ? \"End\" : \"Cancel\");\n        }, { useGlobalTarget: this.node.props.globalTapTarget });\n    }\n    unmount() { }\n}\n\nexport { PressGesture };\n",
+      "start": 1762100729384,
+      "end": 1762100729532,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    }
+  ]
+}

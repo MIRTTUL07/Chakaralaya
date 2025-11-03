@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/time-conversion.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Converts seconds to milliseconds\n *\n * @param seconds - Time in seconds.\n * @return milliseconds - Converted time in milliseconds.\n */\n/*#__NO_SIDE_EFFECTS__*/\nconst secondsToMilliseconds = (seconds) => seconds * 1000;\n/*#__NO_SIDE_EFFECTS__*/\nconst millisecondsToSeconds = (milliseconds) => milliseconds / 1000;\n\nexport { millisecondsToSeconds, secondsToMilliseconds };\n",
+      "start": 1762100729149,
+      "end": 1762100729258,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729258,
+      "end": 1762100729258,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729258,
+      "end": 1762100729258,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729258,
+      "end": 1762100729258,
+      "order": "normal"
+    }
+  ]
+}

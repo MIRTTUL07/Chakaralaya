@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/ship-wheel.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"8\", key: \"46899m\" }],\n  [\"path\", { d: \"M12 2v7.5\", key: \"1e5rl5\" }],\n  [\"path\", { d: \"m19 5-5.23 5.23\", key: \"1ezxxf\" }],\n  [\"path\", { d: \"M22 12h-7.5\", key: \"le1719\" }],\n  [\"path\", { d: \"m19 19-5.23-5.23\", key: \"p3fmgn\" }],\n  [\"path\", { d: \"M12 14.5V22\", key: \"dgcmos\" }],\n  [\"path\", { d: \"M10.23 13.77 5 19\", key: \"qwopd4\" }],\n  [\"path\", { d: \"M9.5 12H2\", key: \"r7bup8\" }],\n  [\"path\", { d: \"M10.23 10.23 5 5\", key: \"k2y7lj\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"2.5\", key: \"ix0uyj\" }]\n];\nconst ShipWheel = createLucideIcon(\"ship-wheel\", __iconNode);\n\nexport { __iconNode, ShipWheel as default };\n//# sourceMappingURL=ship-wheel.js.map\n",
+      "start": 1762100721273,
+      "end": 1762100727393,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727393,
+      "end": 1762100727393,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727393,
+      "end": 1762100727393,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727393,
+      "end": 1762100727393,
+      "order": "normal"
+    }
+  ]
+}

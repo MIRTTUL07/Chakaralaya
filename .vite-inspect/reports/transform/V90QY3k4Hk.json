@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/color/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { hex } from './hex.mjs';\nimport { hsla } from './hsla.mjs';\nimport { rgba } from './rgba.mjs';\n\nconst color = {\n    test: (v) => rgba.test(v) || hex.test(v) || hsla.test(v),\n    parse: (v) => {\n        if (rgba.test(v)) {\n            return rgba.parse(v);\n        }\n        else if (hsla.test(v)) {\n            return hsla.parse(v);\n        }\n        else {\n            return hex.parse(v);\n        }\n    },\n    transform: (v) => {\n        return typeof v === \"string\"\n            ? v\n            : v.hasOwnProperty(\"red\")\n                ? rgba.transform(v)\n                : hsla.transform(v);\n    },\n    getAnimatableNone: (v) => {\n        const parsed = color.parse(v);\n        parsed.alpha = 0;\n        return color.transform(parsed);\n    },\n};\n\nexport { color };\n",
+      "start": 1762100729192,
+      "end": 1762100729331,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729331,
+      "end": 1762100729331,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/scroll/attach-function.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { observeTimeline } from 'motion-dom';\nimport { scrollInfo } from './track.mjs';\nimport { getTimeline } from './utils/get-timeline.mjs';\n\n/**\n * If the onScroll function has two arguments, it's expecting\n * more specific information about the scroll from scrollInfo.\n */\nfunction isOnScrollWithInfo(onScroll) {\n    return onScroll.length === 2;\n}\nfunction attachToFunction(onScroll, options) {\n    if (isOnScrollWithInfo(onScroll)) {\n        return scrollInfo((info) => {\n            onScroll(info[options.axis].progress, info);\n        }, options);\n    }\n    else {\n        return observeTimeline(onScroll, getTimeline(options));\n    }\n}\n\nexport { attachToFunction };\n",
+      "start": 1762100729154,
+      "end": 1762100729264,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729265,
+      "end": 1762100729265,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729265,
+      "end": 1762100729265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729265,
+      "end": 1762100729265,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/use-props.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useMemo } from 'react';\nimport { copyRawValuesOnly } from '../html/use-props.mjs';\nimport { buildSVGAttrs } from './utils/build-attrs.mjs';\nimport { createSvgRenderState } from './utils/create-render-state.mjs';\nimport { isSVGTag } from './utils/is-svg-tag.mjs';\n\nfunction useSVGProps(props, visualState, _isStatic, Component) {\n    const visualProps = useMemo(() => {\n        const state = createSvgRenderState();\n        buildSVGAttrs(state, visualState, isSVGTag(Component), props.transformTemplate, props.style);\n        return {\n            ...state.attrs,\n            style: { ...state.style },\n        };\n    }, [visualState]);\n    if (props.style) {\n        const rawStyles = {};\n        copyRawValuesOnly(rawStyles, props.style, props);\n        visualProps.style = { ...rawStyles, ...visualProps.style };\n    }\n    return visualProps;\n}\n\nexport { useSVGProps };\n",
+      "start": 1762100729741,
+      "end": 1762100729755,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729755,
+      "end": 1762100729755,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729755,
+      "end": 1762100729755,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729756,
+      "end": 1762100729756,
+      "order": "normal"
+    }
+  ]
+}

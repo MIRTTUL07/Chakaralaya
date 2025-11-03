@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/subscribe-value.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { cancelFrame, frame } from '../frameloop/frame.mjs';\n\nfunction subscribeValue(inputValues, outputValue, getLatest) {\n    const update = () => outputValue.set(getLatest());\n    const scheduleUpdate = () => frame.preRender(update, false, true);\n    const subscriptions = inputValues.map((v) => v.on(\"change\", scheduleUpdate));\n    outputValue.on(\"destroy\", () => {\n        subscriptions.forEach((unsubscribe) => unsubscribe());\n        cancelFrame(update);\n    });\n}\n\nexport { subscribeValue };\n",
+      "start": 1762100729488,
+      "end": 1762100729551,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729551,
+      "end": 1762100729551,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/menu.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 5h16\", key: \"1tepv9\" }],\n  [\"path\", { d: \"M4 12h16\", key: \"1lakjw\" }],\n  [\"path\", { d: \"M4 19h16\", key: \"1djgab\" }]\n];\nconst Menu = createLucideIcon(\"menu\", __iconNode);\n\nexport { __iconNode, Menu as default };\n//# sourceMappingURL=menu.js.map\n",
+      "start": 1762100720772,
+      "end": 1762100727227,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727227,
+      "end": 1762100727227,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727227,
+      "end": 1762100727227,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727227,
+      "end": 1762100727227,
+      "order": "normal"
+    }
+  ]
+}

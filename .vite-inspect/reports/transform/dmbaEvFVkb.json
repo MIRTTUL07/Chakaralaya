@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/code-xml.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m18 16 4-4-4-4\", key: \"1inbqp\" }],\n  [\"path\", { d: \"m6 8-4 4 4 4\", key: \"15zrgr\" }],\n  [\"path\", { d: \"m14.5 4-5 16\", key: \"e7oirm\" }]\n];\nconst CodeXml = createLucideIcon(\"code-xml\", __iconNode);\n\nexport { __iconNode, CodeXml as default };\n//# sourceMappingURL=code-xml.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720825,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720825,
+      "end": 1762100720825,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720825,
+      "end": 1762100720825,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720826,
+      "end": 1762100720826,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pentagon.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M10.83 2.38a2 2 0 0 1 2.34 0l8 5.74a2 2 0 0 1 .73 2.25l-3.04 9.26a2 2 0 0 1-1.9 1.37H7.04a2 2 0 0 1-1.9-1.37L2.1 10.37a2 2 0 0 1 .73-2.25z\",\n      key: \"2hea0t\"\n    }\n  ]\n];\nconst Pentagon = createLucideIcon(\"pentagon\", __iconNode);\n\nexport { __iconNode, Pentagon as default };\n//# sourceMappingURL=pentagon.js.map\n",
+      "start": 1762100720989,
+      "end": 1762100727303,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727303,
+      "end": 1762100727303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727303,
+      "end": 1762100727303,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727304,
+      "end": 1762100727304,
+      "order": "normal"
+    }
+  ]
+}

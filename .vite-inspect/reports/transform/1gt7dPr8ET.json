@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/list-chevrons-down-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 5h8\", key: \"18g2rq\" }],\n  [\"path\", { d: \"M3 12h8\", key: \"1xfjp6\" }],\n  [\"path\", { d: \"M3 19h8\", key: \"fpbke4\" }],\n  [\"path\", { d: \"m15 5 3 3 3-3\", key: \"1t4thf\" }],\n  [\"path\", { d: \"m15 19 3-3 3 3\", key: \"y4ckd2\" }]\n];\nconst ListChevronsDownUp = createLucideIcon(\"list-chevrons-down-up\", __iconNode);\n\nexport { __iconNode, ListChevronsDownUp as default };\n//# sourceMappingURL=list-chevrons-down-up.js.map\n",
+      "start": 1762100718745,
+      "end": 1762100722118,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722118,
+      "end": 1762100722118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722119,
+      "end": 1762100722119,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722119,
+      "end": 1762100722119,
+      "order": "normal"
+    }
+  ]
+}

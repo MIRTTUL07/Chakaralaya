@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/timer-reset.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 2h4\", key: \"n1abiw\" }],\n  [\"path\", { d: \"M12 14v-4\", key: \"1evpnu\" }],\n  [\"path\", { d: \"M4 13a8 8 0 0 1 8-7 8 8 0 1 1-5.3 14L4 17.6\", key: \"1ts96g\" }],\n  [\"path\", { d: \"M9 17H4v5\", key: \"8t5av\" }]\n];\nconst TimerReset = createLucideIcon(\"timer-reset\", __iconNode);\n\nexport { __iconNode, TimerReset as default };\n//# sourceMappingURL=timer-reset.js.map\n",
+      "start": 1762100721485,
+      "end": 1762100727448,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727448,
+      "end": 1762100727448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727448,
+      "end": 1762100727448,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727449,
+      "end": 1762100727449,
+      "order": "normal"
+    }
+  ]
+}

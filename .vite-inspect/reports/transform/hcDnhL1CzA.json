@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sparkle.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\",\n      key: \"1s2grr\"\n    }\n  ]\n];\nconst Sparkle = createLucideIcon(\"sparkle\", __iconNode);\n\nexport { __iconNode, Sparkle as default };\n//# sourceMappingURL=sparkle.js.map\n",
+      "start": 1762100721370,
+      "end": 1762100727407,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727407,
+      "end": 1762100727407,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727407,
+      "end": 1762100727407,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727408,
+      "end": 1762100727408,
+      "order": "normal"
+    }
+  ]
+}

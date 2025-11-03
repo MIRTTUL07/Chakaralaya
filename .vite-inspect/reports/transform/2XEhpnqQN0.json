@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/get-value-transition.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function getValueTransition(transition, key) {\n    return (transition?.[key] ??\n        transition?.[\"default\"] ??\n        transition);\n}\n\nexport { getValueTransition };\n",
+      "start": 1762100729190,
+      "end": 1762100729272,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    }
+  ]
+}

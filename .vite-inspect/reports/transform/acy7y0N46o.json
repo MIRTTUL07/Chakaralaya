@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bot.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 8V4H8\", key: \"hb8ula\" }],\n  [\"rect\", { width: \"16\", height: \"12\", x: \"4\", y: \"8\", rx: \"2\", key: \"enze0r\" }],\n  [\"path\", { d: \"M2 14h2\", key: \"vft8re\" }],\n  [\"path\", { d: \"M20 14h2\", key: \"4cs60a\" }],\n  [\"path\", { d: \"M15 13v2\", key: \"1xurst\" }],\n  [\"path\", { d: \"M9 13v2\", key: \"rq6x2g\" }]\n];\nconst Bot = createLucideIcon(\"bot\", __iconNode);\n\nexport { __iconNode, Bot as default };\n//# sourceMappingURL=bot.js.map\n",
+      "start": 1762100718706,
+      "end": 1762100721384,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721384,
+      "end": 1762100721384,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721384,
+      "end": 1762100721384,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721385,
+      "end": 1762100721385,
+      "order": "normal"
+    }
+  ]
+}

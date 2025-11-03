@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/spool.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M17 13.44 4.442 17.082A2 2 0 0 0 4.982 21H19a2 2 0 0 0 .558-3.921l-1.115-.32A2 2 0 0 1 17 14.837V7.66\",\n      key: \"13vns8\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"m7 10.56 12.558-3.642A2 2 0 0 0 19.018 3H5a2 2 0 0 0-.558 3.921l1.115.32A2 2 0 0 1 7 9.163v7.178\",\n      key: \"s8x3u0\"\n    }\n  ]\n];\nconst Spool = createLucideIcon(\"spool\", __iconNode);\n\nexport { __iconNode, Spool as default };\n//# sourceMappingURL=spool.js.map\n",
+      "start": 1762100721377,
+      "end": 1762100727410,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727410,
+      "end": 1762100727410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727410,
+      "end": 1762100727410,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727411,
+      "end": 1762100727411,
+      "order": "normal"
+    }
+  ]
+}

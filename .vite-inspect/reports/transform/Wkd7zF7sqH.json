@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/clock-arrow-down.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 6v6l2 1\", key: \"19cm8n\" }],\n  [\"path\", { d: \"M12.337 21.994a10 10 0 1 1 9.588-8.767\", key: \"28moa\" }],\n  [\"path\", { d: \"m14 18 4 4 4-4\", key: \"1waygx\" }],\n  [\"path\", { d: \"M18 14v8\", key: \"irew45\" }]\n];\nconst ClockArrowDown = createLucideIcon(\"clock-arrow-down\", __iconNode);\n\nexport { __iconNode, ClockArrowDown as default };\n//# sourceMappingURL=clock-arrow-down.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721630,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721630,
+      "end": 1762100721630,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721630,
+      "end": 1762100721630,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721631,
+      "end": 1762100721631,
+      "order": "normal"
+    }
+  ]
+}

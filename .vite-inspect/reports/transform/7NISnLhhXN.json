@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/arrow-down-right.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m7 7 10 10\", key: \"1fmybs\" }],\n  [\"path\", { d: \"M17 7v10H7\", key: \"6fjiku\" }]\n];\nconst ArrowDownRight = createLucideIcon(\"arrow-down-right\", __iconNode);\n\nexport { __iconNode, ArrowDownRight as default };\n//# sourceMappingURL=arrow-down-right.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721161,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721161,
+      "end": 1762100721161,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721161,
+      "end": 1762100721161,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721161,
+      "end": 1762100721161,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/use-transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { transform } from 'motion-dom';\nimport { useConstant } from '../utils/use-constant.mjs';\nimport { useCombineMotionValues } from './use-combine-values.mjs';\nimport { useComputed } from './use-computed.mjs';\n\nfunction useTransform(input, inputRangeOrTransformer, outputRange, options) {\n    if (typeof input === \"function\") {\n        return useComputed(input);\n    }\n    const transformer = typeof inputRangeOrTransformer === \"function\"\n        ? inputRangeOrTransformer\n        : transform(inputRangeOrTransformer, outputRange, options);\n    return Array.isArray(input)\n        ? useListTransform(input, transformer)\n        : useListTransform([input], ([latest]) => transformer(latest));\n}\nfunction useListTransform(values, transformer) {\n    const latest = useConstant(() => []);\n    return useCombineMotionValues(values, () => {\n        latest.length = 0;\n        const numValues = values.length;\n        for (let i = 0; i < numValues; i++) {\n            latest[i] = values[i].get();\n        }\n        return transformer(latest);\n    });\n}\n\nexport { useTransform };\n",
+      "start": 1762100728887,
+      "end": 1762100729054,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729054,
+      "end": 1762100729054,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729054,
+      "end": 1762100729054,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729054,
+      "end": 1762100729054,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/motion-values.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isMotionValue, motionValue } from 'motion-dom';\n\nfunction updateMotionValuesFromProps(element, next, prev) {\n    for (const key in next) {\n        const nextValue = next[key];\n        const prevValue = prev[key];\n        if (isMotionValue(nextValue)) {\n            /**\n             * If this is a motion value found in props or style, we want to add it\n             * to our visual element's motion value map.\n             */\n            element.addValue(key, nextValue);\n        }\n        else if (isMotionValue(prevValue)) {\n            /**\n             * If we're swapping from a motion value to a static value,\n             * create a new motion value from that\n             */\n            element.addValue(key, motionValue(nextValue, { owner: element }));\n        }\n        else if (prevValue !== nextValue) {\n            /**\n             * If this is a flat value that has changed, update the motion value\n             * or create one if it doesn't exist. We only want to do this if we're\n             * not handling the value with our animation state.\n             */\n            if (element.hasValue(key)) {\n                const existingValue = element.getValue(key);\n                if (existingValue.liveStyle === true) {\n                    existingValue.jump(nextValue);\n                }\n                else if (!existingValue.hasAnimated) {\n                    existingValue.set(nextValue);\n                }\n            }\n            else {\n                const latestValue = element.getStaticValue(key);\n                element.addValue(key, motionValue(latestValue !== undefined ? latestValue : nextValue, { owner: element }));\n            }\n        }\n    }\n    // Handle removed values\n    for (const key in prev) {\n        if (next[key] === undefined)\n            element.removeValue(key);\n    }\n    return next;\n}\n\nexport { updateMotionValuesFromProps };\n",
+      "start": 1762100729205,
+      "end": 1762100729417,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal"
+    }
+  ]
+}

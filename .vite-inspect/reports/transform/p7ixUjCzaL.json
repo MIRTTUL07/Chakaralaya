@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/corner-down-right.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m15 10 5 5-5 5\", key: \"qqa56n\" }],\n  [\"path\", { d: \"M4 4v7a4 4 0 0 0 4 4h12\", key: \"z08zvw\" }]\n];\nconst CornerDownRight = createLucideIcon(\"corner-down-right\", __iconNode);\n\nexport { __iconNode, CornerDownRight as default };\n//# sourceMappingURL=corner-down-right.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721705,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721705,
+      "end": 1762100721705,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721705,
+      "end": 1762100721705,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721706,
+      "end": 1762100721706,
+      "order": "normal"
+    }
+  ]
+}

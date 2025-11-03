@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/back.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { cubicBezier } from './cubic-bezier.mjs';\nimport { mirrorEasing } from './modifiers/mirror.mjs';\nimport { reverseEasing } from './modifiers/reverse.mjs';\n\nconst backOut = /*@__PURE__*/ cubicBezier(0.33, 1.53, 0.69, 0.99);\nconst backIn = /*@__PURE__*/ reverseEasing(backOut);\nconst backInOut = /*@__PURE__*/ mirrorEasing(backIn);\n\nexport { backIn, backInOut, backOut };\n",
+      "start": 1762100729149,
+      "end": 1762100729261,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal"
+    }
+  ]
+}

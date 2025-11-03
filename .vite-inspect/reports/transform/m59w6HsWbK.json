@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/fire-extinguisher.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5\", key: \"sqyvz\" }],\n  [\"path\", { d: \"M9 18h8\", key: \"i7pszb\" }],\n  [\"path\", { d: \"M18 3h-3\", key: \"7idoqj\" }],\n  [\"path\", { d: \"M11 3a6 6 0 0 0-6 6v11\", key: \"1v5je3\" }],\n  [\"path\", { d: \"M5 13h4\", key: \"svpcxo\" }],\n  [\"path\", { d: \"M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z\", key: \"vsjego\" }]\n];\nconst FireExtinguisher = createLucideIcon(\"fire-extinguisher\", __iconNode);\n\nexport { __iconNode, FireExtinguisher as default };\n//# sourceMappingURL=fire-extinguisher.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721864,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721864,
+      "end": 1762100721864,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721864,
+      "end": 1762100721864,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721865,
+      "end": 1762100721865,
+      "order": "normal"
+    }
+  ]
+}

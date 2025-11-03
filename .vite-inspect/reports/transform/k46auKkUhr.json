@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sigma.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2\",\n      key: \"wuwx1p\"\n    }\n  ]\n];\nconst Sigma = createLucideIcon(\"sigma\", __iconNode);\n\nexport { __iconNode, Sigma as default };\n//# sourceMappingURL=sigma.js.map\n",
+      "start": 1762100721283,
+      "end": 1762100727397,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727397,
+      "end": 1762100727397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727397,
+      "end": 1762100727398,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727398,
+      "end": 1762100727398,
+      "order": "normal"
+    }
+  ]
+}

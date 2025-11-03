@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/utils/measure.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { convertBoundingBoxToBox, transformBoxPoints } from '../geometry/conversion.mjs';\nimport { translateAxis } from '../geometry/delta-apply.mjs';\n\nfunction measureViewportBox(instance, transformPoint) {\n    return convertBoundingBoxToBox(transformBoxPoints(instance.getBoundingClientRect(), transformPoint));\n}\nfunction measurePageBox(element, rootProjectionNode, transformPagePoint) {\n    const viewportBox = measureViewportBox(element, transformPagePoint);\n    const { scroll } = rootProjectionNode;\n    if (scroll) {\n        translateAxis(viewportBox.x, scroll.offset.x);\n        translateAxis(viewportBox.y, scroll.offset.y);\n    }\n    return viewportBox;\n}\n\nexport { measurePageBox, measureViewportBox };\n",
+      "start": 1762100729559,
+      "end": 1762100729664,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729664,
+      "end": 1762100729664,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729664,
+      "end": 1762100729664,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal"
+    }
+  ]
+}

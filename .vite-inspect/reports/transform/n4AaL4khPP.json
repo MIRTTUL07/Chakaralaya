@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/style/transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { transformPropOrder } from '../../render/utils/keys-transform.mjs';\n\nconst translateAlias = {\n    x: \"translateX\",\n    y: \"translateY\",\n    z: \"translateZ\",\n    transformPerspective: \"perspective\",\n};\nfunction buildTransform(state) {\n    let transform = \"\";\n    let transformIsDefault = true;\n    /**\n     * Loop over all possible transforms in order, adding the ones that\n     * are present to the transform string.\n     */\n    for (let i = 0; i < transformPropOrder.length; i++) {\n        const key = transformPropOrder[i];\n        const value = state.latest[key];\n        if (value === undefined)\n            continue;\n        let valueIsDefault = true;\n        if (typeof value === \"number\") {\n            valueIsDefault = value === (key.startsWith(\"scale\") ? 1 : 0);\n        }\n        else {\n            valueIsDefault = parseFloat(value) === 0;\n        }\n        if (!valueIsDefault) {\n            transformIsDefault = false;\n            const transformName = translateAlias[key] || key;\n            const valueToRender = state.latest[key];\n            transform += `${transformName}(${valueToRender}) `;\n        }\n    }\n    return transformIsDefault ? \"none\" : transform.trim();\n}\n\nexport { buildTransform };\n",
+      "start": 1762100729446,
+      "end": 1762100729545,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/utils/calc-child-stagger.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function calcChildStagger(children, child, delayChildren, staggerChildren = 0, staggerDirection = 1) {\n    const index = Array.from(children)\n        .sort((a, b) => a.sortNodePosition(b))\n        .indexOf(child);\n    const numChildren = children.size;\n    const maxStaggerDuration = (numChildren - 1) * staggerChildren;\n    const delayIsFunction = typeof delayChildren === \"function\";\n    return delayIsFunction\n        ? delayChildren(index, numChildren)\n        : staggerDirection === 1\n            ? index * staggerChildren\n            : maxStaggerDuration - index * staggerChildren;\n}\n\nexport { calcChildStagger };\n",
+      "start": 1762100729392,
+      "end": 1762100729534,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729535,
+      "end": 1762100729535,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729535,
+      "end": 1762100729535,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729535,
+      "end": 1762100729535,
+      "order": "normal"
+    }
+  ]
+}

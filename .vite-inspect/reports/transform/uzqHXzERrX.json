@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/package-open.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 22v-9\", key: \"x3hkom\" }],\n  [\n    \"path\",\n    {\n      d: \"M15.17 2.21a1.67 1.67 0 0 1 1.63 0L21 4.57a1.93 1.93 0 0 1 0 3.36L8.82 14.79a1.655 1.655 0 0 1-1.64 0L3 12.43a1.93 1.93 0 0 1 0-3.36z\",\n      key: \"2ntwy6\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M20 13v3.87a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13\",\n      key: \"1pmm1c\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.636 1.636 0 0 0 1.63 0z\",\n      key: \"12ttoo\"\n    }\n  ]\n];\nconst PackageOpen = createLucideIcon(\"package-open\", __iconNode);\n\nexport { __iconNode, PackageOpen as default };\n//# sourceMappingURL=package-open.js.map\n",
+      "start": 1762100720937,
+      "end": 1762100727289,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727289,
+      "end": 1762100727289,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727289,
+      "end": 1762100727289,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727289,
+      "end": 1762100727289,
+      "order": "normal"
+    }
+  ]
+}

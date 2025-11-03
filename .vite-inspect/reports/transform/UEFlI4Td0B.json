@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sandwich.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m2.37 11.223 8.372-6.777a2 2 0 0 1 2.516 0l8.371 6.777\", key: \"f1wd0e\" }],\n  [\"path\", { d: \"M21 15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.25\", key: \"1pfu07\" }],\n  [\"path\", { d: \"M3 15a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h9\", key: \"1oq9qw\" }],\n  [\"path\", { d: \"m6.67 15 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2\", key: \"1fnwu5\" }],\n  [\"rect\", { width: \"20\", height: \"4\", x: \"2\", y: \"11\", rx: \"1\", key: \"itshg\" }]\n];\nconst Sandwich = createLucideIcon(\"sandwich\", __iconNode);\n\nexport { __iconNode, Sandwich as default };\n//# sourceMappingURL=sandwich.js.map\n",
+      "start": 1762100721174,
+      "end": 1762100727350,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727350,
+      "end": 1762100727350,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727350,
+      "end": 1762100727350,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727351,
+      "end": 1762100727351,
+      "order": "normal"
+    }
+  ]
+}

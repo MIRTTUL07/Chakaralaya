@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/utils/create-dom-effect.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resolveElements } from '../../utils/resolve-elements.mjs';\n\nfunction createSelectorEffect(subjectEffect) {\n    return (subject, values) => {\n        const elements = resolveElements(subject);\n        const subscriptions = [];\n        for (const element of elements) {\n            const remove = subjectEffect(element, values);\n            subscriptions.push(remove);\n        }\n        return () => {\n            for (const remove of subscriptions)\n                remove();\n        };\n    };\n}\n\nexport { createSelectorEffect };\n",
+      "start": 1762100729444,
+      "end": 1762100729656,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729656,
+      "end": 1762100729656,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729656,
+      "end": 1762100729656,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729656,
+      "end": 1762100729656,
+      "order": "normal"
+    }
+  ]
+}

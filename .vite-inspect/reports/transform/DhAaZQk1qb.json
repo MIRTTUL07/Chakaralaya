@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tornado.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 4H3\", key: \"1hwok0\" }],\n  [\"path\", { d: \"M18 8H6\", key: \"41n648\" }],\n  [\"path\", { d: \"M19 12H9\", key: \"1g4lpz\" }],\n  [\"path\", { d: \"M16 16h-6\", key: \"1j5d54\" }],\n  [\"path\", { d: \"M11 20H9\", key: \"39obr8\" }]\n];\nconst Tornado = createLucideIcon(\"tornado\", __iconNode);\n\nexport { __iconNode, Tornado as default };\n//# sourceMappingURL=tornado.js.map\n",
+      "start": 1762100721489,
+      "end": 1762100727452,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727453,
+      "end": 1762100727453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727453,
+      "end": 1762100727453,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727453,
+      "end": 1762100727453,
+      "order": "normal"
+    }
+  ]
+}

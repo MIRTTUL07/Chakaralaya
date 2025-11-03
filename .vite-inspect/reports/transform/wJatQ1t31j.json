@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/power-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M18.36 6.64A9 9 0 0 1 20.77 15\", key: \"dxknvb\" }],\n  [\"path\", { d: \"M6.16 6.16a9 9 0 1 0 12.68 12.68\", key: \"1x7qb5\" }],\n  [\"path\", { d: \"M12 2v4\", key: \"3427ic\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }]\n];\nconst PowerOff = createLucideIcon(\"power-off\", __iconNode);\n\nexport { __iconNode, PowerOff as default };\n//# sourceMappingURL=power-off.js.map\n",
+      "start": 1762100721090,
+      "end": 1762100727320,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727320,
+      "end": 1762100727320,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727320,
+      "end": 1762100727320,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727320,
+      "end": 1762100727320,
+      "order": "normal"
+    }
+  ]
+}

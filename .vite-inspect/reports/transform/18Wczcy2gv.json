@@ -1,0 +1,32 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-awesome-reveal/node_modules/react-is/index.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "'use strict';\n\nif (process.env.NODE_ENV === 'production') {\n  module.exports = require('./cjs/react-is.production.min.js');\n} else {\n  module.exports = require('./cjs/react-is.development.js');\n}\n",
+      "start": 1762100716696,
+      "end": 1762100716889,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716889,
+      "end": 1762100716889,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "\"use strict\";\nif (true) {\n  module.exports = require(\"./cjs/react-is.production.min.js\");\n} else {\n  module.exports = require(\"./cjs/react-is.development.js\");\n}\n",
+      "start": 1762100716889,
+      "end": 1762100716937,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100717553,
+      "end": 1762100717553,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-x.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"m15 9-6 6\", key: \"1uzhvr\" }],\n  [\"path\", { d: \"m9 9 6 6\", key: \"z0biqf\" }]\n];\nconst CircleX = createLucideIcon(\"circle-x\", __iconNode);\n\nexport { __iconNode, CircleX as default };\n//# sourceMappingURL=circle-x.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720823,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720823,
+      "end": 1762100720823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720823,
+      "end": 1762100720823,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720823,
+      "end": 1762100720823,
+      "order": "normal"
+    }
+  ]
+}

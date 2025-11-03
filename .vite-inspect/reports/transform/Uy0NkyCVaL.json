@@ -1,0 +1,32 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/errors.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { formatErrorMessage } from './format-error-message.mjs';\n\nlet warning = () => { };\nlet invariant = () => { };\nif (process.env.NODE_ENV !== \"production\") {\n    warning = (check, message, errorCode) => {\n        if (!check && typeof console !== \"undefined\") {\n            console.warn(formatErrorMessage(message, errorCode));\n        }\n    };\n    invariant = (check, message, errorCode) => {\n        if (!check) {\n            throw new Error(formatErrorMessage(message, errorCode));\n        }\n    };\n}\n\nexport { invariant, warning };\n",
+      "start": 1762100729148,
+      "end": 1762100729253,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729253,
+      "end": 1762100729253,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { formatErrorMessage } from \"./format-error-message.mjs\";\nlet warning = () => {\n};\nlet invariant = () => {\n};\nif (false) {\n  warning = (check, message, errorCode) => {\n    if (!check && typeof console !== \"undefined\") {\n      console.warn(formatErrorMessage(message, errorCode));\n    }\n  };\n  invariant = (check, message, errorCode) => {\n    if (!check) {\n      throw new Error(formatErrorMessage(message, errorCode));\n    }\n  };\n}\nexport { invariant, warning };\n",
+      "start": 1762100729253,
+      "end": 1762100729403,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729404,
+      "end": 1762100729404,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bookmark-check.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2Z\", key: \"169p4p\" }],\n  [\"path\", { d: \"m9 10 2 2 4-4\", key: \"1gnqz4\" }]\n];\nconst BookmarkCheck = createLucideIcon(\"bookmark-check\", __iconNode);\n\nexport { __iconNode, BookmarkCheck as default };\n//# sourceMappingURL=bookmark-check.js.map\n",
+      "start": 1762100718705,
+      "end": 1762100721378,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721378,
+      "end": 1762100721378,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721378,
+      "end": 1762100721378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721379,
+      "end": 1762100721379,
+      "order": "normal"
+    }
+  ]
+}

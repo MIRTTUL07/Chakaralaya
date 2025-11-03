@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-graph.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"5\", cy: \"6\", r: \"3\", key: \"1qnov2\" }],\n  [\"path\", { d: \"M5 9v6\", key: \"158jrl\" }],\n  [\"circle\", { cx: \"5\", cy: \"18\", r: \"3\", key: \"104gr9\" }],\n  [\"path\", { d: \"M12 3v18\", key: \"108xh3\" }],\n  [\"circle\", { cx: \"19\", cy: \"6\", r: \"3\", key: \"108a5v\" }],\n  [\"path\", { d: \"M16 15.7A9 9 0 0 0 19 9\", key: \"1e3vqb\" }]\n];\nconst GitGraph = createLucideIcon(\"git-graph\", __iconNode);\n\nexport { __iconNode, GitGraph as default };\n//# sourceMappingURL=git-graph.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721964,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721964,
+      "end": 1762100721964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721964,
+      "end": 1762100721964,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721964,
+      "end": 1762100721964,
+      "order": "normal"
+    }
+  ]
+}

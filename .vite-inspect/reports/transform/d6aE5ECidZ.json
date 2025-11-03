@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/martini.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 22h8\", key: \"rmew8v\" }],\n  [\"path\", { d: \"M12 11v11\", key: \"ur9y6a\" }],\n  [\"path\", { d: \"m19 3-7 8-7-8Z\", key: \"1sgpiw\" }]\n];\nconst Martini = createLucideIcon(\"martini\", __iconNode);\n\nexport { __iconNode, Martini as default };\n//# sourceMappingURL=martini.js.map\n",
+      "start": 1762100720741,
+      "end": 1762100727223,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal"
+    }
+  ]
+}

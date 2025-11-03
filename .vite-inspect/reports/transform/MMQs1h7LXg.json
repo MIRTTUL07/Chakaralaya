@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tablet-smartphone.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"10\", height: \"14\", x: \"3\", y: \"8\", rx: \"2\", key: \"1vrsiq\" }],\n  [\"path\", { d: \"M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4\", key: \"1j4zmg\" }],\n  [\"path\", { d: \"M8 18h.01\", key: \"lrp35t\" }]\n];\nconst TabletSmartphone = createLucideIcon(\"tablet-smartphone\", __iconNode);\n\nexport { __iconNode, TabletSmartphone as default };\n//# sourceMappingURL=tablet-smartphone.js.map\n",
+      "start": 1762100721451,
+      "end": 1762100727431,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727431,
+      "end": 1762100727431,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727431,
+      "end": 1762100727431,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727431,
+      "end": 1762100727431,
+      "order": "normal"
+    }
+  ]
+}

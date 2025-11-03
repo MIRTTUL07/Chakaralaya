@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/utils/get-easing-for-segment.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { wrap } from '../../wrap.mjs';\nimport { isEasingArray } from './is-easing-array.mjs';\n\nfunction getEasingForSegment(easing, i) {\n    return isEasingArray(easing) ? easing[wrap(0, easing.length, i)] : easing;\n}\n\nexport { getEasingForSegment };\n",
+      "start": 1762100729149,
+      "end": 1762100729262,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    }
+  ]
+}

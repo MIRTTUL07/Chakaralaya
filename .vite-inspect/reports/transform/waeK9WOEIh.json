@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/is-svg-element.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isObject } from 'motion-utils';\n\n/**\n * Checks if an element is an SVG element in a way\n * that works across iframes\n */\nfunction isSVGElement(element) {\n    return isObject(element) && \"ownerSVGElement\" in element;\n}\n\nexport { isSVGElement };\n",
+      "start": 1762100729192,
+      "end": 1762100729315,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729315,
+      "end": 1762100729315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729315,
+      "end": 1762100729315,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729315,
+      "end": 1762100729315,
+      "order": "normal"
+    }
+  ]
+}

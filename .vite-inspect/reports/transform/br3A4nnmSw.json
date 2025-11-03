@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/table-2.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18\",\n      key: \"gugj83\"\n    }\n  ]\n];\nconst Table2 = createLucideIcon(\"table-2\", __iconNode);\n\nexport { __iconNode, Table2 as default };\n//# sourceMappingURL=table-2.js.map\n",
+      "start": 1762100721439,
+      "end": 1762100727428,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727428,
+      "end": 1762100727428,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727428,
+      "end": 1762100727428,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727428,
+      "end": 1762100727428,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/hourglass.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M5 22h14\", key: \"ehvnwv\" }],\n  [\"path\", { d: \"M5 2h14\", key: \"pdyrp9\" }],\n  [\n    \"path\",\n    {\n      d: \"M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22\",\n      key: \"1d314k\"\n    }\n  ],\n  [\n    \"path\",\n    { d: \"M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2\", key: \"1vvvr6\" }\n  ]\n];\nconst Hourglass = createLucideIcon(\"hourglass\", __iconNode);\n\nexport { __iconNode, Hourglass as default };\n//# sourceMappingURL=hourglass.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722037,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722037,
+      "end": 1762100722037,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722037,
+      "end": 1762100722037,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722038,
+      "end": 1762100722038,
+      "order": "normal"
+    }
+  ]
+}

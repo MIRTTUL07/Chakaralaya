@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-pull-request-closed.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"6\", cy: \"6\", r: \"3\", key: \"1lh9wr\" }],\n  [\"path\", { d: \"M6 9v12\", key: \"1sc30k\" }],\n  [\"path\", { d: \"m21 3-6 6\", key: \"16nqsk\" }],\n  [\"path\", { d: \"m21 9-6-6\", key: \"9j17rh\" }],\n  [\"path\", { d: \"M18 11.5V15\", key: \"65xf6f\" }],\n  [\"circle\", { cx: \"18\", cy: \"18\", r: \"3\", key: \"1xkwt0\" }]\n];\nconst GitPullRequestClosed = createLucideIcon(\"git-pull-request-closed\", __iconNode);\n\nexport { __iconNode, GitPullRequestClosed as default };\n//# sourceMappingURL=git-pull-request-closed.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721969,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721969,
+      "end": 1762100721969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721969,
+      "end": 1762100721969,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721969,
+      "end": 1762100721969,
+      "order": "normal"
+    }
+  ]
+}

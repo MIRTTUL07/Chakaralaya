@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/utils/sanitize.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// If this number is a decimal, make it just five decimal places\n// to avoid exponents\nconst sanitize = (v) => Math.round(v * 100000) / 100000;\n\nexport { sanitize };\n",
+      "start": 1762100729491,
+      "end": 1762100729555,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729555,
+      "end": 1762100729555,
+      "order": "normal"
+    }
+  ]
+}

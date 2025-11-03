@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/user-check.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m16 11 2 2 4-4\", key: \"9rsbq5\" }],\n  [\"path\", { d: \"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\", key: \"1yyitq\" }],\n  [\"circle\", { cx: \"9\", cy: \"7\", r: \"4\", key: \"nufk8\" }]\n];\nconst UserCheck = createLucideIcon(\"user-check\", __iconNode);\n\nexport { __iconNode, UserCheck as default };\n//# sourceMappingURL=user-check.js.map\n",
+      "start": 1762100721620,
+      "end": 1762100727496,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727496,
+      "end": 1762100727496,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727496,
+      "end": 1762100727496,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727497,
+      "end": 1762100727497,
+      "order": "normal"
+    }
+  ]
+}

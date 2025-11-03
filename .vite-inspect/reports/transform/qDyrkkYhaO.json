@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/align-end-horizontal.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"6\", height: \"16\", x: \"4\", y: \"2\", rx: \"2\", key: \"z5wdxg\" }],\n  [\"rect\", { width: \"6\", height: \"9\", x: \"14\", y: \"9\", rx: \"2\", key: \"um7a8w\" }],\n  [\"path\", { d: \"M22 22H2\", key: \"19qnx5\" }]\n];\nconst AlignEndHorizontal = createLucideIcon(\"align-end-horizontal\", __iconNode);\n\nexport { __iconNode, AlignEndHorizontal as default };\n//# sourceMappingURL=align-end-horizontal.js.map\n",
+      "start": 1762100718701,
+      "end": 1762100721112,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721112,
+      "end": 1762100721112,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721112,
+      "end": 1762100721112,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721112,
+      "end": 1762100721112,
+      "order": "normal"
+    }
+  ]
+}

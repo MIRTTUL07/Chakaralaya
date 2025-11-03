@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-arrow-down.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M12 8v8\", key: \"napkw2\" }],\n  [\"path\", { d: \"m8 12 4 4 4-4\", key: \"k98ssh\" }]\n];\nconst CircleArrowDown = createLucideIcon(\"circle-arrow-down\", __iconNode);\n\nexport { __iconNode, CircleArrowDown as default };\n//# sourceMappingURL=circle-arrow-down.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100721463,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721463,
+      "end": 1762100721463,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721463,
+      "end": 1762100721463,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721463,
+      "end": 1762100721463,
+      "order": "normal"
+    }
+  ]
+}

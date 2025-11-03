@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cannabis.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 22v-4\", key: \"1utk9m\" }],\n  [\n    \"path\",\n    {\n      d: \"M7 12c-1.5 0-4.5 1.5-5 3 3.5 1.5 6 1 6 1-1.5 1.5-2 3.5-2 5 2.5 0 4.5-1.5 6-3 1.5 1.5 3.5 3 6 3 0-1.5-.5-3.5-2-5 0 0 2.5.5 6-1-.5-1.5-3.5-3-5-3 1.5-1 4-4 4-6-2.5 0-5.5 1.5-7 3 0-2.5-.5-5-2-7-1.5 2-2 4.5-2 7-1.5-1.5-4.5-3-7-3 0 2 2.5 5 4 6\",\n      key: \"1mezod\"\n    }\n  ]\n];\nconst Cannabis = createLucideIcon(\"cannabis\", __iconNode);\n\nexport { __iconNode, Cannabis as default };\n//# sourceMappingURL=cannabis.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721466,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721466,
+      "end": 1762100721466,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721466,
+      "end": 1762100721466,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721466,
+      "end": 1762100721466,
+      "order": "normal"
+    }
+  ]
+}

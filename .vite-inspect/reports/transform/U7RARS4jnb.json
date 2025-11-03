@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/arrow-down-0-1.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m3 16 4 4 4-4\", key: \"1co6wj\" }],\n  [\"path\", { d: \"M7 20V4\", key: \"1yoxec\" }],\n  [\"rect\", { x: \"15\", y: \"4\", width: \"4\", height: \"6\", ry: \"2\", key: \"1bwicg\" }],\n  [\"path\", { d: \"M17 20v-6h-2\", key: \"1qp1so\" }],\n  [\"path\", { d: \"M15 20h4\", key: \"1j968p\" }]\n];\nconst ArrowDown01 = createLucideIcon(\"arrow-down-0-1\", __iconNode);\n\nexport { __iconNode, ArrowDown01 as default };\n//# sourceMappingURL=arrow-down-0-1.js.map\n",
+      "start": 1762100721720,
+      "end": 1762100727531,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727531,
+      "end": 1762100727531,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727531,
+      "end": 1762100727531,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal"
+    }
+  ]
+}

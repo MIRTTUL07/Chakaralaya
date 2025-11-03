@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/file-type-corner.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M12 22h6a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6\",\n      key: \"15usau\"\n    }\n  ],\n  [\"path\", { d: \"M14 2v5a1 1 0 0 0 1 1h5\", key: \"wfsgrz\" }],\n  [\"path\", { d: \"M3 16v-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V16\", key: \"s1gz5\" }],\n  [\"path\", { d: \"M6 22h2\", key: \"194x9m\" }],\n  [\"path\", { d: \"M7 14v8\", key: \"11ixej\" }]\n];\nconst FileTypeCorner = createLucideIcon(\"file-type-corner\", __iconNode);\n\nexport { __iconNode, FileTypeCorner as default };\n//# sourceMappingURL=file-type-corner.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720868,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720868,
+      "end": 1762100720868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720868,
+      "end": 1762100720868,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720869,
+      "end": 1762100720869,
+      "order": "normal"
+    }
+  ]
+}

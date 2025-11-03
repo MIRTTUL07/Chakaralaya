@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/setters.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { motionValue } from 'motion-dom';\nimport { isKeyframesTarget } from '../../animation/utils/is-keyframes-target.mjs';\nimport { resolveVariant } from './resolve-dynamic-variants.mjs';\n\n/**\n * Set VisualElement's MotionValue, creating a new MotionValue for it if\n * it doesn't exist.\n */\nfunction setMotionValue(visualElement, key, value) {\n    if (visualElement.hasValue(key)) {\n        visualElement.getValue(key).set(value);\n    }\n    else {\n        visualElement.addValue(key, motionValue(value));\n    }\n}\nfunction resolveFinalValueInKeyframes(v) {\n    // TODO maybe throw if v.length - 1 is placeholder token?\n    return isKeyframesTarget(v) ? v[v.length - 1] || 0 : v;\n}\nfunction setTarget(visualElement, definition) {\n    const resolved = resolveVariant(visualElement, definition);\n    let { transitionEnd = {}, transition = {}, ...target } = resolved || {};\n    target = { ...target, ...transitionEnd };\n    for (const key in target) {\n        const value = resolveFinalValueInKeyframes(target[key]);\n        setMotionValue(visualElement, key, value);\n    }\n}\n\nexport { setTarget };\n",
+      "start": 1762100729113,
+      "end": 1762100729249,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    }
+  ]
+}

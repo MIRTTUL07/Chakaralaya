@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/app-window.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { x: \"2\", y: \"4\", width: \"20\", height: \"16\", rx: \"2\", key: \"izxlao\" }],\n  [\"path\", { d: \"M10 4v4\", key: \"pp8u80\" }],\n  [\"path\", { d: \"M2 8h20\", key: \"d11cs7\" }],\n  [\"path\", { d: \"M6 4v4\", key: \"1svtjw\" }]\n];\nconst AppWindow = createLucideIcon(\"app-window\", __iconNode);\n\nexport { __iconNode, AppWindow as default };\n//# sourceMappingURL=app-window.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721144,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721144,
+      "end": 1762100721144,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721144,
+      "end": 1762100721144,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721145,
+      "end": 1762100721145,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bomb.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"11\", cy: \"13\", r: \"9\", key: \"hd149\" }],\n  [\n    \"path\",\n    {\n      d: \"M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.4 2.4 0 0 1 0 3.4l-1.95 1.95\",\n      key: \"jp4j1b\"\n    }\n  ],\n  [\"path\", { d: \"m22 2-1.5 1.5\", key: \"ay92ug\" }]\n];\nconst Bomb = createLucideIcon(\"bomb\", __iconNode);\n\nexport { __iconNode, Bomb as default };\n//# sourceMappingURL=bomb.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721331,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721331,
+      "end": 1762100721331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721331,
+      "end": 1762100721331,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721332,
+      "end": 1762100721332,
+      "order": "normal"
+    }
+  ]
+}

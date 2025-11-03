@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/line-squiggle.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M7 3.5c5-2 7 2.5 3 4C1.5 10 2 15 5 16c5 2 9-10 14-7s.5 13.5-4 12c-5-2.5.5-11 6-2\",\n      key: \"1lrphd\"\n    }\n  ]\n];\nconst LineSquiggle = createLucideIcon(\"line-squiggle\", __iconNode);\n\nexport { __iconNode, LineSquiggle as default };\n//# sourceMappingURL=line-squiggle.js.map\n",
+      "start": 1762100718745,
+      "end": 1762100722088,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722088,
+      "end": 1762100722088,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722088,
+      "end": 1762100722088,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722088,
+      "end": 1762100722088,
+      "order": "normal"
+    }
+  ]
+}

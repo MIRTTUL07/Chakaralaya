@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function memoize(fn) {\n  var cache = Object.create(null);\n  return function (arg) {\n    if (cache[arg] === undefined) cache[arg] = fn(arg);\n    return cache[arg];\n  };\n}\n\nexport { memoize as default };\n",
+      "start": 1762100717399,
+      "end": 1762100720192,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720192,
+      "end": 1762100720192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720192,
+      "end": 1762100720192,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720199,
+      "end": 1762100720199,
+      "order": "normal"
+    }
+  ]
+}

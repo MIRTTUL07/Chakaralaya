@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/features-animation.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { animations } from '../../motion/features/animations.mjs';\nimport { gestureAnimations } from '../../motion/features/gestures.mjs';\nimport { createDomVisualElement } from './create-visual-element.mjs';\n\n/**\n * @public\n */\nconst domAnimation = {\n    renderer: createDomVisualElement,\n    ...animations,\n    ...gestureAnimations,\n};\n\nexport { domAnimation };\n",
+      "start": 1762100728886,
+      "end": 1762100729048,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729048,
+      "end": 1762100729048,
+      "order": "normal"
+    }
+  ]
+}

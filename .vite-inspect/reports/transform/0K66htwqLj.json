@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/keyframes/utils/fill-wildcards.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function fillWildcards(keyframes) {\n    for (let i = 1; i < keyframes.length; i++) {\n        keyframes[i] ?? (keyframes[i] = keyframes[i - 1]);\n    }\n}\n\nexport { fillWildcards };\n",
+      "start": 1762100729191,
+      "end": 1762100729278,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729278,
+      "end": 1762100729278,
+      "order": "normal"
+    }
+  ]
+}

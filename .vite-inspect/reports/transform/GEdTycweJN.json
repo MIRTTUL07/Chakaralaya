@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/smartphone-charging.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"14\", height: \"20\", x: \"5\", y: \"2\", rx: \"2\", ry: \"2\", key: \"1yt0o3\" }],\n  [\"path\", { d: \"M12.667 8 10 12h4l-2.667 4\", key: \"h9lk2d\" }]\n];\nconst SmartphoneCharging = createLucideIcon(\"smartphone-charging\", __iconNode);\n\nexport { __iconNode, SmartphoneCharging as default };\n//# sourceMappingURL=smartphone-charging.js.map\n",
+      "start": 1762100721340,
+      "end": 1762100727403,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727403,
+      "end": 1762100727403,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727403,
+      "end": 1762100727403,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727403,
+      "end": 1762100727403,
+      "order": "normal"
+    }
+  ]
+}

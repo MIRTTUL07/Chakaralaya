@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/transgender.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 16v6\", key: \"c8a4gj\" }],\n  [\"path\", { d: \"M14 20h-4\", key: \"m8m19d\" }],\n  [\"path\", { d: \"M18 2h4v4\", key: \"1341mj\" }],\n  [\"path\", { d: \"m2 2 7.17 7.17\", key: \"13q8l2\" }],\n  [\"path\", { d: \"M2 5.355V2h3.357\", key: \"18136r\" }],\n  [\"path\", { d: \"m22 2-7.17 7.17\", key: \"1epvy4\" }],\n  [\"path\", { d: \"M8 5 5 8\", key: \"mgbjhz\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"4\", key: \"4exip2\" }]\n];\nconst Transgender = createLucideIcon(\"transgender\", __iconNode);\n\nexport { __iconNode, Transgender as default };\n//# sourceMappingURL=transgender.js.map\n",
+      "start": 1762100721499,
+      "end": 1762100727458,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727458,
+      "end": 1762100727458,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727458,
+      "end": 1762100727458,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727459,
+      "end": 1762100727459,
+      "order": "normal"
+    }
+  ]
+}

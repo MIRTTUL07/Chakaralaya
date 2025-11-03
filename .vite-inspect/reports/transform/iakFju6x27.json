@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mountain.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [[\"path\", { d: \"m8 3 4 8 5-5 5 15H2L8 3z\", key: \"otkl63\" }]];\nconst Mountain = createLucideIcon(\"mountain\", __iconNode);\n\nexport { __iconNode, Mountain as default };\n//# sourceMappingURL=mountain.js.map\n",
+      "start": 1762100720898,
+      "end": 1762100727272,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727272,
+      "end": 1762100727272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727272,
+      "end": 1762100727272,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727272,
+      "end": 1762100727272,
+      "order": "normal"
+    }
+  ]
+}

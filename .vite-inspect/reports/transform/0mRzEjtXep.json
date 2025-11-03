@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/book-lock.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M18 6V4a2 2 0 1 0-4 0v2\", key: \"1aquzs\" }],\n  [\"path\", { d: \"M20 15v6a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\", key: \"1rkj32\" }],\n  [\"path\", { d: \"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H10\", key: \"18wgow\" }],\n  [\"rect\", { x: \"12\", y: \"6\", width: \"8\", height: \"5\", rx: \"1\", key: \"73l30o\" }]\n];\nconst BookLock = createLucideIcon(\"book-lock\", __iconNode);\n\nexport { __iconNode, BookLock as default };\n//# sourceMappingURL=book-lock.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721367,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721367,
+      "end": 1762100721367,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721367,
+      "end": 1762100721367,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721368,
+      "end": 1762100721368,
+      "order": "normal"
+    }
+  ]
+}

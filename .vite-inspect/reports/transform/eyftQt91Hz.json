@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/touchpad.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"20\", height: \"16\", x: \"2\", y: \"4\", rx: \"2\", key: \"18n3k1\" }],\n  [\"path\", { d: \"M2 14h20\", key: \"myj16y\" }],\n  [\"path\", { d: \"M12 20v-6\", key: \"1rm09r\" }]\n];\nconst Touchpad = createLucideIcon(\"touchpad\", __iconNode);\n\nexport { __iconNode, Touchpad as default };\n//# sourceMappingURL=touchpad.js.map\n",
+      "start": 1762100721493,
+      "end": 1762100727454,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727454,
+      "end": 1762100727454,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727454,
+      "end": 1762100727454,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727455,
+      "end": 1762100727455,
+      "order": "normal"
+    }
+  ]
+}

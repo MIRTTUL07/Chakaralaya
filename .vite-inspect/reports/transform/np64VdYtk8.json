@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/use-spring.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { attachSpring, isMotionValue } from 'motion-dom';\nimport { useContext, useInsertionEffect } from 'react';\nimport { MotionConfigContext } from '../context/MotionConfigContext.mjs';\nimport { useMotionValue } from './use-motion-value.mjs';\nimport { useTransform } from './use-transform.mjs';\n\nfunction useSpring(source, options = {}) {\n    const { isStatic } = useContext(MotionConfigContext);\n    const getFromSource = () => (isMotionValue(source) ? source.get() : source);\n    // isStatic will never change, allowing early hooks return\n    if (isStatic) {\n        return useTransform(getFromSource);\n    }\n    const value = useMotionValue(getFromSource());\n    useInsertionEffect(() => {\n        return attachSpring(value, source, options);\n    }, [value, JSON.stringify(options)]);\n    return value;\n}\n\nexport { useSpring };\n",
+      "start": 1762100728887,
+      "end": 1762100729052,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729052,
+      "end": 1762100729052,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729052,
+      "end": 1762100729052,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729052,
+      "end": 1762100729052,
+      "order": "normal"
+    }
+  ]
+}

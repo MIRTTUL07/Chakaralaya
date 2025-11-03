@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/refrigerator.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M5 6a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6Z\", key: \"fpq118\" }\n  ],\n  [\"path\", { d: \"M5 10h14\", key: \"elsbfy\" }],\n  [\"path\", { d: \"M15 7v6\", key: \"1nx30x\" }]\n];\nconst Refrigerator = createLucideIcon(\"refrigerator\", __iconNode);\n\nexport { __iconNode, Refrigerator as default };\n//# sourceMappingURL=refrigerator.js.map\n",
+      "start": 1762100721150,
+      "end": 1762100727338,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727338,
+      "end": 1762100727338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727338,
+      "end": 1762100727338,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727338,
+      "end": 1762100727338,
+      "order": "normal"
+    }
+  ]
+}

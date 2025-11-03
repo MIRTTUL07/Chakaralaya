@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/AnimatePresence/use-presence-data.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useContext } from 'react';\nimport { PresenceContext } from '../../context/PresenceContext.mjs';\n\nfunction usePresenceData() {\n    const context = useContext(PresenceContext);\n    return context ? context.custom : undefined;\n}\n\nexport { usePresenceData };\n",
+      "start": 1762100728888,
+      "end": 1762100729058,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729058,
+      "end": 1762100729058,
+      "order": "normal"
+    }
+  ]
+}

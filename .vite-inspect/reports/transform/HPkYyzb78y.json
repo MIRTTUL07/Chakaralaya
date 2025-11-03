@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/use-computed.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { collectMotionValues } from 'motion-dom';\nimport { useCombineMotionValues } from './use-combine-values.mjs';\n\nfunction useComputed(compute) {\n    /**\n     * Open session of collectMotionValues. Any MotionValue that calls get()\n     * will be saved into this array.\n     */\n    collectMotionValues.current = [];\n    compute();\n    const value = useCombineMotionValues(collectMotionValues.current, compute);\n    /**\n     * Synchronously close session of collectMotionValues.\n     */\n    collectMotionValues.current = undefined;\n    return value;\n}\n\nexport { useComputed };\n",
+      "start": 1762100729108,
+      "end": 1762100729249,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sun-dim.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"4\", key: \"4exip2\" }],\n  [\"path\", { d: \"M12 4h.01\", key: \"1ujb9j\" }],\n  [\"path\", { d: \"M20 12h.01\", key: \"1ykeid\" }],\n  [\"path\", { d: \"M12 20h.01\", key: \"zekei9\" }],\n  [\"path\", { d: \"M4 12h.01\", key: \"158zrr\" }],\n  [\"path\", { d: \"M17.657 6.343h.01\", key: \"31pqzk\" }],\n  [\"path\", { d: \"M17.657 17.657h.01\", key: \"jehnf4\" }],\n  [\"path\", { d: \"M6.343 17.657h.01\", key: \"gdk6ow\" }],\n  [\"path\", { d: \"M6.343 6.343h.01\", key: \"1uurf0\" }]\n];\nconst SunDim = createLucideIcon(\"sun-dim\", __iconNode);\n\nexport { __iconNode, SunDim as default };\n//# sourceMappingURL=sun-dim.js.map\n",
+      "start": 1762100721424,
+      "end": 1762100727423,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727423,
+      "end": 1762100727423,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727423,
+      "end": 1762100727423,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727423,
+      "end": 1762100727423,
+      "order": "normal"
+    }
+  ]
+}

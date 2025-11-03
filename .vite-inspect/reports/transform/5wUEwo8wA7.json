@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/scroll/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { noop } from 'motion-utils';\nimport { attachToAnimation } from './attach-animation.mjs';\nimport { attachToFunction } from './attach-function.mjs';\n\nfunction scroll(onScroll, { axis = \"y\", container = document.scrollingElement, ...options } = {}) {\n    if (!container)\n        return noop;\n    const optionsWithDefaults = { axis, container, ...options };\n    return typeof onScroll === \"function\"\n        ? attachToFunction(onScroll, optionsWithDefaults)\n        : attachToAnimation(onScroll, optionsWithDefaults);\n}\n\nexport { scroll };\n",
+      "start": 1762100728889,
+      "end": 1762100729072,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/test.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Tests a provided value against a ValueType\n */\nconst testValueType = (v) => (type) => type.test(v);\n\nexport { testValueType };\n",
+      "start": 1762100729193,
+      "end": 1762100729368,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729368,
+      "end": 1762100729368,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729368,
+      "end": 1762100729368,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729369,
+      "end": 1762100729369,
+      "order": "normal"
+    }
+  ]
+}

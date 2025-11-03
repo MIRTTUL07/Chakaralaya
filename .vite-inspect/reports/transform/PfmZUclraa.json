@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/test-tubes.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M9 2v17.5A2.5 2.5 0 0 1 6.5 22A2.5 2.5 0 0 1 4 19.5V2\", key: \"1hjrqt\" }],\n  [\"path\", { d: \"M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5V2\", key: \"16lc8n\" }],\n  [\"path\", { d: \"M3 2h7\", key: \"7s29d5\" }],\n  [\"path\", { d: \"M14 2h7\", key: \"7sicin\" }],\n  [\"path\", { d: \"M9 16H4\", key: \"1bfye3\" }],\n  [\"path\", { d: \"M20 16h-5\", key: \"ddnjpe\" }]\n];\nconst TestTubes = createLucideIcon(\"test-tubes\", __iconNode);\n\nexport { __iconNode, TestTubes as default };\n//# sourceMappingURL=test-tubes.js.map\n",
+      "start": 1762100721470,
+      "end": 1762100727438,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727438,
+      "end": 1762100727438,
+      "order": "normal"
+    }
+  ]
+}

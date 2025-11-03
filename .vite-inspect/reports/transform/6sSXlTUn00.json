@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/codepen.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"polygon\", { points: \"12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2\", key: \"srzb37\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"22\", y2: \"15.5\", key: \"1t73f2\" }],\n  [\"polyline\", { points: \"22 8.5 12 15.5 2 8.5\", key: \"ajlxae\" }],\n  [\"polyline\", { points: \"2 15.5 12 8.5 22 15.5\", key: \"susrui\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"2\", y2: \"8.5\", key: \"2cldga\" }]\n];\nconst Codepen = createLucideIcon(\"codepen\", __iconNode);\n\nexport { __iconNode, Codepen as default };\n//# sourceMappingURL=codepen.js.map\n",
+      "start": 1762100718711,
+      "end": 1762100721660,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721660,
+      "end": 1762100721660,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721660,
+      "end": 1762100721660,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721661,
+      "end": 1762100721661,
+      "order": "normal"
+    }
+  ]
+}

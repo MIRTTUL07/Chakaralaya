@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pocket-knife.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2\", key: \"19w3oe\" }],\n  [\"path\", { d: \"M18 6h.01\", key: \"1v4wsw\" }],\n  [\"path\", { d: \"M6 18h.01\", key: \"uhywen\" }],\n  [\"path\", { d: \"M20.83 8.83a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z\", key: \"6fykxj\" }],\n  [\"path\", { d: \"M18 11.66V22a4 4 0 0 0 4-4V6\", key: \"1utzek\" }]\n];\nconst PocketKnife = createLucideIcon(\"pocket-knife\", __iconNode);\n\nexport { __iconNode, PocketKnife as default };\n//# sourceMappingURL=pocket-knife.js.map\n",
+      "start": 1762100721073,
+      "end": 1762100727317,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727317,
+      "end": 1762100727317,
+      "order": "normal"
+    }
+  ]
+}

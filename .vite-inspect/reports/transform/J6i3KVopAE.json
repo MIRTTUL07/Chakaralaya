@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/MotionValueState.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { frame, cancelFrame } from '../frameloop/frame.mjs';\nimport { numberValueTypes } from '../value/types/maps/number.mjs';\nimport { getValueAsType } from '../value/types/utils/get-as-type.mjs';\n\nclass MotionValueState {\n    constructor() {\n        this.latest = {};\n        this.values = new Map();\n    }\n    set(name, value, render, computed, useDefaultValueType = true) {\n        const existingValue = this.values.get(name);\n        if (existingValue) {\n            existingValue.onRemove();\n        }\n        const onChange = () => {\n            const v = value.get();\n            if (useDefaultValueType) {\n                this.latest[name] = getValueAsType(v, numberValueTypes[name]);\n            }\n            else {\n                this.latest[name] = v;\n            }\n            render && frame.render(render);\n        };\n        onChange();\n        const cancelOnChange = value.on(\"change\", onChange);\n        computed && value.addDependent(computed);\n        const remove = () => {\n            cancelOnChange();\n            render && cancelFrame(render);\n            this.values.delete(name);\n            computed && value.removeDependent(computed);\n        };\n        this.values.set(name, { value, onRemove: remove });\n        return remove;\n    }\n    get(name) {\n        return this.values.get(name)?.value;\n    }\n    destroy() {\n        for (const value of this.values.values()) {\n            value.onRemove();\n        }\n    }\n}\n\nexport { MotionValueState };\n",
+      "start": 1762100729646,
+      "end": 1762100729696,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal"
+    }
+  ]
+}

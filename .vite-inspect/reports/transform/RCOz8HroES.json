@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/@emotion/weak-memoize/dist/emotion-weak-memoize.esm.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "var weakMemoize = function weakMemoize(func) {\n  var cache = new WeakMap();\n  return function (arg) {\n    if (cache.has(arg)) {\n      // Use non-null assertion because we just checked that the cache `has` it\n      // This allows us to remove `undefined` from the return value\n      return cache.get(arg);\n    }\n\n    var ret = func(arg);\n    cache.set(arg, ret);\n    return ret;\n  };\n};\n\nexport { weakMemoize as default };\n",
+      "start": 1762100716928,
+      "end": 1762100716998,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716999,
+      "end": 1762100716999,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716999,
+      "end": 1762100716999,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716999,
+      "end": 1762100716999,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/utils/use-motion-ref.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useCallback } from 'react';\nimport { isRefObject } from '../../utils/is-ref-object.mjs';\n\n/**\n * Creates a ref function that, when called, hydrates the provided\n * external ref and VisualElement.\n */\nfunction useMotionRef(visualState, visualElement, externalRef) {\n    return useCallback((instance) => {\n        if (instance) {\n            visualState.onMount && visualState.onMount(instance);\n        }\n        if (visualElement) {\n            if (instance) {\n                visualElement.mount(instance);\n            }\n            else {\n                visualElement.unmount();\n            }\n        }\n        if (externalRef) {\n            if (typeof externalRef === \"function\") {\n                externalRef(instance);\n            }\n            else if (isRefObject(externalRef)) {\n                externalRef.current = instance;\n            }\n        }\n    }, \n    /**\n     * Include externalRef in dependencies to ensure the callback updates\n     * when the ref changes, allowing proper ref forwarding.\n     */\n    [visualElement]);\n}\n\nexport { useMotionRef };\n",
+      "start": 1762100729664,
+      "end": 1762100729735,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal"
+    }
+  ]
+}

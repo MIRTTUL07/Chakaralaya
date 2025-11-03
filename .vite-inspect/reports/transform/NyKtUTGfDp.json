@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/calendar-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18\", key: \"16swn3\" }],\n  [\"path\", { d: \"M21 15.5V6a2 2 0 0 0-2-2H9.5\", key: \"yhw86o\" }],\n  [\"path\", { d: \"M16 2v4\", key: \"4m81vk\" }],\n  [\"path\", { d: \"M3 10h7\", key: \"1wap6i\" }],\n  [\"path\", { d: \"M21 10h-5.5\", key: \"quycpq\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }]\n];\nconst CalendarOff = createLucideIcon(\"calendar-off\", __iconNode);\n\nexport { __iconNode, CalendarOff as default };\n//# sourceMappingURL=calendar-off.js.map\n",
+      "start": 1762100718707,
+      "end": 1762100721442,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721442,
+      "end": 1762100721442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721443,
+      "end": 1762100721443,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721443,
+      "end": 1762100721443,
+      "order": "normal"
+    }
+  ]
+}

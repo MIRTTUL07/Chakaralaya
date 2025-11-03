@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/Reorder/Group.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx } from 'react/jsx-runtime';\nimport { invariant } from 'motion-utils';\nimport { forwardRef, useRef, useEffect } from 'react';\nimport { ReorderContext } from '../../context/ReorderContext.mjs';\nimport { motion } from '../../render/components/motion/proxy.mjs';\nimport { useConstant } from '../../utils/use-constant.mjs';\nimport { checkReorder } from './utils/check-reorder.mjs';\n\nfunction ReorderGroupComponent({ children, as = \"ul\", axis = \"y\", onReorder, values, ...props }, externalRef) {\n    const Component = useConstant(() => motion[as]);\n    const order = [];\n    const isReordering = useRef(false);\n    invariant(Boolean(values), \"Reorder.Group must be provided a values prop\", \"reorder-values\");\n    const context = {\n        axis,\n        registerItem: (value, layout) => {\n            // If the entry was already added, update it rather than adding it again\n            const idx = order.findIndex((entry) => value === entry.value);\n            if (idx !== -1) {\n                order[idx].layout = layout[axis];\n            }\n            else {\n                order.push({ value: value, layout: layout[axis] });\n            }\n            order.sort(compareMin);\n        },\n        updateOrder: (item, offset, velocity) => {\n            if (isReordering.current)\n                return;\n            const newOrder = checkReorder(order, item, offset, velocity);\n            if (order !== newOrder) {\n                isReordering.current = true;\n                onReorder(newOrder\n                    .map(getValue)\n                    .filter((value) => values.indexOf(value) !== -1));\n            }\n        },\n    };\n    useEffect(() => {\n        isReordering.current = false;\n    });\n    return (jsx(Component, { ...props, ref: externalRef, ignoreStrict: true, children: jsx(ReorderContext.Provider, { value: context, children: children }) }));\n}\nconst ReorderGroup = /*@__PURE__*/ forwardRef(ReorderGroupComponent);\nfunction getValue(item) {\n    return item.value;\n}\nfunction compareMin(a, b) {\n    return a.layout.min - b.layout.min;\n}\n\nexport { ReorderGroup, ReorderGroupComponent };\n",
+      "start": 1762100729143,
+      "end": 1762100729252,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    }
+  ]
+}

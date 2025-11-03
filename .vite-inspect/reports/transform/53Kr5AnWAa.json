@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/shopping-bag.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M16 10a4 4 0 0 1-8 0\", key: \"1ltviw\" }],\n  [\"path\", { d: \"M3.103 6.034h17.794\", key: \"awc11p\" }],\n  [\n    \"path\",\n    {\n      d: \"M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z\",\n      key: \"o988cm\"\n    }\n  ]\n];\nconst ShoppingBag = createLucideIcon(\"shopping-bag\", __iconNode);\n\nexport { __iconNode, ShoppingBag as default };\n//# sourceMappingURL=shopping-bag.js.map\n",
+      "start": 1762100721275,
+      "end": 1762100727393,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727393,
+      "end": 1762100727393,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727393,
+      "end": 1762100727393,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727394,
+      "end": 1762100727394,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/Reorder/Item.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx } from 'react/jsx-runtime';\nimport { isMotionValue } from 'motion-dom';\nimport { invariant } from 'motion-utils';\nimport { forwardRef, useContext } from 'react';\nimport { ReorderContext } from '../../context/ReorderContext.mjs';\nimport { motion } from '../../render/components/motion/proxy.mjs';\nimport { useConstant } from '../../utils/use-constant.mjs';\nimport { useMotionValue } from '../../value/use-motion-value.mjs';\nimport { useTransform } from '../../value/use-transform.mjs';\n\nfunction useDefaultMotionValue(value, defaultValue = 0) {\n    return isMotionValue(value) ? value : useMotionValue(defaultValue);\n}\nfunction ReorderItemComponent({ children, style = {}, value, as = \"li\", onDrag, layout = true, ...props }, externalRef) {\n    const Component = useConstant(() => motion[as]);\n    const context = useContext(ReorderContext);\n    const point = {\n        x: useDefaultMotionValue(style.x),\n        y: useDefaultMotionValue(style.y),\n    };\n    const zIndex = useTransform([point.x, point.y], ([latestX, latestY]) => latestX || latestY ? 1 : \"unset\");\n    invariant(Boolean(context), \"Reorder.Item must be a child of Reorder.Group\", \"reorder-item-child\");\n    const { axis, registerItem, updateOrder } = context;\n    return (jsx(Component, { drag: axis, ...props, dragSnapToOrigin: true, style: { ...style, x: point.x, y: point.y, zIndex }, layout: layout, onDrag: (event, gesturePoint) => {\n            const { velocity } = gesturePoint;\n            velocity[axis] &&\n                updateOrder(value, point[axis].get(), velocity[axis]);\n            onDrag && onDrag(event, gesturePoint);\n        }, onLayoutMeasure: (measured) => registerItem(value, measured), ref: externalRef, ignoreStrict: true, children: children }));\n}\nconst ReorderItem = /*@__PURE__*/ forwardRef(ReorderItemComponent);\n\nexport { ReorderItem, ReorderItemComponent };\n",
+      "start": 1762100729143,
+      "end": 1762100729252,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729252,
+      "end": 1762100729252,
+      "order": "normal"
+    }
+  ]
+}

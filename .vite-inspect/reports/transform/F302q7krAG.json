@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/frameloop/index-legacy.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { stepsOrder } from './order.mjs';\nimport { frame, cancelFrame } from './frame.mjs';\n\n/**\n * @deprecated\n *\n * Import as `frame` instead.\n */\nconst sync = frame;\n/**\n * @deprecated\n *\n * Use cancelFrame(callback) instead.\n */\nconst cancelSync = stepsOrder.reduce((acc, key) => {\n    acc[key] = (process) => cancelFrame(process);\n    return acc;\n}, {});\n\nexport { cancelSync, sync };\n",
+      "start": 1762100729193,
+      "end": 1762100729371,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729371,
+      "end": 1762100729371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729371,
+      "end": 1762100729371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729372,
+      "end": 1762100729372,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/italic.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"19\", x2: \"10\", y1: \"4\", y2: \"4\", key: \"15jd3p\" }],\n  [\"line\", { x1: \"14\", x2: \"5\", y1: \"20\", y2: \"20\", key: \"bu0au3\" }],\n  [\"line\", { x1: \"15\", x2: \"9\", y1: \"4\", y2: \"20\", key: \"uljnxc\" }]\n];\nconst Italic = createLucideIcon(\"italic\", __iconNode);\n\nexport { __iconNode, Italic as default };\n//# sourceMappingURL=italic.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722064,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722064,
+      "end": 1762100722064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722064,
+      "end": 1762100722064,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722065,
+      "end": 1762100722065,
+      "order": "normal"
+    }
+  ]
+}

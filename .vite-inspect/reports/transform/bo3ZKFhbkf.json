@@ -1,0 +1,50 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/App.css",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "html, body, #root {\n  /* Set base elements to fill the screen */\n  height: 100%; \n  margin: 0; /* Remove default body margin */\n  padding: 0;\n}\n\n.App-wrapper {\n  /* This container holds everything: header, main content, footer */\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh; /* Make sure it's at least the full viewport height */\n}\n\n.main-content {\n  /* The main content area between the navigation and the footer */\n  flex-grow: 1; /* This will push the footer to the bottom */\n  /* You may need to adjust the content's margin/padding here as well */\n}",
+      "start": 1762100713236,
+      "end": 1762100715058,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "result": "html, body, #root {\n  /* Set base elements to fill the screen */\n  height: 100%; \n  margin: 0; /* Remove default body margin */\n  padding: 0;\n}\n\n.App-wrapper {\n  /* This container holds everything: header, main content, footer */\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh; /* Make sure it's at least the full viewport height */\n}\n\n.main-content {\n  /* The main content area between the navigation and the footer */\n  flex-grow: 1; /* This will push the footer to the bottom */\n  /* You may need to adjust the content's margin/padding here as well */\n}",
+      "start": 1762100715058,
+      "end": 1762100715067,
+      "order": "normal-normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100715068,
+      "end": 1762100715068,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100715068,
+      "end": 1762100715068,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1762100715068,
+      "end": 1762100715068,
+      "order": "normal-normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100715068,
+      "end": 1762100715068,
+      "order": "normal"
+    }
+  ]
+}

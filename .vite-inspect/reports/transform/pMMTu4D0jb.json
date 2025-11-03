@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-divide.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"18\", height: \"18\", x: \"3\", y: \"3\", rx: \"2\", ry: \"2\", key: \"1m3agn\" }],\n  [\"line\", { x1: \"8\", x2: \"16\", y1: \"12\", y2: \"12\", key: \"1jonct\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"16\", y2: \"16\", key: \"aqc6ln\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"8\", y2: \"8\", key: \"1mkcni\" }]\n];\nconst SquareDivide = createLucideIcon(\"square-divide\", __iconNode);\n\nexport { __iconNode, SquareDivide as default };\n//# sourceMappingURL=square-divide.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100720977,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720977,
+      "end": 1762100720977,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720977,
+      "end": 1762100720977,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720978,
+      "end": 1762100720978,
+      "order": "normal"
+    }
+  ]
+}

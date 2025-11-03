@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/utils/is-transition-defined.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Decide whether a transition is defined on a given Transition.\n * This filters out orchestration options and returns true\n * if any options are left.\n */\nfunction isTransitionDefined({ when, delay: _delay, delayChildren, staggerChildren, staggerDirection, repeat, repeatType, repeatDelay, from, elapsed, ...transition }) {\n    return !!Object.keys(transition).length;\n}\n\nexport { isTransitionDefined };\n",
+      "start": 1762100729605,
+      "end": 1762100729671,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729671,
+      "end": 1762100729671,
+      "order": "normal"
+    }
+  ]
+}

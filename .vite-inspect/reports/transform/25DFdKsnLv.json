@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/attr/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { camelToDash } from '../../render/dom/utils/camel-to-dash.mjs';\nimport { createSelectorEffect } from '../utils/create-dom-effect.mjs';\nimport { createEffect } from '../utils/create-effect.mjs';\n\nfunction canSetAsProperty(element, name) {\n    if (!(name in element))\n        return false;\n    const descriptor = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(element), name) ||\n        Object.getOwnPropertyDescriptor(element, name);\n    // Check if it has a setter\n    return descriptor && typeof descriptor.set === \"function\";\n}\nconst addAttrValue = (element, state, key, value) => {\n    const isProp = canSetAsProperty(element, key);\n    const name = isProp\n        ? key\n        : key.startsWith(\"data\") || key.startsWith(\"aria\")\n            ? camelToDash(key)\n            : key;\n    /**\n     * Set attribute directly via property if available\n     */\n    const render = isProp\n        ? () => {\n            element[name] = state.latest[key];\n        }\n        : () => {\n            const v = state.latest[key];\n            if (v === null || v === undefined) {\n                element.removeAttribute(name);\n            }\n            else {\n                element.setAttribute(name, String(v));\n            }\n        };\n    return state.set(key, value, render);\n};\nconst attrEffect = /*@__PURE__*/ createSelectorEffect(\n/*@__PURE__*/ createEffect(addAttrValue));\n\nexport { addAttrValue, attrEffect };\n",
+      "start": 1762100729191,
+      "end": 1762100729288,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729288,
+      "end": 1762100729288,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729288,
+      "end": 1762100729288,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729288,
+      "end": 1762100729288,
+      "order": "normal"
+    }
+  ]
+}

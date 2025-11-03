@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/scan-search.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 7V5a2 2 0 0 1 2-2h2\", key: \"aa7l1z\" }],\n  [\"path\", { d: \"M17 3h2a2 2 0 0 1 2 2v2\", key: \"4qcy5o\" }],\n  [\"path\", { d: \"M21 17v2a2 2 0 0 1-2 2h-2\", key: \"6vwrx8\" }],\n  [\"path\", { d: \"M7 21H5a2 2 0 0 1-2-2v-2\", key: \"ioqczr\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"3\", key: \"1v7zrd\" }],\n  [\"path\", { d: \"m16 16-1.9-1.9\", key: \"1dq9hf\" }]\n];\nconst ScanSearch = createLucideIcon(\"scan-search\", __iconNode);\n\nexport { __iconNode, ScanSearch as default };\n//# sourceMappingURL=scan-search.js.map\n",
+      "start": 1762100721229,
+      "end": 1762100727372,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727372,
+      "end": 1762100727372,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727372,
+      "end": 1762100727372,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727373,
+      "end": 1762100727373,
+      "order": "normal"
+    }
+  ]
+}

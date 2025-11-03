@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/utils/find.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { color } from '../color/index.mjs';\nimport { complex } from '../complex/index.mjs';\nimport { dimensionValueTypes } from '../dimensions.mjs';\nimport { testValueType } from '../test.mjs';\n\n/**\n * A list of all ValueTypes\n */\nconst valueTypes = [...dimensionValueTypes, color, complex];\n/**\n * Tests a value against the list of ValueTypes\n */\nconst findValueType = (v) => valueTypes.find(testValueType(v));\n\nexport { findValueType };\n",
+      "start": 1762100729193,
+      "end": 1762100729369,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729369,
+      "end": 1762100729369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729369,
+      "end": 1762100729369,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729369,
+      "end": 1762100729369,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/server.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"20\", height: \"8\", x: \"2\", y: \"2\", rx: \"2\", ry: \"2\", key: \"ngkwjq\" }],\n  [\"rect\", { width: \"20\", height: \"8\", x: \"2\", y: \"14\", rx: \"2\", ry: \"2\", key: \"iecqi9\" }],\n  [\"line\", { x1: \"6\", x2: \"6.01\", y1: \"6\", y2: \"6\", key: \"16zg32\" }],\n  [\"line\", { x1: \"6\", x2: \"6.01\", y1: \"18\", y2: \"18\", key: \"nzw8ys\" }]\n];\nconst Server = createLucideIcon(\"server\", __iconNode);\n\nexport { __iconNode, Server as default };\n//# sourceMappingURL=server.js.map\n",
+      "start": 1762100721260,
+      "end": 1762100727384,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727384,
+      "end": 1762100727384,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727384,
+      "end": 1762100727384,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727384,
+      "end": 1762100727384,
+      "order": "normal"
+    }
+  ]
+}

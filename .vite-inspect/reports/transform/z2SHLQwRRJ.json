@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/messages-square.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\",\n      key: \"1n2ejm\"\n    }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1\",\n      key: \"1qfcsi\"\n    }\n  ]\n];\nconst MessagesSquare = createLucideIcon(\"messages-square\", __iconNode);\n\nexport { __iconNode, MessagesSquare as default };\n//# sourceMappingURL=messages-square.js.map\n",
+      "start": 1762100720839,
+      "end": 1762100727238,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal"
+    }
+  ]
+}

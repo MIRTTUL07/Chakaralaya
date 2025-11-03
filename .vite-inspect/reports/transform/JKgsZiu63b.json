@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/utils/unwrap-motion-component.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isMotionComponent } from './is-motion-component.mjs';\nimport { motionComponentSymbol } from './symbol.mjs';\n\n/**\n * Unwraps a `motion` component and returns either a string for `motion.div` or\n * the React component for `motion(Component)`.\n *\n * If the component is not a `motion` component it returns undefined.\n */\nfunction unwrapMotionComponent(component) {\n    if (isMotionComponent(component)) {\n        return component[motionComponentSymbol];\n    }\n    return undefined;\n}\n\nexport { unwrapMotionComponent };\n",
+      "start": 1762100728888,
+      "end": 1762100729060,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729060,
+      "end": 1762100729060,
+      "order": "normal"
+    }
+  ]
+}

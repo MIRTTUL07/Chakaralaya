@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pilcrow-left.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M14 3v11\", key: \"mlfb7b\" }],\n  [\"path\", { d: \"M14 9h-3a3 3 0 0 1 0-6h9\", key: \"1ulc19\" }],\n  [\"path\", { d: \"M18 3v11\", key: \"1phi0r\" }],\n  [\"path\", { d: \"M22 18H2l4-4\", key: \"yt65j9\" }],\n  [\"path\", { d: \"m6 22-4-4\", key: \"6jgyf5\" }]\n];\nconst PilcrowLeft = createLucideIcon(\"pilcrow-left\", __iconNode);\n\nexport { __iconNode, PilcrowLeft as default };\n//# sourceMappingURL=pilcrow-left.js.map\n",
+      "start": 1762100721044,
+      "end": 1762100727310,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727310,
+      "end": 1762100727310,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727310,
+      "end": 1762100727310,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727310,
+      "end": 1762100727310,
+      "order": "normal"
+    }
+  ]
+}

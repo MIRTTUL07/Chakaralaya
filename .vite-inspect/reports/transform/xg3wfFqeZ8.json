@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bottle-wine.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M10 3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a6 6 0 0 0 1.2 3.6l.6.8A6 6 0 0 1 17 13v8a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-8a6 6 0 0 1 1.2-3.6l.6-.8A6 6 0 0 0 10 5z\",\n      key: \"blqgoc\"\n    }\n  ],\n  [\"path\", { d: \"M17 13h-4a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h4\", key: \"43jbee\" }]\n];\nconst BottleWine = createLucideIcon(\"bottle-wine\", __iconNode);\n\nexport { __iconNode, BottleWine as default };\n//# sourceMappingURL=bottle-wine.js.map\n",
+      "start": 1762100718706,
+      "end": 1762100721385,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721385,
+      "end": 1762100721385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721385,
+      "end": 1762100721385,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721385,
+      "end": 1762100721385,
+      "order": "normal"
+    }
+  ]
+}

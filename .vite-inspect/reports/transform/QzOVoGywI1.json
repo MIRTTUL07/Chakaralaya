@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/GroupAnimation.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "class GroupAnimation {\n    constructor(animations) {\n        // Bound to accomadate common `return animation.stop` pattern\n        this.stop = () => this.runAll(\"stop\");\n        this.animations = animations.filter(Boolean);\n    }\n    get finished() {\n        return Promise.all(this.animations.map((animation) => animation.finished));\n    }\n    /**\n     * TODO: Filter out cancelled or stopped animations before returning\n     */\n    getAll(propName) {\n        return this.animations[0][propName];\n    }\n    setAll(propName, newValue) {\n        for (let i = 0; i < this.animations.length; i++) {\n            this.animations[i][propName] = newValue;\n        }\n    }\n    attachTimeline(timeline) {\n        const subscriptions = this.animations.map((animation) => animation.attachTimeline(timeline));\n        return () => {\n            subscriptions.forEach((cancel, i) => {\n                cancel && cancel();\n                this.animations[i].stop();\n            });\n        };\n    }\n    get time() {\n        return this.getAll(\"time\");\n    }\n    set time(time) {\n        this.setAll(\"time\", time);\n    }\n    get speed() {\n        return this.getAll(\"speed\");\n    }\n    set speed(speed) {\n        this.setAll(\"speed\", speed);\n    }\n    get state() {\n        return this.getAll(\"state\");\n    }\n    get startTime() {\n        return this.getAll(\"startTime\");\n    }\n    get duration() {\n        return getMax(this.animations, \"duration\");\n    }\n    get iterationDuration() {\n        return getMax(this.animations, \"iterationDuration\");\n    }\n    runAll(methodName) {\n        this.animations.forEach((controls) => controls[methodName]());\n    }\n    play() {\n        this.runAll(\"play\");\n    }\n    pause() {\n        this.runAll(\"pause\");\n    }\n    cancel() {\n        this.runAll(\"cancel\");\n    }\n    complete() {\n        this.runAll(\"complete\");\n    }\n}\nfunction getMax(animations, propName) {\n    let max = 0;\n    for (let i = 0; i < animations.length; i++) {\n        const value = animations[i][propName];\n        if (value !== null && value > max) {\n            max = value;\n        }\n    }\n    return max;\n}\n\nexport { GroupAnimation };\n",
+      "start": 1762100729190,
+      "end": 1762100729270,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729270,
+      "end": 1762100729270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729270,
+      "end": 1762100729270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729270,
+      "end": 1762100729270,
+      "order": "normal"
+    }
+  ]
+}

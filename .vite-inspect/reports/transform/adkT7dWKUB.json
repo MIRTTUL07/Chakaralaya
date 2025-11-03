@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/drumstick.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M15.4 15.63a7.875 6 135 1 1 6.23-6.23 4.5 3.43 135 0 0-6.23 6.23\", key: \"1dtqwm\" }\n  ],\n  [\n    \"path\",\n    {\n      d: \"m8.29 12.71-2.6 2.6a2.5 2.5 0 1 0-1.65 4.65A2.5 2.5 0 1 0 8.7 18.3l2.59-2.59\",\n      key: \"1oq1fw\"\n    }\n  ]\n];\nconst Drumstick = createLucideIcon(\"drumstick\", __iconNode);\n\nexport { __iconNode, Drumstick as default };\n//# sourceMappingURL=drumstick.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721769,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721769,
+      "end": 1762100721769,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721769,
+      "end": 1762100721769,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721769,
+      "end": 1762100721769,
+      "order": "normal"
+    }
+  ]
+}

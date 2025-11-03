@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/audio-lines.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M2 10v3\", key: \"1fnikh\" }],\n  [\"path\", { d: \"M6 6v11\", key: \"11sgs0\" }],\n  [\"path\", { d: \"M10 3v18\", key: \"yhl04a\" }],\n  [\"path\", { d: \"M14 8v7\", key: \"3a1oy3\" }],\n  [\"path\", { d: \"M18 5v13\", key: \"123xd1\" }],\n  [\"path\", { d: \"M22 10v3\", key: \"154ddg\" }]\n];\nconst AudioLines = createLucideIcon(\"audio-lines\", __iconNode);\n\nexport { __iconNode, AudioLines as default };\n//# sourceMappingURL=audio-lines.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721187,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721187,
+      "end": 1762100721187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721187,
+      "end": 1762100721187,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721187,
+      "end": 1762100721187,
+      "order": "normal"
+    }
+  ]
+}

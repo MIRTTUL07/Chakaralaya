@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/folder-lock.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"8\", height: \"5\", x: \"14\", y: \"17\", rx: \"1\", key: \"19aais\" }],\n  [\n    \"path\",\n    {\n      d: \"M10 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v2.5\",\n      key: \"1w6v7t\"\n    }\n  ],\n  [\"path\", { d: \"M20 17v-2a2 2 0 1 0-4 0v2\", key: \"pwaxnr\" }]\n];\nconst FolderLock = createLucideIcon(\"folder-lock\", __iconNode);\n\nexport { __iconNode, FolderLock as default };\n//# sourceMappingURL=folder-lock.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721916,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721917,
+      "end": 1762100721917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721917,
+      "end": 1762100721917,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721917,
+      "end": 1762100721917,
+      "order": "normal"
+    }
+  ]
+}

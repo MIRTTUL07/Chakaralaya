@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/velocity-per-second.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/*\n  Convert velocity into velocity per second\n\n  @param [number]: Unit per frame\n  @param [number]: Frame duration in ms\n*/\nfunction velocityPerSecond(velocity, frameDuration) {\n    return frameDuration ? velocity * (1000 / frameDuration) : 0;\n}\n\nexport { velocityPerSecond };\n",
+      "start": 1762100729149,
+      "end": 1762100729262,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/clock-11.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 6v6l-2-4\", key: \"ns39ag\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst Clock11 = createLucideIcon(\"clock-11\", __iconNode);\n\nexport { __iconNode, Clock11 as default };\n//# sourceMappingURL=clock-11.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721611,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721611,
+      "end": 1762100721611,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721611,
+      "end": 1762100721611,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721611,
+      "end": 1762100721611,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/sequence/utils/sort.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function compareByTime(a, b) {\n    if (a.at === b.at) {\n        if (a.value === null)\n            return 1;\n        if (b.value === null)\n            return -1;\n        return 0;\n    }\n    else {\n        return a.at - b.at;\n    }\n}\n\nexport { compareByTime };\n",
+      "start": 1762100729626,
+      "end": 1762100729695,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal"
+    }
+  ]
+}

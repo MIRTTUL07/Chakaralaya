@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/align-horizontal-justify-center.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"6\", height: \"14\", x: \"2\", y: \"5\", rx: \"2\", key: \"dy24zr\" }],\n  [\"rect\", { width: \"6\", height: \"10\", x: \"16\", y: \"7\", rx: \"2\", key: \"13zkjt\" }],\n  [\"path\", { d: \"M12 2v20\", key: \"t6zp3m\" }]\n];\nconst AlignHorizontalJustifyCenter = createLucideIcon(\n  \"align-horizontal-justify-center\",\n  __iconNode\n);\n\nexport { __iconNode, AlignHorizontalJustifyCenter as default };\n//# sourceMappingURL=align-horizontal-justify-center.js.map\n",
+      "start": 1762100718701,
+      "end": 1762100721119,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721119,
+      "end": 1762100721119,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721119,
+      "end": 1762100721119,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721119,
+      "end": 1762100721119,
+      "order": "normal"
+    }
+  ]
+}

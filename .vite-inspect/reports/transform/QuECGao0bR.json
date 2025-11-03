@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/node/state.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * This should only ever be modified on the client otherwise it'll\n * persist through server requests. If we need instanced states we\n * could lazy-init via root.\n */\nconst globalProjectionState = {\n    /**\n     * Global flag as to whether the tree has animated since the last time\n     * we resized the window\n     */\n    hasAnimatedSinceResize: true,\n    /**\n     * We set this to true once, on the first update. Any nodes added to the tree beyond that\n     * update will be given a `data-projection-id` attribute.\n     */\n    hasEverUpdated: false,\n};\n\nexport { globalProjectionState };\n",
+      "start": 1762100729601,
+      "end": 1762100729669,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729670,
+      "end": 1762100729670,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729670,
+      "end": 1762100729670,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729670,
+      "end": 1762100729670,
+      "order": "normal"
+    }
+  ]
+}

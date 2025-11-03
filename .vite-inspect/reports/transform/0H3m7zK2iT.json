@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/monitor-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m9 10 3-3 3 3\", key: \"11gsxs\" }],\n  [\"path\", { d: \"M12 13V7\", key: \"h0r20n\" }],\n  [\"rect\", { width: \"20\", height: \"14\", x: \"2\", y: \"3\", rx: \"2\", key: \"48i651\" }],\n  [\"path\", { d: \"M12 17v4\", key: \"1riwvh\" }],\n  [\"path\", { d: \"M8 21h8\", key: \"1ev6f3\" }]\n];\nconst MonitorUp = createLucideIcon(\"monitor-up\", __iconNode);\n\nexport { __iconNode, MonitorUp as default };\n//# sourceMappingURL=monitor-up.js.map\n",
+      "start": 1762100720874,
+      "end": 1762100727248,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727248,
+      "end": 1762100727248,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727248,
+      "end": 1762100727248,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727248,
+      "end": 1762100727248,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/rotate-ccw-square.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M20 9V7a2 2 0 0 0-2-2h-6\", key: \"19z8uc\" }],\n  [\"path\", { d: \"m15 2-3 3 3 3\", key: \"177bxs\" }],\n  [\"path\", { d: \"M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2\", key: \"d36hnl\" }]\n];\nconst RotateCcwSquare = createLucideIcon(\"rotate-ccw-square\", __iconNode);\n\nexport { __iconNode, RotateCcwSquare as default };\n//# sourceMappingURL=rotate-ccw-square.js.map\n",
+      "start": 1762100721163,
+      "end": 1762100727345,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727345,
+      "end": 1762100727345,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727345,
+      "end": 1762100727345,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727346,
+      "end": 1762100727346,
+      "order": "normal"
+    }
+  ]
+}

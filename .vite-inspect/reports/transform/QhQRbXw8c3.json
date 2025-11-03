@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/flat-tree.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { addUniqueItem, removeItem } from 'motion-utils';\nimport { compareByDepth } from './compare-by-depth.mjs';\n\nclass FlatTree {\n    constructor() {\n        this.children = [];\n        this.isDirty = false;\n    }\n    add(child) {\n        addUniqueItem(this.children, child);\n        this.isDirty = true;\n    }\n    remove(child) {\n        removeItem(this.children, child);\n        this.isDirty = true;\n    }\n    forEach(callback) {\n        this.isDirty && this.children.sort(compareByDepth);\n        this.isDirty = false;\n        this.children.forEach(callback);\n    }\n}\n\nexport { FlatTree };\n",
+      "start": 1762100729620,
+      "end": 1762100729671,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729672,
+      "end": 1762100729672,
+      "order": "normal"
+    }
+  ]
+}

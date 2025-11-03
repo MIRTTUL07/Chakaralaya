@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/frameloop/sync-time.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { MotionGlobalConfig } from 'motion-utils';\nimport { frameData } from './frame.mjs';\n\nlet now;\nfunction clearTime() {\n    now = undefined;\n}\n/**\n * An eventloop-synchronous alternative to performance.now().\n *\n * Ensures that time measurements remain consistent within a synchronous context.\n * Usually calling performance.now() twice within the same synchronous context\n * will return different values which isn't useful for animations when we're usually\n * trying to sync animations to the same frame.\n */\nconst time = {\n    now: () => {\n        if (now === undefined) {\n            time.set(frameData.isProcessing || MotionGlobalConfig.useManualTiming\n                ? frameData.timestamp\n                : performance.now());\n        }\n        return now;\n    },\n    set: (newTime) => {\n        now = newTime;\n        queueMicrotask(clearTime);\n    },\n};\n\nexport { time };\n",
+      "start": 1762100729191,
+      "end": 1762100729294,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729295,
+      "end": 1762100729295,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729295,
+      "end": 1762100729295,
+      "order": "normal"
+    }
+  ]
+}

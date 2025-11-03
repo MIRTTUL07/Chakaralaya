@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/message-circle-question-mark.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719\",\n      key: \"1sd12s\"\n    }\n  ],\n  [\"path\", { d: \"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\", key: \"1u773s\" }],\n  [\"path\", { d: \"M12 17h.01\", key: \"p32p05\" }]\n];\nconst MessageCircleQuestionMark = createLucideIcon(\"message-circle-question-mark\", __iconNode);\n\nexport { __iconNode, MessageCircleQuestionMark as default };\n//# sourceMappingURL=message-circle-question-mark.js.map\n",
+      "start": 1762100718699,
+      "end": 1762100720914,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720914,
+      "end": 1762100720914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720914,
+      "end": 1762100720914,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720914,
+      "end": 1762100720914,
+      "order": "normal"
+    }
+  ]
+}

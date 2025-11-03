@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/AnimatePresence/utils.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Children, isValidElement } from 'react';\n\nconst getChildKey = (child) => child.key || \"\";\nfunction onlyElements(children) {\n    const filtered = [];\n    // We use forEach here instead of map as map mutates the component key by preprending `.$`\n    Children.forEach(children, (child) => {\n        if (isValidElement(child))\n            filtered.push(child);\n    });\n    return filtered;\n}\n\nexport { getChildKey, onlyElements };\n",
+      "start": 1762100729200,
+      "end": 1762100729417,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729417,
+      "end": 1762100729417,
+      "order": "normal"
+    }
+  ]
+}

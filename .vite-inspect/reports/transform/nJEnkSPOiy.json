@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/blocks.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2\",\n      key: \"1ah6g2\"\n    }\n  ],\n  [\"rect\", { x: \"14\", y: \"2\", width: \"8\", height: \"8\", rx: \"1\", key: \"88lufb\" }]\n];\nconst Blocks = createLucideIcon(\"blocks\", __iconNode);\n\nexport { __iconNode, Blocks as default };\n//# sourceMappingURL=blocks.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721321,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721321,
+      "end": 1762100721321,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721321,
+      "end": 1762100721321,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721322,
+      "end": 1762100721322,
+      "order": "normal"
+    }
+  ]
+}

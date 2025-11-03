@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-parking-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12.656 7H13a3 3 0 0 1 2.984 3.307\", key: \"1sjx87\" }],\n  [\"path\", { d: \"M13 13H9\", key: \"e2beee\" }],\n  [\"path\", { d: \"M19.071 19.071A1 1 0 0 1 4.93 4.93\", key: \"1kb595\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }],\n  [\"path\", { d: \"M8.357 2.687a10 10 0 0 1 12.956 12.956\", key: \"5bsfdx\" }],\n  [\"path\", { d: \"M9 17V9\", key: \"ojradj\" }]\n];\nconst CircleParkingOff = createLucideIcon(\"circle-parking-off\", __iconNode);\n\nexport { __iconNode, CircleParkingOff as default };\n//# sourceMappingURL=circle-parking-off.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720762,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720763,
+      "end": 1762100720763,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720763,
+      "end": 1762100720763,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720765,
+      "end": 1762100720765,
+      "order": "normal"
+    }
+  ]
+}

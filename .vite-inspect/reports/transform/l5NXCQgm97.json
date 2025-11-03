@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/list-todo.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M13 5h8\", key: \"a7qcls\" }],\n  [\"path\", { d: \"M13 12h8\", key: \"h98zly\" }],\n  [\"path\", { d: \"M13 19h8\", key: \"c3s6r1\" }],\n  [\"path\", { d: \"m3 17 2 2 4-4\", key: \"1jhpwq\" }],\n  [\"rect\", { x: \"3\", y: \"4\", width: \"6\", height: \"6\", rx: \"1\", key: \"cif1o7\" }]\n];\nconst ListTodo = createLucideIcon(\"list-todo\", __iconNode);\n\nexport { __iconNode, ListTodo as default };\n//# sourceMappingURL=list-todo.js.map\n",
+      "start": 1762100720190,
+      "end": 1762100727177,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal"
+    }
+  ]
+}

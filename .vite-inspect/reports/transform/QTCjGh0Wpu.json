@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/get-variant-context.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isVariantLabel } from './is-variant-label.mjs';\nimport { variantProps } from './variant-props.mjs';\n\nconst numVariantProps = variantProps.length;\nfunction getVariantContext(visualElement) {\n    if (!visualElement)\n        return undefined;\n    if (!visualElement.isControllingVariants) {\n        const context = visualElement.parent\n            ? getVariantContext(visualElement.parent) || {}\n            : {};\n        if (visualElement.props.initial !== undefined) {\n            context.initial = visualElement.props.initial;\n        }\n        return context;\n    }\n    const context = {};\n    for (let i = 0; i < numVariantProps; i++) {\n        const name = variantProps[i];\n        const prop = visualElement.props[name];\n        if (isVariantLabel(prop) || prop === false) {\n            context[name] = prop;\n        }\n    }\n    return context;\n}\n\nexport { getVariantContext };\n",
+      "start": 1762100729567,
+      "end": 1762100729667,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    }
+  ]
+}

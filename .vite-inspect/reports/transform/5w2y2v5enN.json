@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/diameter.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"19\", cy: \"19\", r: \"2\", key: \"17f5cg\" }],\n  [\"circle\", { cx: \"5\", cy: \"5\", r: \"2\", key: \"1gwv83\" }],\n  [\"path\", { d: \"M6.48 3.66a10 10 0 0 1 13.86 13.86\", key: \"xr8kdq\" }],\n  [\"path\", { d: \"m6.41 6.41 11.18 11.18\", key: \"uhpjw7\" }],\n  [\"path\", { d: \"M3.66 6.48a10 10 0 0 0 13.86 13.86\", key: \"cldpwv\" }]\n];\nconst Diameter = createLucideIcon(\"diameter\", __iconNode);\n\nexport { __iconNode, Diameter as default };\n//# sourceMappingURL=diameter.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721733,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721733,
+      "end": 1762100721733,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721733,
+      "end": 1762100721733,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721734,
+      "end": 1762100721734,
+      "order": "normal"
+    }
+  ]
+}

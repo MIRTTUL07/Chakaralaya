@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/modifiers/reverse.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// Accepts an easing function and returns a new one that outputs reversed values.\n// Turns easeIn into easeOut.\nconst reverseEasing = (easing) => (p) => 1 - easing(1 - p);\n\nexport { reverseEasing };\n",
+      "start": 1762100729149,
+      "end": 1762100729262,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    }
+  ]
+}

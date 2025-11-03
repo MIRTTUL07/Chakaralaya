@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/gallery-horizontal-end.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M2 7v10\", key: \"a2pl2d\" }],\n  [\"path\", { d: \"M6 5v14\", key: \"1kq3d7\" }],\n  [\"rect\", { width: \"12\", height: \"18\", x: \"10\", y: \"3\", rx: \"2\", key: \"13i7bc\" }]\n];\nconst GalleryHorizontalEnd = createLucideIcon(\"gallery-horizontal-end\", __iconNode);\n\nexport { __iconNode, GalleryHorizontalEnd as default };\n//# sourceMappingURL=gallery-horizontal-end.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721948,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721948,
+      "end": 1762100721948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721949,
+      "end": 1762100721949,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721949,
+      "end": 1762100721949,
+      "order": "normal"
+    }
+  ]
+}

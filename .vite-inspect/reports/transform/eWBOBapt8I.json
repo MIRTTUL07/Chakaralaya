@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/gestures/focus.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { pipe } from 'motion-utils';\nimport { addDomEvent } from '../events/add-dom-event.mjs';\nimport { Feature } from '../motion/features/Feature.mjs';\n\nclass FocusGesture extends Feature {\n    constructor() {\n        super(...arguments);\n        this.isActive = false;\n    }\n    onFocus() {\n        let isFocusVisible = false;\n        /**\n         * If this element doesn't match focus-visible then don't\n         * apply whileHover. But, if matches throws that focus-visible\n         * is not a valid selector then in that browser outline styles will be applied\n         * to the element by default and we want to match that behaviour with whileFocus.\n         */\n        try {\n            isFocusVisible = this.node.current.matches(\":focus-visible\");\n        }\n        catch (e) {\n            isFocusVisible = true;\n        }\n        if (!isFocusVisible || !this.node.animationState)\n            return;\n        this.node.animationState.setActive(\"whileFocus\", true);\n        this.isActive = true;\n    }\n    onBlur() {\n        if (!this.isActive || !this.node.animationState)\n            return;\n        this.node.animationState.setActive(\"whileFocus\", false);\n        this.isActive = false;\n    }\n    mount() {\n        this.unmount = pipe(addDomEvent(this.node.current, \"focus\", () => this.onFocus()), addDomEvent(this.node.current, \"blur\", () => this.onBlur()));\n    }\n    unmount() { }\n}\n\nexport { FocusGesture };\n",
+      "start": 1762100729383,
+      "end": 1762100729532,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    }
+  ]
+}

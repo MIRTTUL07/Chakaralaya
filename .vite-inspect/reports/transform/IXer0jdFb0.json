@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/@splinetool/react-spline/dist/react-spline.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx as f, jsxs as z, Fragment as D } from \"react/jsx-runtime\";\nimport { forwardRef as U, useRef as F, useState as l, useEffect as H } from \"react\";\nimport { Application as I } from \"@splinetool/runtime\";\nimport P from \"./ParentSize.js\";\nconst G = U(\n  ({\n    scene: s,\n    style: u,\n    onSplineMouseDown: p,\n    onSplineMouseUp: b,\n    onSplineMouseHover: d,\n    onSplineKeyDown: v,\n    onSplineKeyUp: w,\n    onSplineStart: y,\n    onSplineLookAt: h,\n    onSplineFollow: S,\n    onSplineScroll: k,\n    onLoad: r,\n    renderOnDemand: E = !0,\n    wasmPath: g,\n    children: x,\n    ...A\n  }, R) => {\n    const o = F(null), [c, a] = l(!0), [i, j] = l();\n    if (i)\n      throw i;\n    return H(() => {\n      a(!0);\n      let e;\n      const m = [\n        {\n          name: \"mouseDown\",\n          cb: p\n        },\n        {\n          name: \"mouseUp\",\n          cb: b\n        },\n        {\n          name: \"mouseHover\",\n          cb: d\n        },\n        {\n          name: \"keyDown\",\n          cb: v\n        },\n        {\n          name: \"keyUp\",\n          cb: w\n        },\n        {\n          name: \"start\",\n          cb: y\n        },\n        {\n          name: \"lookAt\",\n          cb: h\n        },\n        {\n          name: \"follow\",\n          cb: S\n        },\n        {\n          name: \"scroll\",\n          cb: k\n        }\n      ];\n      if (o.current) {\n        e = new I(o.current, {\n          renderOnDemand: E,\n          wasmPath: g\n        });\n        async function t() {\n          await e.load(s);\n          for (let n of m)\n            n.cb && e.addEventListener(n.name, n.cb);\n          a(!1), r == null || r(e);\n        }\n        t().catch((n) => {\n          j(n);\n        });\n      }\n      return () => {\n        for (let t of m)\n          t.cb && e.removeEventListener(t.name, t.cb);\n        e.dispose();\n      };\n    }, [s]), /* @__PURE__ */ f(\n      P,\n      {\n        ref: R,\n        parentSizeStyles: { overflow: \"hidden\", ...u },\n        debounceTime: 50,\n        ...A,\n        children: () => /* @__PURE__ */ z(D, { children: [\n          c && x,\n          /* @__PURE__ */ f(\n            \"canvas\",\n            {\n              ref: o,\n              style: {\n                display: c ? \"none\" : \"block\"\n              }\n            }\n          )\n        ] })\n      }\n    );\n  }\n);\nexport {\n  G as default\n};\n",
+      "start": 1762100716741,
+      "end": 1762100716895,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716895,
+      "end": 1762100716895,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716895,
+      "end": 1762100716895,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716899,
+      "end": 1762100716899,
+      "order": "normal"
+    }
+  ]
+}

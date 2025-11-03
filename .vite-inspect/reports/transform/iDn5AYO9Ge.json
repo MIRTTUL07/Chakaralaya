@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/infinity.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M6 16c5 0 7-8 12-8a4 4 0 0 1 0 8c-5 0-7-8-12-8a4 4 0 1 0 0 8\", key: \"18ogeb\" }]\n];\nconst Infinity = createLucideIcon(\"infinity\", __iconNode);\n\nexport { __iconNode, Infinity as default };\n//# sourceMappingURL=infinity.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722061,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722061,
+      "end": 1762100722061,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722061,
+      "end": 1762100722061,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722061,
+      "end": 1762100722061,
+      "order": "normal"
+    }
+  ]
+}

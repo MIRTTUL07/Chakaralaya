@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/shallow-compare.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function shallowCompare(next, prev) {\n    if (!Array.isArray(prev))\n        return false;\n    const prevLength = prev.length;\n    if (prevLength !== next.length)\n        return false;\n    for (let i = 0; i < prevLength; i++) {\n        if (prev[i] !== next[i])\n            return false;\n    }\n    return true;\n}\n\nexport { shallowCompare };\n",
+      "start": 1762100729567,
+      "end": 1762100729667,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    }
+  ]
+}

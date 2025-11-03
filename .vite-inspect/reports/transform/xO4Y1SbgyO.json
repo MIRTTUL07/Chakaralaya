@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/ease.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { cubicBezier } from './cubic-bezier.mjs';\n\nconst easeIn = /*@__PURE__*/ cubicBezier(0.42, 0, 1, 1);\nconst easeOut = /*@__PURE__*/ cubicBezier(0, 0, 0.58, 1);\nconst easeInOut = /*@__PURE__*/ cubicBezier(0.42, 0, 0.58, 1);\n\nexport { easeIn, easeInOut, easeOut };\n",
+      "start": 1762100729149,
+      "end": 1762100729261,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729261,
+      "end": 1762100729261,
+      "order": "normal"
+    }
+  ]
+}

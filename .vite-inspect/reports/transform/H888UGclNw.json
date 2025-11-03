@@ -1,0 +1,42 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/main.jsx",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import React from \"react\";\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./index.css\";\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(\n    <React.StrictMode>\n        <App />\n    </React.StrictMode>\n);\n",
+      "start": 1762100708711,
+      "end": 1762100708711,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { jsx } from \"react/jsx-runtime\";\nimport React from \"react\";\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./index.css\";\nReactDOM.createRoot(document.getElementById(\"root\")).render(\n  /* @__PURE__ */ jsx(React.StrictMode, { children: /* @__PURE__ */ jsx(App, {}) })\n);\n",
+      "start": 1762100708712,
+      "end": 1762100708767,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/user/chakaralaya/Chakaralaya/src/main.jsx"
+        ],
+        "sourcesContent": [
+          "import React from \"react\";\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./index.css\";\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(\n    <React.StrictMode>\n        <App />\n    </React.StrictMode>\n);\n"
+        ],
+        "mappings": "AAOQ;AAPR,OAAO,WAAW;AAClB,OAAO,cAAc;AACrB,OAAO,SAAS;AAChB,OAAO;AAEP,SAAS,WAAW,SAAS,eAAe,MAAM,CAAC,EAAE;AAAA,EACjD,oBAAC,MAAM,YAAN,EACG,8BAAC,OAAI,GACT;AACJ;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100708770,
+      "end": 1762100708778,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100708781,
+      "end": 1762100708782,
+      "order": "normal"
+    }
+  ]
+}

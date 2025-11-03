@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/gpu.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M2 21V3\", key: \"1bzk4w\" }],\n  [\"path\", { d: \"M2 5h18a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2.26\", key: \"1d64pi\" }],\n  [\"path\", { d: \"M7 17v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3\", key: \"5hbqbf\" }],\n  [\"circle\", { cx: \"16\", cy: \"11\", r: \"2\", key: \"qt15rb\" }],\n  [\"circle\", { cx: \"8\", cy: \"11\", r: \"2\", key: \"ssideg\" }]\n];\nconst Gpu = createLucideIcon(\"gpu\", __iconNode);\n\nexport { __iconNode, Gpu as default };\n//# sourceMappingURL=gpu.js.map\n",
+      "start": 1762100718740,
+      "end": 1762100721984,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721985,
+      "end": 1762100721985,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721985,
+      "end": 1762100721985,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721985,
+      "end": 1762100721985,
+      "order": "normal"
+    }
+  ]
+}

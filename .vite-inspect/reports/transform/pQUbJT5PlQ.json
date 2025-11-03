@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/modifiers/mirror.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// Accepts an easing function and returns a new one that outputs mirrored values for\n// the second half of the animation. Turns easeIn into easeInOut.\nconst mirrorEasing = (easing) => (p) => p <= 0.5 ? easing(2 * p) / 2 : (2 - easing(2 * (1 - p))) / 2;\n\nexport { mirrorEasing };\n",
+      "start": 1762100729149,
+      "end": 1762100729262,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729262,
+      "end": 1762100729262,
+      "order": "normal"
+    }
+  ]
+}

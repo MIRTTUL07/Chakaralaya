@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/use-animation-frame.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { frame, cancelFrame } from 'motion-dom';\nimport { useRef, useContext, useEffect } from 'react';\nimport { MotionConfigContext } from '../context/MotionConfigContext.mjs';\n\nfunction useAnimationFrame(callback) {\n    const initialTimestamp = useRef(0);\n    const { isStatic } = useContext(MotionConfigContext);\n    useEffect(() => {\n        if (isStatic)\n            return;\n        const provideTimeSinceStart = ({ timestamp, delta }) => {\n            if (!initialTimestamp.current)\n                initialTimestamp.current = timestamp;\n            callback(timestamp - initialTimestamp.current, delta);\n        };\n        frame.update(provideTimeSinceStart, true);\n        return () => cancelFrame(provideTimeSinceStart);\n    }, [callback]);\n}\n\nexport { useAnimationFrame };\n",
+      "start": 1762100728888,
+      "end": 1762100729063,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729063,
+      "end": 1762100729063,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729063,
+      "end": 1762100729063,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729063,
+      "end": 1762100729063,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/utils/camel-case-attrs.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * A set of attribute names that are always read/written as camel case.\n */\nconst camelCaseAttributes = new Set([\n    \"baseFrequency\",\n    \"diffuseConstant\",\n    \"kernelMatrix\",\n    \"kernelUnitLength\",\n    \"keySplines\",\n    \"keyTimes\",\n    \"limitingConeAngle\",\n    \"markerHeight\",\n    \"markerWidth\",\n    \"numOctaves\",\n    \"targetX\",\n    \"targetY\",\n    \"surfaceScale\",\n    \"specularConstant\",\n    \"specularExponent\",\n    \"stdDeviation\",\n    \"tableValues\",\n    \"viewBox\",\n    \"gradientTransform\",\n    \"pathLength\",\n    \"startOffset\",\n    \"textLength\",\n    \"lengthAdjust\",\n]);\n\nexport { camelCaseAttributes };\n",
+      "start": 1762100729562,
+      "end": 1762100729666,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal"
+    }
+  ]
+}

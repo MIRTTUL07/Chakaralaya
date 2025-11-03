@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/object/ObjectVisualElement.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createBox } from '../../projection/geometry/models.mjs';\nimport { VisualElement } from '../VisualElement.mjs';\n\nfunction isObjectKey(key, object) {\n    return key in object;\n}\nclass ObjectVisualElement extends VisualElement {\n    constructor() {\n        super(...arguments);\n        this.type = \"object\";\n    }\n    readValueFromInstance(instance, key) {\n        if (isObjectKey(key, instance)) {\n            const value = instance[key];\n            if (typeof value === \"string\" || typeof value === \"number\") {\n                return value;\n            }\n        }\n        return undefined;\n    }\n    getBaseTargetFromProps() {\n        return undefined;\n    }\n    removeValueFromRenderState(key, renderState) {\n        delete renderState.output[key];\n    }\n    measureInstanceViewportBox() {\n        return createBox();\n    }\n    build(renderState, latestValues) {\n        Object.assign(renderState.output, latestValues);\n    }\n    renderInstance(instance, { output }) {\n        Object.assign(instance, output);\n    }\n    sortInstanceNodePosition() {\n        return 0;\n    }\n}\n\nexport { ObjectVisualElement };\n",
+      "start": 1762100729628,
+      "end": 1762100729695,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729695,
+      "end": 1762100729695,
+      "order": "normal"
+    }
+  ]
+}

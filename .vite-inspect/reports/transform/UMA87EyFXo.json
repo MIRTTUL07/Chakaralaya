@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bubbles.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M7.2 14.8a2 2 0 0 1 2 2\", key: \"1tw9gg\" }],\n  [\"circle\", { cx: \"18.5\", cy: \"8.5\", r: \"3.5\", key: \"1wadoa\" }],\n  [\"circle\", { cx: \"7.5\", cy: \"16.5\", r: \"5.5\", key: \"6mdt3g\" }],\n  [\"circle\", { cx: \"7.5\", cy: \"4.5\", r: \"2.5\", key: \"637s54\" }]\n];\nconst Bubbles = createLucideIcon(\"bubbles\", __iconNode);\n\nexport { __iconNode, Bubbles as default };\n//# sourceMappingURL=bubbles.js.map\n",
+      "start": 1762100718707,
+      "end": 1762100721417,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721417,
+      "end": 1762100721417,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721417,
+      "end": 1762100721417,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721417,
+      "end": 1762100721417,
+      "order": "normal"
+    }
+  ]
+}

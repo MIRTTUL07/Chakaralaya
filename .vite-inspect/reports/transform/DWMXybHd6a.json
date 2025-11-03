@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion/dist/es/react.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export * from 'framer-motion';\n",
+      "start": 1762100721726,
+      "end": 1762100727532,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal"
+    }
+  ]
+}

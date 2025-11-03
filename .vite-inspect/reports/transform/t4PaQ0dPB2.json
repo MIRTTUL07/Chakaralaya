@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/turkish-lira.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M15 4 5 9\", key: \"14bkc9\" }],\n  [\"path\", { d: \"m15 8.5-10 5\", key: \"1grtsx\" }],\n  [\"path\", { d: \"M18 12a9 9 0 0 1-9 9V3\", key: \"1sst7f\" }]\n];\nconst TurkishLira = createLucideIcon(\"turkish-lira\", __iconNode);\n\nexport { __iconNode, TurkishLira as default };\n//# sourceMappingURL=turkish-lira.js.map\n",
+      "start": 1762100721516,
+      "end": 1762100727467,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal"
+    }
+  ]
+}

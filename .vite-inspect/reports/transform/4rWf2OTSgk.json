@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/utensils.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2\", key: \"cjf0a3\" }],\n  [\"path\", { d: \"M7 2v20\", key: \"1473qp\" }],\n  [\"path\", { d: \"M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7\", key: \"j28e5\" }]\n];\nconst Utensils = createLucideIcon(\"utensils\", __iconNode);\n\nexport { __iconNode, Utensils as default };\n//# sourceMappingURL=utensils.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100721080,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721080,
+      "end": 1762100721080,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721080,
+      "end": 1762100721080,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721081,
+      "end": 1762100721081,
+      "order": "normal"
+    }
+  ]
+}

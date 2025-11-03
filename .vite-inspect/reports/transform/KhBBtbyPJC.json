@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cloud-check.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m17 15-5.5 5.5L9 18\", key: \"15q87x\" }],\n  [\"path\", { d: \"M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742\", key: \"9ho6ki\" }]\n];\nconst CloudCheck = createLucideIcon(\"cloud-check\", __iconNode);\n\nexport { __iconNode, CloudCheck as default };\n//# sourceMappingURL=cloud-check.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721646,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721646,
+      "end": 1762100721646,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721646,
+      "end": 1762100721646,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721646,
+      "end": 1762100721646,
+      "order": "normal"
+    }
+  ]
+}

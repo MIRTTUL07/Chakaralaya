@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/reply-all.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m12 17-5-5 5-5\", key: \"1s3y5u\" }],\n  [\"path\", { d: \"M22 18v-2a4 4 0 0 0-4-4H7\", key: \"1fcyog\" }],\n  [\"path\", { d: \"m7 17-5-5 5-5\", key: \"1ed8i2\" }]\n];\nconst ReplyAll = createLucideIcon(\"reply-all\", __iconNode);\n\nexport { __iconNode, ReplyAll as default };\n//# sourceMappingURL=reply-all.js.map\n",
+      "start": 1762100721157,
+      "end": 1762100727342,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727342,
+      "end": 1762100727342,
+      "order": "normal"
+    }
+  ]
+}

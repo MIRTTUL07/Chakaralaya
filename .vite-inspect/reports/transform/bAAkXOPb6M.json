@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/utils/each-axis.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function eachAxis(callback) {\n    return [callback(\"x\"), callback(\"y\")];\n}\n\nexport { eachAxis };\n",
+      "start": 1762100729622,
+      "end": 1762100729693,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal"
+    }
+  ]
+}

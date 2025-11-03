@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-scroll/modules/index.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Helpers = exports.ScrollElement = exports.ScrollLink = exports.animateScroll = exports.scrollSpy = exports.Events = exports.scroller = exports.Element = exports.Button = exports.Link = undefined;\n\nvar _Link = require('./components/Link.js');\n\nvar _Link2 = _interopRequireDefault(_Link);\n\nvar _Button = require('./components/Button.js');\n\nvar _Button2 = _interopRequireDefault(_Button);\n\nvar _Element = require('./components/Element.js');\n\nvar _Element2 = _interopRequireDefault(_Element);\n\nvar _scroller = require('./mixins/scroller.js');\n\nvar _scroller2 = _interopRequireDefault(_scroller);\n\nvar _scrollEvents = require('./mixins/scroll-events.js');\n\nvar _scrollEvents2 = _interopRequireDefault(_scrollEvents);\n\nvar _scrollSpy = require('./mixins/scroll-spy.js');\n\nvar _scrollSpy2 = _interopRequireDefault(_scrollSpy);\n\nvar _animateScroll = require('./mixins/animate-scroll.js');\n\nvar _animateScroll2 = _interopRequireDefault(_animateScroll);\n\nvar _scrollLink = require('./mixins/scroll-link.js');\n\nvar _scrollLink2 = _interopRequireDefault(_scrollLink);\n\nvar _scrollElement = require('./mixins/scroll-element.js');\n\nvar _scrollElement2 = _interopRequireDefault(_scrollElement);\n\nvar _Helpers = require('./mixins/Helpers.js');\n\nvar _Helpers2 = _interopRequireDefault(_Helpers);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.Link = _Link2.default;\nexports.Button = _Button2.default;\nexports.Element = _Element2.default;\nexports.scroller = _scroller2.default;\nexports.Events = _scrollEvents2.default;\nexports.scrollSpy = _scrollSpy2.default;\nexports.animateScroll = _animateScroll2.default;\nexports.ScrollLink = _scrollLink2.default;\nexports.ScrollElement = _scrollElement2.default;\nexports.Helpers = _Helpers2.default;\nexports.default = { Link: _Link2.default, Button: _Button2.default, Element: _Element2.default, scroller: _scroller2.default, Events: _scrollEvents2.default, scrollSpy: _scrollSpy2.default, animateScroll: _animateScroll2.default, ScrollLink: _scrollLink2.default, ScrollElement: _scrollElement2.default, Helpers: _Helpers2.default };",
+      "start": 1762100713233,
+      "end": 1762100715015,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100715015,
+      "end": 1762100715015,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100715015,
+      "end": 1762100715015,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720180,
+      "end": 1762100720180,
+      "order": "normal"
+    }
+  ]
+}

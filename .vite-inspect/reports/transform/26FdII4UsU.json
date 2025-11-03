@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/log-in.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m10 17 5-5-5-5\", key: \"1bsop3\" }],\n  [\"path\", { d: \"M15 12H3\", key: \"6jk70r\" }],\n  [\"path\", { d: \"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4\", key: \"u53s6r\" }]\n];\nconst LogIn = createLucideIcon(\"log-in\", __iconNode);\n\nexport { __iconNode, LogIn as default };\n//# sourceMappingURL=log-in.js.map\n",
+      "start": 1762100720549,
+      "end": 1762100727208,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727208,
+      "end": 1762100727208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727208,
+      "end": 1762100727209,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727209,
+      "end": 1762100727209,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/Reorder/utils/check-reorder.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { mixNumber } from 'motion-dom';\nimport { moveItem } from 'motion-utils';\n\nfunction checkReorder(order, value, offset, velocity) {\n    if (!velocity)\n        return order;\n    const index = order.findIndex((item) => item.value === value);\n    if (index === -1)\n        return order;\n    const nextOffset = velocity > 0 ? 1 : -1;\n    const nextItem = order[index + nextOffset];\n    if (!nextItem)\n        return order;\n    const item = order[index];\n    const nextLayout = nextItem.layout;\n    const nextItemCenter = mixNumber(nextLayout.min, nextLayout.max, 0.5);\n    if ((nextOffset === 1 && item.layout.max + offset > nextItemCenter) ||\n        (nextOffset === -1 && item.layout.min + offset < nextItemCenter)) {\n        return moveItem(order, index, index + nextOffset);\n    }\n    return order;\n}\n\nexport { checkReorder };\n",
+      "start": 1762100729398,
+      "end": 1762100729536,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    }
+  ]
+}

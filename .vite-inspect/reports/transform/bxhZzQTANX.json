@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/start-waapi-animation.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { activeAnimations } from '../../stats/animation-count.mjs';\nimport { statsBuffer } from '../../stats/buffer.mjs';\nimport { mapEasingToNativeEasing } from './easing/map-easing.mjs';\n\nfunction startWaapiAnimation(element, valueName, keyframes, { delay = 0, duration = 300, repeat = 0, repeatType = \"loop\", ease = \"easeOut\", times, } = {}, pseudoElement = undefined) {\n    const keyframeOptions = {\n        [valueName]: keyframes,\n    };\n    if (times)\n        keyframeOptions.offset = times;\n    const easing = mapEasingToNativeEasing(ease, duration);\n    /**\n     * If this is an easing array, apply to keyframes, not animation as a whole\n     */\n    if (Array.isArray(easing))\n        keyframeOptions.easing = easing;\n    if (statsBuffer.value) {\n        activeAnimations.waapi++;\n    }\n    const options = {\n        delay,\n        duration,\n        easing: !Array.isArray(easing) ? easing : \"linear\",\n        fill: \"both\",\n        iterations: repeat + 1,\n        direction: repeatType === \"reverse\" ? \"alternate\" : \"normal\",\n    };\n    if (pseudoElement)\n        options.pseudoElement = pseudoElement;\n    const animation = element.animate(keyframeOptions, options);\n    if (statsBuffer.value) {\n        animation.finished.finally(() => {\n            activeAnimations.waapi--;\n        });\n    }\n    return animation;\n}\n\nexport { startWaapiAnimation };\n",
+      "start": 1762100729191,
+      "end": 1762100729284,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal"
+    }
+  ]
+}

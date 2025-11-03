@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/is-zero-value-string.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Check if the value is a zero value string like \"0px\" or \"0%\"\n */\nconst isZeroValueString = (v) => /^0[^.\\s]+$/u.test(v);\n\nexport { isZeroValueString };\n",
+      "start": 1762100729148,
+      "end": 1762100729256,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729256,
+      "end": 1762100729256,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729256,
+      "end": 1762100729256,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729256,
+      "end": 1762100729256,
+      "order": "normal"
+    }
+  ]
+}

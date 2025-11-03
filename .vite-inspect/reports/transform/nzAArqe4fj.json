@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tags.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M13.172 2a2 2 0 0 1 1.414.586l6.71 6.71a2.4 2.4 0 0 1 0 3.408l-4.592 4.592a2.4 2.4 0 0 1-3.408 0l-6.71-6.71A2 2 0 0 1 6 9.172V3a1 1 0 0 1 1-1z\",\n      key: \"16rjxf\"\n    }\n  ],\n  [\n    \"path\",\n    { d: \"M2 7v6.172a2 2 0 0 0 .586 1.414l6.71 6.71a2.4 2.4 0 0 0 3.191.193\", key: \"178nd4\" }\n  ],\n  [\"circle\", { cx: \"10.5\", cy: \"6.5\", r: \".5\", fill: \"currentColor\", key: \"12ikhr\" }]\n];\nconst Tags = createLucideIcon(\"tags\", __iconNode);\n\nexport { __iconNode, Tags as default };\n//# sourceMappingURL=tags.js.map\n",
+      "start": 1762100721458,
+      "end": 1762100727432,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727433,
+      "end": 1762100727433,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/braces.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1\", key: \"ezmyqa\" }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1\",\n      key: \"e1hn23\"\n    }\n  ]\n];\nconst Braces = createLucideIcon(\"braces\", __iconNode);\n\nexport { __iconNode, Braces as default };\n//# sourceMappingURL=braces.js.map\n",
+      "start": 1762100718696,
+      "end": 1762100720595,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720603,
+      "end": 1762100720603,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720603,
+      "end": 1762100720603,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720607,
+      "end": 1762100720607,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/signal-low.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M2 20h.01\", key: \"4haj6o\" }],\n  [\"path\", { d: \"M7 20v-4\", key: \"j294jx\" }]\n];\nconst SignalLow = createLucideIcon(\"signal-low\", __iconNode);\n\nexport { __iconNode, SignalLow as default };\n//# sourceMappingURL=signal-low.js.map\n",
+      "start": 1762100721310,
+      "end": 1762100727399,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727399,
+      "end": 1762100727399,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727399,
+      "end": 1762100727399,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727399,
+      "end": 1762100727399,
+      "order": "normal"
+    }
+  ]
+}

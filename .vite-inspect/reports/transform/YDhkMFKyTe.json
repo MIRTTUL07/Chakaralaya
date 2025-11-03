@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/link.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\", key: \"1cjeqo\" }],\n  [\"path\", { d: \"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\", key: \"19qd67\" }]\n];\nconst Link = createLucideIcon(\"link\", __iconNode);\n\nexport { __iconNode, Link as default };\n//# sourceMappingURL=link.js.map\n",
+      "start": 1762100718745,
+      "end": 1762100722116,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722116,
+      "end": 1762100722116,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722116,
+      "end": 1762100722117,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722117,
+      "end": 1762100722117,
+      "order": "normal"
+    }
+  ]
+}

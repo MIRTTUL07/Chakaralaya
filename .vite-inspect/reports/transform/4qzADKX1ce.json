@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/utils/scrape-motion-values.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isMotionValue, transformPropOrder } from 'motion-dom';\nimport { scrapeMotionValuesFromProps as scrapeMotionValuesFromProps$1 } from '../../html/utils/scrape-motion-values.mjs';\n\nfunction scrapeMotionValuesFromProps(props, prevProps, visualElement) {\n    const newValues = scrapeMotionValuesFromProps$1(props, prevProps, visualElement);\n    for (const key in props) {\n        if (isMotionValue(props[key]) ||\n            isMotionValue(prevProps[key])) {\n            const targetKey = transformPropOrder.indexOf(key) !== -1\n                ? \"attr\" + key.charAt(0).toUpperCase() + key.substring(1)\n                : key;\n            newValues[targetKey] = props[key];\n        }\n    }\n    return newValues;\n}\n\nexport { scrapeMotionValuesFromProps };\n",
+      "start": 1762100729562,
+      "end": 1762100729667,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    }
+  ]
+}

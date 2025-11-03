@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/thermometer-snowflake.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m10 20-1.25-2.5L6 18\", key: \"18frcb\" }],\n  [\"path\", { d: \"M10 4 8.75 6.5 6 6\", key: \"7mghy3\" }],\n  [\"path\", { d: \"M10.585 15H10\", key: \"4nqulp\" }],\n  [\"path\", { d: \"M2 12h6.5L10 9\", key: \"kv9z4n\" }],\n  [\"path\", { d: \"M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z\", key: \"yu0u2z\" }],\n  [\"path\", { d: \"m4 10 1.5 2L4 14\", key: \"k9enpj\" }],\n  [\"path\", { d: \"m7 21 3-6-1.5-3\", key: \"j8hb9u\" }],\n  [\"path\", { d: \"m7 3 3 6h2\", key: \"1bbqgq\" }]\n];\nconst ThermometerSnowflake = createLucideIcon(\"thermometer-snowflake\", __iconNode);\n\nexport { __iconNode, ThermometerSnowflake as default };\n//# sourceMappingURL=thermometer-snowflake.js.map\n",
+      "start": 1762100721475,
+      "end": 1762100727441,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727441,
+      "end": 1762100727441,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727441,
+      "end": 1762100727441,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727442,
+      "end": 1762100727442,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/pipe.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Pipe\n * Compose other transformers to run linearily\n * pipe(min(20), max(40))\n * @param  {...functions} transformers\n * @return {function}\n */\nconst combineFunctions = (a, b) => (v) => b(a(v));\nconst pipe = (...transformers) => transformers.reduce(combineFunctions);\n\nexport { pipe };\n",
+      "start": 1762100729149,
+      "end": 1762100729260,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729260,
+      "end": 1762100729260,
+      "order": "normal"
+    }
+  ]
+}

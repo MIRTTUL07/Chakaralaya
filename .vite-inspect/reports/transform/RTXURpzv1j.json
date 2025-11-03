@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mars.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M16 3h5v5\", key: \"1806ms\" }],\n  [\"path\", { d: \"m21 3-6.75 6.75\", key: \"pv0uzu\" }],\n  [\"circle\", { cx: \"10\", cy: \"14\", r: \"6\", key: \"1qwbdc\" }]\n];\nconst Mars = createLucideIcon(\"mars\", __iconNode);\n\nexport { __iconNode, Mars as default };\n//# sourceMappingURL=mars.js.map\n",
+      "start": 1762100720735,
+      "end": 1762100727222,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727222,
+      "end": 1762100727222,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727222,
+      "end": 1762100727222,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727222,
+      "end": 1762100727222,
+      "order": "normal"
+    }
+  ]
+}

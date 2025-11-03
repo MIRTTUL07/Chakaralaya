@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/eclipse.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M12 2a7 7 0 1 0 10 10\", key: \"1yuj32\" }]\n];\nconst Eclipse = createLucideIcon(\"eclipse\", __iconNode);\n\nexport { __iconNode, Eclipse as default };\n//# sourceMappingURL=eclipse.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721772,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721772,
+      "end": 1762100721772,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721772,
+      "end": 1762100721772,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721773,
+      "end": 1762100721773,
+      "order": "normal"
+    }
+  ]
+}

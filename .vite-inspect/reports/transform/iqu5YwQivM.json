@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/maximize.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 3H5a2 2 0 0 0-2 2v3\", key: \"1dcmit\" }],\n  [\"path\", { d: \"M21 8V5a2 2 0 0 0-2-2h-3\", key: \"1e4gt3\" }],\n  [\"path\", { d: \"M3 16v3a2 2 0 0 0 2 2h3\", key: \"wsl5sc\" }],\n  [\"path\", { d: \"M16 21h3a2 2 0 0 0 2-2v-3\", key: \"18trek\" }]\n];\nconst Maximize = createLucideIcon(\"maximize\", __iconNode);\n\nexport { __iconNode, Maximize as default };\n//# sourceMappingURL=maximize.js.map\n",
+      "start": 1762100720738,
+      "end": 1762100727223,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727223,
+      "end": 1762100727223,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-merge.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"18\", cy: \"18\", r: \"3\", key: \"1xkwt0\" }],\n  [\"circle\", { cx: \"6\", cy: \"6\", r: \"3\", key: \"1lh9wr\" }],\n  [\"path\", { d: \"M6 21V9a9 9 0 0 0 9 9\", key: \"7kw0sc\" }]\n];\nconst GitMerge = createLucideIcon(\"git-merge\", __iconNode);\n\nexport { __iconNode, GitMerge as default };\n//# sourceMappingURL=git-merge.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721967,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721967,
+      "end": 1762100721967,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721967,
+      "end": 1762100721967,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721967,
+      "end": 1762100721967,
+      "order": "normal"
+    }
+  ]
+}

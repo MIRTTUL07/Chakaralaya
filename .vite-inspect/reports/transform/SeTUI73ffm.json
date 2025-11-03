@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/languages.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m5 8 6 6\", key: \"1wu5hv\" }],\n  [\"path\", { d: \"m4 14 6-6 2-3\", key: \"1k1g8d\" }],\n  [\"path\", { d: \"M2 5h12\", key: \"or177f\" }],\n  [\"path\", { d: \"M7 2h1\", key: \"1t2jsx\" }],\n  [\"path\", { d: \"m22 22-5-10-5 10\", key: \"don7ne\" }],\n  [\"path\", { d: \"M14 18h6\", key: \"1m8k6r\" }]\n];\nconst Languages = createLucideIcon(\"languages\", __iconNode);\n\nexport { __iconNode, Languages as default };\n//# sourceMappingURL=languages.js.map\n",
+      "start": 1762100718744,
+      "end": 1762100722075,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722076,
+      "end": 1762100722076,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722076,
+      "end": 1762100722076,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722076,
+      "end": 1762100722076,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/resize/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resizeElement } from './handle-element.mjs';\nimport { resizeWindow } from './handle-window.mjs';\n\nfunction resize(a, b) {\n    return typeof a === \"function\" ? resizeWindow(a) : resizeElement(a, b);\n}\n\nexport { resize };\n",
+      "start": 1762100729192,
+      "end": 1762100729310,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    }
+  ]
+}

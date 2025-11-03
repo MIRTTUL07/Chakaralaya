@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/venus-and-mars.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 20h4\", key: \"ni2waw\" }],\n  [\"path\", { d: \"M12 16v6\", key: \"c8a4gj\" }],\n  [\"path\", { d: \"M17 2h4v4\", key: \"vhe59\" }],\n  [\"path\", { d: \"m21 2-5.46 5.46\", key: \"19kypf\" }],\n  [\"circle\", { cx: \"12\", cy: \"11\", r: \"5\", key: \"16gxyc\" }]\n];\nconst VenusAndMars = createLucideIcon(\"venus-and-mars\", __iconNode);\n\nexport { __iconNode, VenusAndMars as default };\n//# sourceMappingURL=venus-and-mars.js.map\n",
+      "start": 1762100721651,
+      "end": 1762100727506,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727506,
+      "end": 1762100727506,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727506,
+      "end": 1762100727506,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727507,
+      "end": 1762100727507,
+      "order": "normal"
+    }
+  ]
+}

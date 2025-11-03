@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/supports/partial-keyframes.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { memo } from 'motion-utils';\n\nconst supportsPartialKeyframes = /*@__PURE__*/ memo(() => {\n    try {\n        document.createElement(\"div\").animate({ opacity: [1] });\n    }\n    catch (e) {\n        return false;\n    }\n    return true;\n});\n\nexport { supportsPartialKeyframes };\n",
+      "start": 1762100729191,
+      "end": 1762100729284,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729284,
+      "end": 1762100729284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729284,
+      "end": 1762100729286,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/easing/is-supported.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isBezierDefinition } from 'motion-utils';\nimport { supportsLinearEasing } from '../../../utils/supports/linear-easing.mjs';\nimport { supportedWaapiEasing } from './supported.mjs';\n\nfunction isWaapiSupportedEasing(easing) {\n    return Boolean((typeof easing === \"function\" && supportsLinearEasing()) ||\n        !easing ||\n        (typeof easing === \"string\" &&\n            (easing in supportedWaapiEasing || supportsLinearEasing())) ||\n        isBezierDefinition(easing) ||\n        (Array.isArray(easing) && easing.every(isWaapiSupportedEasing)));\n}\n\nexport { isWaapiSupportedEasing };\n",
+      "start": 1762100729191,
+      "end": 1762100729283,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729283,
+      "end": 1762100729283,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729283,
+      "end": 1762100729283,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729283,
+      "end": 1762100729283,
+      "order": "normal"
+    }
+  ]
+}

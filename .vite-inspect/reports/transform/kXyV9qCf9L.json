@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/search-check.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m8 11 2 2 4-4\", key: \"1sed1v\" }],\n  [\"circle\", { cx: \"11\", cy: \"11\", r: \"8\", key: \"4ej97u\" }],\n  [\"path\", { d: \"m21 21-4.3-4.3\", key: \"1qie3q\" }]\n];\nconst SearchCheck = createLucideIcon(\"search-check\", __iconNode);\n\nexport { __iconNode, SearchCheck as default };\n//# sourceMappingURL=search-check.js.map\n",
+      "start": 1762100721240,
+      "end": 1762100727378,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727378,
+      "end": 1762100727378,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727378,
+      "end": 1762100727378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727378,
+      "end": 1762100727378,
+      "order": "normal"
+    }
+  ]
+}

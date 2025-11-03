@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-small.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [[\"circle\", { cx: \"12\", cy: \"12\", r: \"6\", key: \"1vlfrh\" }]];\nconst CircleSmall = createLucideIcon(\"circle-small\", __iconNode);\n\nexport { __iconNode, CircleSmall as default };\n//# sourceMappingURL=circle-small.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721515,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721515,
+      "end": 1762100721515,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721515,
+      "end": 1762100721516,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721516,
+      "end": 1762100721516,
+      "order": "normal"
+    }
+  ]
+}

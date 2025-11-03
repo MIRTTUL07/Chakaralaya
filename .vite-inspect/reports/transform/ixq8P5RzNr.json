@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/trending-up-down.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M14.828 14.828 21 21\", key: \"ar5fw7\" }],\n  [\"path\", { d: \"M21 16v5h-5\", key: \"1ck2sf\" }],\n  [\"path\", { d: \"m21 3-9 9-4-4-6 6\", key: \"1h02xo\" }],\n  [\"path\", { d: \"M21 8V3h-5\", key: \"1qoq8a\" }]\n];\nconst TrendingUpDown = createLucideIcon(\"trending-up-down\", __iconNode);\n\nexport { __iconNode, TrendingUpDown as default };\n//# sourceMappingURL=trending-up-down.js.map\n",
+      "start": 1762100721508,
+      "end": 1762100727463,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727463,
+      "end": 1762100727463,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727463,
+      "end": 1762100727463,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727463,
+      "end": 1762100727463,
+      "order": "normal"
+    }
+  ]
+}

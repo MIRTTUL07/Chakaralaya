@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-scroll/modules/mixins/scroll-events.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar Events = {\n\tregistered: {},\n\tscrollEvent: {\n\t\tregister: function register(evtName, callback) {\n\t\t\tEvents.registered[evtName] = callback;\n\t\t},\n\t\tremove: function remove(evtName) {\n\t\t\tEvents.registered[evtName] = null;\n\t\t}\n\t}\n};\n\nexports.default = Events;",
+      "start": 1762100715054,
+      "end": 1762100716095,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716096,
+      "end": 1762100716096,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716096,
+      "end": 1762100716096,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716097,
+      "end": 1762100716097,
+      "order": "normal"
+    }
+  ]
+}

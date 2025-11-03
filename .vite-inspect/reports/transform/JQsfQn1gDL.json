@@ -1,0 +1,29 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/images/globe.jpg",
+  "transforms": [
+    {
+      "name": "vite:asset",
+      "result": "export default \"__VITE_ASSET__FO3PdRuW__\"",
+      "start": 1762100716035,
+      "end": 1762100727181
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727181,
+      "end": 1762100727181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727181,
+      "end": 1762100727181,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727181,
+      "end": 1762100727181,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/@babel/runtime/helpers/esm/extends.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function _extends() {\n  return _extends = Object.assign ? Object.assign.bind() : function (n) {\n    for (var e = 1; e < arguments.length; e++) {\n      var t = arguments[e];\n      for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]);\n    }\n    return n;\n  }, _extends.apply(null, arguments);\n}\nexport { _extends as default };",
+      "start": 1762100716928,
+      "end": 1762100716997,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716997,
+      "end": 1762100716997,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716997,
+      "end": 1762100716997,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716998,
+      "end": 1762100716998,
+      "order": "normal"
+    }
+  ]
+}

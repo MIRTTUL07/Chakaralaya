@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { jsx } from 'react/jsx-runtime';\nimport { useContext, useRef, useMemo } from 'react';\nimport { LayoutGroupContext } from '../../context/LayoutGroupContext.mjs';\nimport { DeprecatedLayoutGroupContext } from '../../context/DeprecatedLayoutGroupContext.mjs';\nimport { useForceUpdate } from '../../utils/use-force-update.mjs';\nimport { nodeGroup } from '../../projection/node/group.mjs';\n\nconst shouldInheritGroup = (inherit) => inherit === true;\nconst shouldInheritId = (inherit) => shouldInheritGroup(inherit === true) || inherit === \"id\";\nconst LayoutGroup = ({ children, id, inherit = true }) => {\n    const layoutGroupContext = useContext(LayoutGroupContext);\n    const deprecatedLayoutGroupContext = useContext(DeprecatedLayoutGroupContext);\n    const [forceRender, key] = useForceUpdate();\n    const context = useRef(null);\n    const upstreamId = layoutGroupContext.id || deprecatedLayoutGroupContext;\n    if (context.current === null) {\n        if (shouldInheritId(inherit) && upstreamId) {\n            id = id ? upstreamId + \"-\" + id : upstreamId;\n        }\n        context.current = {\n            id,\n            group: shouldInheritGroup(inherit)\n                ? layoutGroupContext.group || nodeGroup()\n                : nodeGroup(),\n        };\n    }\n    const memoizedContext = useMemo(() => ({ ...context.current, forceRender }), [key]);\n    return (jsx(LayoutGroupContext.Provider, { value: memoizedContext, children: children }));\n};\n\nexport { LayoutGroup };\n",
+      "start": 1762100728886,
+      "end": 1762100729035,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729035,
+      "end": 1762100729035,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729035,
+      "end": 1762100729035,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729035,
+      "end": 1762100729035,
+      "order": "normal"
+    }
+  ]
+}

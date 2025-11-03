@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/utils/color-regex.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const colorRegex = /(?:#[\\da-f]{3,8}|(?:rgb|hsl)a?\\((?:-?[\\d.]+%?[,\\s]+){2}-?[\\d.]+%?\\s*(?:[,/]\\s*)?(?:\\b\\d+(?:\\.\\d+)?|\\.\\d+)?%?\\))/giu;\n\nexport { colorRegex };\n",
+      "start": 1762100729497,
+      "end": 1762100729646,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729646,
+      "end": 1762100729646,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729646,
+      "end": 1762100729646,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729646,
+      "end": 1762100729646,
+      "order": "normal"
+    }
+  ]
+}

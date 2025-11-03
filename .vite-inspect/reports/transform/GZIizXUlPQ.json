@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/bone.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z\",\n      key: \"w610uw\"\n    }\n  ]\n];\nconst Bone = createLucideIcon(\"bone\", __iconNode);\n\nexport { __iconNode, Bone as default };\n//# sourceMappingURL=bone.js.map\n",
+      "start": 1762100718704,
+      "end": 1762100721333,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721334,
+      "end": 1762100721334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721334,
+      "end": 1762100721334,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721334,
+      "end": 1762100721334,
+      "order": "normal"
+    }
+  ]
+}

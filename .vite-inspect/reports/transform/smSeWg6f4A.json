@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-compare.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"18\", cy: \"18\", r: \"3\", key: \"1xkwt0\" }],\n  [\"circle\", { cx: \"6\", cy: \"6\", r: \"3\", key: \"1lh9wr\" }],\n  [\"path\", { d: \"M13 6h3a2 2 0 0 1 2 2v7\", key: \"1yeb86\" }],\n  [\"path\", { d: \"M11 18H8a2 2 0 0 1-2-2V9\", key: \"19pyzm\" }]\n];\nconst GitCompare = createLucideIcon(\"git-compare\", __iconNode);\n\nexport { __iconNode, GitCompare as default };\n//# sourceMappingURL=git-compare.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721962,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721962,
+      "end": 1762100721962,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721962,
+      "end": 1762100721962,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721962,
+      "end": 1762100721962,
+      "order": "normal"
+    }
+  ]
+}

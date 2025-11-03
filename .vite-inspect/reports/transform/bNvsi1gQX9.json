@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/scroll/attach-animation.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { observeTimeline } from 'motion-dom';\nimport { getTimeline } from './utils/get-timeline.mjs';\n\nfunction attachToAnimation(animation, options) {\n    const timeline = getTimeline(options);\n    return animation.attachTimeline({\n        timeline: options.target ? undefined : timeline,\n        observe: (valueAnimation) => {\n            valueAnimation.pause();\n            return observeTimeline((progress) => {\n                valueAnimation.time =\n                    valueAnimation.iterationDuration * progress;\n            }, timeline);\n        },\n    });\n}\n\nexport { attachToAnimation };\n",
+      "start": 1762100729154,
+      "end": 1762100729264,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729264,
+      "end": 1762100729264,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729264,
+      "end": 1762100729264,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729264,
+      "end": 1762100729264,
+      "order": "normal"
+    }
+  ]
+}

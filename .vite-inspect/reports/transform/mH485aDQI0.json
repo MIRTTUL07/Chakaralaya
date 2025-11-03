@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/utils/build-attrs.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { buildHTMLStyles } from '../../html/utils/build-styles.mjs';\nimport { buildSVGPath } from './path.mjs';\n\n/**\n * Build SVG visual attributes, like cx and style.transform\n */\nfunction buildSVGAttrs(state, { attrX, attrY, attrScale, pathLength, pathSpacing = 1, pathOffset = 0, \n// This is object creation, which we try to avoid per-frame.\n...latest }, isSVGTag, transformTemplate, styleProp) {\n    buildHTMLStyles(state, latest, transformTemplate);\n    /**\n     * For svg tags we just want to make sure viewBox is animatable and treat all the styles\n     * as normal HTML tags.\n     */\n    if (isSVGTag) {\n        if (state.style.viewBox) {\n            state.attrs.viewBox = state.style.viewBox;\n        }\n        return;\n    }\n    state.attrs = state.style;\n    state.style = {};\n    const { attrs, style } = state;\n    /**\n     * However, we apply transforms as CSS transforms.\n     * So if we detect a transform, transformOrigin we take it from attrs and copy it into style.\n     */\n    if (attrs.transform) {\n        style.transform = attrs.transform;\n        delete attrs.transform;\n    }\n    if (style.transform || attrs.transformOrigin) {\n        style.transformOrigin = attrs.transformOrigin ?? \"50% 50%\";\n        delete attrs.transformOrigin;\n    }\n    if (style.transform) {\n        /**\n         * SVG's element transform-origin uses its own median as a reference.\n         * Therefore, transformBox becomes a fill-box\n         */\n        style.transformBox = styleProp?.transformBox ?? \"fill-box\";\n        delete attrs.transformBox;\n    }\n    // Render attrX/attrY/attrScale as attributes\n    if (attrX !== undefined)\n        attrs.x = attrX;\n    if (attrY !== undefined)\n        attrs.y = attrY;\n    if (attrScale !== undefined)\n        attrs.scale = attrScale;\n    // Build SVG path if one has been defined\n    if (pathLength !== undefined) {\n        buildSVGPath(attrs, pathLength, pathSpacing, pathOffset, false);\n    }\n}\n\nexport { buildSVGAttrs };\n",
+      "start": 1762100729562,
+      "end": 1762100729665,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729666,
+      "end": 1762100729666,
+      "order": "normal"
+    }
+  ]
+}

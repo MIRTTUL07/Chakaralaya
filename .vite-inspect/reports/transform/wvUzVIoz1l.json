@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/events/event-info.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isPrimaryPointer } from 'motion-dom';\n\nfunction extractEventInfo(event) {\n    return {\n        point: {\n            x: event.pageX,\n            y: event.pageY,\n        },\n    };\n}\nconst addPointerInfo = (handler) => {\n    return (event) => isPrimaryPointer(event) && handler(event, extractEventInfo(event));\n};\n\nexport { addPointerInfo, extractEventInfo };\n",
+      "start": 1762100728886,
+      "end": 1762100729042,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729042,
+      "end": 1762100729042,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729042,
+      "end": 1762100729042,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729042,
+      "end": 1762100729042,
+      "order": "normal"
+    }
+  ]
+}

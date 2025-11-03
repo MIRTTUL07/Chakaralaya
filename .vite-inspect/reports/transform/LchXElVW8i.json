@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/motion/features/animations.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { AnimationFeature } from './animation/index.mjs';\nimport { ExitAnimationFeature } from './animation/exit.mjs';\n\nconst animations = {\n    animation: {\n        Feature: AnimationFeature,\n    },\n    exit: {\n        Feature: ExitAnimationFeature,\n    },\n};\n\nexport { animations };\n",
+      "start": 1762100728886,
+      "end": 1762100729045,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729045,
+      "end": 1762100729045,
+      "order": "normal"
+    }
+  ]
+}

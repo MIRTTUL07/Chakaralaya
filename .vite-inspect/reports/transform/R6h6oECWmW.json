@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.esm.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import * as ReactJSXRuntime from 'react/jsx-runtime';\nimport { h as hasOwn, E as Emotion, c as createEmotionProps } from '../../dist/emotion-element-f0de968e.browser.esm.js';\nimport 'react';\nimport '@emotion/cache';\nimport '@babel/runtime/helpers/extends';\nimport '@emotion/weak-memoize';\nimport '../../_isolated-hnrs/dist/emotion-react-_isolated-hnrs.browser.esm.js';\nimport 'hoist-non-react-statics';\nimport '@emotion/utils';\nimport '@emotion/serialize';\nimport '@emotion/use-insertion-effect-with-fallbacks';\n\nvar Fragment = ReactJSXRuntime.Fragment;\nvar jsx = function jsx(type, props, key) {\n  if (!hasOwn.call(props, 'css')) {\n    return ReactJSXRuntime.jsx(type, props, key);\n  }\n\n  return ReactJSXRuntime.jsx(Emotion, createEmotionProps(type, props), key);\n};\nvar jsxs = function jsxs(type, props, key) {\n  if (!hasOwn.call(props, 'css')) {\n    return ReactJSXRuntime.jsxs(type, props, key);\n  }\n\n  return ReactJSXRuntime.jsxs(Emotion, createEmotionProps(type, props), key);\n};\n\nexport { Fragment, jsx, jsxs };\n",
+      "start": 1762100716694,
+      "end": 1762100716882,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100716882,
+      "end": 1762100716882,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100716882,
+      "end": 1762100716882,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100716883,
+      "end": 1762100716883,
+      "order": "normal"
+    }
+  ]
+}

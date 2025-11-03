@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/hat-glasses.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M14 18a2 2 0 0 0-4 0\", key: \"1v8fkw\" }],\n  [\n    \"path\",\n    {\n      d: \"m19 11-2.11-6.657a2 2 0 0 0-2.752-1.148l-1.276.61A2 2 0 0 1 12 4H8.5a2 2 0 0 0-1.925 1.456L5 11\",\n      key: \"1fkr7p\"\n    }\n  ],\n  [\"path\", { d: \"M2 11h20\", key: \"3eubbj\" }],\n  [\"circle\", { cx: \"17\", cy: \"18\", r: \"3\", key: \"82mm0e\" }],\n  [\"circle\", { cx: \"7\", cy: \"18\", r: \"3\", key: \"lvkj7j\" }]\n];\nconst HatGlasses = createLucideIcon(\"hat-glasses\", __iconNode);\n\nexport { __iconNode, HatGlasses as default };\n//# sourceMappingURL=hat-glasses.js.map\n",
+      "start": 1762100718741,
+      "end": 1762100722008,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722008,
+      "end": 1762100722008,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722008,
+      "end": 1762100722009,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722009,
+      "end": 1762100722009,
+      "order": "normal"
+    }
+  ]
+}

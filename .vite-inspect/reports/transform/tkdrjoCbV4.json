@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/notepad-text.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 2v4\", key: \"1cmpym\" }],\n  [\"path\", { d: \"M12 2v4\", key: \"3427ic\" }],\n  [\"path\", { d: \"M16 2v4\", key: \"4m81vk\" }],\n  [\"rect\", { width: \"16\", height: \"18\", x: \"4\", y: \"4\", rx: \"2\", key: \"1u9h20\" }],\n  [\"path\", { d: \"M8 10h6\", key: \"3oa6kw\" }],\n  [\"path\", { d: \"M8 14h8\", key: \"1fgep2\" }],\n  [\"path\", { d: \"M8 18h5\", key: \"17enja\" }]\n];\nconst NotepadText = createLucideIcon(\"notepad-text\", __iconNode);\n\nexport { __iconNode, NotepadText as default };\n//# sourceMappingURL=notepad-text.js.map\n",
+      "start": 1762100720927,
+      "end": 1762100727285,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727285,
+      "end": 1762100727285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727285,
+      "end": 1762100727285,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727285,
+      "end": 1762100727285,
+      "order": "normal"
+    }
+  ]
+}

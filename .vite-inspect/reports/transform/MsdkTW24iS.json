@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/optimized-appear/data-id.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { camelToDash } from '../../render/dom/utils/camel-to-dash.mjs';\n\nconst optimizedAppearDataId = \"framerAppearId\";\nconst optimizedAppearDataAttribute = \"data-\" + camelToDash(optimizedAppearDataId);\n\nexport { optimizedAppearDataAttribute, optimizedAppearDataId };\n",
+      "start": 1762100728888,
+      "end": 1762100729065,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729065,
+      "end": 1762100729065,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729065,
+      "end": 1762100729065,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729065,
+      "end": 1762100729065,
+      "order": "normal"
+    }
+  ]
+}

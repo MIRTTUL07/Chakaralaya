@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/sailboat.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 2v15\", key: \"1qf71f\" }],\n  [\n    \"path\",\n    { d: \"M7 22a4 4 0 0 1-4-4 1 1 0 0 1 1-1h16a1 1 0 0 1 1 1 4 4 0 0 1-4 4z\", key: \"1pxcvx\" }\n  ],\n  [\n    \"path\",\n    {\n      d: \"M9.159 2.46a1 1 0 0 1 1.521-.193l9.977 8.98A1 1 0 0 1 20 13H4a1 1 0 0 1-.824-1.567z\",\n      key: \"5oog16\"\n    }\n  ]\n];\nconst Sailboat = createLucideIcon(\"sailboat\", __iconNode);\n\nexport { __iconNode, Sailboat as default };\n//# sourceMappingURL=sailboat.js.map\n",
+      "start": 1762100721179,
+      "end": 1762100727351,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727351,
+      "end": 1762100727351,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727351,
+      "end": 1762100727351,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727351,
+      "end": 1762100727351,
+      "order": "normal"
+    }
+  ]
+}

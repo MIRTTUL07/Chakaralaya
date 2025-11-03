@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/frameloop/microtask.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createRenderBatcher } from './batcher.mjs';\n\nconst { schedule: microtask, cancel: cancelMicrotask } = \n/* @__PURE__ */ createRenderBatcher(queueMicrotask, false);\n\nexport { cancelMicrotask, microtask };\n",
+      "start": 1762100729191,
+      "end": 1762100729294,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal"
+    }
+  ]
+}

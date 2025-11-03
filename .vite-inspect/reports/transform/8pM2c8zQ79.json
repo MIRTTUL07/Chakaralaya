@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/generators/utils/is-generator.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function isGenerator(type) {\n    return typeof type === \"function\" && \"applyToOptions\" in type;\n}\n\nexport { isGenerator };\n",
+      "start": 1762100729190,
+      "end": 1762100729277,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729277,
+      "end": 1762100729277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729277,
+      "end": 1762100729277,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729277,
+      "end": 1762100729277,
+      "order": "normal"
+    }
+  ]
+}

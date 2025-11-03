@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tent-tree.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"4\", cy: \"4\", r: \"2\", key: \"bt5ra8\" }],\n  [\"path\", { d: \"m14 5 3-3 3 3\", key: \"1sorif\" }],\n  [\"path\", { d: \"m14 10 3-3 3 3\", key: \"1jyi9h\" }],\n  [\"path\", { d: \"M17 14V2\", key: \"8ymqnk\" }],\n  [\"path\", { d: \"M17 14H7l-5 8h20Z\", key: \"13ar7p\" }],\n  [\"path\", { d: \"M8 14v8\", key: \"1ghmqk\" }],\n  [\"path\", { d: \"m9 14 5 8\", key: \"13pgi6\" }]\n];\nconst TentTree = createLucideIcon(\"tent-tree\", __iconNode);\n\nexport { __iconNode, TentTree as default };\n//# sourceMappingURL=tent-tree.js.map\n",
+      "start": 1762100721467,
+      "end": 1762100727436,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727436,
+      "end": 1762100727436,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727436,
+      "end": 1762100727436,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727436,
+      "end": 1762100727436,
+      "order": "normal"
+    }
+  ]
+}

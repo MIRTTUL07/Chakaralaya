@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/octagon-alert.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 16h.01\", key: \"1drbdi\" }],\n  [\"path\", { d: \"M12 8v4\", key: \"1got3b\" }],\n  [\n    \"path\",\n    {\n      d: \"M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z\",\n      key: \"1fd625\"\n    }\n  ]\n];\nconst OctagonAlert = createLucideIcon(\"octagon-alert\", __iconNode);\n\nexport { __iconNode, OctagonAlert as default };\n//# sourceMappingURL=octagon-alert.js.map\n",
+      "start": 1762100718699,
+      "end": 1762100720916,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720916,
+      "end": 1762100720916,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720916,
+      "end": 1762100720916,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720917,
+      "end": 1762100720917,
+      "order": "normal"
+    }
+  ]
+}

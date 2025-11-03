@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/keyframes/utils/is-none.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isZeroValueString } from 'motion-utils';\n\nfunction isNone(value) {\n    if (typeof value === \"number\") {\n        return value === 0;\n    }\n    else if (value !== null) {\n        return value === \"none\" || value === \"0\" || isZeroValueString(value);\n    }\n    else {\n        return true;\n    }\n}\n\nexport { isNone };\n",
+      "start": 1762100729429,
+      "end": 1762100729542,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729542,
+      "end": 1762100729542,
+      "order": "normal"
+    }
+  ]
+}

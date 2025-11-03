@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/podcast.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    { d: \"M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z\", fill: \"currentColor\", key: \"x1mxqr\" }\n  ],\n  [\"path\", { d: \"M16.85 18.58a9 9 0 1 0-9.7 0\", key: \"d71mpg\" }],\n  [\"path\", { d: \"M8 14a5 5 0 1 1 8 0\", key: \"fc81rn\" }],\n  [\"circle\", { cx: \"12\", cy: \"11\", r: \"1\", fill: \"currentColor\", key: \"vqiwd\" }]\n];\nconst Podcast = createLucideIcon(\"podcast\", __iconNode);\n\nexport { __iconNode, Podcast as default };\n//# sourceMappingURL=podcast.js.map\n",
+      "start": 1762100721077,
+      "end": 1762100727318,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727318,
+      "end": 1762100727318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727318,
+      "end": 1762100727318,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727318,
+      "end": 1762100727318,
+      "order": "normal"
+    }
+  ]
+}

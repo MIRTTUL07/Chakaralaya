@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animate/resolve-subjects.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resolveElements } from 'motion-dom';\nimport { isDOMKeyframes } from '../utils/is-dom-keyframes.mjs';\n\nfunction resolveSubjects(subject, keyframes, scope, selectorCache) {\n    if (typeof subject === \"string\" && isDOMKeyframes(keyframes)) {\n        return resolveElements(subject, scope, selectorCache);\n    }\n    else if (subject instanceof NodeList) {\n        return Array.from(subject);\n    }\n    else if (Array.isArray(subject)) {\n        return subject;\n    }\n    else {\n        return [subject];\n    }\n}\n\nexport { resolveSubjects };\n",
+      "start": 1762100729412,
+      "end": 1762100729540,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729540,
+      "end": 1762100729540,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729540,
+      "end": 1762100729540,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729540,
+      "end": 1762100729540,
+      "order": "normal"
+    }
+  ]
+}

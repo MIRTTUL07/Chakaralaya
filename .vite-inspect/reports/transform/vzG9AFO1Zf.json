@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/view/utils/get-view-animations.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function filterViewAnimations(animation) {\n    const { effect } = animation;\n    if (!effect)\n        return false;\n    return (effect.target === document.documentElement &&\n        effect.pseudoElement?.startsWith(\"::view-transition\"));\n}\nfunction getViewAnimations() {\n    return document.getAnimations().filter(filterViewAnimations);\n}\n\nexport { getViewAnimations };\n",
+      "start": 1762100729193,
+      "end": 1762100729371,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729371,
+      "end": 1762100729371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729371,
+      "end": 1762100729371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729371,
+      "end": 1762100729371,
+      "order": "normal"
+    }
+  ]
+}

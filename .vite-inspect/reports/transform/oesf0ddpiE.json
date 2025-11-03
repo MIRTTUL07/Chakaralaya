@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/slash.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [[\"path\", { d: \"M22 2 2 22\", key: \"y4kqgn\" }]];\nconst Slash = createLucideIcon(\"slash\", __iconNode);\n\nexport { __iconNode, Slash as default };\n//# sourceMappingURL=slash.js.map\n",
+      "start": 1762100721331,
+      "end": 1762100727402,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727402,
+      "end": 1762100727402,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727402,
+      "end": 1762100727402,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727402,
+      "end": 1762100727402,
+      "order": "normal"
+    }
+  ]
+}

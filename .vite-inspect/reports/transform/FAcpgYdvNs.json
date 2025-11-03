@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/maps/defaults.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { color } from '../color/index.mjs';\nimport { filter } from '../complex/filter.mjs';\nimport { numberValueTypes } from './number.mjs';\n\n/**\n * A map of default value types for common values\n */\nconst defaultValueTypes = {\n    ...numberValueTypes,\n    // Color props\n    color,\n    backgroundColor: color,\n    outlineColor: color,\n    fill: color,\n    stroke: color,\n    // Border props\n    borderColor: color,\n    borderTopColor: color,\n    borderRightColor: color,\n    borderBottomColor: color,\n    borderLeftColor: color,\n    filter,\n    WebkitFilter: filter,\n};\n/**\n * Gets the default ValueType for the provided value key\n */\nconst getDefaultValueType = (key) => defaultValueTypes[key];\n\nexport { defaultValueTypes, getDefaultValueType };\n",
+      "start": 1762100729193,
+      "end": 1762100729338,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729338,
+      "end": 1762100729338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729338,
+      "end": 1762100729338,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729338,
+      "end": 1762100729338,
+      "order": "normal"
+    }
+  ]
+}

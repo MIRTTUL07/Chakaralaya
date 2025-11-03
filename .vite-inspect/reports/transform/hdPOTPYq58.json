@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/optimized-appear/handoff.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { appearAnimationStore } from './store.mjs';\nimport { appearStoreId } from './store-id.mjs';\n\nfunction handoffOptimizedAppearAnimation(elementId, valueName, frame) {\n    const storeId = appearStoreId(elementId, valueName);\n    const optimisedAnimation = appearAnimationStore.get(storeId);\n    if (!optimisedAnimation) {\n        return null;\n    }\n    const { animation, startTime } = optimisedAnimation;\n    function cancelAnimation() {\n        window.MotionCancelOptimisedAnimation?.(elementId, valueName, frame);\n    }\n    /**\n     * We can cancel the animation once it's finished now that we've synced\n     * with Motion.\n     *\n     * Prefer onfinish over finished as onfinish is backwards compatible with\n     * older browsers.\n     */\n    animation.onfinish = cancelAnimation;\n    if (startTime === null || window.MotionHandoffIsComplete?.(elementId)) {\n        /**\n         * If the startTime is null, this animation is the Paint Ready detection animation\n         * and we can cancel it immediately without handoff.\n         *\n         * Or if we've already handed off the animation then we're now interrupting it.\n         * In which case we need to cancel it.\n         */\n        cancelAnimation();\n        return null;\n    }\n    else {\n        return startTime;\n    }\n}\n\nexport { handoffOptimizedAppearAnimation };\n",
+      "start": 1762100729132,
+      "end": 1762100729251,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729251,
+      "end": 1762100729251,
+      "order": "normal"
+    }
+  ]
+}

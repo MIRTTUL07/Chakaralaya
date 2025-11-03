@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/list-start.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 5h6\", key: \"1ltk0q\" }],\n  [\"path\", { d: \"M3 12h13\", key: \"ppymz1\" }],\n  [\"path\", { d: \"M3 19h13\", key: \"bpdczq\" }],\n  [\"path\", { d: \"m16 8-3-3 3-3\", key: \"1pjpp6\" }],\n  [\"path\", { d: \"M21 19V7a2 2 0 0 0-2-2h-6\", key: \"4zzq67\" }]\n];\nconst ListStart = createLucideIcon(\"list-start\", __iconNode);\n\nexport { __iconNode, ListStart as default };\n//# sourceMappingURL=list-start.js.map\n",
+      "start": 1762100720157,
+      "end": 1762100727176,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727177,
+      "end": 1762100727177,
+      "order": "normal"
+    }
+  ]
+}

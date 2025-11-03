@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/render/utils/keys-position.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { transformPropOrder } from './keys-transform.mjs';\n\nconst positionalKeys = new Set([\n    \"width\",\n    \"height\",\n    \"top\",\n    \"left\",\n    \"right\",\n    \"bottom\",\n    ...transformPropOrder,\n]);\n\nexport { positionalKeys };\n",
+      "start": 1762100729192,
+      "end": 1762100729309,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729310,
+      "end": 1762100729310,
+      "order": "normal"
+    }
+  ]
+}

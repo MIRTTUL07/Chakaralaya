@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/arrow-down-from-line.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M19 3H5\", key: \"1236rx\" }],\n  [\"path\", { d: \"M12 21V7\", key: \"gj6g52\" }],\n  [\"path\", { d: \"m6 15 6 6 6-6\", key: \"h15q88\" }]\n];\nconst ArrowDownFromLine = createLucideIcon(\"arrow-down-from-line\", __iconNode);\n\nexport { __iconNode, ArrowDownFromLine as default };\n//# sourceMappingURL=arrow-down-from-line.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721158,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721158,
+      "end": 1762100721158,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721158,
+      "end": 1762100721158,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721158,
+      "end": 1762100721158,
+      "order": "normal"
+    }
+  ]
+}

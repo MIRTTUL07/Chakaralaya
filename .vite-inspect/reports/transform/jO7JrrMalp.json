@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n",
+      "start": 1762100716905,
+      "end": 1762100717002,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100717002,
+      "end": 1762100717002,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100717002,
+      "end": 1762100717002,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100717003,
+      "end": 1762100717003,
+      "order": "normal"
+    }
+  ]
+}

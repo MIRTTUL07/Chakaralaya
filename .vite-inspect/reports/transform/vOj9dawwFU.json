@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/navigation.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"polygon\", { points: \"3 11 22 2 13 21 11 13 3 11\", key: \"1ltx0t\" }]\n];\nconst Navigation = createLucideIcon(\"navigation\", __iconNode);\n\nexport { __iconNode, Navigation as default };\n//# sourceMappingURL=navigation.js.map\n",
+      "start": 1762100720920,
+      "end": 1762100727281,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727281,
+      "end": 1762100727281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727281,
+      "end": 1762100727281,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727281,
+      "end": 1762100727281,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/list-video.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 5H3\", key: \"1fi0y6\" }],\n  [\"path\", { d: \"M10 12H3\", key: \"1ulcyk\" }],\n  [\"path\", { d: \"M10 19H3\", key: \"108z41\" }],\n  [\n    \"path\",\n    {\n      d: \"M15 12.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997a1 1 0 0 1-1.517-.86z\",\n      key: \"ms4nik\"\n    }\n  ]\n];\nconst ListVideo = createLucideIcon(\"list-video\", __iconNode);\n\nexport { __iconNode, ListVideo as default };\n//# sourceMappingURL=list-video.js.map\n",
+      "start": 1762100720200,
+      "end": 1762100727178,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727178,
+      "end": 1762100727178,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727178,
+      "end": 1762100727178,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727179,
+      "end": 1762100727179,
+      "order": "normal"
+    }
+  ]
+}

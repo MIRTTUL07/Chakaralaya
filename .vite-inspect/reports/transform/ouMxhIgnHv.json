@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/use-svg-visual-state.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { makeUseVisualState } from '../../motion/utils/use-visual-state.mjs';\nimport { createSvgRenderState } from './utils/create-render-state.mjs';\nimport { scrapeMotionValuesFromProps } from './utils/scrape-motion-values.mjs';\n\nconst useSVGVisualState = /*@__PURE__*/ makeUseVisualState({\n    scrapeMotionValuesFromProps: scrapeMotionValuesFromProps,\n    createRenderState: createSvgRenderState,\n});\n\nexport { useSVGVisualState };\n",
+      "start": 1762100729664,
+      "end": 1762100729735,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729735,
+      "end": 1762100729735,
+      "order": "normal"
+    }
+  ]
+}

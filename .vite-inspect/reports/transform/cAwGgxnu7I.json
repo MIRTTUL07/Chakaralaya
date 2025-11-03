@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/scroll/utils/get-timeline.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { supportsScrollTimeline } from 'motion-dom';\nimport { scrollInfo } from '../track.mjs';\n\nconst timelineCache = new Map();\nfunction scrollTimelineFallback(options) {\n    const currentTime = { value: 0 };\n    const cancel = scrollInfo((info) => {\n        currentTime.value = info[options.axis].progress * 100;\n    }, options);\n    return { currentTime, cancel };\n}\nfunction getTimeline({ source, container, ...options }) {\n    const { axis } = options;\n    if (source)\n        container = source;\n    const containerCache = timelineCache.get(container) ?? new Map();\n    timelineCache.set(container, containerCache);\n    const targetKey = options.target ?? \"self\";\n    const targetCache = containerCache.get(targetKey) ?? {};\n    const axisKey = axis + (options.offset ?? []).join(\",\");\n    if (!targetCache[axisKey]) {\n        targetCache[axisKey] =\n            !options.target && supportsScrollTimeline()\n                ? new ScrollTimeline({ source: container, axis })\n                : scrollTimelineFallback({ container, ...options });\n    }\n    return targetCache[axisKey];\n}\n\nexport { getTimeline };\n",
+      "start": 1762100729414,
+      "end": 1762100729541,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal"
+    }
+  ]
+}

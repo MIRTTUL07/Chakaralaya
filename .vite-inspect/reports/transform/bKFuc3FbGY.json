@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cloud-drizzle.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\", key: \"1pljnt\" }],\n  [\"path\", { d: \"M8 19v1\", key: \"1dk2by\" }],\n  [\"path\", { d: \"M8 14v1\", key: \"84yxot\" }],\n  [\"path\", { d: \"M16 19v1\", key: \"v220m7\" }],\n  [\"path\", { d: \"M16 14v1\", key: \"g12gj6\" }],\n  [\"path\", { d: \"M12 21v1\", key: \"q8vafk\" }],\n  [\"path\", { d: \"M12 16v1\", key: \"1mx6rx\" }]\n];\nconst CloudDrizzle = createLucideIcon(\"cloud-drizzle\", __iconNode);\n\nexport { __iconNode, CloudDrizzle as default };\n//# sourceMappingURL=cloud-drizzle.js.map\n",
+      "start": 1762100718709,
+      "end": 1762100721647,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721647,
+      "end": 1762100721647,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721647,
+      "end": 1762100721647,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721649,
+      "end": 1762100721649,
+      "order": "normal"
+    }
+  ]
+}

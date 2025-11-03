@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/folder-key.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"16\", cy: \"20\", r: \"2\", key: \"1vifvg\" }],\n  [\n    \"path\",\n    {\n      d: \"M10 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v2\",\n      key: \"3hgo9p\"\n    }\n  ],\n  [\"path\", { d: \"m22 14-4.5 4.5\", key: \"1ef6z8\" }],\n  [\"path\", { d: \"m21 15 1 1\", key: \"1ejcpy\" }]\n];\nconst FolderKey = createLucideIcon(\"folder-key\", __iconNode);\n\nexport { __iconNode, FolderKey as default };\n//# sourceMappingURL=folder-key.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721916,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721916,
+      "end": 1762100721916,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721916,
+      "end": 1762100721916,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721916,
+      "end": 1762100721916,
+      "order": "normal"
+    }
+  ]
+}

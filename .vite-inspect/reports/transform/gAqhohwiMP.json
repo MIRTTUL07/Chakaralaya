@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/heading-2.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 12h8\", key: \"17cfdx\" }],\n  [\"path\", { d: \"M4 18V6\", key: \"1rz3zl\" }],\n  [\"path\", { d: \"M12 18V6\", key: \"zqpxq5\" }],\n  [\"path\", { d: \"M21 18h-4c0-4 4-3 4-6 0-1.5-2-2.5-4-1\", key: \"9jr5yi\" }]\n];\nconst Heading2 = createLucideIcon(\"heading-2\", __iconNode);\n\nexport { __iconNode, Heading2 as default };\n//# sourceMappingURL=heading-2.js.map\n",
+      "start": 1762100718741,
+      "end": 1762100722010,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722010,
+      "end": 1762100722010,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722010,
+      "end": 1762100722010,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722011,
+      "end": 1762100722011,
+      "order": "normal"
+    }
+  ]
+}

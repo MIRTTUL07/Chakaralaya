@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/compass.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\",\n      key: \"9ktpf1\"\n    }\n  ],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst Compass = createLucideIcon(\"compass\", __iconNode);\n\nexport { __iconNode, Compass as default };\n//# sourceMappingURL=compass.js.map\n",
+      "start": 1762100718711,
+      "end": 1762100721668,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721668,
+      "end": 1762100721668,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721668,
+      "end": 1762100721668,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721671,
+      "end": 1762100721671,
+      "order": "normal"
+    }
+  ]
+}

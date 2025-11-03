@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/receipt-turkish-lira.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 6.5v11a5.5 5.5 0 0 0 5.5-5.5\", key: \"nw10mp\" }],\n  [\"path\", { d: \"m14 8-6 3\", key: \"2tb98i\" }],\n  [\n    \"path\",\n    { d: \"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1z\", key: \"io9ry0\" }\n  ]\n];\nconst ReceiptTurkishLira = createLucideIcon(\"receipt-turkish-lira\", __iconNode);\n\nexport { __iconNode, ReceiptTurkishLira as default };\n//# sourceMappingURL=receipt-turkish-lira.js.map\n",
+      "start": 1762100721137,
+      "end": 1762100727332,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727332,
+      "end": 1762100727332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727332,
+      "end": 1762100727332,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727333,
+      "end": 1762100727333,
+      "order": "normal"
+    }
+  ]
+}

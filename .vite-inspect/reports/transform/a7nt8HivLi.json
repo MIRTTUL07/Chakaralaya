@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/fold-vertical.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 22v-6\", key: \"6o8u61\" }],\n  [\"path\", { d: \"M12 8V2\", key: \"1wkif3\" }],\n  [\"path\", { d: \"M4 12H2\", key: \"rhcxmi\" }],\n  [\"path\", { d: \"M10 12H8\", key: \"s88cx1\" }],\n  [\"path\", { d: \"M16 12h-2\", key: \"10asgb\" }],\n  [\"path\", { d: \"M22 12h-2\", key: \"14jgyd\" }],\n  [\"path\", { d: \"m15 19-3-3-3 3\", key: \"e37ymu\" }],\n  [\"path\", { d: \"m15 5-3 3-3-3\", key: \"19d6lf\" }]\n];\nconst FoldVertical = createLucideIcon(\"fold-vertical\", __iconNode);\n\nexport { __iconNode, FoldVertical as default };\n//# sourceMappingURL=fold-vertical.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721891,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721891,
+      "end": 1762100721891,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721891,
+      "end": 1762100721891,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721892,
+      "end": 1762100721892,
+      "order": "normal"
+    }
+  ]
+}

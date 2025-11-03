@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tablet.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"16\", height: \"20\", x: \"4\", y: \"2\", rx: \"2\", ry: \"2\", key: \"76otgf\" }],\n  [\"line\", { x1: \"12\", x2: \"12.01\", y1: \"18\", y2: \"18\", key: \"1dp563\" }]\n];\nconst Tablet = createLucideIcon(\"tablet\", __iconNode);\n\nexport { __iconNode, Tablet as default };\n//# sourceMappingURL=tablet.js.map\n",
+      "start": 1762100721454,
+      "end": 1762100727432,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727432,
+      "end": 1762100727432,
+      "order": "normal"
+    }
+  ]
+}

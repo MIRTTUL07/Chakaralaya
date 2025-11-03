@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/shrub.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 22v-5.172a2 2 0 0 0-.586-1.414L9.5 13.5\", key: \"1p17fm\" }],\n  [\"path\", { d: \"M14.5 14.5 12 17\", key: \"dy5w4y\" }],\n  [\"path\", { d: \"M17 8.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0z\", key: \"6z7b3o\" }]\n];\nconst Shrub = createLucideIcon(\"shrub\", __iconNode);\n\nexport { __iconNode, Shrub as default };\n//# sourceMappingURL=shrub.js.map\n",
+      "start": 1762100721282,
+      "end": 1762100727397,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727397,
+      "end": 1762100727397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727397,
+      "end": 1762100727397,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727397,
+      "end": 1762100727397,
+      "order": "normal"
+    }
+  ]
+}

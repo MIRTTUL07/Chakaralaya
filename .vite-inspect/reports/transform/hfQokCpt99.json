@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/align-end-vertical.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"16\", height: \"6\", x: \"2\", y: \"4\", rx: \"2\", key: \"10wcwx\" }],\n  [\"rect\", { width: \"9\", height: \"6\", x: \"9\", y: \"14\", rx: \"2\", key: \"4p5bwg\" }],\n  [\"path\", { d: \"M22 22V2\", key: \"12ipfv\" }]\n];\nconst AlignEndVertical = createLucideIcon(\"align-end-vertical\", __iconNode);\n\nexport { __iconNode, AlignEndVertical as default };\n//# sourceMappingURL=align-end-vertical.js.map\n",
+      "start": 1762100718701,
+      "end": 1762100721115,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721115,
+      "end": 1762100721115,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721115,
+      "end": 1762100721115,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721115,
+      "end": 1762100721115,
+      "order": "normal"
+    }
+  ]
+}

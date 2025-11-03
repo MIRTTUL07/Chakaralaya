@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/frame.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"22\", x2: \"2\", y1: \"6\", y2: \"6\", key: \"15w7dq\" }],\n  [\"line\", { x1: \"22\", x2: \"2\", y1: \"18\", y2: \"18\", key: \"1ip48p\" }],\n  [\"line\", { x1: \"6\", x2: \"6\", y1: \"2\", y2: \"22\", key: \"a2lnyx\" }],\n  [\"line\", { x1: \"18\", x2: \"18\", y1: \"2\", y2: \"22\", key: \"8vb6jd\" }]\n];\nconst Frame = createLucideIcon(\"frame\", __iconNode);\n\nexport { __iconNode, Frame as default };\n//# sourceMappingURL=frame.js.map\n",
+      "start": 1762100718738,
+      "end": 1762100721939,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721939,
+      "end": 1762100721939,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721939,
+      "end": 1762100721939,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721939,
+      "end": 1762100721939,
+      "order": "normal"
+    }
+  ]
+}

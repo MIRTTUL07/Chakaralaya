@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/paintbrush-vertical.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 2v2\", key: \"7u0qdc\" }],\n  [\"path\", { d: \"M14 2v4\", key: \"qmzblu\" }],\n  [\"path\", { d: \"M17 2a1 1 0 0 1 1 1v9H6V3a1 1 0 0 1 1-1z\", key: \"ycvu00\" }],\n  [\n    \"path\",\n    {\n      d: \"M6 12a1 1 0 0 0-1 1v1a2 2 0 0 0 2 2h2a1 1 0 0 1 1 1v2.9a2 2 0 1 0 4 0V17a1 1 0 0 1 1-1h2a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1\",\n      key: \"iw4wnp\"\n    }\n  ]\n];\nconst PaintbrushVertical = createLucideIcon(\"paintbrush-vertical\", __iconNode);\n\nexport { __iconNode, PaintbrushVertical as default };\n//# sourceMappingURL=paintbrush-vertical.js.map\n",
+      "start": 1762100718699,
+      "end": 1762100720917,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720917,
+      "end": 1762100720917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720918,
+      "end": 1762100720918,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720918,
+      "end": 1762100720918,
+      "order": "normal"
+    }
+  ]
+}

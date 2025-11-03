@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/html/utils/render.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function renderHTML(element, { style, vars }, styleProp, projection) {\n    const elementStyle = element.style;\n    let key;\n    for (key in style) {\n        // CSSStyleDeclaration has [index: number]: string; in the types, so we use that as key type.\n        elementStyle[key] = style[key];\n    }\n    // Write projection styles directly to element style\n    projection?.applyProjectionStyles(elementStyle, styleProp);\n    for (key in vars) {\n        // Loop over any CSS variables and assign those.\n        // They can only be assigned using `setProperty`.\n        elementStyle.setProperty(key, vars[key]);\n    }\n}\n\nexport { renderHTML };\n",
+      "start": 1762100729560,
+      "end": 1762100729665,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729665,
+      "end": 1762100729665,
+      "order": "normal"
+    }
+  ]
+}

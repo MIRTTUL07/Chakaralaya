@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/GroupAnimationWithThen.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { GroupAnimation } from './GroupAnimation.mjs';\n\nclass GroupAnimationWithThen extends GroupAnimation {\n    then(onResolve, _onReject) {\n        return this.finished.finally(onResolve).then(() => { });\n    }\n}\n\nexport { GroupAnimationWithThen };\n",
+      "start": 1762100729190,
+      "end": 1762100729266,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal"
+    }
+  ]
+}

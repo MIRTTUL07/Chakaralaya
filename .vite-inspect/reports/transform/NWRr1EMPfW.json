@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/utils/use-in-view.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { useState, useEffect } from 'react';\nimport { inView } from '../render/dom/viewport/index.mjs';\n\nfunction useInView(ref, { root, margin, amount, once = false, initial = false, } = {}) {\n    const [isInView, setInView] = useState(initial);\n    useEffect(() => {\n        if (!ref.current || (once && isInView))\n            return;\n        const onEnter = () => {\n            setInView(true);\n            return once ? undefined : () => setInView(false);\n        };\n        const options = {\n            root: (root && root.current) || undefined,\n            margin,\n            amount,\n        };\n        return inView(ref.current, onEnter, options);\n    }, [root, ref, margin, once, amount]);\n    return isInView;\n}\n\nexport { useInView };\n",
+      "start": 1762100728888,
+      "end": 1762100729064,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729064,
+      "end": 1762100729064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729064,
+      "end": 1762100729064,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729064,
+      "end": 1762100729064,
+      "order": "normal"
+    }
+  ]
+}

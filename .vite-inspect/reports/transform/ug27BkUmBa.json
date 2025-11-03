@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/mix/visibility.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const invisibleValues = new Set([\"none\", \"hidden\"]);\n/**\n * Returns a function that, when provided a progress value between 0 and 1,\n * will return the \"none\" or \"hidden\" string only when the progress is that of\n * the origin or target.\n */\nfunction mixVisibility(origin, target) {\n    if (invisibleValues.has(origin)) {\n        return (p) => (p <= 0 ? origin : target);\n    }\n    else {\n        return (p) => (p >= 1 ? target : origin);\n    }\n}\n\nexport { invisibleValues, mixVisibility };\n",
+      "start": 1762100729192,
+      "end": 1762100729321,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729321,
+      "end": 1762100729321,
+      "order": "normal"
+    }
+  ]
+}

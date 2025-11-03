@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mic-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 19v3\", key: \"npa21l\" }],\n  [\"path\", { d: \"M15 9.34V5a3 3 0 0 0-5.68-1.33\", key: \"1gzdoj\" }],\n  [\"path\", { d: \"M16.95 16.95A7 7 0 0 1 5 12v-2\", key: \"cqa7eg\" }],\n  [\"path\", { d: \"M18.89 13.23A7 7 0 0 0 19 12v-2\", key: \"16hl24\" }],\n  [\"path\", { d: \"m2 2 20 20\", key: \"1ooewy\" }],\n  [\"path\", { d: \"M9 9v3a3 3 0 0 0 5.12 2.12\", key: \"r2i35w\" }]\n];\nconst MicOff = createLucideIcon(\"mic-off\", __iconNode);\n\nexport { __iconNode, MicOff as default };\n//# sourceMappingURL=mic-off.js.map\n",
+      "start": 1762100720840,
+      "end": 1762100727238,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal"
+    }
+  ]
+}

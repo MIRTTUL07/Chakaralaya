@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-branch.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"6\", x2: \"6\", y1: \"3\", y2: \"15\", key: \"17qcm7\" }],\n  [\"circle\", { cx: \"18\", cy: \"6\", r: \"3\", key: \"1h7g24\" }],\n  [\"circle\", { cx: \"6\", cy: \"18\", r: \"3\", key: \"fqmcym\" }],\n  [\"path\", { d: \"M18 9a9 9 0 0 1-9 9\", key: \"n2h4wq\" }]\n];\nconst GitBranch = createLucideIcon(\"git-branch\", __iconNode);\n\nexport { __iconNode, GitBranch as default };\n//# sourceMappingURL=git-branch.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721959,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal"
+    }
+  ]
+}

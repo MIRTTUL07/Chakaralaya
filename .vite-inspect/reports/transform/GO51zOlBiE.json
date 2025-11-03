@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/lowercase-elements.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * We keep these listed separately as we use the lowercase tag names as part\n * of the runtime bundle to detect SVG components\n */\nconst lowercaseSVGElements = [\n    \"animate\",\n    \"circle\",\n    \"defs\",\n    \"desc\",\n    \"ellipse\",\n    \"g\",\n    \"image\",\n    \"line\",\n    \"filter\",\n    \"marker\",\n    \"mask\",\n    \"metadata\",\n    \"path\",\n    \"pattern\",\n    \"polygon\",\n    \"polyline\",\n    \"rect\",\n    \"stop\",\n    \"switch\",\n    \"symbol\",\n    \"svg\",\n    \"text\",\n    \"tspan\",\n    \"use\",\n    \"view\",\n];\n\nexport { lowercaseSVGElements };\n",
+      "start": 1762100729563,
+      "end": 1762100729667,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729667,
+      "end": 1762100729667,
+      "order": "normal"
+    }
+  ]
+}

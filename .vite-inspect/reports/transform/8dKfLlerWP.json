@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/instagram.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"20\", height: \"20\", x: \"2\", y: \"2\", rx: \"5\", ry: \"5\", key: \"2e1cvw\" }],\n  [\"path\", { d: \"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\", key: \"9exkf1\" }],\n  [\"line\", { x1: \"17.5\", x2: \"17.51\", y1: \"6.5\", y2: \"6.5\", key: \"r4j83e\" }]\n];\nconst Instagram = createLucideIcon(\"instagram\", __iconNode);\n\nexport { __iconNode, Instagram as default };\n//# sourceMappingURL=instagram.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722064,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722064,
+      "end": 1762100722064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722064,
+      "end": 1762100722064,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722064,
+      "end": 1762100722064,
+      "order": "normal"
+    }
+  ]
+}

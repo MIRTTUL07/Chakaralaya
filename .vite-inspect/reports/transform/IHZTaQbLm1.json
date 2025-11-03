@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/is-css-variable.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const checkStringStartsWith = (token) => (key) => typeof key === \"string\" && key.startsWith(token);\nconst isCSSVariableName = \n/*@__PURE__*/ checkStringStartsWith(\"--\");\nconst startsAsVariableToken = \n/*@__PURE__*/ checkStringStartsWith(\"var(--\");\nconst isCSSVariableToken = (value) => {\n    const startsWithToken = startsAsVariableToken(value);\n    if (!startsWithToken)\n        return false;\n    // Ensure any comments are stripped from the value as this can harm performance of the regex.\n    return singleCssVariableRegex.test(value.split(\"/*\")[0].trim());\n};\nconst singleCssVariableRegex = /var\\(--(?:[\\w-]+\\s*|[\\w-]+\\s*,(?:\\s*[^)(\\s]|\\s*\\((?:[^)(]|\\([^)(]*\\))*\\))+\\s*)\\)$/iu;\n\nexport { isCSSVariableName, isCSSVariableToken };\n",
+      "start": 1762100729190,
+      "end": 1762100729272,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    }
+  ]
+}

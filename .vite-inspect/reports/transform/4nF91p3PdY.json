@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chart-bar-decreasing.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 3v16a2 2 0 0 0 2 2h16\", key: \"c24i48\" }],\n  [\"path\", { d: \"M7 11h8\", key: \"1feolt\" }],\n  [\"path\", { d: \"M7 16h3\", key: \"ur6vzw\" }],\n  [\"path\", { d: \"M7 6h12\", key: \"sz5b0d\" }]\n];\nconst ChartBarDecreasing = createLucideIcon(\"chart-bar-decreasing\", __iconNode);\n\nexport { __iconNode, ChartBarDecreasing as default };\n//# sourceMappingURL=chart-bar-decreasing.js.map\n",
+      "start": 1762100718708,
+      "end": 1762100721478,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721478,
+      "end": 1762100721478,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721478,
+      "end": 1762100721478,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721479,
+      "end": 1762100721479,
+      "order": "normal"
+    }
+  ]
+}

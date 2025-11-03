@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chart-no-axes-column.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M5 21v-6\", key: \"1hz6c0\" }],\n  [\"path\", { d: \"M12 21V3\", key: \"1lcnhd\" }],\n  [\"path\", { d: \"M19 21V9\", key: \"unv183\" }]\n];\nconst ChartNoAxesColumn = createLucideIcon(\"chart-no-axes-column\", __iconNode);\n\nexport { __iconNode, ChartNoAxesColumn as default };\n//# sourceMappingURL=chart-no-axes-column.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720683,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720683,
+      "end": 1762100720683,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720683,
+      "end": 1762100720683,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720686,
+      "end": 1762100720686,
+      "order": "normal"
+    }
+  ]
+}

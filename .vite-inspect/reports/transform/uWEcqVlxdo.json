@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animators/waapi/animate-style.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { GroupAnimationWithThen } from 'motion-dom';\nimport { animateElements } from './animate-elements.mjs';\n\nconst createScopedWaapiAnimate = (scope) => {\n    function scopedAnimate(elementOrSelector, keyframes, options) {\n        return new GroupAnimationWithThen(animateElements(elementOrSelector, keyframes, options, scope));\n    }\n    return scopedAnimate;\n};\nconst animateMini = /*@__PURE__*/ createScopedWaapiAnimate();\n\nexport { animateMini, createScopedWaapiAnimate };\n",
+      "start": 1762100728889,
+      "end": 1762100729072,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    }
+  ]
+}

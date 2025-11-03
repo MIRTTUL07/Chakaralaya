@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/weight.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"5\", r: \"3\", key: \"rqqgnr\" }],\n  [\n    \"path\",\n    {\n      d: \"M6.5 8a2 2 0 0 0-1.905 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8Z\",\n      key: \"56o5sh\"\n    }\n  ]\n];\nconst Weight = createLucideIcon(\"weight\", __iconNode);\n\nexport { __iconNode, Weight as default };\n//# sourceMappingURL=weight.js.map\n",
+      "start": 1762100721683,
+      "end": 1762100727518,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727518,
+      "end": 1762100727518,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727518,
+      "end": 1762100727518,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727519,
+      "end": 1762100727519,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/pound-sterling.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M18 7c0-5.333-8-5.333-8 0\", key: \"1prm2n\" }],\n  [\"path\", { d: \"M10 7v14\", key: \"18tmcs\" }],\n  [\"path\", { d: \"M6 21h12\", key: \"4dkmi1\" }],\n  [\"path\", { d: \"M6 13h10\", key: \"ybwr4a\" }]\n];\nconst PoundSterling = createLucideIcon(\"pound-sterling\", __iconNode);\n\nexport { __iconNode, PoundSterling as default };\n//# sourceMappingURL=pound-sterling.js.map\n",
+      "start": 1762100721089,
+      "end": 1762100727319,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727319,
+      "end": 1762100727319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727319,
+      "end": 1762100727319,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727320,
+      "end": 1762100727320,
+      "order": "normal"
+    }
+  ]
+}

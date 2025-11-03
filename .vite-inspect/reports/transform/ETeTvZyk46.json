@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/animation/animate/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { GroupAnimationWithThen } from 'motion-dom';\nimport { removeItem } from 'motion-utils';\nimport { animateSequence } from './sequence.mjs';\nimport { animateSubject } from './subject.mjs';\n\nfunction isSequence(value) {\n    return Array.isArray(value) && value.some(Array.isArray);\n}\n/**\n * Creates an animation function that is optionally scoped\n * to a specific element.\n */\nfunction createScopedAnimate(scope) {\n    /**\n     * Implementation\n     */\n    function scopedAnimate(subjectOrSequence, optionsOrKeyframes, options) {\n        let animations = [];\n        let animationOnComplete;\n        if (isSequence(subjectOrSequence)) {\n            animations = animateSequence(subjectOrSequence, optionsOrKeyframes, scope);\n        }\n        else {\n            // Extract top-level onComplete so it doesn't get applied per-value\n            const { onComplete, ...rest } = options || {};\n            if (typeof onComplete === \"function\") {\n                animationOnComplete = onComplete;\n            }\n            animations = animateSubject(subjectOrSequence, optionsOrKeyframes, rest, scope);\n        }\n        const animation = new GroupAnimationWithThen(animations);\n        if (animationOnComplete) {\n            animation.finished.then(animationOnComplete);\n        }\n        if (scope) {\n            scope.animations.push(animation);\n            animation.finished.then(() => {\n                removeItem(scope.animations, animation);\n            });\n        }\n        return animation;\n    }\n    return scopedAnimate;\n}\nconst animate = createScopedAnimate();\n\nexport { animate, createScopedAnimate };\n",
+      "start": 1762100728888,
+      "end": 1762100729072,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729072,
+      "end": 1762100729072,
+      "order": "normal"
+    }
+  ]
+}

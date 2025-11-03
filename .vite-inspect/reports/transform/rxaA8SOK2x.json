@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/make-animation-instant.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function makeAnimationInstant(options) {\n    options.duration = 0;\n    options.type = \"keyframes\";\n}\n\nexport { makeAnimationInstant };\n",
+      "start": 1762100729190,
+      "end": 1762100729272,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    }
+  ]
+}

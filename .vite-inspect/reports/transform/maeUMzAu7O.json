@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/easing/utils/is-easing-array.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const isEasingArray = (ease) => {\n    return Array.isArray(ease) && typeof ease[0] !== \"number\";\n};\n\nexport { isEasingArray };\n",
+      "start": 1762100729149,
+      "end": 1762100729266,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729266,
+      "end": 1762100729266,
+      "order": "normal"
+    }
+  ]
+}

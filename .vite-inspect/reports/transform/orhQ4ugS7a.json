@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/move.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 2v20\", key: \"t6zp3m\" }],\n  [\"path\", { d: \"m15 19-3 3-3-3\", key: \"11eu04\" }],\n  [\"path\", { d: \"m19 9 3 3-3 3\", key: \"1mg7y2\" }],\n  [\"path\", { d: \"M2 12h20\", key: \"9i4pu4\" }],\n  [\"path\", { d: \"m5 9-3 3 3 3\", key: \"j64kie\" }],\n  [\"path\", { d: \"m9 5 3-3 3 3\", key: \"l8vdw6\" }]\n];\nconst Move = createLucideIcon(\"move\", __iconNode);\n\nexport { __iconNode, Move as default };\n//# sourceMappingURL=move.js.map\n",
+      "start": 1762100720914,
+      "end": 1762100727278,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/chart-no-axes-column-increasing.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M5 21v-6\", key: \"1hz6c0\" }],\n  [\"path\", { d: \"M12 21V9\", key: \"uvy0l4\" }],\n  [\"path\", { d: \"M19 21V3\", key: \"11j9sm\" }]\n];\nconst ChartNoAxesColumnIncreasing = createLucideIcon(\"chart-no-axes-column-increasing\", __iconNode);\n\nexport { __iconNode, ChartNoAxesColumnIncreasing as default };\n//# sourceMappingURL=chart-no-axes-column-increasing.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720671,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720671,
+      "end": 1762100720671,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720671,
+      "end": 1762100720675,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720676,
+      "end": 1762100720676,
+      "order": "normal"
+    }
+  ]
+}

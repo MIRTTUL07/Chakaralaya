@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/hard-drive-upload.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m16 6-4-4-4 4\", key: \"13yo43\" }],\n  [\"path\", { d: \"M12 2v8\", key: \"1q4o3n\" }],\n  [\"rect\", { width: \"20\", height: \"8\", x: \"2\", y: \"14\", rx: \"2\", key: \"w68u3i\" }],\n  [\"path\", { d: \"M6 18h.01\", key: \"uhywen\" }],\n  [\"path\", { d: \"M10 18h.01\", key: \"h775k\" }]\n];\nconst HardDriveUpload = createLucideIcon(\"hard-drive-upload\", __iconNode);\n\nexport { __iconNode, HardDriveUpload as default };\n//# sourceMappingURL=hard-drive-upload.js.map\n",
+      "start": 1762100718741,
+      "end": 1762100722006,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722006,
+      "end": 1762100722006,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722006,
+      "end": 1762100722006,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722006,
+      "end": 1762100722006,
+      "order": "normal"
+    }
+  ]
+}

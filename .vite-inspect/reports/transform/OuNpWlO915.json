@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/replace-transition-type.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { inertia } from '../generators/inertia.mjs';\nimport { keyframes } from '../generators/keyframes.mjs';\nimport { spring } from '../generators/spring/index.mjs';\n\nconst transitionTypeMap = {\n    decay: inertia,\n    inertia,\n    tween: keyframes,\n    keyframes: keyframes,\n    spring,\n};\nfunction replaceTransitionType(transition) {\n    if (typeof transition.type === \"string\") {\n        transition.type = transitionTypeMap[transition.type];\n    }\n}\n\nexport { replaceTransitionType };\n",
+      "start": 1762100729419,
+      "end": 1762100729541,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729541,
+      "end": 1762100729541,
+      "order": "normal"
+    }
+  ]
+}

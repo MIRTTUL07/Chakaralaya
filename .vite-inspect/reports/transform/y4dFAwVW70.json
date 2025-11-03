@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-branch-plus.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M6 3v12\", key: \"qpgusn\" }],\n  [\"path\", { d: \"M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z\", key: \"1d02ji\" }],\n  [\"path\", { d: \"M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z\", key: \"chk6ph\" }],\n  [\"path\", { d: \"M15 6a9 9 0 0 0-9 9\", key: \"or332x\" }],\n  [\"path\", { d: \"M18 15v6\", key: \"9wciyi\" }],\n  [\"path\", { d: \"M21 18h-6\", key: \"139f0c\" }]\n];\nconst GitBranchPlus = createLucideIcon(\"git-branch-plus\", __iconNode);\n\nexport { __iconNode, GitBranchPlus as default };\n//# sourceMappingURL=git-branch-plus.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721959,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721959,
+      "end": 1762100721959,
+      "order": "normal"
+    }
+  ]
+}

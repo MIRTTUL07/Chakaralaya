@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/git-commit-vertical.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 3v6\", key: \"1holv5\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"3\", key: \"1v7zrd\" }],\n  [\"path\", { d: \"M12 15v6\", key: \"a9ows0\" }]\n];\nconst GitCommitVertical = createLucideIcon(\"git-commit-vertical\", __iconNode);\n\nexport { __iconNode, GitCommitVertical as default };\n//# sourceMappingURL=git-commit-vertical.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721960,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721960,
+      "end": 1762100721960,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721960,
+      "end": 1762100721960,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721961,
+      "end": 1762100721961,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/japanese-yen.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 9.5V21m0-11.5L6 3m6 6.5L18 3\", key: \"2ej80x\" }],\n  [\"path\", { d: \"M6 15h12\", key: \"1hwgt5\" }],\n  [\"path\", { d: \"M6 11h12\", key: \"wf4gp6\" }]\n];\nconst JapaneseYen = createLucideIcon(\"japanese-yen\", __iconNode);\n\nexport { __iconNode, JapaneseYen as default };\n//# sourceMappingURL=japanese-yen.js.map\n",
+      "start": 1762100718743,
+      "end": 1762100722066,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722066,
+      "end": 1762100722066,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722066,
+      "end": 1762100722066,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722066,
+      "end": 1762100722066,
+      "order": "normal"
+    }
+  ]
+}

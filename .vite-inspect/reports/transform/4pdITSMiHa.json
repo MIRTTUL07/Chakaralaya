@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/react-merge-refs/dist/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function o(f){return r=>{f.forEach(n=>{typeof n==\"function\"?n(r):n!=null&&(n.current=r)})}}export{o as mergeRefs};\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1762100718021,
+      "end": 1762100720396,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720397,
+      "end": 1762100720397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720397,
+      "end": 1762100720397,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720401,
+      "end": 1762100720401,
+      "order": "normal"
+    }
+  ]
+}

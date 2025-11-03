@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/tangent.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"17\", cy: \"4\", r: \"2\", key: \"y5j2s2\" }],\n  [\"path\", { d: \"M15.59 5.41 5.41 15.59\", key: \"l0vprr\" }],\n  [\"circle\", { cx: \"4\", cy: \"17\", r: \"2\", key: \"9p4efm\" }],\n  [\"path\", { d: \"M12 22s-4-9-1.5-11.5S22 12 22 12\", key: \"1twk4o\" }]\n];\nconst Tangent = createLucideIcon(\"tangent\", __iconNode);\n\nexport { __iconNode, Tangent as default };\n//# sourceMappingURL=tangent.js.map\n",
+      "start": 1762100721465,
+      "end": 1762100727435,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727435,
+      "end": 1762100727435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727435,
+      "end": 1762100727435,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727435,
+      "end": 1762100727435,
+      "order": "normal"
+    }
+  ]
+}

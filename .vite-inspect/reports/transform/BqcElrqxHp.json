@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/remove-formatting.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M4 7V4h16v3\", key: \"9msm58\" }],\n  [\"path\", { d: \"M5 20h6\", key: \"1h6pxn\" }],\n  [\"path\", { d: \"M13 4 8 20\", key: \"kqq6aj\" }],\n  [\"path\", { d: \"m15 15 5 5\", key: \"me55sn\" }],\n  [\"path\", { d: \"m20 15-5 5\", key: \"11p7ol\" }]\n];\nconst RemoveFormatting = createLucideIcon(\"remove-formatting\", __iconNode);\n\nexport { __iconNode, RemoveFormatting as default };\n//# sourceMappingURL=remove-formatting.js.map\n",
+      "start": 1762100721152,
+      "end": 1762100727338,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727338,
+      "end": 1762100727338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727339,
+      "end": 1762100727339,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727339,
+      "end": 1762100727339,
+      "order": "normal"
+    }
+  ]
+}

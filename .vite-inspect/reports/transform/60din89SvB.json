@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/circle-divide.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"8\", x2: \"16\", y1: \"12\", y2: \"12\", key: \"1jonct\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"16\", y2: \"16\", key: \"aqc6ln\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"8\", y2: \"8\", key: \"1mkcni\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst CircleDivide = createLucideIcon(\"circle-divide\", __iconNode);\n\nexport { __iconNode, CircleDivide as default };\n//# sourceMappingURL=circle-divide.js.map\n",
+      "start": 1762100718697,
+      "end": 1762100720746,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720747,
+      "end": 1762100720747,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720747,
+      "end": 1762100720747,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720747,
+      "end": 1762100720747,
+      "order": "normal"
+    }
+  ]
+}

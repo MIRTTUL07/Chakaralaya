@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/view/utils/choose-layer-type.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function chooseLayerType(valueName) {\n    if (valueName === \"layout\")\n        return \"group\";\n    if (valueName === \"enter\" || valueName === \"new\")\n        return \"new\";\n    if (valueName === \"exit\" || valueName === \"old\")\n        return \"old\";\n    return \"group\";\n}\n\nexport { chooseLayerType };\n",
+      "start": 1762100729730,
+      "end": 1762100729753,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729753,
+      "end": 1762100729753,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729753,
+      "end": 1762100729753,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729753,
+      "end": 1762100729753,
+      "order": "normal"
+    }
+  ]
+}

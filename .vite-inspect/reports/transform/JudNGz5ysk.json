@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/wine-off.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 22h8\", key: \"rmew8v\" }],\n  [\"path\", { d: \"M7 10h3m7 0h-1.343\", key: \"v48bem\" }],\n  [\"path\", { d: \"M12 15v7\", key: \"t2xh3l\" }],\n  [\n    \"path\",\n    {\n      d: \"M7.307 7.307A12.33 12.33 0 0 0 7 10a5 5 0 0 0 7.391 4.391M8.638 2.981C8.75 2.668 8.872 2.34 9 2h6c1.5 4 2 6 2 8 0 .407-.05.809-.145 1.198\",\n      key: \"1ymjlu\"\n    }\n  ],\n  [\"line\", { x1: \"2\", x2: \"22\", y1: \"2\", y2: \"22\", key: \"a6p6uj\" }]\n];\nconst WineOff = createLucideIcon(\"wine-off\", __iconNode);\n\nexport { __iconNode, WineOff as default };\n//# sourceMappingURL=wine-off.js.map\n",
+      "start": 1762100721707,
+      "end": 1762100727524,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727524,
+      "end": 1762100727524,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727524,
+      "end": 1762100727524,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727524,
+      "end": 1762100727524,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/folder-kanban.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z\",\n      key: \"1fr9dc\"\n    }\n  ],\n  [\"path\", { d: \"M8 10v4\", key: \"tgpxqk\" }],\n  [\"path\", { d: \"M12 10v2\", key: \"hh53o1\" }],\n  [\"path\", { d: \"M16 10v6\", key: \"1d6xys\" }]\n];\nconst FolderKanban = createLucideIcon(\"folder-kanban\", __iconNode);\n\nexport { __iconNode, FolderKanban as default };\n//# sourceMappingURL=folder-kanban.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721911,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721911,
+      "end": 1762100721911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721911,
+      "end": 1762100721911,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721911,
+      "end": 1762100721911,
+      "order": "normal"
+    }
+  ]
+}

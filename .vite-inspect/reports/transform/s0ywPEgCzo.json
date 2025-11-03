@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/redo.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 7v6h-6\", key: \"3ptur4\" }],\n  [\"path\", { d: \"M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7\", key: \"1kgawr\" }]\n];\nconst Redo = createLucideIcon(\"redo\", __iconNode);\n\nexport { __iconNode, Redo as default };\n//# sourceMappingURL=redo.js.map\n",
+      "start": 1762100721143,
+      "end": 1762100727336,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727336,
+      "end": 1762100727336,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727336,
+      "end": 1762100727336,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727336,
+      "end": 1762100727336,
+      "order": "normal"
+    }
+  ]
+}

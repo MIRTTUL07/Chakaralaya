@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/supports/flags.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Add the ability for test suites to manually set support flags\n * to better test more environments.\n */\nconst supportsFlags = {};\n\nexport { supportsFlags };\n",
+      "start": 1762100729192,
+      "end": 1762100729323,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729323,
+      "end": 1762100729323,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729323,
+      "end": 1762100729323,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729323,
+      "end": 1762100729323,
+      "order": "normal"
+    }
+  ]
+}

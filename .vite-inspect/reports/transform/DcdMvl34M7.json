@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-round-corner.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21 11a8 8 0 0 0-8-8\", key: \"1lxwo5\" }],\n  [\"path\", { d: \"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\", key: \"1dv2y5\" }]\n];\nconst SquareRoundCorner = createLucideIcon(\"square-round-corner\", __iconNode);\n\nexport { __iconNode, SquareRoundCorner as default };\n//# sourceMappingURL=square-round-corner.js.map\n",
+      "start": 1762100721384,
+      "end": 1762100727414,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727414,
+      "end": 1762100727414,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727414,
+      "end": 1762100727414,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727414,
+      "end": 1762100727414,
+      "order": "normal"
+    }
+  ]
+}

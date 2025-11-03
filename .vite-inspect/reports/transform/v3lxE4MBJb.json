@@ -1,0 +1,32 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/value/scroll/use-viewport-scroll.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { warnOnce } from 'motion-utils';\nimport { useScroll } from '../use-scroll.mjs';\n\n/**\n * @deprecated useViewportScroll is deprecated. Convert to useScroll()\n */\nfunction useViewportScroll() {\n    if (process.env.NODE_ENV !== \"production\") {\n        warnOnce(false, \"useViewportScroll is deprecated. Convert to useScroll().\");\n    }\n    return useScroll();\n}\n\nexport { useViewportScroll };\n",
+      "start": 1762100728887,
+      "end": 1762100729050,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729050,
+      "end": 1762100729050,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { warnOnce } from \"motion-utils\";\nimport { useScroll } from \"../use-scroll.mjs\";\nfunction useViewportScroll() {\n  if (false) {\n    warnOnce(false, \"useViewportScroll is deprecated. Convert to useScroll().\");\n  }\n  return useScroll();\n}\nexport { useViewportScroll };\n",
+      "start": 1762100729050,
+      "end": 1762100729160,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729160,
+      "end": 1762100729160,
+      "order": "normal"
+    }
+  ]
+}

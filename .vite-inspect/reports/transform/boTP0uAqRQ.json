@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/svg/utils/create-render-state.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createHtmlRenderState } from '../../html/utils/create-render-state.mjs';\n\nconst createSvgRenderState = () => ({\n    ...createHtmlRenderState(),\n    attrs: {},\n});\n\nexport { createSvgRenderState };\n",
+      "start": 1762100729742,
+      "end": 1762100729756,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729756,
+      "end": 1762100729756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729756,
+      "end": 1762100729756,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729756,
+      "end": 1762100729756,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/locate-fixed.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"line\", { x1: \"2\", x2: \"5\", y1: \"12\", y2: \"12\", key: \"bvdh0s\" }],\n  [\"line\", { x1: \"19\", x2: \"22\", y1: \"12\", y2: \"12\", key: \"1tbv5k\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"2\", y2: \"5\", key: \"11lu5j\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"19\", y2: \"22\", key: \"x3vr5v\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"7\", key: \"fim9np\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"3\", key: \"1v7zrd\" }]\n];\nconst LocateFixed = createLucideIcon(\"locate-fixed\", __iconNode);\n\nexport { __iconNode, LocateFixed as default };\n//# sourceMappingURL=locate-fixed.js.map\n",
+      "start": 1762100720402,
+      "end": 1762100727207,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727207,
+      "end": 1762100727207,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727207,
+      "end": 1762100727207,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727207,
+      "end": 1762100727207,
+      "order": "normal"
+    }
+  ]
+}

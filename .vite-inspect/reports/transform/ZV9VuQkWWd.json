@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/context/MotionContext/utils.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isControllingVariants } from '../../render/utils/is-controlling-variants.mjs';\nimport { isVariantLabel } from '../../render/utils/is-variant-label.mjs';\n\nfunction getCurrentTreeVariants(props, context) {\n    if (isControllingVariants(props)) {\n        const { initial, animate } = props;\n        return {\n            initial: initial === false || isVariantLabel(initial)\n                ? initial\n                : undefined,\n            animate: isVariantLabel(animate) ? animate : undefined,\n        };\n    }\n    return props.inherit !== false ? context : {};\n}\n\nexport { getCurrentTreeVariants };\n",
+      "start": 1762100729738,
+      "end": 1762100729755,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729755,
+      "end": 1762100729755,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729755,
+      "end": 1762100729755,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729755,
+      "end": 1762100729755,
+      "order": "normal"
+    }
+  ]
+}

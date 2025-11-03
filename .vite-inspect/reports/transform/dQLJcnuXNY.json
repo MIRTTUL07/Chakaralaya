@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/wrench.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z\",\n      key: \"1ngwbx\"\n    }\n  ]\n];\nconst Wrench = createLucideIcon(\"wrench\", __iconNode);\n\nexport { __iconNode, Wrench as default };\n//# sourceMappingURL=wrench.js.map\n",
+      "start": 1762100721712,
+      "end": 1762100727526,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727526,
+      "end": 1762100727526,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727526,
+      "end": 1762100727526,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727527,
+      "end": 1762100727527,
+      "order": "normal"
+    }
+  ]
+}

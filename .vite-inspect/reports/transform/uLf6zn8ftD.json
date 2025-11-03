@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/align-vertical-distribute-center.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M22 17h-3\", key: \"1lwga1\" }],\n  [\"path\", { d: \"M22 7h-5\", key: \"o2endc\" }],\n  [\"path\", { d: \"M5 17H2\", key: \"1gx9xc\" }],\n  [\"path\", { d: \"M7 7H2\", key: \"6bq26l\" }],\n  [\"rect\", { x: \"5\", y: \"14\", width: \"14\", height: \"6\", rx: \"2\", key: \"1qrzuf\" }],\n  [\"rect\", { x: \"7\", y: \"4\", width: \"10\", height: \"6\", rx: \"2\", key: \"we8e9z\" }]\n];\nconst AlignVerticalDistributeCenter = createLucideIcon(\n  \"align-vertical-distribute-center\",\n  __iconNode\n);\n\nexport { __iconNode, AlignVerticalDistributeCenter as default };\n//# sourceMappingURL=align-vertical-distribute-center.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721129,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721129,
+      "end": 1762100721129,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721129,
+      "end": 1762100721129,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721130,
+      "end": 1762100721130,
+      "order": "normal"
+    }
+  ]
+}

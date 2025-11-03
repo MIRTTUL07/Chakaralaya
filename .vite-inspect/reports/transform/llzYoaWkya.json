@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/effects/prop/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createEffect } from '../utils/create-effect.mjs';\n\nconst propEffect = /*@__PURE__*/ createEffect((subject, state, key, value) => {\n    return state.set(key, value, () => {\n        subject[key] = state.latest[key];\n    }, undefined, false);\n});\n\nexport { propEffect };\n",
+      "start": 1762100729191,
+      "end": 1762100729291,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729291,
+      "end": 1762100729291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729291,
+      "end": 1762100729291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729291,
+      "end": 1762100729291,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/utils/resolve-dynamic-variants.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resolveVariantFromProps } from './resolve-variants.mjs';\n\nfunction resolveVariant(visualElement, definition, custom) {\n    const props = visualElement.getProps();\n    return resolveVariantFromProps(props, definition, custom !== undefined ? custom : props.custom, visualElement);\n}\n\nexport { resolveVariant };\n",
+      "start": 1762100729116,
+      "end": 1762100729249,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729249,
+      "end": 1762100729249,
+      "order": "normal"
+    }
+  ]
+}

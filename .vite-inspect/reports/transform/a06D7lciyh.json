@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/move-up.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 6L12 2L16 6\", key: \"1yvkyx\" }],\n  [\"path\", { d: \"M12 2V22\", key: \"r89rzk\" }]\n];\nconst MoveUp = createLucideIcon(\"move-up\", __iconNode);\n\nexport { __iconNode, MoveUp as default };\n//# sourceMappingURL=move-up.js.map\n",
+      "start": 1762100720913,
+      "end": 1762100727278,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727278,
+      "end": 1762100727278,
+      "order": "normal"
+    }
+  ]
+}

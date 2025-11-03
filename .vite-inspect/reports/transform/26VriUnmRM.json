@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/disc-3.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n  [\"path\", { d: \"M6 12c0-1.7.7-3.2 1.8-4.2\", key: \"oqkarx\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"2\", key: \"1c9p78\" }],\n  [\"path\", { d: \"M18 12c0 1.7-.7 3.2-1.8 4.2\", key: \"1eah9h\" }]\n];\nconst Disc3 = createLucideIcon(\"disc-3\", __iconNode);\n\nexport { __iconNode, Disc3 as default };\n//# sourceMappingURL=disc-3.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721750,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721750,
+      "end": 1762100721750,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721750,
+      "end": 1762100721750,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721750,
+      "end": 1762100721750,
+      "order": "normal"
+    }
+  ]
+}

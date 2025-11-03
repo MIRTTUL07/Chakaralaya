@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/context/ReorderContext.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\"use client\";\nimport { createContext } from 'react';\n\nconst ReorderContext = createContext(null);\n\nexport { ReorderContext };\n",
+      "start": 1762100729398,
+      "end": 1762100729536,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    }
+  ]
+}

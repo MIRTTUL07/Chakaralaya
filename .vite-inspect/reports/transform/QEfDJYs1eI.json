@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/view/utils/has-target.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function hasTarget(target, targets) {\n    return targets.has(target) && Object.keys(targets.get(target)).length > 0;\n}\n\nexport { hasTarget };\n",
+      "start": 1762100729730,
+      "end": 1762100729749,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729749,
+      "end": 1762100729749,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729749,
+      "end": 1762100729749,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729749,
+      "end": 1762100729749,
+      "order": "normal"
+    }
+  ]
+}

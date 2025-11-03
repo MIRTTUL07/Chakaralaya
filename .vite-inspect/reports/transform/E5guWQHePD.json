@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-arrow-up-left.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"18\", height: \"18\", x: \"3\", y: \"3\", rx: \"2\", key: \"afitv7\" }],\n  [\"path\", { d: \"M8 16V8h8\", key: \"19xb1h\" }],\n  [\"path\", { d: \"M16 16 8 8\", key: \"1qdy8n\" }]\n];\nconst SquareArrowUpLeft = createLucideIcon(\"square-arrow-up-left\", __iconNode);\n\nexport { __iconNode, SquareArrowUpLeft as default };\n//# sourceMappingURL=square-arrow-up-left.js.map\n",
+      "start": 1762100718699,
+      "end": 1762100720943,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720943,
+      "end": 1762100720943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720943,
+      "end": 1762100720943,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720944,
+      "end": 1762100720944,
+      "order": "normal"
+    }
+  ]
+}

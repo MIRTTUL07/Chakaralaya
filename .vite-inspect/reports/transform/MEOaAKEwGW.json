@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/users.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\", key: \"1yyitq\" }],\n  [\"path\", { d: \"M16 3.128a4 4 0 0 1 0 7.744\", key: \"16gr8j\" }],\n  [\"path\", { d: \"M22 21v-2a4 4 0 0 0-3-3.87\", key: \"kshegd\" }],\n  [\"circle\", { cx: \"9\", cy: \"7\", r: \"4\", key: \"nufk8\" }]\n];\nconst Users = createLucideIcon(\"users\", __iconNode);\n\nexport { __iconNode, Users as default };\n//# sourceMappingURL=users.js.map\n",
+      "start": 1762100721642,
+      "end": 1762100727503,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727503,
+      "end": 1762100727503,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727503,
+      "end": 1762100727503,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727503,
+      "end": 1762100727503,
+      "order": "normal"
+    }
+  ]
+}

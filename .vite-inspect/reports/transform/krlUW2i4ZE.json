@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/supports/waapi.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { memo } from 'motion-utils';\n\n/**\n * A list of values that can be hardware-accelerated.\n */\nconst acceleratedValues = new Set([\n    \"opacity\",\n    \"clipPath\",\n    \"filter\",\n    \"transform\",\n    // TODO: Could be re-enabled now we have support for linear() easing\n    // \"background-color\"\n]);\nconst supportsWaapi = /*@__PURE__*/ memo(() => Object.hasOwnProperty.call(Element.prototype, \"animate\"));\nfunction supportsBrowserAnimation(options) {\n    const { motionValue, name, repeatDelay, repeatType, damping, type } = options;\n    const subject = motionValue?.owner?.current;\n    /**\n     * We use this check instead of isHTMLElement() because we explicitly\n     * **don't** want elements in different timing contexts (i.e. popups)\n     * to be accelerated, as it's not possible to sync these animations\n     * properly with those driven from the main window frameloop.\n     */\n    if (!(subject instanceof HTMLElement)) {\n        return false;\n    }\n    const { onUpdate, transformTemplate } = motionValue.owner.getProps();\n    return (supportsWaapi() &&\n        name &&\n        acceleratedValues.has(name) &&\n        (name !== \"transform\" || !transformTemplate) &&\n        /**\n         * If we're outputting values to onUpdate then we can't use WAAPI as there's\n         * no way to read the value from WAAPI every frame.\n         */\n        !onUpdate &&\n        !repeatDelay &&\n        repeatType !== \"mirror\" &&\n        damping !== 0 &&\n        type !== \"inertia\");\n}\n\nexport { supportsBrowserAnimation };\n",
+      "start": 1762100729191,
+      "end": 1762100729287,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729287,
+      "end": 1762100729287,
+      "order": "normal"
+    }
+  ]
+}

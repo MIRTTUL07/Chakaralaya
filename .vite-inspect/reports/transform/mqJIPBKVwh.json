@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/logs.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M3 5h1\", key: \"1mv5vm\" }],\n  [\"path\", { d: \"M3 12h1\", key: \"lp3yf2\" }],\n  [\"path\", { d: \"M3 19h1\", key: \"w6f3n9\" }],\n  [\"path\", { d: \"M8 5h1\", key: \"1nxr5w\" }],\n  [\"path\", { d: \"M8 12h1\", key: \"1con00\" }],\n  [\"path\", { d: \"M8 19h1\", key: \"k7p10e\" }],\n  [\"path\", { d: \"M13 5h8\", key: \"a7qcls\" }],\n  [\"path\", { d: \"M13 12h8\", key: \"h98zly\" }],\n  [\"path\", { d: \"M13 19h8\", key: \"c3s6r1\" }]\n];\nconst Logs = createLucideIcon(\"logs\", __iconNode);\n\nexport { __iconNode, Logs as default };\n//# sourceMappingURL=logs.js.map\n",
+      "start": 1762100720571,
+      "end": 1762100727210,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727210,
+      "end": 1762100727210,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/spline.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"19\", cy: \"5\", r: \"2\", key: \"mhkx31\" }],\n  [\"circle\", { cx: \"5\", cy: \"19\", r: \"2\", key: \"v8kfzx\" }],\n  [\"path\", { d: \"M5 17A12 12 0 0 1 17 5\", key: \"1okkup\" }]\n];\nconst Spline = createLucideIcon(\"spline\", __iconNode);\n\nexport { __iconNode, Spline as default };\n//# sourceMappingURL=spline.js.map\n",
+      "start": 1762100721376,
+      "end": 1762100727410,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727410,
+      "end": 1762100727410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727410,
+      "end": 1762100727410,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727410,
+      "end": 1762100727410,
+      "order": "normal"
+    }
+  ]
+}

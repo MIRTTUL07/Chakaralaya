@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/utils/has-transform.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function isIdentityScale(scale) {\n    return scale === undefined || scale === 1;\n}\nfunction hasScale({ scale, scaleX, scaleY }) {\n    return (!isIdentityScale(scale) ||\n        !isIdentityScale(scaleX) ||\n        !isIdentityScale(scaleY));\n}\nfunction hasTransform(values) {\n    return (hasScale(values) ||\n        has2DTranslate(values) ||\n        values.z ||\n        values.rotate ||\n        values.rotateX ||\n        values.rotateY ||\n        values.skewX ||\n        values.skewY);\n}\nfunction has2DTranslate(values) {\n    return is2DTranslate(values.x) || is2DTranslate(values.y);\n}\nfunction is2DTranslate(value) {\n    return value && value !== \"0%\";\n}\n\nexport { has2DTranslate, hasScale, hasTransform };\n",
+      "start": 1762100729622,
+      "end": 1762100729693,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729693,
+      "end": 1762100729693,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/cookie.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5\", key: \"laymnq\" }],\n  [\"path\", { d: \"M8.5 8.5v.01\", key: \"ue8clq\" }],\n  [\"path\", { d: \"M16 15.5v.01\", key: \"14dtrp\" }],\n  [\"path\", { d: \"M12 12v.01\", key: \"u5ubse\" }],\n  [\"path\", { d: \"M11 17v.01\", key: \"1hyl5a\" }],\n  [\"path\", { d: \"M7 14v.01\", key: \"uct60s\" }]\n];\nconst Cookie = createLucideIcon(\"cookie\", __iconNode);\n\nexport { __iconNode, Cookie as default };\n//# sourceMappingURL=cookie.js.map\n",
+      "start": 1762100718712,
+      "end": 1762100721686,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721686,
+      "end": 1762100721686,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721686,
+      "end": 1762100721686,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721687,
+      "end": 1762100721687,
+      "order": "normal"
+    }
+  ]
+}

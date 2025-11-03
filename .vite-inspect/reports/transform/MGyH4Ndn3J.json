@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/minimize.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M8 3v3a2 2 0 0 1-2 2H3\", key: \"hohbtr\" }],\n  [\"path\", { d: \"M21 8h-3a2 2 0 0 1-2-2V3\", key: \"5jw1f3\" }],\n  [\"path\", { d: \"M3 16h3a2 2 0 0 1 2 2v3\", key: \"198tvr\" }],\n  [\"path\", { d: \"M16 21v-3a2 2 0 0 1 2-2h3\", key: \"ph8mxp\" }]\n];\nconst Minimize = createLucideIcon(\"minimize\", __iconNode);\n\nexport { __iconNode, Minimize as default };\n//# sourceMappingURL=minimize.js.map\n",
+      "start": 1762100720846,
+      "end": 1762100727242,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727242,
+      "end": 1762100727242,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727242,
+      "end": 1762100727242,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727242,
+      "end": 1762100727242,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/ice-cream-cone.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11\", key: \"1v6356\" }],\n  [\"path\", { d: \"M17 7A5 5 0 0 0 7 7\", key: \"151p3v\" }],\n  [\"path\", { d: \"M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4\", key: \"1sdaij\" }]\n];\nconst IceCreamCone = createLucideIcon(\"ice-cream-cone\", __iconNode);\n\nexport { __iconNode, IceCreamCone as default };\n//# sourceMappingURL=ice-cream-cone.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720908,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720908,
+      "end": 1762100720908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720908,
+      "end": 1762100720908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720908,
+      "end": 1762100720908,
+      "order": "normal"
+    }
+  ]
+}

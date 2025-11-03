@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/thermometer.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z\", key: \"17jzev\" }]\n];\nconst Thermometer = createLucideIcon(\"thermometer\", __iconNode);\n\nexport { __iconNode, Thermometer as default };\n//# sourceMappingURL=thermometer.js.map\n",
+      "start": 1762100721476,
+      "end": 1762100727442,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727442,
+      "end": 1762100727442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727442,
+      "end": 1762100727442,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727443,
+      "end": 1762100727443,
+      "order": "normal"
+    }
+  ]
+}

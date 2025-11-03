@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/utils/get-as-type.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Provided a value and a ValueType, returns the value as that value type.\n */\nconst getValueAsType = (value, type) => {\n    return type && typeof value === \"number\"\n        ? type.transform(value)\n        : value;\n};\n\nexport { getValueAsType };\n",
+      "start": 1762100729193,
+      "end": 1762100729369,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729370,
+      "end": 1762100729370,
+      "order": "normal"
+    }
+  ]
+}

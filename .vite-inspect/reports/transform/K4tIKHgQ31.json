@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/scroll/offsets/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { interpolate, defaultOffset } from 'motion-dom';\nimport { clamp } from 'motion-utils';\nimport { calcInset } from './inset.mjs';\nimport { resolveOffset } from './offset.mjs';\nimport { ScrollOffset } from './presets.mjs';\n\nconst point = { x: 0, y: 0 };\nfunction getTargetSize(target) {\n    return \"getBBox\" in target && target.tagName !== \"svg\"\n        ? target.getBBox()\n        : { width: target.clientWidth, height: target.clientHeight };\n}\nfunction resolveOffsets(container, info, options) {\n    const { offset: offsetDefinition = ScrollOffset.All } = options;\n    const { target = container, axis = \"y\" } = options;\n    const lengthLabel = axis === \"y\" ? \"height\" : \"width\";\n    const inset = target !== container ? calcInset(target, container) : point;\n    /**\n     * Measure the target and container. If they're the same thing then we\n     * use the container's scrollWidth/Height as the target, from there\n     * all other calculations can remain the same.\n     */\n    const targetSize = target === container\n        ? { width: container.scrollWidth, height: container.scrollHeight }\n        : getTargetSize(target);\n    const containerSize = {\n        width: container.clientWidth,\n        height: container.clientHeight,\n    };\n    /**\n     * Reset the length of the resolved offset array rather than creating a new one.\n     * TODO: More reusable data structures for targetSize/containerSize would also be good.\n     */\n    info[axis].offset.length = 0;\n    /**\n     * Populate the offset array by resolving the user's offset definition into\n     * a list of pixel scroll offets.\n     */\n    let hasChanged = !info[axis].interpolate;\n    const numOffsets = offsetDefinition.length;\n    for (let i = 0; i < numOffsets; i++) {\n        const offset = resolveOffset(offsetDefinition[i], containerSize[lengthLabel], targetSize[lengthLabel], inset[axis]);\n        if (!hasChanged && offset !== info[axis].interpolatorOffsets[i]) {\n            hasChanged = true;\n        }\n        info[axis].offset[i] = offset;\n    }\n    /**\n     * If the pixel scroll offsets have changed, create a new interpolator function\n     * to map scroll value into a progress.\n     */\n    if (hasChanged) {\n        info[axis].interpolate = interpolate(info[axis].offset, defaultOffset(offsetDefinition), { clamp: false });\n        info[axis].interpolatorOffsets = [...info[axis].offset];\n    }\n    info[axis].progress = clamp(0, 1, info[axis].interpolate(info[axis].current));\n}\n\nexport { resolveOffsets };\n",
+      "start": 1762100729511,
+      "end": 1762100729607,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729607,
+      "end": 1762100729607,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729607,
+      "end": 1762100729607,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729607,
+      "end": 1762100729607,
+      "order": "normal"
+    }
+  ]
+}

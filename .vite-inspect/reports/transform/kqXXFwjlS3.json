@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/NativeAnimationWrapper.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { NativeAnimation } from './NativeAnimation.mjs';\n\nclass NativeAnimationWrapper extends NativeAnimation {\n    constructor(animation) {\n        super();\n        this.animation = animation;\n        animation.onfinish = () => {\n            this.finishedTime = this.time;\n            this.notifyFinished();\n        };\n    }\n}\n\nexport { NativeAnimationWrapper };\n",
+      "start": 1762100729190,
+      "end": 1762100729271,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729271,
+      "end": 1762100729271,
+      "order": "normal"
+    }
+  ]
+}

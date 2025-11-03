@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/align-vertical-space-between.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"14\", height: \"6\", x: \"5\", y: \"15\", rx: \"2\", key: \"1w91an\" }],\n  [\"rect\", { width: \"10\", height: \"6\", x: \"7\", y: \"3\", rx: \"2\", key: \"17wqzy\" }],\n  [\"path\", { d: \"M2 21h20\", key: \"1nyx9w\" }],\n  [\"path\", { d: \"M2 3h20\", key: \"91anmk\" }]\n];\nconst AlignVerticalSpaceBetween = createLucideIcon(\"align-vertical-space-between\", __iconNode);\n\nexport { __iconNode, AlignVerticalSpaceBetween as default };\n//# sourceMappingURL=align-vertical-space-between.js.map\n",
+      "start": 1762100718702,
+      "end": 1762100721150,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721150,
+      "end": 1762100721150,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721150,
+      "end": 1762100721150,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721151,
+      "end": 1762100721151,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/noop.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/*#__NO_SIDE_EFFECTS__*/\nconst noop = (any) => any;\n\nexport { noop };\n",
+      "start": 1762100729148,
+      "end": 1762100729257,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729257,
+      "end": 1762100729257,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729257,
+      "end": 1762100729257,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729257,
+      "end": 1762100729257,
+      "order": "normal"
+    }
+  ]
+}

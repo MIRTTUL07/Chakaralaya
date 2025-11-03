@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/frameloop/batcher.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { MotionGlobalConfig } from 'motion-utils';\nimport { stepsOrder } from './order.mjs';\nimport { createRenderStep } from './render-step.mjs';\n\nconst maxElapsed = 40;\nfunction createRenderBatcher(scheduleNextBatch, allowKeepAlive) {\n    let runNextFrame = false;\n    let useDefaultElapsed = true;\n    const state = {\n        delta: 0.0,\n        timestamp: 0.0,\n        isProcessing: false,\n    };\n    const flagRunNextFrame = () => (runNextFrame = true);\n    const steps = stepsOrder.reduce((acc, key) => {\n        acc[key] = createRenderStep(flagRunNextFrame, allowKeepAlive ? key : undefined);\n        return acc;\n    }, {});\n    const { setup, read, resolveKeyframes, preUpdate, update, preRender, render, postRender, } = steps;\n    const processBatch = () => {\n        const timestamp = MotionGlobalConfig.useManualTiming\n            ? state.timestamp\n            : performance.now();\n        runNextFrame = false;\n        if (!MotionGlobalConfig.useManualTiming) {\n            state.delta = useDefaultElapsed\n                ? 1000 / 60\n                : Math.max(Math.min(timestamp - state.timestamp, maxElapsed), 1);\n        }\n        state.timestamp = timestamp;\n        state.isProcessing = true;\n        // Unrolled render loop for better per-frame performance\n        setup.process(state);\n        read.process(state);\n        resolveKeyframes.process(state);\n        preUpdate.process(state);\n        update.process(state);\n        preRender.process(state);\n        render.process(state);\n        postRender.process(state);\n        state.isProcessing = false;\n        if (runNextFrame && allowKeepAlive) {\n            useDefaultElapsed = false;\n            scheduleNextBatch(processBatch);\n        }\n    };\n    const wake = () => {\n        runNextFrame = true;\n        useDefaultElapsed = true;\n        if (!state.isProcessing) {\n            scheduleNextBatch(processBatch);\n        }\n    };\n    const schedule = stepsOrder.reduce((acc, key) => {\n        const step = steps[key];\n        acc[key] = (process, keepAlive = false, immediate = false) => {\n            if (!runNextFrame)\n                wake();\n            return step.schedule(process, keepAlive, immediate);\n        };\n        return acc;\n    }, {});\n    const cancel = (process) => {\n        for (let i = 0; i < stepsOrder.length; i++) {\n            steps[stepsOrder[i]].cancel(process);\n        }\n    };\n    return { schedule, cancel, state, steps };\n}\n\nexport { createRenderBatcher };\n",
+      "start": 1762100729191,
+      "end": 1762100729318,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729318,
+      "end": 1762100729318,
+      "order": "normal"
+    }
+  ]
+}

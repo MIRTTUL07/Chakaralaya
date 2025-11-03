@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/utils/supports/scroll-timeline.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { memo } from 'motion-utils';\n\nconst supportsScrollTimeline = /* @__PURE__ */ memo(() => window.ScrollTimeline !== undefined);\n\nexport { supportsScrollTimeline };\n",
+      "start": 1762100729192,
+      "end": 1762100729324,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729324,
+      "end": 1762100729324,
+      "order": "normal"
+    }
+  ]
+}

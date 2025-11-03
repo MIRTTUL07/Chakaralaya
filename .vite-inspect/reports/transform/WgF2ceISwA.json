@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/gestures/hover.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { hover, frame } from 'motion-dom';\nimport { extractEventInfo } from '../events/event-info.mjs';\nimport { Feature } from '../motion/features/Feature.mjs';\n\nfunction handleHoverEvent(node, event, lifecycle) {\n    const { props } = node;\n    if (node.animationState && props.whileHover) {\n        node.animationState.setActive(\"whileHover\", lifecycle === \"Start\");\n    }\n    const eventName = (\"onHover\" + lifecycle);\n    const callback = props[eventName];\n    if (callback) {\n        frame.postRender(() => callback(event, extractEventInfo(event)));\n    }\n}\nclass HoverGesture extends Feature {\n    mount() {\n        const { current } = this.node;\n        if (!current)\n            return;\n        this.unmount = hover(current, (_element, startEvent) => {\n            handleHoverEvent(this.node, startEvent, \"Start\");\n            return (endEvent) => handleHoverEvent(this.node, endEvent, \"End\");\n        });\n    }\n    unmount() { }\n}\n\nexport { HoverGesture };\n",
+      "start": 1762100729383,
+      "end": 1762100729532,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729532,
+      "end": 1762100729532,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/delete.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M10 5a2 2 0 0 0-1.344.519l-6.328 5.74a1 1 0 0 0 0 1.481l6.328 5.741A2 2 0 0 0 10 19h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z\",\n      key: \"1yo7s0\"\n    }\n  ],\n  [\"path\", { d: \"m12 9 6 6\", key: \"anjzzh\" }],\n  [\"path\", { d: \"m18 9-6 6\", key: \"1fp51s\" }]\n];\nconst Delete = createLucideIcon(\"delete\", __iconNode);\n\nexport { __iconNode, Delete as default };\n//# sourceMappingURL=delete.js.map\n",
+      "start": 1762100718713,
+      "end": 1762100721734,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721734,
+      "end": 1762100721734,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721734,
+      "end": 1762100721734,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721734,
+      "end": 1762100721734,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/render/dom/utils/camel-to-dash.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function camelToDash(str) {\n    return str.replace(/([A-Z])/g, (match) => `-${match.toLowerCase()}`);\n}\n\nexport { camelToDash };\n",
+      "start": 1762100729444,
+      "end": 1762100729544,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729544,
+      "end": 1762100729544,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729544,
+      "end": 1762100729544,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729544,
+      "end": 1762100729544,
+      "order": "normal"
+    }
+  ]
+}

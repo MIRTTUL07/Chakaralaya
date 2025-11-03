@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/memory-stick.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M6 19v-3\", key: \"1nvgqn\" }],\n  [\"path\", { d: \"M10 19v-3\", key: \"iu8nkm\" }],\n  [\"path\", { d: \"M14 19v-3\", key: \"kcehxu\" }],\n  [\"path\", { d: \"M18 19v-3\", key: \"1vh91z\" }],\n  [\"path\", { d: \"M8 11V9\", key: \"63erz4\" }],\n  [\"path\", { d: \"M16 11V9\", key: \"fru6f3\" }],\n  [\"path\", { d: \"M12 11V9\", key: \"ha00sb\" }],\n  [\"path\", { d: \"M2 15h20\", key: \"16ne18\" }],\n  [\n    \"path\",\n    {\n      d: \"M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.1a2 2 0 0 0 0 3.837V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.1a2 2 0 0 0 0-3.837Z\",\n      key: \"lhddv3\"\n    }\n  ]\n];\nconst MemoryStick = createLucideIcon(\"memory-stick\", __iconNode);\n\nexport { __iconNode, MemoryStick as default };\n//# sourceMappingURL=memory-stick.js.map\n",
+      "start": 1762100720763,
+      "end": 1762100727226,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727226,
+      "end": 1762100727226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727226,
+      "end": 1762100727226,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727226,
+      "end": 1762100727226,
+      "order": "normal"
+    }
+  ]
+}

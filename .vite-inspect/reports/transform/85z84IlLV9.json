@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/square-function.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"18\", height: \"18\", x: \"3\", y: \"3\", rx: \"2\", ry: \"2\", key: \"1m3agn\" }],\n  [\"path\", { d: \"M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3\", key: \"m1af9g\" }],\n  [\"path\", { d: \"M9 11.2h5.7\", key: \"3zgcl2\" }]\n];\nconst SquareFunction = createLucideIcon(\"square-function\", __iconNode);\n\nexport { __iconNode, SquareFunction as default };\n//# sourceMappingURL=square-function.js.map\n",
+      "start": 1762100718700,
+      "end": 1762100720981,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720981,
+      "end": 1762100720981,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720981,
+      "end": 1762100720981,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720981,
+      "end": 1762100720981,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/numbers/units.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/*#__NO_SIDE_EFFECTS__*/\nconst createUnitType = (unit) => ({\n    test: (v) => typeof v === \"string\" && v.endsWith(unit) && v.split(\" \").length === 1,\n    parse: parseFloat,\n    transform: (v) => `${v}${unit}`,\n});\nconst degrees = /*@__PURE__*/ createUnitType(\"deg\");\nconst percent = /*@__PURE__*/ createUnitType(\"%\");\nconst px = /*@__PURE__*/ createUnitType(\"px\");\nconst vh = /*@__PURE__*/ createUnitType(\"vh\");\nconst vw = /*@__PURE__*/ createUnitType(\"vw\");\nconst progressPercentage = /*@__PURE__*/ (() => ({\n    ...percent,\n    parse: (v) => percent.parse(v) / 100,\n    transform: (v) => percent.transform(v * 100),\n}))();\n\nexport { degrees, percent, progressPercentage, px, vh, vw };\n",
+      "start": 1762100729193,
+      "end": 1762100729368,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729368,
+      "end": 1762100729368,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729368,
+      "end": 1762100729368,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729368,
+      "end": 1762100729368,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/flame-kindling.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M12 2c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 17 10a5 5 0 1 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C8 4.5 11 2 12 2Z\",\n      key: \"1ir223\"\n    }\n  ],\n  [\"path\", { d: \"m5 22 14-4\", key: \"1brv4h\" }],\n  [\"path\", { d: \"m5 18 14 4\", key: \"lgyyje\" }]\n];\nconst FlameKindling = createLucideIcon(\"flame-kindling\", __iconNode);\n\nexport { __iconNode, FlameKindling as default };\n//# sourceMappingURL=flame-kindling.js.map\n",
+      "start": 1762100718715,
+      "end": 1762100721870,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721870,
+      "end": 1762100721870,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721870,
+      "end": 1762100721870,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721870,
+      "end": 1762100721870,
+      "order": "normal"
+    }
+  ]
+}

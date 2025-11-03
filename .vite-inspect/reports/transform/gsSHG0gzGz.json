@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/render/dom/viewport/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { resolveElements } from 'motion-dom';\n\nconst thresholds = {\n    some: 0,\n    all: 1,\n};\nfunction inView(elementOrSelector, onStart, { root, margin: rootMargin, amount = \"some\" } = {}) {\n    const elements = resolveElements(elementOrSelector);\n    const activeIntersections = new WeakMap();\n    const onIntersectionChange = (entries) => {\n        entries.forEach((entry) => {\n            const onEnd = activeIntersections.get(entry.target);\n            /**\n             * If there's no change to the intersection, we don't need to\n             * do anything here.\n             */\n            if (entry.isIntersecting === Boolean(onEnd))\n                return;\n            if (entry.isIntersecting) {\n                const newOnEnd = onStart(entry.target, entry);\n                if (typeof newOnEnd === \"function\") {\n                    activeIntersections.set(entry.target, newOnEnd);\n                }\n                else {\n                    observer.unobserve(entry.target);\n                }\n            }\n            else if (typeof onEnd === \"function\") {\n                onEnd(entry);\n                activeIntersections.delete(entry.target);\n            }\n        });\n    };\n    const observer = new IntersectionObserver(onIntersectionChange, {\n        root,\n        rootMargin,\n        threshold: typeof amount === \"number\" ? amount : thresholds[amount],\n    });\n    elements.forEach((element) => observer.observe(element));\n    return () => observer.disconnect();\n}\n\nexport { inView };\n",
+      "start": 1762100728889,
+      "end": 1762100729073,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729073,
+      "end": 1762100729073,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729073,
+      "end": 1762100729073,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729073,
+      "end": 1762100729073,
+      "order": "normal"
+    }
+  ]
+}

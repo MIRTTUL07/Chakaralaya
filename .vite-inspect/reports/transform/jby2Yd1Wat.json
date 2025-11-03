@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/events/add-dom-event.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "function addDomEvent(target, eventName, handler, options = { passive: true }) {\n    target.addEventListener(eventName, handler, options);\n    return () => target.removeEventListener(eventName, handler);\n}\n\nexport { addDomEvent };\n",
+      "start": 1762100729087,
+      "end": 1762100729245,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729245,
+      "end": 1762100729245,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729245,
+      "end": 1762100729245,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729245,
+      "end": 1762100729245,
+      "order": "normal"
+    }
+  ]
+}

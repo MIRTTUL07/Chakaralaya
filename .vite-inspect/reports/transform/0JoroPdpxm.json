@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/mic.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 19v3\", key: \"npa21l\" }],\n  [\"path\", { d: \"M19 10v2a7 7 0 0 1-14 0v-2\", key: \"1vc78b\" }],\n  [\"rect\", { x: \"9\", y: \"2\", width: \"6\", height: \"13\", rx: \"3\", key: \"s6n7sd\" }]\n];\nconst Mic = createLucideIcon(\"mic\", __iconNode);\n\nexport { __iconNode, Mic as default };\n//# sourceMappingURL=mic.js.map\n",
+      "start": 1762100720841,
+      "end": 1762100727238,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727238,
+      "end": 1762100727238,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727239,
+      "end": 1762100727239,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/node/DocumentProjectionNode.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { addDomEvent } from '../../events/add-dom-event.mjs';\nimport { createProjectionNode } from './create-projection-node.mjs';\n\nconst DocumentProjectionNode = createProjectionNode({\n    attachResizeListener: (ref, notify) => addDomEvent(ref, \"resize\", notify),\n    measureScroll: () => ({\n        x: document.documentElement.scrollLeft || document.body.scrollLeft,\n        y: document.documentElement.scrollTop || document.body.scrollTop,\n    }),\n    checkIsScrollRoot: () => true,\n});\n\nexport { DocumentProjectionNode };\n",
+      "start": 1762100729393,
+      "end": 1762100729536,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729536,
+      "end": 1762100729536,
+      "order": "normal"
+    }
+  ]
+}

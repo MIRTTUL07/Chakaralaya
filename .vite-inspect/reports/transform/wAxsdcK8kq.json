@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/stylis/src/Enum.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export var MS = '-ms-'\nexport var MOZ = '-moz-'\nexport var WEBKIT = '-webkit-'\n\nexport var COMMENT = 'comm'\nexport var RULESET = 'rule'\nexport var DECLARATION = 'decl'\n\nexport var PAGE = '@page'\nexport var MEDIA = '@media'\nexport var IMPORT = '@import'\nexport var CHARSET = '@charset'\nexport var VIEWPORT = '@viewport'\nexport var SUPPORTS = '@supports'\nexport var DOCUMENT = '@document'\nexport var NAMESPACE = '@namespace'\nexport var KEYFRAMES = '@keyframes'\nexport var FONT_FACE = '@font-face'\nexport var COUNTER_STYLE = '@counter-style'\nexport var FONT_FEATURE_VALUES = '@font-feature-values'\nexport var LAYER = '@layer'\n",
+      "start": 1762100721727,
+      "end": 1762100727532,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727532,
+      "end": 1762100727532,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727533,
+      "end": 1762100727533,
+      "order": "normal"
+    }
+  ]
+}

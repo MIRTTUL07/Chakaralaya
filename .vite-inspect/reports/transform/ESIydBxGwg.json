@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/value/types/utils/single-color-regex.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const singleColorRegex = /^(?:#[\\da-f]{3,8}|(?:rgb|hsl)a?\\((?:-?[\\d.]+%?[,\\s]+){2}-?[\\d.]+%?\\s*(?:[,/]\\s*)?(?:\\b\\d+(?:\\.\\d+)?|\\.\\d+)?%?\\))$/iu;\n\nexport { singleColorRegex };\n",
+      "start": 1762100729645,
+      "end": 1762100729696,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729696,
+      "end": 1762100729696,
+      "order": "normal"
+    }
+  ]
+}

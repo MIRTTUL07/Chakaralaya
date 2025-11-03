@@ -1,0 +1,37 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/index.html",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <script src=\"https://unpkg.com/flowbite@1.4.1/dist/flowbite.js\"></script>\n    <title>Chakaralaya Analytics</title>\n  </head>\n  <style>\n    html{\n      margin: 0;\n      padding: 0;\n    }\n  </style>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n   \n  </body>\n</html>\n",
+      "start": 1762100708561,
+      "end": 1762100708571,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100708579,
+      "end": 1762100708582,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100708583,
+      "end": 1762100708584,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "result": "import \"vite/modulepreload-polyfill\";\n\nimport \"/home/user/chakaralaya/Chakaralaya/index.html?html-proxy&inline-css&index=0.css\"\nimport \"/src/main.jsx\"",
+      "start": 1762100708585,
+      "end": 1762100708818,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100708832,
+      "end": 1762100708832,
+      "order": "normal"
+    }
+  ]
+}

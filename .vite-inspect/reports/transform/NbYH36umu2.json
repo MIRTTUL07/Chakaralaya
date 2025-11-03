@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/shopping-cart.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"8\", cy: \"21\", r: \"1\", key: \"jimo8o\" }],\n  [\"circle\", { cx: \"19\", cy: \"21\", r: \"1\", key: \"13723u\" }],\n  [\n    \"path\",\n    {\n      d: \"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\",\n      key: \"9zh506\"\n    }\n  ]\n];\nconst ShoppingCart = createLucideIcon(\"shopping-cart\", __iconNode);\n\nexport { __iconNode, ShoppingCart as default };\n//# sourceMappingURL=shopping-cart.js.map\n",
+      "start": 1762100721277,
+      "end": 1762100727394,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727394,
+      "end": 1762100727394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727394,
+      "end": 1762100727394,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727394,
+      "end": 1762100727394,
+      "order": "normal"
+    }
+  ]
+}

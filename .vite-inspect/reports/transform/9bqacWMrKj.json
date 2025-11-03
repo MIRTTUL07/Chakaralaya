@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/waapi/utils/accelerated-values.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * A list of values that can be hardware-accelerated.\n */\nconst acceleratedValues = new Set([\n    \"opacity\",\n    \"clipPath\",\n    \"filter\",\n    \"transform\",\n    // TODO: Can be accelerated but currently disabled until https://issues.chromium.org/issues/41491098 is resolved\n    // or until we implement support for linear() easing.\n    // \"background-color\"\n]);\n\nexport { acceleratedValues };\n",
+      "start": 1762100729191,
+      "end": 1762100729294,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729294,
+      "end": 1762100729294,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/src/App.jsx",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import \"./App.css\";\nimport \"./index.css\";  // Make sure global styles are imported\nimport { Element } from \"react-scroll\";\nimport { GlowingEffectDemo } from \"./components/cards/Card\";\nimport PriceCard from \"./components/cards/PriceCard\";\nimport InformationCard from \"./components/cards/InfoCard\";\nimport FAQ from \"./components/FAQ/Accordion\";\nimport Footer from \"./components/footer/footer\";\nimport Landing from \"./components/landing/Landing\";  // Note the capital L\nimport { useEffect } from \"react\";\n\nfunction App() {\n    console.log(\"App component rendering\");\n    \n    useEffect(() => {\n        // Add dark mode by default\n        document.documentElement.classList.add('dark');\n        // Ensure entire page background uses the exact color requested\n        document.body.style.backgroundColor = \"#0A0A0A\";\n        console.log(\"Dark mode effect executed\");\n    }, []);\n\n    return (\n        <div className=\"App-wrapper text-white\" style={{ backgroundColor: \"#0A0A0A\" }}>\n            <main className=\"main-content relative\">\n                <Element id=\"home_scroll\" className=\"h-screen w-full overflow-hidden\">\n                    <Landing />\n                </Element>\n                <Element id=\"services_scroll\" className=\"section\">\n                    <GlowingEffectDemo />\n                </Element>\n                <Element id=\"pricing_scroll\" className=\"section\">\n                    <PriceCard />\n                </Element>\n                <Element id=\"about_scroll\" className=\"section\">\n                    <InformationCard />\n                </Element>\n                <Element id=\"faq_scroll\" className=\"section\">\n                    <FAQ />\n                </Element>\n            </main>\n            <Footer />\n        </div>\n    );\n}\n\nexport default App;\n",
+      "start": 1762100708879,
+      "end": 1762100713141,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { jsx, jsxs } from \"react/jsx-runtime\";\nimport \"./App.css\";\nimport \"./index.css\";\nimport { Element } from \"react-scroll\";\nimport { GlowingEffectDemo } from \"./components/cards/Card\";\nimport PriceCard from \"./components/cards/PriceCard\";\nimport InformationCard from \"./components/cards/InfoCard\";\nimport FAQ from \"./components/FAQ/Accordion\";\nimport Footer from \"./components/footer/footer\";\nimport Landing from \"./components/landing/Landing\";\nimport { useEffect } from \"react\";\nfunction App() {\n  console.log(\"App component rendering\");\n  useEffect(() => {\n    document.documentElement.classList.add(\"dark\");\n    document.body.style.backgroundColor = \"#0A0A0A\";\n    console.log(\"Dark mode effect executed\");\n  }, []);\n  return /* @__PURE__ */ jsxs(\"div\", { className: \"App-wrapper text-white\", style: { backgroundColor: \"#0A0A0A\" }, children: [\n    /* @__PURE__ */ jsxs(\"main\", { className: \"main-content relative\", children: [\n      /* @__PURE__ */ jsx(Element, { id: \"home_scroll\", className: \"h-screen w-full overflow-hidden\", children: /* @__PURE__ */ jsx(Landing, {}) }),\n      /* @__PURE__ */ jsx(Element, { id: \"services_scroll\", className: \"section\", children: /* @__PURE__ */ jsx(GlowingEffectDemo, {}) }),\n      /* @__PURE__ */ jsx(Element, { id: \"pricing_scroll\", className: \"section\", children: /* @__PURE__ */ jsx(PriceCard, {}) }),\n      /* @__PURE__ */ jsx(Element, { id: \"about_scroll\", className: \"section\", children: /* @__PURE__ */ jsx(InformationCard, {}) }),\n      /* @__PURE__ */ jsx(Element, { id: \"faq_scroll\", className: \"section\", children: /* @__PURE__ */ jsx(FAQ, {}) })\n    ] }),\n    /* @__PURE__ */ jsx(Footer, {})\n  ] });\n}\nexport default App;\n",
+      "start": 1762100713141,
+      "end": 1762100713167,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/user/chakaralaya/Chakaralaya/src/App.jsx"
+        ],
+        "sourcesContent": [
+          "import \"./App.css\";\nimport \"./index.css\";  // Make sure global styles are imported\nimport { Element } from \"react-scroll\";\nimport { GlowingEffectDemo } from \"./components/cards/Card\";\nimport PriceCard from \"./components/cards/PriceCard\";\nimport InformationCard from \"./components/cards/InfoCard\";\nimport FAQ from \"./components/FAQ/Accordion\";\nimport Footer from \"./components/footer/footer\";\nimport Landing from \"./components/landing/Landing\";  // Note the capital L\nimport { useEffect } from \"react\";\n\nfunction App() {\n    console.log(\"App component rendering\");\n    \n    useEffect(() => {\n        // Add dark mode by default\n        document.documentElement.classList.add('dark');\n        // Ensure entire page background uses the exact color requested\n        document.body.style.backgroundColor = \"#0A0A0A\";\n        console.log(\"Dark mode effect executed\");\n    }, []);\n\n    return (\n        <div className=\"App-wrapper text-white\" style={{ backgroundColor: \"#0A0A0A\" }}>\n            <main className=\"main-content relative\">\n                <Element id=\"home_scroll\" className=\"h-screen w-full overflow-hidden\">\n                    <Landing />\n                </Element>\n                <Element id=\"services_scroll\" className=\"section\">\n                    <GlowingEffectDemo />\n                </Element>\n                <Element id=\"pricing_scroll\" className=\"section\">\n                    <PriceCard />\n                </Element>\n                <Element id=\"about_scroll\" className=\"section\">\n                    <InformationCard />\n                </Element>\n                <Element id=\"faq_scroll\" className=\"section\">\n                    <FAQ />\n                </Element>\n            </main>\n            <Footer />\n        </div>\n    );\n}\n\nexport default App;\n"
+        ],
+        "mappings": "AAwBY,SAEQ,KAFR;AAxBZ,OAAO;AACP,OAAO;AACP,SAAS,eAAe;AACxB,SAAS,yBAAyB;AAClC,OAAO,eAAe;AACtB,OAAO,qBAAqB;AAC5B,OAAO,SAAS;AAChB,OAAO,YAAY;AACnB,OAAO,aAAa;AACpB,SAAS,iBAAiB;AAE1B,SAAS,MAAM;AACX,UAAQ,IAAI,yBAAyB;AAErC,YAAU,MAAM;AAEZ,aAAS,gBAAgB,UAAU,IAAI,MAAM;AAE7C,aAAS,KAAK,MAAM,kBAAkB;AACtC,YAAQ,IAAI,2BAA2B;AAAA,EAC3C,GAAG,CAAC,CAAC;AAEL,SACI,qBAAC,SAAI,WAAU,0BAAyB,OAAO,EAAE,iBAAiB,UAAU,GACxE;AAAA,yBAAC,UAAK,WAAU,yBACZ;AAAA,0BAAC,WAAQ,IAAG,eAAc,WAAU,mCAChC,8BAAC,WAAQ,GACb;AAAA,MACA,oBAAC,WAAQ,IAAG,mBAAkB,WAAU,WACpC,8BAAC,qBAAkB,GACvB;AAAA,MACA,oBAAC,WAAQ,IAAG,kBAAiB,WAAU,WACnC,8BAAC,aAAU,GACf;AAAA,MACA,oBAAC,WAAQ,IAAG,gBAAe,WAAU,WACjC,8BAAC,mBAAgB,GACrB;AAAA,MACA,oBAAC,WAAQ,IAAG,cAAa,WAAU,WAC/B,8BAAC,OAAI,GACT;AAAA,OACJ;AAAA,IACA,oBAAC,UAAO;AAAA,KACZ;AAER;AAEA,eAAe;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100713168,
+      "end": 1762100713168,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100713171,
+      "end": 1762100713171,
+      "order": "normal"
+    }
+  ]
+}

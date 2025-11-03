@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/scaling.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\", key: \"1m0v6g\" }],\n  [\"path\", { d: \"M14 15H9v-5\", key: \"pi4jk9\" }],\n  [\"path\", { d: \"M16 3h5v5\", key: \"1806ms\" }],\n  [\"path\", { d: \"M21 3 9 15\", key: \"15kdhq\" }]\n];\nconst Scaling = createLucideIcon(\"scaling\", __iconNode);\n\nexport { __iconNode, Scaling as default };\n//# sourceMappingURL=scaling.js.map\n",
+      "start": 1762100721190,
+      "end": 1762100727354,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727354,
+      "end": 1762100727354,
+      "order": "normal"
+    }
+  ]
+}

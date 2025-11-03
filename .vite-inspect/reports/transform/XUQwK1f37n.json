@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/joystick.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\n    \"path\",\n    {\n      d: \"M21 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2Z\",\n      key: \"jg2n2t\"\n    }\n  ],\n  [\"path\", { d: \"M6 15v-2\", key: \"gd6mvg\" }],\n  [\"path\", { d: \"M12 15V9\", key: \"8c7uyn\" }],\n  [\"circle\", { cx: \"12\", cy: \"6\", r: \"3\", key: \"1gm2ql\" }]\n];\nconst Joystick = createLucideIcon(\"joystick\", __iconNode);\n\nexport { __iconNode, Joystick as default };\n//# sourceMappingURL=joystick.js.map\n",
+      "start": 1762100718744,
+      "end": 1762100722067,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100722067,
+      "end": 1762100722067,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100722067,
+      "end": 1762100722067,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100722067,
+      "end": 1762100722067,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/toy-brick.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"18\", height: \"12\", x: \"3\", y: \"8\", rx: \"1\", key: \"158fvp\" }],\n  [\"path\", { d: \"M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3\", key: \"s0042v\" }],\n  [\"path\", { d: \"M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3\", key: \"9wmeh2\" }]\n];\nconst ToyBrick = createLucideIcon(\"toy-brick\", __iconNode);\n\nexport { __iconNode, ToyBrick as default };\n//# sourceMappingURL=toy-brick.js.map\n",
+      "start": 1762100721494,
+      "end": 1762100727455,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727455,
+      "end": 1762100727455,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727456,
+      "end": 1762100727456,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727456,
+      "end": 1762100727456,
+      "order": "normal"
+    }
+  ]
+}

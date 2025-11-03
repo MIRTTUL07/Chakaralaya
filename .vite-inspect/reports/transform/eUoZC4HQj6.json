@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/earth.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M21.54 15H17a2 2 0 0 0-2 2v4.54\", key: \"1djwo0\" }],\n  [\n    \"path\",\n    {\n      d: \"M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17\",\n      key: \"1tzkfa\"\n    }\n  ],\n  [\"path\", { d: \"M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05\", key: \"14pb5j\" }],\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }]\n];\nconst Earth = createLucideIcon(\"earth\", __iconNode);\n\nexport { __iconNode, Earth as default };\n//# sourceMappingURL=earth.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720831,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720831,
+      "end": 1762100720831,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720831,
+      "end": 1762100720831,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720833,
+      "end": 1762100720833,
+      "order": "normal"
+    }
+  ]
+}

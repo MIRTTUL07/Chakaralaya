@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/generators/spring/find.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { warning, secondsToMilliseconds, clamp, millisecondsToSeconds } from 'motion-utils';\nimport { springDefaults } from './defaults.mjs';\n\nconst safeMin = 0.001;\nfunction findSpring({ duration = springDefaults.duration, bounce = springDefaults.bounce, velocity = springDefaults.velocity, mass = springDefaults.mass, }) {\n    let envelope;\n    let derivative;\n    warning(duration <= secondsToMilliseconds(springDefaults.maxDuration), \"Spring duration must be 10 seconds or less\", \"spring-duration-limit\");\n    let dampingRatio = 1 - bounce;\n    /**\n     * Restrict dampingRatio and duration to within acceptable ranges.\n     */\n    dampingRatio = clamp(springDefaults.minDamping, springDefaults.maxDamping, dampingRatio);\n    duration = clamp(springDefaults.minDuration, springDefaults.maxDuration, millisecondsToSeconds(duration));\n    if (dampingRatio < 1) {\n        /**\n         * Underdamped spring\n         */\n        envelope = (undampedFreq) => {\n            const exponentialDecay = undampedFreq * dampingRatio;\n            const delta = exponentialDecay * duration;\n            const a = exponentialDecay - velocity;\n            const b = calcAngularFreq(undampedFreq, dampingRatio);\n            const c = Math.exp(-delta);\n            return safeMin - (a / b) * c;\n        };\n        derivative = (undampedFreq) => {\n            const exponentialDecay = undampedFreq * dampingRatio;\n            const delta = exponentialDecay * duration;\n            const d = delta * velocity + velocity;\n            const e = Math.pow(dampingRatio, 2) * Math.pow(undampedFreq, 2) * duration;\n            const f = Math.exp(-delta);\n            const g = calcAngularFreq(Math.pow(undampedFreq, 2), dampingRatio);\n            const factor = -envelope(undampedFreq) + safeMin > 0 ? -1 : 1;\n            return (factor * ((d - e) * f)) / g;\n        };\n    }\n    else {\n        /**\n         * Critically-damped spring\n         */\n        envelope = (undampedFreq) => {\n            const a = Math.exp(-undampedFreq * duration);\n            const b = (undampedFreq - velocity) * duration + 1;\n            return -safeMin + a * b;\n        };\n        derivative = (undampedFreq) => {\n            const a = Math.exp(-undampedFreq * duration);\n            const b = (velocity - undampedFreq) * (duration * duration);\n            return a * b;\n        };\n    }\n    const initialGuess = 5 / duration;\n    const undampedFreq = approximateRoot(envelope, derivative, initialGuess);\n    duration = secondsToMilliseconds(duration);\n    if (isNaN(undampedFreq)) {\n        return {\n            stiffness: springDefaults.stiffness,\n            damping: springDefaults.damping,\n            duration,\n        };\n    }\n    else {\n        const stiffness = Math.pow(undampedFreq, 2) * mass;\n        return {\n            stiffness,\n            damping: dampingRatio * 2 * Math.sqrt(mass * stiffness),\n            duration,\n        };\n    }\n}\nconst rootIterations = 12;\nfunction approximateRoot(envelope, derivative, initialGuess) {\n    let result = initialGuess;\n    for (let i = 1; i < rootIterations; i++) {\n        result = result - envelope(result) / derivative(result);\n    }\n    return result;\n}\nfunction calcAngularFreq(undampedFreq, dampingRatio) {\n    return undampedFreq * Math.sqrt(1 - dampingRatio * dampingRatio);\n}\n\nexport { calcAngularFreq, findSpring };\n",
+      "start": 1762100729436,
+      "end": 1762100729543,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729543,
+      "end": 1762100729543,
+      "order": "normal"
+    }
+  ]
+}

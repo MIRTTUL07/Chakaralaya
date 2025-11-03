@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/animation/utils/css-variables-conversion.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { invariant, isNumericalString } from 'motion-utils';\nimport { isCSSVariableToken } from './is-css-variable.mjs';\n\n/**\n * Parse Framer's special CSS variable format into a CSS token and a fallback.\n *\n * ```\n * `var(--foo, #fff)` => [`--foo`, '#fff']\n * ```\n *\n * @param current\n */\nconst splitCSSVariableRegex = \n// eslint-disable-next-line redos-detector/no-unsafe-regex -- false positive, as it can match a lot of words\n/^var\\(--(?:([\\w-]+)|([\\w-]+), ?([a-zA-Z\\d ()%#.,-]+))\\)/u;\nfunction parseCSSVariable(current) {\n    const match = splitCSSVariableRegex.exec(current);\n    if (!match)\n        return [,];\n    const [, token1, token2, fallback] = match;\n    return [`--${token1 ?? token2}`, fallback];\n}\nconst maxDepth = 4;\nfunction getVariableValue(current, element, depth = 1) {\n    invariant(depth <= maxDepth, `Max CSS variable fallback depth detected in property \"${current}\". This may indicate a circular fallback dependency.`, \"max-css-var-depth\");\n    const [token, fallback] = parseCSSVariable(current);\n    // No CSS variable detected\n    if (!token)\n        return;\n    // Attempt to read this CSS variable off the element\n    const resolved = window.getComputedStyle(element).getPropertyValue(token);\n    if (resolved) {\n        const trimmed = resolved.trim();\n        return isNumericalString(trimmed) ? parseFloat(trimmed) : trimmed;\n    }\n    return isCSSVariableToken(fallback)\n        ? getVariableValue(fallback, element, depth + 1)\n        : fallback;\n}\n\nexport { getVariableValue, parseCSSVariable };\n",
+      "start": 1762100729190,
+      "end": 1762100729271,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729272,
+      "end": 1762100729272,
+      "order": "normal"
+    }
+  ]
+}

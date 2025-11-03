@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/package-minus.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M16 16h6\", key: \"100bgy\" }],\n  [\n    \"path\",\n    {\n      d: \"M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14\",\n      key: \"e7tb2h\"\n    }\n  ],\n  [\"path\", { d: \"m7.5 4.27 9 5.15\", key: \"1c824w\" }],\n  [\"polyline\", { points: \"3.29 7 12 12 20.71 7\", key: \"ousv84\" }],\n  [\"line\", { x1: \"12\", x2: \"12\", y1: \"22\", y2: \"12\", key: \"a4e8g8\" }]\n];\nconst PackageMinus = createLucideIcon(\"package-minus\", __iconNode);\n\nexport { __iconNode, PackageMinus as default };\n//# sourceMappingURL=package-minus.js.map\n",
+      "start": 1762100720935,
+      "end": 1762100727288,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727288,
+      "end": 1762100727288,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727288,
+      "end": 1762100727288,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727289,
+      "end": 1762100727289,
+      "order": "normal"
+    }
+  ]
+}

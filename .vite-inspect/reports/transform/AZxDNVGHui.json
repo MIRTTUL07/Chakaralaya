@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/ellipsis.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"12\", cy: \"12\", r: \"1\", key: \"41hilf\" }],\n  [\"circle\", { cx: \"19\", cy: \"12\", r: \"1\", key: \"1wjl8i\" }],\n  [\"circle\", { cx: \"5\", cy: \"12\", r: \"1\", key: \"1pcz8c\" }]\n];\nconst Ellipsis = createLucideIcon(\"ellipsis\", __iconNode);\n\nexport { __iconNode, Ellipsis as default };\n//# sourceMappingURL=ellipsis.js.map\n",
+      "start": 1762100718698,
+      "end": 1762100720834,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100720834,
+      "end": 1762100720834,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100720834,
+      "end": 1762100720834,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100720836,
+      "end": 1762100720836,
+      "order": "normal"
+    }
+  ]
+}

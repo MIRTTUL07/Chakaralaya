@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/ghost.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M9 10h.01\", key: \"qbtxuw\" }],\n  [\"path\", { d: \"M15 10h.01\", key: \"1qmjsl\" }],\n  [\n    \"path\",\n    {\n      d: \"M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z\",\n      key: \"uwwb07\"\n    }\n  ]\n];\nconst Ghost = createLucideIcon(\"ghost\", __iconNode);\n\nexport { __iconNode, Ghost as default };\n//# sourceMappingURL=ghost.js.map\n",
+      "start": 1762100718739,
+      "end": 1762100721957,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100721957,
+      "end": 1762100721957,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100721957,
+      "end": 1762100721957,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100721957,
+      "end": 1762100721957,
+      "order": "normal"
+    }
+  ]
+}

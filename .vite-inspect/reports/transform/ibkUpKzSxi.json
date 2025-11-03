@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/framer-motion/dist/es/projection/use-reset-projection.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { useCallback } from 'react';\nimport { rootProjectionNode } from './node/HTMLProjectionNode.mjs';\n\nfunction useResetProjection() {\n    const reset = useCallback(() => {\n        const root = rootProjectionNode.current;\n        if (!root)\n            return;\n        root.resetTree();\n    }, []);\n    return reset;\n}\n\nexport { useResetProjection };\n",
+      "start": 1762100728888,
+      "end": 1762100729061,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729061,
+      "end": 1762100729061,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729061,
+      "end": 1762100729061,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729062,
+      "end": 1762100729062,
+      "order": "normal"
+    }
+  ]
+}

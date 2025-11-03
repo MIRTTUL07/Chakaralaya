@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/workflow.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"rect\", { width: \"8\", height: \"8\", x: \"3\", y: \"3\", rx: \"2\", key: \"by2w9f\" }],\n  [\"path\", { d: \"M7 11v4a2 2 0 0 0 2 2h4\", key: \"xkn7yn\" }],\n  [\"rect\", { width: \"8\", height: \"8\", x: \"13\", y: \"13\", rx: \"2\", key: \"1cgmvn\" }]\n];\nconst Workflow = createLucideIcon(\"workflow\", __iconNode);\n\nexport { __iconNode, Workflow as default };\n//# sourceMappingURL=workflow.js.map\n",
+      "start": 1762100721708,
+      "end": 1762100727525,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727525,
+      "end": 1762100727525,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727525,
+      "end": 1762100727525,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727525,
+      "end": 1762100727525,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-utils/dist/es/is-numerical-string.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * Check if value is a numerical string, ie a string that is purely a number eg \"100\" or \"-100.1\"\n */\nconst isNumericalString = (v) => /^-?(?:\\d+(?:\\.\\d+)?|\\.\\d+)$/u.test(v);\n\nexport { isNumericalString };\n",
+      "start": 1762100729148,
+      "end": 1762100729256,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729256,
+      "end": 1762100729256,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729257,
+      "end": 1762100729257,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729257,
+      "end": 1762100729257,
+      "order": "normal"
+    }
+  ]
+}

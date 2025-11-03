@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/user-lock.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"circle\", { cx: \"10\", cy: \"7\", r: \"4\", key: \"e45bow\" }],\n  [\"path\", { d: \"M10.3 15H7a4 4 0 0 0-4 4v2\", key: \"3bnktk\" }],\n  [\"path\", { d: \"M15 15.5V14a2 2 0 0 1 4 0v1.5\", key: \"12ym5i\" }],\n  [\"rect\", { width: \"8\", height: \"5\", x: \"13\", y: \"16\", rx: \".899\", key: \"4p176n\" }]\n];\nconst UserLock = createLucideIcon(\"user-lock\", __iconNode);\n\nexport { __iconNode, UserLock as default };\n//# sourceMappingURL=user-lock.js.map\n",
+      "start": 1762100721623,
+      "end": 1762100727497,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727497,
+      "end": 1762100727497,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727497,
+      "end": 1762100727497,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727497,
+      "end": 1762100727497,
+      "order": "normal"
+    }
+  ]
+}

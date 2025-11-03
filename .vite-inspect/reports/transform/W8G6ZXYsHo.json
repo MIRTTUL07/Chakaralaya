@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/motion-dom/dist/es/gestures/press/utils/keyboard.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isPressing } from './state.mjs';\n\n/**\n * Filter out events that are not \"Enter\" keys.\n */\nfunction filterEvents(callback) {\n    return (event) => {\n        if (event.key !== \"Enter\")\n            return;\n        callback(event);\n    };\n}\nfunction firePointerEvent(target, type) {\n    target.dispatchEvent(new PointerEvent(\"pointer\" + type, { isPrimary: true, bubbles: true }));\n}\nconst enableKeyboardPress = (focusEvent, eventOptions) => {\n    const element = focusEvent.currentTarget;\n    if (!element)\n        return;\n    const handleKeydown = filterEvents(() => {\n        if (isPressing.has(element))\n            return;\n        firePointerEvent(element, \"down\");\n        const handleKeyup = filterEvents(() => {\n            firePointerEvent(element, \"up\");\n        });\n        const handleBlur = () => firePointerEvent(element, \"cancel\");\n        element.addEventListener(\"keyup\", handleKeyup, eventOptions);\n        element.addEventListener(\"blur\", handleBlur, eventOptions);\n    });\n    element.addEventListener(\"keydown\", handleKeydown, eventOptions);\n    /**\n     * Add an event listener that fires on blur to remove the keydown events.\n     */\n    element.addEventListener(\"blur\", () => element.removeEventListener(\"keydown\", handleKeydown), eventOptions);\n};\n\nexport { enableKeyboardPress };\n",
+      "start": 1762100729452,
+      "end": 1762100729545,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100729545,
+      "end": 1762100729545,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "resolvedId": "/home/user/chakaralaya/Chakaralaya/node_modules/lucide-react/dist/esm/icons/turntable.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n * @license lucide-react v0.552.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */\n\nimport createLucideIcon from '../createLucideIcon.js';\n\nconst __iconNode = [\n  [\"path\", { d: \"M10 12.01h.01\", key: \"7rp0yl\" }],\n  [\"path\", { d: \"M18 8v4a8 8 0 0 1-1.07 4\", key: \"1st48v\" }],\n  [\"circle\", { cx: \"10\", cy: \"12\", r: \"4\", key: \"19levz\" }],\n  [\"rect\", { x: \"2\", y: \"4\", width: \"20\", height: \"16\", rx: \"2\", key: \"izxlao\" }]\n];\nconst Turntable = createLucideIcon(\"turntable\", __iconNode);\n\nexport { __iconNode, Turntable as default };\n//# sourceMappingURL=turntable.js.map\n",
+      "start": 1762100721516,
+      "end": 1762100727467,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1762100727467,
+      "end": 1762100727467,
+      "order": "normal"
+    }
+  ]
+}
